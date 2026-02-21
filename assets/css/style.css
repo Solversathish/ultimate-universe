@@ -18,15 +18,14 @@ body {
 /* ================= */
 
 .top-bar {
-  position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%;
-  background: #000;
+  background: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
-  border-bottom: 1px solid #111;
   z-index: 1000;
 }
 
