@@ -11,7 +11,13 @@ body {
   color: white;
   padding-top: 100px;
 }
-
+body {
+  background: url("../images/landing.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
 /* ================= */
 /* TOP BAR */
 /* ================= */
