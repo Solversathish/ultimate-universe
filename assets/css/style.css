@@ -28,7 +28,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
   z-index: -1;
 }
 
@@ -55,7 +55,7 @@ body::before {
 }
 
 .search-box input {
-  width: 400px;
+  width: 60%;
   padding: 12px 18px;
   border-radius: 30px;
   border: 2px solid #00ff88;
@@ -113,7 +113,7 @@ body::before {
   .top-bar {
     flex-direction: column;
     gap: 15px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
 
