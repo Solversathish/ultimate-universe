@@ -7,11 +7,6 @@
 }
 
 body {
-  background: #000;
-  color: white;
-  padding-top: 100px;
-}
-body {
   background: url("../images/landing.jpg") no-repeat center center fixed;
   background-size: cover;
   color: white;
