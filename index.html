@@ -23,21 +23,26 @@ body {
   text-align: center;
   font-family: Arial, sans-serif;
   color: #00ff88;
+  overflow: hidden;
 }
 
 h1 {
-  font-size: 8vw;   /* Responsive text */
+  font-size: 8vw;
   margin-bottom: 40px;
-  text-shadow: 0 0 20px #00ff88;
+  text-shadow: 0 0 25px #00ff88;
 }
 
-.center-circle {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  background: radial-gradient(circle, #00ff88, #006633);
-  box-shadow: 0 0 40px #00ff88;
+/* Rotating Image */
+.rotating-logo {
+  width: 200px;
+  animation: spin 8s linear infinite;
   margin-bottom: 40px;
+  filter: drop-shadow(0 0 25px #00ff88);
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .enter-btn {
@@ -64,9 +69,8 @@ h1 {
     font-size: 60px;
   }
 
-  .center-circle {
-    width: 250px;
-    height: 250px;
+  .rotating-logo {
+    width: 280px;
   }
 
   .enter-btn {
@@ -81,7 +85,7 @@ h1 {
 
 <h1>ULTIMATE UNIVERSE</h1>
 
-<div class="center-circle"></div>
+<img src="assets/images/uulogo.png" class="rotating-logo" alt="uulogo">
 
 <button class="enter-btn" onclick="enterUniverse()">
 ENTER ULTIMATE UNIVERSE
