@@ -6,6 +6,14 @@
   font-family: Arial, sans-serif;
 }
 
+.header-container {
+  width: 90%;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* ================= BODY ================= */
 body {
   background: url("../images/landing.jpg") no-repeat center center fixed;
