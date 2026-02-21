@@ -1,5 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate Universe</title>
+
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("assets/images/landing.jpeg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.enter-btn {
+  margin-top: 300px;
+  padding: 18px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #00ff88, #00cc66);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 0 20px #00ff88;
+  transition: 0.3s;
+}
+
+.enter-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px #00ff88;
+}
+</style>
+</head>
+
 <body>
-  <h1 style="color:red; text-align:center;">
-    Ultimate Universe is Live 🚀
-  </h1>
+
+<button class="enter-btn" onclick="enterUniverse()">
+ENTER ULTIMATE UNIVERSE
+</button>
+
+<script>
+function enterUniverse() {
+  window.location.href = "home.html";
+}
+</script>
+
 </body>
+</html>
