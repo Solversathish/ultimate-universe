@@ -6,88 +6,82 @@
 <title>Ultimate Universe</title>
 
 <style>
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   height: 100vh;
   background: url("assets/images/landing.jpg") no-repeat center center;
   background-size: cover;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  overflow: hidden;
-  font-family: Arial, sans-serif;
-}
-
-/* Title */
-.title {
-  position: relative;
-  color: #00ff99;
-  font-size: 60px;
-  font-weight: bold;
-  text-shadow: 0 0 30px #00ff99;
-  margin-bottom: 40px;
-  z-index: 2;
-}
-
-/* Rotating Circle */
-.circle {
-  position: relative;
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  border: 6px solid #00ff99;
-  box-shadow: 0 0 40px #00ff99;
-  animation: rotate 6s linear infinite;
-  z-index: 2;
-  display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #00ff88;
 }
 
-.circle::before {
-  content: "";
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background: radial-gradient(circle, #00ff99, #001a10);
+h1 {
+  font-size: 8vw;   /* Responsive text */
+  margin-bottom: 40px;
+  text-shadow: 0 0 20px #00ff88;
+}
+
+.center-circle {
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  box-shadow: 0 0 50px #00ff99;
+  background: radial-gradient(circle, #00ff88, #006633);
+  box-shadow: 0 0 40px #00ff88;
+  margin-bottom: 40px;
 }
 
-@keyframes rotate {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-/* Button */
 .enter-btn {
-  margin-top: 50px;
-  padding: 18px 45px;
-  font-size: 20px;
+  padding: 16px 35px;
+  font-size: 18px;
   font-weight: bold;
   color: white;
-  background: linear-gradient(45deg, #00ff99, #00cc66);
+  background: linear-gradient(45deg, #00ff88, #00cc66);
   border: none;
-  border-radius: 20px;
+  border-radius: 40px;
   cursor: pointer;
-  box-shadow: 0 0 20px #00ff99;
-  transition: 0.3s;
-  z-index: 2;
+  box-shadow: 0 0 20px #00ff88;
+  transition: 0.3s ease;
 }
 
 .enter-btn:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 40px #00ff99;
+  transform: scale(1.05);
+  box-shadow: 0 0 40px #00ff88;
+}
+
+/* Desktop adjustments */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  .center-circle {
+    width: 250px;
+    height: 250px;
+  }
+
+  .enter-btn {
+    font-size: 20px;
+    padding: 18px 45px;
+  }
 }
 </style>
 </head>
 
 <body>
 
-<div class="title">ULTIMATE UNIVERSE</div>
+<h1>ULTIMATE UNIVERSE</h1>
 
-<div class="circle"></div>
+<div class="center-circle"></div>
 
 <button class="enter-btn" onclick="enterUniverse()">
 ENTER ULTIMATE UNIVERSE
