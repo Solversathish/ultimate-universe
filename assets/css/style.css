@@ -6,16 +6,6 @@
   font-family: Arial, sans-serif;
 }
 
-.header-container {
-  width: 90%;
-  max-width: 1200px;
-  backdrop-filter: blur(6px); 
-  display: flex;
-  flex-direction: column;   /* important */
-  align-items: flex-start;  /* left align */
-  gap: 20px;
-}
-
 /* ================= BODY ================= */
 body {
   background: url("../images/landing.jpg") no-repeat center center fixed;
@@ -33,18 +23,25 @@ body::before {
 }
 
 /* ================= TOP BAR ================= */
+/* ================= CLEAN COMPACT HEADER ================= */
+
 .top-bar {
   position: sticky;
   top: 0;
   width: 100%;
-  background: transparent;
-  backdrop-filter: blur(8px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(6px);
-  padding: 20px 60px;
+  padding: 15px 0;
   z-index: 1000;
+}
+
+.header-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -55,14 +52,14 @@ body::before {
 }
 
 .search-box input {
-  width: 60%;
-  padding: 12px 18px;
+  width: 300px;
+  padding: 10px 16px;
   border-radius: 30px;
   border: 2px solid #00ff88;
   background: transparent;
   color: white;
   outline: none;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .search-box input::placeholder {
