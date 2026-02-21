@@ -80,8 +80,11 @@ body {
     grid-template-columns: repeat(5, 1fr);
   }
 
+  .search-bar {
+    width: 80%;
+  }
   .card img {
-    height: 200px;
+    height: 150px;
   }
 
   .top-title {
