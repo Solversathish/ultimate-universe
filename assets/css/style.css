@@ -8,10 +8,12 @@
 
 .header-container {
   width: 90%;
-  max-width: 1300px;
+  max-width: 1200px;
+  backdrop-filter: blur(6px); 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;   /* important */
+  align-items: flex-start;  /* left align */
+  gap: 20px;
 }
 
 /* ================= BODY ================= */
@@ -26,7 +28,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.85);
   z-index: -1;
 }
 
@@ -35,11 +37,12 @@ body::before {
   position: sticky;
   top: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.85);
+  background: transparent;
   backdrop-filter: blur(8px);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  backdrop-filter: blur(6px);
   padding: 20px 60px;
   z-index: 1000;
 }
@@ -47,12 +50,12 @@ body::before {
 .logo {
   font-size: 26px;
   font-weight: bold;
-  color: #00ff88;
+  color: white;
   letter-spacing: 2px;
 }
 
 .search-box input {
-  width: 350px;
+  width: 400px;
   padding: 12px 18px;
   border-radius: 30px;
   border: 2px solid #00ff88;
@@ -102,7 +105,11 @@ body::before {
 
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
-
+    
+.header-container {
+    align-items: center;
+    text-align: center;
+  }
   .top-bar {
     flex-direction: column;
     gap: 15px;
