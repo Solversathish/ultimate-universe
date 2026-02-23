@@ -8,11 +8,18 @@
 
 /* ================= BODY ================= */
 body {
-  background: url("../images/landing.jpg") no-repeat center center fixed;
+  height: 100vh;
+  background: url("assets/images/landing.jpg") no-repeat center center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
   color: white;
+  overflow: hidden;
 }
-
 /* Dark overlay for better readability */
 body::before {
   content: "";
