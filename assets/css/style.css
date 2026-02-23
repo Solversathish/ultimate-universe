@@ -136,9 +136,4 @@ body::before {
     width: 100%;
   }
 
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 30px;
-  }
-
 }
