@@ -75,13 +75,35 @@ body::before {
   gap: 25px;
 }
 
+/* CARD */
 .card {
-  background: rgba(0, 0, 0, 0.8);
+  background: #111;
   border-radius: 15px;
   overflow: hidden;
-  text-align: center;
   transition: 0.3s ease;
   cursor: pointer;
+}
+
+/* IMAGE WRAPPER = 1:1 square */
+.image-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* 👈 makes image square */
+  overflow: hidden;
+}
+
+/* IMAGE FIT */
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TITLE */
+.card-title {
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .card img {
