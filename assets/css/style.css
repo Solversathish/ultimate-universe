@@ -78,7 +78,7 @@ body::before {
   display: none;
   max-height: 250px;
   overflow-y: auto;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+  box-shadow: 0 5px 15px rgba(53, 52, 52, 0.6);
   z-index: 999;
 }
 
@@ -152,8 +152,17 @@ body::before {
     width: 100%;
   }
 
+  /* Tablet */
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+  /* Phone */
   @media (max-width: 768px) {
   .grid-container {
+    margin: 10px;
     grid-template-columns: repeat(2, 1fr);  /* 👈 FORCE 2 columns */
   }
 }
