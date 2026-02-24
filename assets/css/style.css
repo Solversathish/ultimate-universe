@@ -122,4 +122,10 @@ body::before {
     width: 100%;
   }
 
+  @media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);  /* 👈 FORCE 2 columns */
+  }
+}
+
 }
