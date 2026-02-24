@@ -1,3 +1,34 @@
+const container = document.getElementById("gridContainer");
+const searchInput = document.getElementById("searchInput");
+const dropdown = document.getElementById("searchDropdown");
+
+let universesData = [];
+
+fetch("data/universes.json")
+  .then(res => res.json())
+  .then(data => {
+    universesData = data;
+    displayUniverses(universesData);
+  });
+
+function displayUniverses(data) {
+  container.innerHTML = "";
+
+  data.forEach(universe => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    card.innerHTML = `
+      <div class="image-wrapper">
+        <img src="${universe.image}" alt="${universe.name}">
+      </div>
+      <div class="card-title">${universe.name}</div>
+    `;
+
+    container.appendChild(card);
+  });
+}
+
 // 🔥 LIVE SEARCH WITH DROPDOWN
 let searchData = [];
 
@@ -7,7 +38,6 @@ fetch("data/search-data.json")
     searchData = data;
   });
 
-const searchInput = document.getElementById("searchInput");
 const searchResults = document.getElementById("searchResults");
 
 searchInput.addEventListener("input", function () {
