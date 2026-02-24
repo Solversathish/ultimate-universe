@@ -98,6 +98,7 @@ body::before {
   width: 90%;
   max-width: 1200px;
   margin: 40px auto;
+  align-items: center;
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(5, 1fr);
@@ -165,6 +166,10 @@ body::before {
   .grid-container {
     margin: 10px;
     grid-template-columns: repeat(2, 1fr);  /* 👈 FORCE 2 columns */
+  }
+
+  .top-bar {
+    padding: 20px 0px;   /* reduce side padding */
   }
 }
 
