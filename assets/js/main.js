@@ -1,35 +1,33 @@
-const container = document.getElementById("gridContainer");
-const searchInput = document.getElementById("searchInput");
-const dropdown = document.getElementById("searchDropdown");
-
-let universesData = [];
+/* ===============================
+   LOAD UNIVERSE CARDS
+================================ */
 
 fetch("data/universes.json")
   .then(res => res.json())
   .then(data => {
-    universesData = data;
-    displayUniverses(universesData);
+    const container = document.getElementById("gridContainer");
+
+    if (!container) return; // safety check
+
+    data.forEach(universe => {
+      const card = document.createElement("div");
+      card.className = "card";
+
+      card.innerHTML = `
+        <div class="image-wrapper">
+          <img src="${universe.image}" alt="${universe.name}">
+        </div>
+        <div class="card-title">${universe.name}</div>
+      `;
+
+      container.appendChild(card);
+    });
   });
 
-function displayUniverses(data) {
-  container.innerHTML = "";
+/* ===============================
+   GLOBAL SEARCH SYSTEM
+================================ */
 
-  data.forEach(universe => {
-    const card = document.createElement("div");
-    card.className = "card";
-
-    card.innerHTML = `
-      <div class="image-wrapper">
-        <img src="${universe.image}" alt="${universe.name}">
-      </div>
-      <div class="card-title">${universe.name}</div>
-    `;
-
-    container.appendChild(card);
-  });
-}
-
-// 🔥 LIVE SEARCH WITH DROPDOWN
 let searchData = [];
 
 fetch("data/search-data.json")
@@ -38,23 +36,28 @@ fetch("data/search-data.json")
     searchData = data;
   });
 
+const searchInput = document.getElementById("searchInput");
 const searchResults = document.getElementById("searchResults");
 
-searchInput.addEventListener("input", function () {
-  const value = this.value.toLowerCase().trim();
+if (searchInput) {
 
-  if (value === "") {
-    searchResults.style.display = "none";
-    return;
-  }
+  searchInput.addEventListener("input", function () {
+    const value = this.value.toLowerCase().trim();
 
-  const filtered = searchData.filter(item =>
-    item.name.toLowerCase().includes(value) ||
-    item.tags.some(tag => tag.toLowerCase().includes(value))
-  );
+    if (value === "") {
+      searchResults.style.display = "none";
+      return;
+    }
 
-  displayResults(filtered);
-});
+    const filtered = searchData.filter(item =>
+      item.name.toLowerCase().includes(value) ||
+      item.tags.some(tag => tag.toLowerCase().includes(value))
+    );
+
+    displayResults(filtered);
+  });
+
+}
 
 function displayResults(results) {
   searchResults.innerHTML = "";
