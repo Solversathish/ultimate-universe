@@ -1,0 +1,22 @@
+[
+  {
+    "id": "anime",
+    "name": "Anime",
+    "image": "assets/images/anime.png"
+  },
+  {
+    "id": "wwe",
+    "name": "WWE",
+    "image": "assets/images/wwe.png"
+  },
+  {
+    "id": "fruits",
+    "name": "Fruits",
+    "image": "assets/images/fruits.png"
+  },
+  {
+    "id": "vehicles",
+    "name": "Vehicles",
+    "image": "assets/images/vehicles.png"
+  }
+]
