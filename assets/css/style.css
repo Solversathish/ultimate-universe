@@ -78,7 +78,7 @@ body::before {
   display: none;
   max-height: 250px;
   overflow-y: auto;
-  box-shadow: 0 5px 15px rgba(53, 52, 52, 0.6);
+  box-shadow: 0 5px 15px rgba(96, 95, 95, 0.6);
   z-index: 999;
 }
 
