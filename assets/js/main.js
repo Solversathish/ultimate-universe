@@ -1,18 +1,16 @@
 const container = document.getElementById("gridContainer");
 const searchInput = document.getElementById("searchInput");
+const dropdown = document.getElementById("searchDropdown");
 
 let universesData = [];
 
-// Load JSON
 fetch("data/universes.json")
-  .then(response => response.json())
+  .then(res => res.json())
   .then(data => {
     universesData = data;
     displayUniverses(universesData);
-  })
-  .catch(error => console.error("Error loading JSON:", error));
+  });
 
-// Display function
 function displayUniverses(data) {
   container.innerHTML = "";
 
@@ -31,13 +29,47 @@ function displayUniverses(data) {
   });
 }
 
-// Search filter
+// 🔥 LIVE SEARCH WITH DROPDOWN
 searchInput.addEventListener("input", function () {
-  const searchValue = this.value.toLowerCase();
+  const value = this.value.toLowerCase();
+  dropdown.innerHTML = "";
 
-  const filtered = universesData.filter(universe =>
-    universe.name.toLowerCase().includes(searchValue)
+  if (value.length < 2) {
+    dropdown.style.display = "none";
+    displayUniverses(universesData);
+    return;
+  }
+
+  const filtered = universesData.filter(item =>
+    item.name.toLowerCase().includes(value)
   );
 
   displayUniverses(filtered);
+
+  if (filtered.length > 0) {
+    dropdown.style.display = "block";
+
+    filtered.forEach(item => {
+      const div = document.createElement("div");
+      div.className = "search-item";
+      div.textContent = item.name;
+
+      div.addEventListener("click", () => {
+        searchInput.value = item.name;
+        dropdown.style.display = "none";
+        displayUniverses([item]);
+      });
+
+      dropdown.appendChild(div);
+    });
+  } else {
+    dropdown.style.display = "none";
+  }
+});
+
+// Hide dropdown when clicking outside
+document.addEventListener("click", function (e) {
+  if (!searchInput.contains(e.target) && !dropdown.contains(e.target)) {
+    dropdown.style.display = "none";
+  }
 });
