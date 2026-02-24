@@ -95,7 +95,7 @@ body::before {
 }
 /* ================= GRID ================= */
 .grid-container {
-  width: 100%;
+  width: 90%;
   max-width: 1200px;
   margin: 40px auto;
   display: grid;
@@ -150,6 +150,7 @@ body::before {
 
   .search-box input {
     width: 100%;
+    padding: 14px 0px;
   }
 
   /* Tablet */
