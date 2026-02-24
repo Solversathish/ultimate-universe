@@ -65,12 +65,12 @@ body::before {
 
 /* ================= GRID ================= */
 .grid-container {
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
   margin: 40px auto;
   display: grid;
   gap: 25px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(5, 1fr);
 }
 
 /* ================= CARD ================= */
