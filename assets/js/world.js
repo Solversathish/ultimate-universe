@@ -3,13 +3,10 @@ const universeId = params.get("universe");
 
 const container = document.getElementById("worldContainer");
 const breadcrumbs = document.getElementById("breadcrumbs");
-const filterSelected = document.getElementById("filterSelected");
-const filterOptions = document.getElementById("filterOptions");
 
 let worldsData = [];
 
-/* ================= LOAD WORLDS ================= */
-
+/* LOAD WORLDS */
 fetch("data/worlds.json")
   .then(res => res.json())
   .then(data => {
@@ -20,9 +17,9 @@ fetch("data/worlds.json")
     renderBreadcrumbs();
   });
 
-/* ================= RENDER WORLDS ================= */
-
 function renderWorlds(data) {
+
+  if (!container) return;
 
   container.innerHTML = "";
 
@@ -42,64 +39,13 @@ function renderWorlds(data) {
   });
 }
 
-/* ================= BREADCRUMBS ================= */
-
 function renderBreadcrumbs() {
+
+  if (!breadcrumbs) return;
 
   breadcrumbs.innerHTML = `
     <a href="home.html">Home</a>
     <span>></span>
-    <a href="world.html?universe=${universeId}">
-      ${universeId.toUpperCase()}
-    </a>
-    <span>></span>
-    Worlds
+    ${universeId}
   `;
 }
-
-/* ================= FILTER TOGGLE ================= */
-
-filterSelected.addEventListener("click", () => {
-  filterOptions.style.display =
-    filterOptions.style.display === "block" ? "none" : "block";
-});
-
-/* ================= FILTER SORTING ================= */
-
-filterOptions.querySelectorAll("div").forEach(option => {
-
-  option.addEventListener("click", () => {
-
-    const type = option.dataset.sort;
-
-    let sorted = [...worldsData];
-
-    if (type === "az") {
-      sorted.sort((a,b) => a.name.localeCompare(b.name));
-    }
-
-    if (type === "za") {
-      sorted.sort((a,b) => b.name.localeCompare(a.name));
-    }
-
-    if (type === "new") {
-      sorted.sort((a,b) => b.created - a.created);
-    }
-
-    if (type === "old") {
-      sorted.sort((a,b) => a.created - b.created);
-    }
-
-    renderWorlds(sorted);
-    filterOptions.style.display = "none";
-  });
-
-});
-
-/* ================= CLOSE DROPDOWN OUTSIDE ================= */
-
-document.addEventListener("click", (e) => {
-  if (!e.target.closest(".filter-container")) {
-    filterOptions.style.display = "none";
-  }
-});

@@ -19,6 +19,7 @@ fetch("data/universes.json")
   </div>
   <div class="card-title">${universe.name}</div>
 `;
+card.style.cursor = "pointer";
 
 card.addEventListener("click", () => {
   window.location.href = `world.html?universe=${universe.id}`;
@@ -98,5 +99,3 @@ document.addEventListener("click", function(e) {
     searchResults.style.display = "none";
   }
 });
-
-<script src="assets/js/main.js"></script>
