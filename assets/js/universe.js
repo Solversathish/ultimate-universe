@@ -59,12 +59,6 @@ if (filter) {
     if (this.value === "za")
       sorted.sort((a,b)=>b.name.localeCompare(a.name));
 
-    if (this.value === "new")
-      sorted.sort((a,b)=>b.created - a.created);
-
-    if (this.value === "old")
-      sorted.sort((a,b)=>a.created - b.created);
-
     render(sorted);
   });
 }
