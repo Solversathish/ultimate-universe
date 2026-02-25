@@ -4,31 +4,49 @@ const universeId = params.get("universe");
 const container = document.getElementById("universeContainer");
 const breadcrumbs = document.getElementById("breadcrumbs");
 
-let worldsData = [];
-
-fetch("data/worlds.json")
-  .then(res => res.json())
-  .then(data => {
-    worldsData = data.filter(w => w.universe === universeId);
-    render(worldsData);
-  });
-
-function render(data) {
-  container.innerHTML = "";
-  data.forEach(world => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <div class="image-wrapper">
-        <img src="${world.image}">
-      </div>
-      <div class="card-title">${world.name}</div>
-    `;
-    container.appendChild(card);
-  });
+if (breadcrumbs && universeId) {
+  breadcrumbs.innerHTML = `
+    <a href="home.html">Home</a> > ${universeId}
+  `;
 }
 
-const filter = document.getElementById("filterSelect");
+if (container && universeId) {
+
+  fetch("data/worlds.json")
+    .then(res => res.json())
+    .then(data => {
+
+      const filtered = data.filter(w =>
+        w.universe.toLowerCase() === universeId.toLowerCase()
+      );
+
+      container.innerHTML = "";
+
+      filtered.forEach(world => {
+
+        const card = document.createElement("div");
+        card.className = "card";
+
+        card.innerHTML = `
+          <div class="image-wrapper">
+            <img src="${world.image}">
+          </div>
+          <div class="card-title">${world.name}</div>
+        `;
+
+        card.addEventListener("click", () => {
+          window.location.href = `world.html?world=${world.id}`;
+        });
+
+        container.appendChild(card);
+      });
+
+    })
+    .catch(error => {
+      console.log("Error loading worlds:", error);
+    });
+
+}
 
 if (filter) {
   filter.addEventListener("change", function () {
