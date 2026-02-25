@@ -14,11 +14,15 @@ fetch("data/universes.json")
       card.className = "card";
 
       card.innerHTML = `
-        <div class="image-wrapper">
-          <img src="${universe.image}" alt="${universe.name}">
-        </div>
-        <div class="card-title">${universe.name}</div>
-      `;
+  <div class="image-wrapper">
+    <img src="${universe.image}" alt="${universe.name}">
+  </div>
+  <div class="card-title">${universe.name}</div>
+`;
+
+card.addEventListener("click", () => {
+  window.location.href = `world.html?universe=${universe.id}`;
+});
 
       container.appendChild(card);
     });
@@ -94,3 +98,6 @@ document.addEventListener("click", function(e) {
     searchResults.style.display = "none";
   }
 });
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/world.js"></script>
