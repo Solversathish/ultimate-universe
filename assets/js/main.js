@@ -36,13 +36,17 @@ if (searchInput) {
   searchInput.addEventListener("input", function () {
     const value = this.value.toLowerCase();
     resultsBox.innerHTML = "";
-    if (!value) return;
+
+    if (!value) {
+      resultsBox.style.display = "none";
+      return;
+    }
 
     const matches = searchData.filter(item =>
       item.name.toLowerCase().includes(value)
     );
 
-    matches.slice(0,5).forEach(item => {
+    matches.slice(0, 6).forEach(item => {
       const div = document.createElement("div");
       div.className = "search-item";
       div.innerHTML = `
@@ -55,5 +59,13 @@ if (searchInput) {
       div.onclick = () => window.location.href = item.url;
       resultsBox.appendChild(div);
     });
+
+    resultsBox.style.display = "block";
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".search-box")) {
+      resultsBox.style.display = "none";
+    }
   });
 }
