@@ -3,7 +3,7 @@
     "id": "anime",
     "name": "Anime",
     "type": "universe",
-    "url": "world.html?universe=anime",
+    "url": "universe.html?universe=anime",
     "image": "assets/images/anime.png",
     "tags": ["japanese", "animation"]
   },
@@ -11,7 +11,7 @@
     "id": "naruto",
     "name": "Naruto",
     "type": "world",
-    "url": "entity.html?world=naruto",
+    "url": "world.html?world=naruto",
     "image": "assets/images/naruto-world.png",
     "tags": ["ninja", "shinobi"]
   },
@@ -19,7 +19,7 @@
     "id": "naruto-uzumaki",
     "name": "Naruto Uzumaki",
     "type": "entity",
-    "url": "entity-details.html?id=naruto-uzumaki",
+    "url": "entity.html?id=naruto-uzumaki",
     "image": "assets/images/naruto.png",
     "tags": ["hokage", "leaf village"]
   }
