@@ -1,51 +1,27 @@
 const params = new URLSearchParams(window.location.search);
-const universeId = params.get("universe");
+const worldId = params.get("world");
 
 const container = document.getElementById("worldContainer");
 const breadcrumbs = document.getElementById("breadcrumbs");
 
-let worldsData = [];
-
-/* LOAD WORLDS */
-fetch("data/worlds.json")
+fetch("data/entities.json")
   .then(res => res.json())
   .then(data => {
+    const filtered = data.filter(e => e.world === worldId);
 
-    worldsData = data.filter(world => world.universe === universeId);
-
-    renderWorlds(worldsData);
-    renderBreadcrumbs();
-  });
-
-function renderWorlds(data) {
-
-  if (!container) return;
-
-  container.innerHTML = "";
-
-  data.forEach(world => {
-
-    const card = document.createElement("div");
-    card.className = "card";
-
-    card.innerHTML = `
-      <div class="image-wrapper">
-        <img src="${world.image}" alt="${world.name}">
-      </div>
-      <div class="card-title">${world.name}</div>
+    breadcrumbs.innerHTML = `
+      <a href="home.html">Home</a> > ${worldId}
     `;
 
-    container.appendChild(card);
+    filtered.forEach(entity => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <div class="image-wrapper">
+          <img src="${entity.image}">
+        </div>
+        <div class="card-title">${entity.name}</div>
+      `;
+      container.appendChild(card);
+    });
   });
-}
-
-function renderBreadcrumbs() {
-
-  if (!breadcrumbs) return;
-
-  breadcrumbs.innerHTML = `
-    <a href="home.html">Home</a>
-    <span>></span>
-    ${universeId}
-  `;
-}
