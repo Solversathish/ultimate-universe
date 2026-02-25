@@ -203,3 +203,118 @@ body::before {
 
 }
 
+/* universe pages */
+
+.world-controls {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.breadcrumbs {
+  color: white;
+  font-size: 14px;
+}
+
+.breadcrumbs a {
+  color: #00ff88;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.breadcrumbs span {
+  margin: 0 5px;
+  color: #aaa;
+}
+
+.filter-container {
+  position: relative;
+  width: 180px;
+}
+
+.filter-selected {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 2px solid #00ff88;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.filter-selected:hover {
+  box-shadow: 0 0 15px #00ff88;
+}
+
+.filter-options {
+  position: absolute;
+  top: 110%;
+  width: 100%;
+  background: #111;
+  border-radius: 12px;
+  overflow: hidden;
+  display: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+  z-index: 999;
+}
+
+.filter-options div {
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.filter-options div:hover {
+  background: #1e1e1e;
+  color: #00ff88;
+}
+
+.filter-container {
+  position: relative;
+  width: 180px;
+}
+
+.filter-selected {
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 2px solid #00ff88;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.filter-selected:hover {
+  box-shadow: 0 0 15px #00ff88;
+}
+
+.filter-options {
+  position: absolute;
+  top: 110%;
+  width: 100%;
+  background: #111;
+  border-radius: 12px;
+  overflow: hidden;
+  display: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+  z-index: 999;
+}
+
+.filter-options div {
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.filter-options div:hover {
+  background: #1e1e1e;
+  color: #00ff88;
+}
