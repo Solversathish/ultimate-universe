@@ -100,4 +100,3 @@ document.addEventListener("click", function(e) {
 });
 
 <script src="assets/js/main.js"></script>
-<script src="assets/js/world.js"></script>
