@@ -4,25 +4,20 @@ const worldId = params.get("world");
 const container = document.getElementById("worldContainer");
 const breadcrumbs = document.getElementById("breadcrumbs");
 
-let entitiesData = [];
-let worldsData = [];
-
 Promise.all([
   fetch("data/entities.json").then(res => res.json()),
   fetch("data/worlds.json").then(res => res.json())
-]).then(([entities, worlds]) => {
+])
+.then(([entities, worlds]) => {
 
-  entitiesData = entities;
-  worldsData = worlds;
-
-  const currentWorld = worldsData.find(w => w.id === worldId);
+  const currentWorld = worlds.find(w => w.id === worldId);
 
   if (!currentWorld) return;
 
-  // 🔥 Breadcrumb logic
+  // ✅ Breadcrumbs
   if (breadcrumbs) {
     breadcrumbs.innerHTML = `
-      <a href="home.html">Home</a> 
+      <a href="home.html">Home</a> > 
       <a href="universe.html?universe=${currentWorld.universe}">
         ${currentWorld.universe}
       </a> > 
@@ -30,13 +25,19 @@ Promise.all([
     `;
   }
 
-  const filtered = entitiesData.filter(e => e.world === worldId);
+  // ✅ Load Entities
+  const filtered = entities.filter(e => e.world === worldId);
 
   render(filtered);
 
+})
+.catch(error => {
+  console.log("Error loading world page:", error);
 });
 
 function render(data) {
+
+  if (!container) return;
 
   container.innerHTML = "";
 
@@ -53,7 +54,6 @@ function render(data) {
     `;
 
     container.appendChild(card);
-
   });
 }
 
