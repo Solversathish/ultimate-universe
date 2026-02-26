@@ -48,6 +48,27 @@ if (container && universeId) {
 
 }
 
+const alphabetBar = document.getElementById("alphabetBar");
+
+if (alphabetBar) {
+
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+
+  letters.forEach(letter => {
+
+    const btn = document.createElement("button");
+    btn.className = "alphabet-btn";
+    btn.textContent = letter;
+
+    btn.addEventListener("click", () => {
+      scrollToLetter(letter);
+    });
+
+    alphabetBar.appendChild(btn);
+
+  });
+}
+
 if (filter) {
   filter.addEventListener("change", function () {
 
@@ -61,4 +82,21 @@ if (filter) {
 
     render(sorted);
   });
+}
+
+function scrollToLetter(letter) {
+
+  const cards = document.querySelectorAll(".card");
+
+  for (let card of cards) {
+    const title = card.querySelector(".card-title").textContent;
+
+    if (title.toUpperCase().startsWith(letter)) {
+      card.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+      break;
+    }
+  }
 }
