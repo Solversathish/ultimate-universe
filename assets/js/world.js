@@ -1,7 +1,6 @@
 const params = new URLSearchParams(window.location.search);
 const worldId = params.get("world");
 
-const container = document.getElementById("worldContainer");
 const breadcrumbs = document.getElementById("breadcrumbs");
 
 Promise.all([
@@ -96,4 +95,72 @@ function scrollToLetter(letter) {
       break;
     }
   }
+}
+
+let allEntities = [];
+let imagesVisible = true;
+
+const filterSelect = document.getElementById("filterSelect");
+const toggleBtn = document.getElementById("toggleView");
+const container = document.getElementById("worldContainer");
+const entityCount = document.getElementById("entityCount");
+
+function render(data) {
+
+  container.innerHTML = "";
+
+  entityCount.textContent = `${data.length} Characters`;
+
+  data.forEach(entity => {
+
+    const card = document.createElement("div");
+    card.className = "card";
+
+    card.innerHTML = `
+      ${imagesVisible ? `
+        <div class="image-wrapper">
+          <img src="${entity.image}">
+        </div>
+      ` : ""}
+
+      <div class="card-title">${entity.name}</div>
+    `;
+
+    container.appendChild(card);
+  });
+}
+
+function applySort(value) {
+
+  let sorted = [...allEntities];
+
+  if (value === "az") {
+    sorted.sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  if (value === "za") {
+    sorted.sort((a, b) => b.name.localeCompare(a.name));
+  }
+
+  render(sorted);
+}
+
+allEntities = entities.filter(e => e.world === worldId);
+render(allEntities);
+
+if (filterSelect) {
+  filterSelect.addEventListener("change", (e) => {
+    applySort(e.target.value);
+  });
+}
+
+if (toggleBtn) {
+  toggleBtn.addEventListener("click", () => {
+
+    imagesVisible = !imagesVisible;
+
+    toggleBtn.textContent = imagesVisible ? "Hide Images" : "Show Images";
+
+    render(allEntities);
+  });
 }
