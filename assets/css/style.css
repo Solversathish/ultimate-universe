@@ -336,6 +336,19 @@ body::before {
 @media (max-width: 768px) {
 
   .alphabet-bar {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .controls-top {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .controls-bottom {
     justify-content: center;
   }
 
@@ -414,3 +427,58 @@ body::before {
   }
 
 }
+
+.controls-wrapper {
+  width: 90%;
+  margin: 20px auto;
+}
+
+/* Row 1 */
+.controls-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.entity-count {
+  color: #00ff88;
+  font-weight: 600;
+}
+
+/* Row 2 */
+.alphabet-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.alphabet-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+/* Row 3 */
+.controls-bottom {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+/* Buttons */
+.toggle-btn, .sort-select {
+  background: transparent;
+  border: 1px solid #00ff88;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover, .sort-select:hover {
+  background: #00ff88;
+  color: black;
+}
+
