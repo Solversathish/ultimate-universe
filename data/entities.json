@@ -1,1 +1,90 @@
-[]
+[
+    {
+    "id": "gaara",
+    "name": "Gaara",
+    "image": "assets/images/entities/gaara.png",
+    "universe": "anime",
+    "world": "naruto",
+    "type": "Hero",
+    "powerLevel": 9600,
+    "created": 2000
+  },
+
+  {
+    "id": "itachi_uchiha",
+    "name": "Itachi Uchiha",
+    "image": "assets/images/entities/itachi_uchiha.png",
+    "universe": "anime",
+    "world": "naruto",
+    "type": "villain",
+    "powerLevel": 9700,
+    "created": 2002
+  },
+
+  {
+    "id": "jiraiya",
+    "name": "Jiraiya",
+    "image": "assets/images/entities/jiraiya.png",
+    "universe": "anime",
+    "world": "naruto",
+    "type": "Mentor",
+    "powerLevel": 8900,
+    "created": 1999
+  },
+
+  {
+    "id": "kakashi_hatake",
+    "name": "Kakashi Hatake",
+    "image": "assets/images/entities/kakashi_hatake.png",
+    "universe": "anime",
+    "world": "naruto",
+    "type": "Mentor",
+    "powerLevel": 8800,
+    "created": 1999
+  },
+  
+  {
+    "id": "madara_uchiha",
+    "name": "Madara Uchiha",
+    "image": "assets/images/entities/madara_uchiha.png",
+    "universe": "anime",
+    "world": "naruto",
+    "type": "villain",
+    "powerLevel": 10000,
+    "created": 2001
+  },
+  
+  {
+    "id": "minato_namikaze",
+    "name": "Minato Namikaze",
+    "image": "assets/images/entities/minato_namikaze.png",
+    "universe": "anime",
+    "world": "naruto",
+    "type": "Hero",
+    "powerLevel": 9600,
+    "created": 2001
+  },
+  
+    {
+    "id": "naruto_uzumaki",
+    "name": "Naruto Uzumamki",
+    "image": "assets/images/entities/naruto_uzumaki.png",
+    "universe": "anime",
+    "world": "naruto",
+    "type": "Hero",
+    "powerLevel": 9500,
+    "created": 1999
+  },
+
+    {
+    "id": "sasuke_uchiha",
+    "name": "Sasuke Uchiha",
+    "image": "assets/images/entities/sasuke_uchiha.png",
+    "universe": "anime",
+    "world": "naruto",
+    "type": "Anti-Hero",
+    "powerLevel": 9400,
+    "created": 1999
+  }
+  
+]
