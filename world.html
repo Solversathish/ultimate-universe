@@ -21,16 +21,30 @@
 
 <section class="controls-bar">
 
-  <div class="breadcrumbs" id="breadcrumbs"></div>
+  <div class="left-section">
+    <div class="breadcrumbs" id="breadcrumbs"></div>
+  </div>
 
-  <div class="alphabet-bar" id="alphabetBar"></div>
+  <div class="center-section">
+    <div class="alphabet-bar" id="alphabetBar"></div>
+  </div>
 
-  <div class="filter">
-    <select id="filterSelect">
+  <div class="right-section">
+
+    <div class="entity-count" id="entityCount">
+      0 Characters
+    </div>
+
+    <button id="toggleView" class="toggle-btn">
+      Hide Images
+    </button>
+
+    <select id="filterSelect" class="sort-select">
       <option value="">Sort</option>
       <option value="az">A–Z</option>
       <option value="za">Z–A</option>
     </select>
+
   </div>
 
 </section>
