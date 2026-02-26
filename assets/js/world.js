@@ -22,7 +22,7 @@ Promise.all([
   // 🔥 Breadcrumb logic
   if (breadcrumbs) {
     breadcrumbs.innerHTML = `
-      <a href="home.html">Home</a> > 
+      <a href="home.html">Home</a> 
       <a href="universe.html?universe=${currentWorld.universe}">
         ${currentWorld.universe}
       </a> > 
@@ -55,4 +55,45 @@ function render(data) {
     container.appendChild(card);
 
   });
+}
+
+const alphabetBar = document.getElementById("alphabetBar");
+
+if (alphabetBar) {
+
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+
+  letters.forEach(letter => {
+
+    const btn = document.createElement("button");
+    btn.className = "alphabet-btn";
+    btn.textContent = letter;
+
+    btn.addEventListener("click", () => {
+      scrollToLetter(letter);
+    });
+
+    alphabetBar.appendChild(btn);
+
+  });
+}
+
+function scrollToLetter(letter) {
+
+  const cards = document.querySelectorAll(".card");
+
+  for (let card of cards) {
+
+    const title = card.querySelector(".card-title").textContent;
+
+    if (title.toUpperCase().startsWith(letter)) {
+
+      card.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+
+      break;
+    }
+  }
 }
