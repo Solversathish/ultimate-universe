@@ -442,8 +442,7 @@ body::before {
 /* Row 1 */
 .controls-top {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: self-end;
   margin-bottom: 15px;
 }
 
@@ -454,6 +453,7 @@ body::before {
 
 /* Row 2 */
 .alphabet-container {
+  width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
@@ -464,6 +464,7 @@ body::before {
   flex-wrap: wrap;
   gap: 8px;
   justify-content: center;
+  width: 100%;
 }
 
 /* Row 3 */
