@@ -215,16 +215,6 @@ body::before {
 
 /* universe pages */
 
-.world-controls {
-  max-width: 1200px;
-  margin: 30px auto;
-  padding: 0 20px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .breadcrumbs {
   color: white;
   font-size: 14px;
@@ -308,15 +298,6 @@ body::before {
 }
 
 
-.alphabet-bar {
-  display: flex;
-  justify-content: center;
-  gap: 6px;
-  flex-wrap: wrap;   /* IMPORTANT */
-  max-width: 600px;
-  margin: 0 auto;
-}
-
 .alphabet-btn {
   padding: 5px 8px;
   font-size: 13px;
@@ -341,52 +322,6 @@ body::before {
 
 @media (max-width: 768px) {
 
-  .alphabet-bar {
-    max-width: 100%;
-    overflow-x: auto;
-    white-space: nowrap;
-    flex-wrap: nowrap;
-  }
-
-  .controls-top {
-    flex-direction: row;
-    gap: 10px;
-    text-align: center;
-  }
-
-  .controls-bottom {
-    justify-content: center;
-  }
-
-}
-
-.controls-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 15px 5%;
-  flex-wrap: nowrap; /* Important */
-}
-
-.left-section {
-  flex: 1;
-}
-
-.center-section {
-  flex: 2;
-  display: flex;
-  justify-content: center;
-}
-
-.right-section {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 15px;
-}
-
 .entity-count {
   color: #00ff88;
   font-weight: 600;
@@ -408,49 +343,8 @@ body::before {
   padding: 5px 8px;
   border-radius: 6px;
 }
-
-@media (max-width: 768px) {
-
-  .controls-bar {
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-
-  .center-section {
-    order: 3;
-    width: 100%;
-  }
-
-  .right-section {
-    order: 2;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .left-section {
-    order: 1;
-    width: 100%;
-  }
-
 }
 
-.controls-wrapper {
-  width: 90%;
-  margin: 20px auto;
-}
-
-/* Row 1 */
-.controls-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-.entity-count {
-  color: #00ff88;
-  font-weight: 600;
-}
 
 /* Row 2 */
 .alphabet-container {
@@ -459,19 +353,6 @@ body::before {
   margin-bottom: 15px;
 }
 
-.alphabet-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: center;
-}
-
-/* Row 3 */
-.controls-bottom {
-  display: flex;
-  justify-content: flex-end;
-  gap: 15px;
-}
 
 /* Buttons */
 .toggle-btn, .sort-select {
@@ -491,7 +372,6 @@ body::before {
 .alphabet-bar {
   display: flex;        /* ❗ Force single line */
   gap: 8px;
-  justify-content: center;
   overflow-x: auto;           /* Allows scroll if needed */
   white-space: nowrap;
 }
@@ -500,68 +380,6 @@ body::before {
   flex: 0 0 auto;   /* Prevent shrinking */
 }
 
-/* ================= CONTROLS WRAPPER ================= */
-
-.controls-wrapper {
-  width: 90%;
-  margin: 20px auto;
-}
-
-.controls-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
-}
-
-/* RIGHT SIDE (toggle + sort) */
-.controls-right {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-/* Alphabet bar */
-.alphabet-bar {
-  display: flex;
-  gap: 6px;
-  flex-wrap: nowrap;
-}
-
-
-  /* Toggle + Sort full width */
-  .controls-right {
-    justify-content: space-between;
-  }
-
-
-.controls-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-/* Row 2 special layout */
-.row-2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* Make alphabet move to right */
-.alphabet-bar {
-  display: flex;
-  gap: 6px;
-  justify-content: flex-end;
-  flex: 1;
-}
-
-/* Keep count fixed on left */
-.entity-count {
-  font-weight: 600;
-  min-width: 120px;
-}
 
 /* Hide images only inside grid */
 .grid-container.hide-images .image-wrapper {
@@ -577,78 +395,148 @@ body::before {
   max-width: 100%;
 }
 
+/* Prevent buttons from shrinking */
 .alphabet-bar button {
   flex: 0 0 auto;
 }
 
-/* Row 2 Layout */
+/* ================= DESKTOP ================= */
+
+.controls-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Row 1 */
+.row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Row 2 */
 .row-2 {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 20px;
 }
 
-/* Left side (count) */
-.left-info {
-  flex: 0 0 auto;
-}
-
-/* Right side (alphabet container) */
-.right-alphabet {
-  flex: 1;
+.alphabet-wrapper {
   overflow-x: auto;
+  flex: 1;
 }
 
-/* Alphabet bar */
 .alphabet-bar {
   display: flex;
   gap: 6px;
   white-space: nowrap;
 }
 
-/* Prevent buttons from shrinking */
 .alphabet-bar button {
   flex: 0 0 auto;
 }
 
-/* ========================= */
-/* UNIVERSE PAGE MOBILE ONLY */
-/* ========================= */
+.entity-count {
+  font-weight: bold;
+  color: #00ff9c;
+}
+
+/* ================= MOBILE ================= */
 
 @media (max-width: 768px) {
 
-  .universe-page .controls-bar {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .universe-page .row-1 {
-    order: 1;
+  /* Make row-1 show breadcrumb + count */
+  .row-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  .universe-page .row-2 {
+  /* Hide toggle & sort from row-1 */
+  .row-1 .right-actions {
+    display: none;
+  }
+
+  /* Move count into row-1 visually */
+  .row-1 {
+    position: relative;
+  }
+
+  /* Row 2 = Alphabet full width */
+  .row-2 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  /* Row 3 = Toggle + Sort */
+  .row-2::after {
+    content: "";
+  }
+
+  /* Create new mobile row */
+  .controls-bar::after {
+    content: "";
+  }
+
+  /* Show toggle + sort below alphabet */
+  .row-2 {
     order: 2;
   }
 
-  .universe-page .right-alphabet {
-    overflow-x: auto;
-  }
-
-  .universe-page .alphabet-bar {
+  .controls-bar {
     display: flex;
-    gap: 6px;
-    white-space: nowrap;
+    flex-direction: column;
   }
 
-  .universe-page .alphabet-bar button {
-    flex: 0 0 auto;
+  /* Recreate toggle row */
+  .right-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
   }
 
-  .universe-page .row-3 {
-    order: 3;
+}
+
+@media (max-width: 768px) {
+
+  .controls-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* Row 1: breadcrumb + count */
+  .row-1 {
+    justify-content: space-between;
+  }
+
+  /* Move count into row-1 */
+  .row-1 {
+    align-items: center;
+  }
+
+  /* Alphabet full width */
+  .row-2 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .alphabet-wrapper {
+    width: 100%;
+  }
+
+  /* Toggle & Sort become row 3 */
+  .right-actions {
+    width: 100%;
     display: flex;
     justify-content: space-between;
   }
