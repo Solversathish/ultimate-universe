@@ -7,6 +7,9 @@ const filterSelect = document.getElementById("filterSelect");
 const toggleBtn = document.getElementById("toggleView");
 const worldCount = document.getElementById("worldCount");
 const alphabetBar = document.getElementById("alphabetBar");
+const btn = document.createElement("button");
+btn.textContent = letter;
+btn.classList.add("alphabet-btn");
 
 let allWorlds = [];
 let imagesVisible = true;
