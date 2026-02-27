@@ -584,3 +584,20 @@ body::before {
   font-weight: 600;
   min-width: 120px;
 }
+
+/* Hide images only inside grid */
+.grid-container.hide-images .image-wrapper {
+  display: none;
+}
+
+.alphabet-bar {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  scroll-behavior: smooth;
+}
+
+.alphabet-bar::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
