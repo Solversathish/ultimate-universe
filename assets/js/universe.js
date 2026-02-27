@@ -1,115 +1,113 @@
-const urlParams = new URLSearchParams(window.location.search);
-const universeId = urlParams.get("universe");
+// ===============================
+// UNIVERSE PAGE SCRIPT
+// ===============================
 
-const container = document.getElementById("universeContainer");
-const breadcrumbs = document.getElementById("breadcrumbs");
-const filterSelect = document.getElementById("filterSelect");
-const toggleBtn = document.getElementById("toggleView");
-const worldCount = document.getElementById("worldCount");
-const alphabetBar = document.getElementById("alphabetBar");
-const btn = document.createElement("button");
-btn.textContent = letter;
-btn.classList.add("alphabet-btn");
+document.addEventListener("DOMContentLoaded", async () => {
 
-let allWorlds = [];
-let imagesVisible = true;
+  const container = document.getElementById("universeContainer");
+  const alphabetBar = document.getElementById("alphabetBar");
+  const breadcrumbs = document.getElementById("breadcrumbs");
+  const countElement = document.getElementById("universeCount");
+  const toggleBtn = document.getElementById("toggleImages");
+  const sortSelect = document.getElementById("filterSelect");
 
-/* ===========================
-   LOAD DATA
-=========================== */
+  const urlParams = new URLSearchParams(window.location.search);
+  const universeId = urlParams.get("universe");
 
-fetch("data/worlds.json")
-  .then(res => res.json())
-  .then(worlds => {
+  if (!universeId) return;
 
-    allWorlds = worlds.filter(w => w.universe === universeId);
+  try {
 
-    render(allWorlds);
-    generateAlphabet(allWorlds);
-    setupControls();
+    const worldsData = await fetch("data/worlds.json").then(res => res.json());
 
-    breadcrumbs.innerHTML = `
-      <a href="home.html">Home</a> > ${universeId}
-    `;
+    const worlds = worldsData.filter(w => w.universe === universeId);
 
-  })
-  .catch(err => console.error("Universe load error:", err));
+    renderWorlds(worlds);
+    generateAlphabet(worlds);
+    updateCount(worlds.length);
 
-/* ===========================
-   RENDER FUNCTION
-=========================== */
+    // ===== Toggle Images =====
+    if (toggleBtn) {
+      toggleBtn.addEventListener("click", () => {
+        container.classList.toggle("hide-images");
 
-function render(data) {
+        if (container.classList.contains("hide-images")) {
+          toggleBtn.textContent = "Show Images";
+        } else {
+          toggleBtn.textContent = "Hide Images";
+        }
+      });
+    }
 
+    // ===== Sort =====
+    if (sortSelect) {
+      sortSelect.addEventListener("change", () => {
+        let sorted = [...worlds];
+
+        if (sortSelect.value === "az") {
+          sorted.sort((a, b) => a.name.localeCompare(b.name));
+        }
+
+        if (sortSelect.value === "za") {
+          sorted.sort((a, b) => b.name.localeCompare(a.name));
+        }
+
+        renderWorlds(sorted);
+      });
+    }
+
+    // ===== Breadcrumbs =====
+    if (breadcrumbs) {
+      breadcrumbs.innerHTML = `
+        <a href="index.html">Home</a> &gt; ${universeId}
+      `;
+    }
+
+  } catch (error) {
+    console.error("Universe page error:", error);
+  }
+
+});
+
+
+// ===============================
+// RENDER WORLDS
+// ===============================
+
+function renderWorlds(worlds) {
+
+  const container = document.getElementById("universeContainer");
   container.innerHTML = "";
 
-  worldCount.textContent = `${data.length} Items`;
-
-  data.forEach(world => {
+  worlds.forEach(world => {
 
     const card = document.createElement("div");
     card.className = "card";
+    card.id = world.id;
 
     card.innerHTML = `
-      ${imagesVisible ? `
-        <div class="image-wrapper">
-          <img src="${world.image}">
-        </div>
-      ` : ""}
-
+      <div class="image-wrapper">
+        <img src="${world.image}" alt="${world.name}">
+      </div>
       <div class="card-title">${world.name}</div>
     `;
 
-    card.onclick = () => {
+    card.addEventListener("click", () => {
       window.location.href = `world.html?world=${world.id}`;
-    };
+    });
 
     container.appendChild(card);
   });
+
 }
 
-/* ===========================
-   SORT + TOGGLE
-=========================== */
 
-function setupControls() {
-
-  if (filterSelect) {
-    filterSelect.addEventListener("change", function () {
-
-      let sorted = [...allWorlds];
-
-      if (this.value === "az") {
-        sorted.sort((a, b) => a.name.localeCompare(b.name));
-      }
-
-      if (this.value === "za") {
-        sorted.sort((a, b) => b.name.localeCompare(a.name));
-      }
-
-      render(sorted);
-    });
-  }
-
-  if (toggleBtn) {
-    toggleBtn.addEventListener("click", function () {
-
-      imagesVisible = !imagesVisible;
-
-      this.textContent = imagesVisible
-        ? "Hide Images"
-        : "Show Images";
-
-      render(allWorlds);
-    });
-  }
-}
-
-/* ===========================
-   ALPHABET BAR
-=========================== */
+// ===============================
+// ALPHABET GENERATOR
+// ===============================
 
 function generateAlphabet(items) {
+
   const alphabetBar = document.getElementById("alphabetBar");
   alphabetBar.innerHTML = "";
 
@@ -137,6 +135,20 @@ function generateAlphabet(items) {
     });
 
     alphabetBar.appendChild(btn);
-
   });
+
+}
+
+
+// ===============================
+// UPDATE COUNT
+// ===============================
+
+function updateCount(total) {
+
+  const countElement = document.getElementById("universeCount");
+  if (countElement) {
+    countElement.textContent = `${total} Items`;
+  }
+
 }
