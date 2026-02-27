@@ -556,3 +556,31 @@ body::before {
   }
 
 }
+
+.controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Row 2 special layout */
+.row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Make alphabet move to right */
+.alphabet-bar {
+  display: flex;
+  gap: 6px;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+/* Keep count fixed on left */
+.entity-count {
+  font-weight: 600;
+  min-width: 120px;
+}
