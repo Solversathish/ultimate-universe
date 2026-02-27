@@ -62,19 +62,12 @@ body::before {
 
 /* ================= CARD ================= */
 .card {
-  width: 220px;              /* Fixed width */
-  min-height: 60px;          /* Fixed height */
   background: #111;
-  border: 2px solid #00ff88; /* Neon border */
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 12px;
-  font-weight: 600;
-  color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 2px solid #00ff88;
   transition: 0.3s ease;
+  cursor: pointer;
 }
 
 .card:hover {
@@ -206,6 +199,10 @@ body::before {
   .grid-container {
     margin: 10px;
     grid-template-columns: repeat(2, 1fr);  /* 👈 FORCE 2 columns */
+  }
+
+  .card {
+    width: 100%;
   }
 
   .top-bar {
@@ -490,23 +487,3 @@ body::before {
   color: black;
 }
 
- #worldContainer {
-  width: 90%;
-  margin: 40px auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 220px);
-  justify-content: center;  /* Centers grid */
-  gap: 25px;
-}
-
-@media (max-width: 768px) {
-
-  .card {
-    width: 160px;
-  }
-
-  #worldContainer {
-    grid-template-columns: repeat(auto-fill, 160px);
-  }
-
-}
