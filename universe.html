@@ -18,25 +18,28 @@
     </div>
   </div>
 </header>
-<section class="controls-bar">
+<section class="controls-wrapper">
 
-  <div class="controls-top">
-    <div class="breadcrumbs" id="breadcrumbs"></div>
-    <div class="entity-count" id="worldCount"></div>
-  </div>
+  <!-- Row 1 -->
+  <div class="controls-row row-1">
+    <div id="breadcrumbs" class="breadcrumbs"></div>
 
-  <div class="alphabet-bar" id="alphabetBar"></div>
+    <div class="controls-right">
+      <button id="toggleView" class="toggle-btn">Hide Images</button>
 
-  <div class="controls-bottom">
-    <button id="toggleView" class="toggle-btn">Hide Images</button>
-
-    <div class="filter">
-      <select id="filterSelect">
+      <select id="filterSelect" class="sort-select">
         <option value="">Sort</option>
         <option value="az">A–Z</option>
         <option value="za">Z–A</option>
       </select>
     </div>
+  </div>
+
+  <!-- Row 2 -->
+  <div class="controls-row row-2">
+    <div id="worldCount" class="entity-count"></div>
+
+    <div id="alphabetBar" class="alphabet-bar"></div>
   </div>
 
 </section>

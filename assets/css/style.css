@@ -499,3 +499,60 @@ body::before {
 .alphabet-bar button {
   flex: 0 0 auto;   /* Prevent shrinking */
 }
+
+/* ================= CONTROLS WRAPPER ================= */
+
+.controls-wrapper {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.controls-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* RIGHT SIDE (toggle + sort) */
+.controls-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Alphabet bar */
+.alphabet-bar {
+  display: flex;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+/* ================= MOBILE VIEW ================= */
+
+@media (max-width: 768px) {
+
+  /* Row 1: Breadcrumb + Count */
+  .row-1 {
+    justify-content: space-between;
+  }
+
+  /* Move count into row 1 */
+  .row-2 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  /* Alphabet becomes scrollable */
+  .alphabet-bar {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* Toggle + Sort full width */
+  .controls-right {
+    justify-content: space-between;
+  }
+
+}
