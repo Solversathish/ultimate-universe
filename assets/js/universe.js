@@ -1,8 +1,15 @@
 const params = new URLSearchParams(window.location.search);
 const universeId = params.get("universe");
 
-const container = document.getElementById("universeContainer");
 const breadcrumbs = document.getElementById("breadcrumbs");
+
+let allWorlds = [];
+let imagesVisible = true;
+
+const container = document.getElementById("universeContainer");
+const toggleBtn = document.getElementById("toggleView");
+const filterSelect = document.getElementById("filterSelect");
+const worldCount = document.getElementById("worldCount");
 
 if (breadcrumbs && universeId) {
   breadcrumbs.innerHTML = `
@@ -46,6 +53,11 @@ if (container && universeId) {
       console.log("Error loading worlds:", error);
     });
 
+    allWorlds = worlds.filter(w => w.universe === universeId);
+
+    render(allWorlds);
+
+    initializeControls();
 }
 
 const alphabetBar = document.getElementById("alphabetBar");
@@ -98,5 +110,65 @@ function scrollToLetter(letter) {
       });
       break;
     }
+  }
+}
+
+function render(data) {
+
+  container.innerHTML = "";
+
+  if (entityCount) {
+    entityCount.textContent = `${data.length} items`;
+  }
+
+  data.forEach(world => {
+
+    const card = document.createElement("div");
+    card.className = "card";
+
+    card.innerHTML = `
+      ${imagesVisible ? `
+        <div class="image-wrapper">
+          <img src="${world.image}">
+        </div>
+      ` : ""}
+
+      <div class="card-title">${world.name}</div>
+    `;
+
+    container.appendChild(card);
+  });
+}
+
+function initializeControls() {
+
+  if (filterSelect) {
+    filterSelect.addEventListener("change", function () {
+
+      let sorted = [...allWorlds];
+
+      if (this.value === "az") {
+        sorted.sort((a, b) => a.name.localeCompare(b.name));
+      }
+
+      if (this.value === "za") {
+        sorted.sort((a, b) => b.name.localeCompare(a.name));
+      }
+
+      render(sorted);
+    });
+  }
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener("click", function () {
+
+      imagesVisible = !imagesVisible;
+
+      this.textContent = imagesVisible
+        ? "Hide Images"
+        : "Show Images";
+
+      render(allWorlds);
+    });
   }
 }
