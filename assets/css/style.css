@@ -528,34 +528,56 @@ body::before {
   flex-wrap: nowrap;
 }
 
-/* ================= MOBILE VIEW ================= */
 
+/* ================= MOBILE ONLY ================= */
 @media (max-width: 768px) {
+
+  /* Stack everything vertically */
+  .controls-bar {
+    display: flex;
+    flex-direction: column;
+  }
 
   /* Row 1: Breadcrumb + Count */
   .row-1 {
+    order: 1;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
-  /* Move count into row 1 */
+  /* Row 2: Alphabet */
   .row-2 {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 15px;
+    order: 2;
   }
 
-  /* Alphabet becomes scrollable */
-  .alphabet-bar {
+  .right-alphabet {
     overflow-x: auto;
+  }
+
+  .alphabet-bar {
+    display: flex;
+    gap: 6px;
     white-space: nowrap;
   }
 
+  .alphabet-bar button {
+    flex: 0 0 auto;
+  }
+
+  /* Row 3: Toggle + Sort */
+  .row-3 {
+    order: 3;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
   /* Toggle + Sort full width */
   .controls-right {
     justify-content: space-between;
   }
 
-}
 
 .controls-row {
   display: flex;
@@ -585,7 +607,6 @@ body::before {
   min-width: 120px;
 }
 
-/* Hide images only inside grid */
 /* Hide images only inside grid */
 .grid-container.hide-images .image-wrapper {
   display: none;
