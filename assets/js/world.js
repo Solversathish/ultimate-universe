@@ -115,7 +115,7 @@ function render(data) {
   container.innerHTML = "";
 
   if (entityCount) {
-    entityCount.textContent = `${data.length} Characters`;
+    entityCount.textContent = `${data.length} items`;
   }
 
   data.forEach(entity => {
