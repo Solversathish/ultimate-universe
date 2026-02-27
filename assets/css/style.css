@@ -586,18 +586,18 @@ body::before {
 }
 
 /* Hide images only inside grid */
-.grid-container.hide-images .image-wrapper {
-  display: none;
+#universeContainer.hide-images {
+  border: 5px solid red;
 }
-
 .alphabet-bar {
   display: flex;
   gap: 6px;
   overflow-x: auto;
-  scrollbar-width: none; /* Firefox */
-  scroll-behavior: smooth;
+  white-space: nowrap;
+  width: 100%;
+  max-width: 100%;
 }
 
-.alphabet-bar::-webkit-scrollbar {
-  display: none; /* Chrome */
+.alphabet-bar button {
+  flex: 0 0 auto;
 }
