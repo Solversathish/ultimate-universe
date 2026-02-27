@@ -601,3 +601,33 @@ body::before {
 .alphabet-bar button {
   flex: 0 0 auto;
 }
+
+/* Row 2 Layout */
+.row-2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Left side (count) */
+.left-info {
+  flex: 0 0 auto;
+}
+
+/* Right side (alphabet container) */
+.right-alphabet {
+  flex: 1;
+  overflow-x: auto;
+}
+
+/* Alphabet bar */
+.alphabet-bar {
+  display: flex;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+/* Prevent buttons from shrinking */
+.alphabet-bar button {
+  flex: 0 0 auto;
+}
