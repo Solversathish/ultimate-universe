@@ -24,6 +24,11 @@ Promise.all([
     `;
   }
 
+  allEntities = entities.filter(e => e.world === worldId);
+
+render(allEntities);
+
+initializeControls();
   // ✅ Load Entities
   const filtered = entities.filter(e => e.world === worldId);
 
