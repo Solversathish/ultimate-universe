@@ -109,25 +109,34 @@ function setupControls() {
    ALPHABET BAR
 =========================== */
 
-function generateAlphabet(data) {
-
+function generateAlphabet(items) {
+  const alphabetBar = document.getElementById("alphabetBar");
   alphabetBar.innerHTML = "";
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-  letters.forEach(letter => {
+  letters.forEach((letter) => {
 
     const btn = document.createElement("button");
     btn.textContent = letter;
+    btn.className = "alphabet-btn";
 
-    btn.onclick = () => {
-      const filtered = allWorlds.filter(item =>
+    btn.addEventListener("click", () => {
+
+      const target = items.find(item =>
         item.name.toUpperCase().startsWith(letter)
       );
 
-      render(filtered);
-    };
+      if (target) {
+        const element = document.getElementById(target.id);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+
+    });
 
     alphabetBar.appendChild(btn);
+
   });
 }
