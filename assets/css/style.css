@@ -488,3 +488,21 @@ body::before {
   color: black;
 }
 
+.alphabet-bar {
+  display: flex;
+  flex-wrap: nowrap;          /* ❗ Force single line */
+  gap: 8px;
+  justify-content: center;
+  overflow-x: auto;           /* Allows scroll if needed */
+  white-space: nowrap;
+}
+
+.alphabet-bar button {
+  flex: 0 0 auto;   /* Prevent shrinking */
+}
+
+@media (max-width: 768px) {
+  .alphabet-bar {
+    justify-content: flex-start;
+  }
+}
