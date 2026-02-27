@@ -100,29 +100,36 @@ function scrollToLetter(letter) {
 let allEntities = [];
 let imagesVisible = true;
 
+const container = document.getElementById("worldContainer");
 const filterSelect = document.getElementById("filterSelect");
 const toggleBtn = document.getElementById("toggleView");
-const container = document.getElementById("worldContainer");
 const entityCount = document.getElementById("entityCount");
 
 function render(data) {
 
   container.innerHTML = "";
 
-  entityCount.textContent = `${data.length} Characters`;
+  if (entityCount) {
+    entityCount.textContent = `${data.length} Characters`;
+  }
 
   data.forEach(entity => {
 
     const card = document.createElement("div");
     card.className = "card";
 
-    card.innerHTML = `
-      ${imagesVisible ? `
-        <div class="image-wrapper">
-          <img src="${entity.image}">
-        </div>
-      ` : ""}
+    let imageHTML = "";
 
+    if (imagesVisible) {
+      imageHTML = `
+        <div class="image-wrapper">
+          <img src="${entity.image}" alt="${entity.name}">
+        </div>
+      `;
+    }
+
+    card.innerHTML = `
+      ${imageHTML}
       <div class="card-title">${entity.name}</div>
     `;
 
@@ -145,22 +152,25 @@ function applySort(value) {
   render(sorted);
 }
 
-allEntities = entities.filter(e => e.world === worldId);
-render(allEntities);
+/* 🔥 AFTER DATA LOAD */
+function initializeControls() {
 
-if (filterSelect) {
-  filterSelect.addEventListener("change", (e) => {
-    applySort(e.target.value);
-  });
-}
+  if (filterSelect) {
+    filterSelect.addEventListener("change", function () {
+      applySort(this.value);
+    });
+  }
 
-if (toggleBtn) {
-  toggleBtn.addEventListener("click", () => {
+  if (toggleBtn) {
+    toggleBtn.addEventListener("click", function () {
 
-    imagesVisible = !imagesVisible;
+      imagesVisible = !imagesVisible;
 
-    toggleBtn.textContent = imagesVisible ? "Hide Images" : "Show Images";
+      this.textContent = imagesVisible
+        ? "Hide Images"
+        : "Show Images";
 
-    render(allEntities);
-  });
+      render(allEntities);
+    });
+  }
 }
