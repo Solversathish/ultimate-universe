@@ -586,6 +586,10 @@ body::before {
 }
 
 /* Hide images only inside grid */
+/* Hide images only inside grid */
+.grid-container.hide-images .image-wrapper {
+  display: none;
+}
 
 .alphabet-bar {
   display: flex;
