@@ -586,9 +586,7 @@ body::before {
 }
 
 /* Hide images only inside grid */
-#universeContainer.hide-images {
-  border: 5px solid red;
-}
+
 .alphabet-bar {
   display: flex;
   gap: 6px;
