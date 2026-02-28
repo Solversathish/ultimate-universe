@@ -323,7 +323,7 @@ body::before {
   .right-actions {
     order: 3;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     width: 100%;
   }
 
