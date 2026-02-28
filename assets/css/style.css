@@ -159,10 +159,9 @@ body::before {
 .controls-bar {
   width: 90%;
   max-width: 1200px;
-  margin: 30px auto 20px;
-  display: flex;
-  flex-direction: column;
+  margin: 30px auto;
   gap: 15px;
+  display: block;
 }
 
 /* Row 1 */
