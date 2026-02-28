@@ -160,8 +160,6 @@ body::before {
   width: 90%;
   max-width: 1200px;
   margin: 30px auto;
-  gap: 15px;
-  display: block;
 }
 
 /* Row 1 */
@@ -169,6 +167,7 @@ body::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .right-actions {
@@ -198,6 +197,7 @@ body::before {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .entity-count {
@@ -208,8 +208,10 @@ body::before {
 
 /* Alphabet */
 .alphabet-wrapper {
-  flex: 1;
-  overflow-x: auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
 .alphabet-bar {
