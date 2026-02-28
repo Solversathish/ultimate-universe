@@ -557,3 +557,56 @@ body::before {
   font-weight: bold;
   font-size: 18px;
 }
+
+@media (max-width: 768px) {
+
+  .controls-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* Make row-1 flexible */
+  .row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Hide toggle from row-1 */
+  .row-1 .right-actions {
+    display: none;
+  }
+
+  /* Move count next to breadcrumb visually */
+  .row-1::after {
+    content: attr(data-count);
+  }
+
+  /* Instead, we position count */
+  .row-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Make count appear in row-1 visually */
+  .entity-count {
+    order: -1;
+    align-self: flex-end;
+  }
+
+  /* Alphabet full width */
+  .alphabet-wrapper {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  /* Show toggle as third row */
+  .right-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+}
