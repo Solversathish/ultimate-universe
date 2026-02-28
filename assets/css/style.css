@@ -545,4 +545,7 @@ body::before {
 
 .controls-bar {
   width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  justify-items: center;
 }
