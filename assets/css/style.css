@@ -386,14 +386,6 @@ body::before {
   display: none;
 }
 
-.alphabet-bar {
-  display: flex;
-  gap: 6px;
-  overflow-x: auto;
-  white-space: nowrap;
-  width: 100%;
-  max-width: 100%;
-}
 
 /* Prevent buttons from shrinking */
 .alphabet-bar button {
@@ -433,12 +425,6 @@ body::before {
   flex: 1;
 }
 
-.alphabet-bar {
-  display: flex;
-  gap: 6px;
-  white-space: nowrap;
-}
-
 .alphabet-bar button {
   flex: 0 0 auto;
 }
@@ -449,62 +435,6 @@ body::before {
 }
 
 /* ================= MOBILE ================= */
-
-@media (max-width: 768px) {
-
-  /* Make row-1 show breadcrumb + count */
-  .row-1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  /* Hide toggle & sort from row-1 */
-  .row-1 .right-actions {
-    display: none;
-  }
-
-  /* Move count into row-1 visually */
-  .row-1 {
-    position: relative;
-  }
-
-  /* Row 2 = Alphabet full width */
-  .row-2 {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  /* Row 3 = Toggle + Sort */
-  .row-2::after {
-    content: "";
-  }
-
-  /* Create new mobile row */
-  .controls-bar::after {
-    content: "";
-  }
-
-  /* Show toggle + sort below alphabet */
-  .row-2 {
-    order: 2;
-  }
-
-  .controls-bar {
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* Recreate toggle row */
-  .right-actions {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 10px;
-  }
-
-}
 
 @media (max-width: 768px) {
 
@@ -632,21 +562,4 @@ body::before {
     justify-content: flex-end;
     flex-wrap: wrap;
     gap: 6px;
-}
-
-.toggleImages {
-    background: transparent;
-    border: 2px solid #00ff88;
-    color: white;
-    padding: 6px 14px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-.toggleImages:hover {
-    background: #4c21aa;
-    color: black;
-    box-shadow:
-        0 0 5px #00ff9c,
 }
