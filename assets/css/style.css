@@ -306,7 +306,7 @@ body::before {
 
   .row-2 .entity-count {
     display: block;
-    order: -1;
+    order: 1;
   }
 
   /* -------- ROW 2 -------- */
@@ -323,6 +323,7 @@ body::before {
 
   /* -------- ROW 3 -------- */
   .row-2 .right-actions {
+    order: 3;
     display: none;
     align-items: center;
     width: 100%;
