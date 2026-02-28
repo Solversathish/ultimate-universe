@@ -6,7 +6,7 @@
   font-family: Arial, sans-serif;
 }
 
-/* ================= BODY BACKGROUND ================= */
+/* ================= BODY ================= */
 body {
   min-height: 100vh;
   color: white;
@@ -30,7 +30,7 @@ body::before {
   width: 100%;
   background: rgba(0, 0, 0, 0.85);
   backdrop-filter: blur(6px);
-  padding: 10px 0;
+  padding: 12px 0;
   z-index: 1000;
 }
 
@@ -49,57 +49,7 @@ body::before {
   letter-spacing: 2px;
 }
 
-/* ================= GRID ================= */
-.grid-container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 40px auto;
-  justify-items: center;
-  display: grid;
-  gap: 25px;
-  grid-template-columns: repeat(5, 1fr);
-}
-
-/* ================= CARD ================= */
-.card {
-  background: #111;
-  border-radius: 15px;
-  overflow: hidden;
-  border: 2px solid #00ff88;
-  transition: 0.3s ease;
-  cursor: pointer;
-  width: 100%;
-}
-
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 0 20px #00ff88;
-}
-
-/* 1:1 IMAGE */
-.image-wrapper {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  overflow: hidden;
-}
-
-.image-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* TITLE */
-.card-title {
-  padding: 8px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  color: white;
-}
-
-/* ================= SEARCH BOX ================= */
-
+/* ================= SEARCH ================= */
 .search-box {
   position: relative;
   width: 400px;
@@ -107,36 +57,24 @@ body::before {
 
 .search-box input {
   width: 100%;
-  padding: 12px 14px;
+  padding: 12px 16px;
   border-radius: 40px;
   border: 2px solid #00ff88;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   color: white;
-  font-size: 14px;
   outline: none;
-  transition: 0.3s ease;
-}
-
-.search-box input::placeholder {
-  color: #aaa;
 }
 
 .search-box input:focus {
-  box-shadow: 0 0 15px #00ff88;
-}
-
-/* ================= SEARCH DROPDOWN ================= */
-
-.search-box {
-  position: relative;
+  box-shadow: 0 0 12px #00ff88;
 }
 
 .search-results {
   position: absolute;
-  top: 45px;
+  top: 48px;
   left: 0;
-  width: 280px;
-  background: #0f0f0f;
+  width: 100%;
+  background: #111;
   border-radius: 12px;
   box-shadow: 0 0 15px #00ff88;
   max-height: 300px;
@@ -150,7 +88,6 @@ body::before {
   gap: 10px;
   padding: 10px;
   cursor: pointer;
-  border-bottom: 1px solid #222;
 }
 
 .search-item:hover {
@@ -160,7 +97,7 @@ body::before {
 .search-item img {
   width: 40px;
   height: 40px;
-  border-radius: 8px;
+  border-radius: 6px;
   object-fit: cover;
 }
 
@@ -169,236 +106,63 @@ body::before {
   color: #00ff88;
 }
 
-/* ================= MOBILE ================= */
-@media (max-width: 768px) {
-
-  .header-container {
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
-  }
-
-  .search-box {
+/* ================= GRID ================= */
+.grid-container {
   width: 90%;
-  margin: 15px auto 0;
+  max-width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(5, 1fr);
 }
 
-.search-box input {
-  font-size: 16px;
-  padding: 14px 20px;
-}
-
-  /* Tablet */
-@media (max-width: 1024px) {
-  .grid-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-  /* Phone */
-  @media (max-width: 768px) {
-  .grid-container {
-    margin: 10px;
-    grid-template-columns: repeat(2, 1fr);  /* 👈 FORCE 2 columns */
-  }
-
-  .card {
-    width: 100%;
-  }
-
-  .top-bar {
-    padding: 20px 0px;   /* reduce side padding */
-  }
-}
-
-}
-
-/* universe pages */
-
-.breadcrumbs {
-  color: white;
-  font-size: 14px;
-}
-
-.breadcrumbs a {
-  color: #00ff88;
-  text-decoration: none;
-  margin-right: 5px;
-}
-
-.breadcrumbs span {
-  margin: 0 5px;
-  color: #aaa;
-}
-
-
-.filter-options div {
-  padding: 10px;
-  color: white;
-  cursor: pointer;
-  transition: 0.2s ease;
-}
-
-.filter-options div:hover {
-  background: #1e1e1e;
-  color: #00ff88;
-}
-
-.filter-container {
-  position: relative;
-  width: 180px;
-}
-
-.filter-selected {
-  padding: 10px 15px;
-  border-radius: 25px;
+/* ================= CARD ================= */
+.card {
+  background: #111;
+  border-radius: 15px;
   border: 2px solid #00ff88;
-  background: rgba(0,0,0,0.8);
-  color: white;
+  overflow: hidden;
   cursor: pointer;
-  text-align: center;
   transition: 0.3s ease;
 }
 
-.filter-selected:hover {
-  box-shadow: 0 0 15px #00ff88;
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px #00ff88;
 }
 
-.filter-options {
-  position: absolute;
-  top: 110%;
+.image-wrapper {
   width: 100%;
-  background: #111;
-  border-radius: 12px;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
-  display: none;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-  z-index: 999;
 }
 
-.filter-options div {
-  padding: 10px;
-  color: white;
-  cursor: pointer;
-  transition: 0.2s ease;
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.filter-options div:hover {
-  background: #1e1e1e;
-  color: #00ff88;
-}
-
-
-.filter select {
-  padding: 8px 12px;
-  border-radius: 20px;
-  border: 2px solid #00ff88;
-  background: black;
-  color: white;
-}
-
-
-.alphabet-btn {
-  padding: 5px 8px;
-  font-size: 13px;
-  border-radius: 6px;
-  border: 1px solid #00ff88;
-  background: transparent;
-  color: white;
-  cursor: pointer;
-  transition: 0.2s ease;
-}
-
-.alphabet-btn:hover {
-  background: #00ff88;
-  color: black;
-  box-shadow: 0 0 8px #00ff88;
-}
-
-.breadcrumbs {
-  color: #00ff88;
-  font-size: 14px;
-}
-
-@media (max-width: 768px) {
-
-.entity-count {
-  color: #00ff88;
+.card-title {
+  padding: 8px;
+  text-align: center;
   font-weight: 600;
 }
 
-.toggle-btn {
-  background: transparent;
-  border: 1px solid #00ff88;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.sort-select {
-  background: transparent;
-  border: 1px solid #00ff88;
-  color: white;
-  padding: 5px 8px;
-  border-radius: 6px;
-}
-}
-
-
-/* Row 2 */
-.alphabet-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-
-/* Buttons */
-.toggle-btn, .sort-select {
-  background: transparent;
-  border: 1px solid #00ff88;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.toggle-btn:hover, .sort-select:hover {
-  background: #00ff88;
-  color: black;
-}
-
-.alphabet-bar {
-  display: flex;        /* ❗ Force single line */
-  gap: 8px;
-  overflow-x: auto;           /* Allows scroll if needed */
-  white-space: nowrap;
-}
-
-.alphabet-bar button {
-  flex: 0 0 auto;   /* Prevent shrinking */
-}
-
-
-/* Hide images only inside grid */
+/* Hide images */
 .grid-container.hide-images .image-wrapper {
   display: none;
 }
 
-
-/* Prevent buttons from shrinking */
-.alphabet-bar button {
-  flex: 0 0 auto;
-}
-
-/* ================= DESKTOP ================= */
+/* ================= CONTROLS ================= */
 
 .controls-bar {
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto 20px;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-bottom: 20px;
 }
 
 /* Row 1 */
@@ -413,6 +177,23 @@ body::before {
   gap: 10px;
 }
 
+.right-actions button,
+.right-actions select {
+  background: transparent;
+  border: 2px solid #00ff88;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.right-actions button:hover,
+.right-actions select:hover {
+  background: #00ff88;
+  color: black;
+}
+
 /* Row 2 */
 .row-2 {
   display: flex;
@@ -420,116 +201,104 @@ body::before {
   align-items: center;
 }
 
-.alphabet-wrapper {
-  overflow-x: auto;
-  flex: 1;
-}
-
-.alphabet-bar button {
-  flex: 0 0 auto;
-}
-
 .entity-count {
-  font-weight: bold;
-  color: #00ff9c;
-}
-
-/* ================= MOBILE ================= */
-
-@media (max-width: 768px) {
-
-  .controls-bar {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  /* Row 1: breadcrumb + count */
-  .row-1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  /* Move count into row-1 visually */
-  .row-2 {
-    flex-direction: column;
-    display: flex;
-    gap: 10px;
-  }
-
-  /* Alphabet full width */
-  .alphabet-wrapper {
-    width: 100%;
-    overflow-x: auto;
-  }
-
-  /* Toggle & Sort become row 3 */
-  .right-actions {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    align-items: center;
-  }
-
-}
-
-.controls-bar {
-  width: 90%;
-  max-width: 1200px;
-  margin: 40px auto;
-  justify-items: center;
-}
-
-.entity-count {
-  color: #00ff9c;   /* neon green */
-  font-weight: bold;
   font-size: 18px;
+  font-weight: bold;
+  color: #00ff88;
 }
 
+/* Alphabet */
+.alphabet-wrapper {
+  flex: 1;
+  overflow-x: auto;
+}
+
+.alphabet-bar {
+  display: flex;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.alphabet-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.alphabet-btn {
+  padding: 5px 8px;
+  border: 1px solid #00ff88;
+  background: transparent;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.alphabet-btn:hover {
+  background: #00ff88;
+  color: black;
+  box-shadow: 0 0 8px #00ff88;
+}
+
+/* ================= BREADCRUMBS ================= */
+.breadcrumbs {
+  font-size: 14px;
+}
+
+.breadcrumbs a {
+  color: #00ff88;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-shadow: 0 0 8px #00ff88;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Phone */
 @media (max-width: 768px) {
 
-  .controls-bar {
-    display: flex;
+  .header-container {
     flex-direction: column;
-    gap: 12px;
+    gap: 15px;
   }
 
-  /* Make row-1 flexible */
+  .search-box {
+    width: 90%;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px auto;
+  }
+
+  /* Controls layout */
   .row-1 {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
-  /* Hide toggle from row-1 */
+  /* Hide toggle in row 1 */
   .row-1 .right-actions {
     display: none;
   }
 
-  /* Move count next to breadcrumb visually */
-  .row-1::after {
-    content: attr(data-count);
-  }
-
-  /* Instead, we position count */
+  /* Row 2 becomes vertical */
   .row-2 {
-    display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
-  }
-
-  /* Make count appear in row-1 visually */
-  .entity-count {
-    order: -1;
-    align-self: flex-end;
   }
 
   /* Alphabet full width */
   .alphabet-wrapper {
     width: 100%;
-    overflow-x: auto;
   }
 
   /* Show toggle as third row */
@@ -539,27 +308,4 @@ body::before {
     width: 100%;
   }
 
-}
-
-.breadcrumbs a {
-    color: #00f7ff;   /* neon cyan */
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.breadcrumbs a:hover {
-    color: #00ffcc;
-    text-shadow: 0 0 8px #00ffff;
-}
-
-.items-count {
-    color: #00ffcc;
-    font-weight: 500;
-}
-
-.alphabet-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    gap: 6px;
 }
