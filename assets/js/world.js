@@ -107,39 +107,27 @@ let imagesVisible = true;
 
 const container = document.getElementById("worldContainer");
 const filterSelect = document.getElementById("filterSelect");
-const toggleBtn = document.getElementById("toggleView");
+const toggleBtn = document.getElementById("toggleImages");
 const entityCount = document.getElementById("entityCount");
 
-function render(data) {
+const worldContainer = document.getElementById("worldContainer");
+const worldCount = document.getElementById("worldCount");
 
-  container.innerHTML = "";
+function renderWorlds(data) {
+  worldContainer.innerHTML = "";
 
-  if (entityCount) {
-    entityCount.textContent = `${data.length} items`;
-  }
-
-  data.forEach(entity => {
-
-    const card = document.createElement("div");
-    card.className = "card";
-
-    let imageHTML = "";
-
-    if (imagesVisible) {
-      imageHTML = `
+  data.forEach(world => {
+    worldContainer.innerHTML += `
+      <div class="card">
         <div class="image-wrapper">
-          <img src="${entity.image}" alt="${entity.name}">
+          <img src="${world.image}" />
         </div>
-      `;
-    }
-
-    card.innerHTML = `
-      ${imageHTML}
-      <div class="card-title">${entity.name}</div>
+        <div class="card-title">${world.name}</div>
+      </div>
     `;
-
-    container.appendChild(card);
   });
+
+  worldCount.textContent = `${data.length} Items`;
 }
 
 function applySort(value) {
@@ -158,24 +146,14 @@ function applySort(value) {
 }
 
 /* 🔥 AFTER DATA LOAD */
-function initializeControls() {
+const grid = document.getElementById("worldContainer");
 
-  if (filterSelect) {
-    filterSelect.addEventListener("change", function () {
-      applySort(this.value);
-    });
+toggleBtn.addEventListener("click", () => {
+  grid.classList.toggle("hide-images");
+
+  if (grid.classList.contains("hide-images")) {
+    toggleBtn.textContent = "Show Images";
+  } else {
+    toggleBtn.textContent = "Hide Images";
   }
-
-  if (toggleBtn) {
-    toggleBtn.addEventListener("click", function () {
-
-      imagesVisible = !imagesVisible;
-
-      this.textContent = imagesVisible
-        ? "Hide Images"
-        : "Show Images";
-
-      render(allEntities);
-    });
-  }
-}
+});
