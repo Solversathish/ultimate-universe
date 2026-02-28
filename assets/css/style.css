@@ -540,6 +540,7 @@ body::before {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    align-items: center;
   }
 
 }
@@ -552,5 +553,7 @@ body::before {
 }
 
 .entity-count {
-color: #00ff88;
+  color: #00ff9c;   /* neon green */
+  font-weight: bold;
+  font-size: 18px;
 }
