@@ -331,3 +331,9 @@ body::before {
   }
 
 }
+
+.page-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
