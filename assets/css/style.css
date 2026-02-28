@@ -542,3 +542,7 @@ body::before {
   }
 
 }
+
+.controls-bar {
+  width: 90%;
+}
