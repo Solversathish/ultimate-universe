@@ -301,12 +301,12 @@ body::before {
 
   /* Move count visually into row-1 */
   .entity-count {
-    order: 1;
     align-self: flex-end;
   }
 
   .row-2 .entity-count {
     display: block;
+    order: -1;
   }
 
   /* -------- ROW 2 -------- */
@@ -321,8 +321,8 @@ body::before {
   }
 
   /* -------- ROW 3 -------- */
-  .right-actions {
-    order: 3;
+  .row-2 .right-actions {
+    order: 1;
     display: flex;
     align-items: center;
     width: 100%;
