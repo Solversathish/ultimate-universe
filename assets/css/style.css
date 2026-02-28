@@ -610,3 +610,43 @@ body::before {
   }
 
 }
+
+.breadcrumbs a {
+    color: #00f7ff;   /* neon cyan */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.breadcrumbs a:hover {
+    color: #00ffcc;
+    text-shadow: 0 0 8px #00ffff;
+}
+
+.items-count {
+    color: #00ffcc;
+    font-weight: 500;
+}
+
+.alphabet-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.toggleImages {
+    background: transparent;
+    border: 2px solid #00ff88;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.toggleImages:hover {
+    background: #4c21aa;
+    color: black;
+    box-shadow:
+        0 0 5px #00ff9c,
+}
