@@ -279,29 +279,47 @@ body::before {
     margin: 20px auto;
   }
 
-  /* Controls layout */
-  .row-1 {
-    justify-content: space-between;
+}
+
+/* ================= PHONE FIX ================= */
+@media (max-width: 768px) {
+
+  /* Keep controls vertical */
+  .controls-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
-  /* Hide toggle in row 1 */
-  .row-1 .right-actions {
+  /* -------- ROW 1 -------- */
+  .row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Move count visually into row-1 */
+  .entity-count {
+    order: 2;
+  }
+
+  /* Hide count from row-2 visually */
+  .row-2 .entity-count {
     display: none;
   }
 
-  /* Row 2 becomes vertical */
+  /* -------- ROW 2 -------- */
   .row-2 {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
   }
 
-  /* Alphabet full width */
   .alphabet-wrapper {
     width: 100%;
   }
 
-  /* Show toggle as third row */
+  /* -------- ROW 3 -------- */
   .right-actions {
     display: flex;
     justify-content: space-between;
