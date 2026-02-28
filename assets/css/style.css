@@ -300,12 +300,12 @@ body::before {
 
   /* Move count visually into row-1 */
   .entity-count {
-    order: 2;
+    order: 1;
+    align-self: flex-end;
   }
 
-  /* Hide count from row-2 visually */
   .row-2 .entity-count {
-    display: none;
+    display: block;
   }
 
   /* -------- ROW 2 -------- */
@@ -321,6 +321,7 @@ body::before {
 
   /* -------- ROW 3 -------- */
   .right-actions {
+    order: 3;
     display: flex;
     justify-content: space-between;
     width: 100%;
