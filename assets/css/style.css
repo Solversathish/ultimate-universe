@@ -516,6 +516,7 @@ body::before {
 
   /* Row 1: breadcrumb + count */
   .row-1 {
+    display: flex;
     justify-content: space-between;
     align-items: center;
   }
@@ -523,7 +524,7 @@ body::before {
   /* Move count into row-1 visually */
   .row-2 {
     flex-direction: column;
-    align-items: flex-start;
+    display: flex;
     gap: 10px;
   }
 
@@ -538,6 +539,7 @@ body::before {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
   }
 
 }
@@ -547,4 +549,8 @@ body::before {
   max-width: 1200px;
   margin: 40px auto;
   justify-items: center;
+}
+
+.entity-count {
+color: #00ff88;
 }
