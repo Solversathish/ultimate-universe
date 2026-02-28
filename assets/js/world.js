@@ -8,6 +8,7 @@ const container = document.getElementById("worldContainer");
 const worldCount = document.getElementById("worldCount");
 const filterSelect = document.getElementById("filterSelect");
 const toggleBtn = document.getElementById("toggleImages");
+const alphabetBar = document.getElementById("alphabetBar");
 
 let allEntities = [];
 
@@ -21,7 +22,7 @@ Promise.all([
   const currentWorld = worlds.find(w => w.id === worldId);
   if (!currentWorld) return;
 
-  // ===== Breadcrumbs =====
+  // Breadcrumbs
   if (breadcrumbs) {
     breadcrumbs.innerHTML = `
       <a href="home.html">Home</a> > 
@@ -32,15 +33,13 @@ Promise.all([
     `;
   }
 
-  // ===== Filter Entities =====
+  // Filter entities
   allEntities = entities.filter(e => e.world === worldId);
 
   render(allEntities);
-
 })
-.catch(error => {
-  console.log("Error loading world page:", error);
-});
+.catch(err => console.log("World page error:", err));
+
 
 // ================= RENDER =================
 function render(data) {
@@ -50,7 +49,6 @@ function render(data) {
   container.innerHTML = "";
 
   data.forEach(entity => {
-
     const card = document.createElement("div");
     card.className = "card";
 
@@ -64,15 +62,17 @@ function render(data) {
     container.appendChild(card);
   });
 
-  // Update Count
+  // Update count
   if (worldCount) {
     worldCount.textContent = `${data.length} Items`;
   }
 }
 
+
 // ================= SORT =================
 if (filterSelect) {
   filterSelect.addEventListener("change", (e) => {
+
     let sorted = [...allEntities];
 
     if (e.target.value === "az") {
@@ -87,24 +87,23 @@ if (filterSelect) {
   });
 }
 
+
 // ================= TOGGLE IMAGES =================
 if (toggleBtn) {
   toggleBtn.addEventListener("click", () => {
 
     container.classList.toggle("hide-images");
 
-    if (container.classList.contains("hide-images")) {
-      toggleBtn.textContent = "Show Images";
-    } else {
-      toggleBtn.textContent = "Hide Images";
-    }
+    toggleBtn.textContent =
+      container.classList.contains("hide-images")
+        ? "Show Images"
+        : "Hide Images";
 
   });
 }
 
-// ================= ALPHABET =================
-const alphabetBar = document.getElementById("alphabetBar");
 
+// ================= ALPHABET =================
 if (alphabetBar) {
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
@@ -120,7 +119,6 @@ if (alphabetBar) {
     });
 
     alphabetBar.appendChild(btn);
-
   });
 }
 
