@@ -1,8 +1,17 @@
+// ================= GET WORLD ID =================
 const params = new URLSearchParams(window.location.search);
 const worldId = params.get("world");
 
+// ================= ELEMENTS =================
 const breadcrumbs = document.getElementById("breadcrumbs");
+const container = document.getElementById("worldContainer");
+const worldCount = document.getElementById("worldCount");
+const filterSelect = document.getElementById("filterSelect");
+const toggleBtn = document.getElementById("toggleImages");
 
+let allEntities = [];
+
+// ================= LOAD DATA =================
 Promise.all([
   fetch("data/entities.json").then(res => res.json()),
   fetch("data/worlds.json").then(res => res.json())
@@ -10,10 +19,9 @@ Promise.all([
 .then(([entities, worlds]) => {
 
   const currentWorld = worlds.find(w => w.id === worldId);
-
   if (!currentWorld) return;
 
-  // ✅ Breadcrumbs
+  // ===== Breadcrumbs =====
   if (breadcrumbs) {
     breadcrumbs.innerHTML = `
       <a href="home.html">Home</a> > 
@@ -24,21 +32,17 @@ Promise.all([
     `;
   }
 
+  // ===== Filter Entities =====
   allEntities = entities.filter(e => e.world === worldId);
 
-render(allEntities);
-
-initializeControls();
-  // ✅ Load Entities
-  const filtered = entities.filter(e => e.world === worldId);
-
-  render(filtered);
+  render(allEntities);
 
 })
 .catch(error => {
   console.log("Error loading world page:", error);
 });
 
+// ================= RENDER =================
 function render(data) {
 
   if (!container) return;
@@ -59,8 +63,46 @@ function render(data) {
 
     container.appendChild(card);
   });
+
+  // Update Count
+  if (worldCount) {
+    worldCount.textContent = `${data.length} Items`;
+  }
 }
 
+// ================= SORT =================
+if (filterSelect) {
+  filterSelect.addEventListener("change", (e) => {
+    let sorted = [...allEntities];
+
+    if (e.target.value === "az") {
+      sorted.sort((a, b) => a.name.localeCompare(b.name));
+    }
+
+    if (e.target.value === "za") {
+      sorted.sort((a, b) => b.name.localeCompare(a.name));
+    }
+
+    render(sorted);
+  });
+}
+
+// ================= TOGGLE IMAGES =================
+if (toggleBtn) {
+  toggleBtn.addEventListener("click", () => {
+
+    container.classList.toggle("hide-images");
+
+    if (container.classList.contains("hide-images")) {
+      toggleBtn.textContent = "Show Images";
+    } else {
+      toggleBtn.textContent = "Hide Images";
+    }
+
+  });
+}
+
+// ================= ALPHABET =================
 const alphabetBar = document.getElementById("alphabetBar");
 
 if (alphabetBar) {
@@ -91,69 +133,11 @@ function scrollToLetter(letter) {
     const title = card.querySelector(".card-title").textContent;
 
     if (title.toUpperCase().startsWith(letter)) {
-
       card.scrollIntoView({
         behavior: "smooth",
         block: "start"
       });
-
       break;
     }
   }
 }
-
-let allEntities = [];
-let imagesVisible = true;
-
-const container = document.getElementById("worldContainer");
-const filterSelect = document.getElementById("filterSelect");
-const toggleBtn = document.getElementById("toggleImages");
-const entityCount = document.getElementById("entityCount");
-
-const worldContainer = document.getElementById("worldContainer");
-const worldCount = document.getElementById("worldCount");
-
-function renderWorlds(data) {
-  worldContainer.innerHTML = "";
-
-  data.forEach(world => {
-    worldContainer.innerHTML += `
-      <div class="card">
-        <div class="image-wrapper">
-          <img src="${world.image}" />
-        </div>
-        <div class="card-title">${world.name}</div>
-      </div>
-    `;
-  });
-
-  worldCount.textContent = `${data.length} Items`;
-}
-
-function applySort(value) {
-
-  let sorted = [...allEntities];
-
-  if (value === "az") {
-    sorted.sort((a, b) => a.name.localeCompare(b.name));
-  }
-
-  if (value === "za") {
-    sorted.sort((a, b) => b.name.localeCompare(a.name));
-  }
-
-  render(sorted);
-}
-
-/* 🔥 AFTER DATA LOAD */
-const grid = document.getElementById("worldContainer");
-
-toggleBtn.addEventListener("click", () => {
-  grid.classList.toggle("hide-images");
-
-  if (grid.classList.contains("hide-images")) {
-    toggleBtn.textContent = "Show Images";
-  } else {
-    toggleBtn.textContent = "Hide Images";
-  }
-});
