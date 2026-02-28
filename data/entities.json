@@ -11,17 +11,6 @@
   },
 
   {
-    "id": "itachi_uchiha",
-    "name": "Itachi Uchiha",
-    "image": "assets/images/entities/itachi_uchiha.png",
-    "universe": "anime",
-    "world": "naruto",
-    "type": "villain",
-    "powerLevel": 9700,
-    "created": 2002
-  },
-
-  {
     "id": "jiraiya",
     "name": "Jiraiya",
     "image": "assets/images/entities/jiraiya.png",
