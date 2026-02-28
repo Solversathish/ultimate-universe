@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // ===== Breadcrumbs =====
     if (breadcrumbs) {
       breadcrumbs.innerHTML = `
-        <a href="index.html">Home</a> &gt; ${universeId}
+        <a href="home.html">Home</a> &gt; ${universeId}
       `;
     }
 
