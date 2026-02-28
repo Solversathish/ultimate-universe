@@ -317,13 +317,13 @@ body::before {
   }
 
   .alphabet-wrapper {
+    order: 2;
     width: 100%;
   }
 
   /* -------- ROW 3 -------- */
   .row-2 .right-actions {
-    order: 1;
-    display: flex;
+    display: none;
     align-items: center;
     width: 100%;
   }
