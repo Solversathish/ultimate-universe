@@ -23,15 +23,13 @@ Promise.all([
   if (!currentWorld) return;
 
   // Breadcrumbs
-  if (breadcrumbs) {
-    breadcrumbs.innerHTML = `
-      <a href="home.html">Home</a> > 
-      <a href="universe.html?universe=${currentWorld.universe}">
-        ${currentWorld.universe}
-      </a> > 
-      ${currentWorld.name}
-    `;
-  }
+  breadcrumbs.innerHTML = `
+    <a href="home.html">Home</a> > 
+    <a href="universe.html?universe=${currentWorld.universe}">
+      ${currentWorld.universe}
+    </a> > 
+    ${currentWorld.name}
+  `;
 
   // Filter entities
   allEntities = entities.filter(e => e.world === worldId);
@@ -44,17 +42,16 @@ Promise.all([
 // ================= RENDER =================
 function render(data) {
 
-  if (!container) return;
-
   container.innerHTML = "";
 
   data.forEach(entity => {
+
     const card = document.createElement("div");
     card.className = "card";
 
     card.innerHTML = `
       <div class="image-wrapper">
-        <img src="${entity.image}">
+        <img src="assets/images/${entity.image}">
       </div>
       <div class="card-title">${entity.name}</div>
     `;
@@ -62,65 +59,54 @@ function render(data) {
     container.appendChild(card);
   });
 
-  // Update count
-  if (worldCount) {
-    worldCount.textContent = `${data.length} Items`;
-  }
+  worldCount.textContent = `${data.length} Items`;
 }
 
 
 // ================= SORT =================
-if (filterSelect) {
-  filterSelect.addEventListener("change", (e) => {
+filterSelect.addEventListener("change", (e) => {
 
-    let sorted = [...allEntities];
+  let sorted = [...allEntities];
 
-    if (e.target.value === "az") {
-      sorted.sort((a, b) => a.name.localeCompare(b.name));
-    }
+  if (e.target.value === "az") {
+    sorted.sort((a, b) => a.name.localeCompare(b.name));
+  }
 
-    if (e.target.value === "za") {
-      sorted.sort((a, b) => b.name.localeCompare(a.name));
-    }
+  if (e.target.value === "za") {
+    sorted.sort((a, b) => b.name.localeCompare(a.name));
+  }
 
-    render(sorted);
-  });
-}
+  render(sorted);
+});
 
 
 // ================= TOGGLE IMAGES =================
-if (toggleBtn) {
-  toggleBtn.addEventListener("click", () => {
+toggleBtn.addEventListener("click", () => {
 
-    container.classList.toggle("hide-images");
+  container.classList.toggle("hide-images");
 
-    toggleBtn.textContent =
-      container.classList.contains("hide-images")
-        ? "Show Images"
-        : "Hide Images";
-
-  });
-}
+  toggleBtn.textContent =
+    container.classList.contains("hide-images")
+      ? "Show Images"
+      : "Hide Images";
+});
 
 
 // ================= ALPHABET =================
-if (alphabetBar) {
+const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+letters.forEach(letter => {
 
-  letters.forEach(letter => {
+  const btn = document.createElement("button");
+  btn.className = "alphabet-btn";
+  btn.textContent = letter;
 
-    const btn = document.createElement("button");
-    btn.className = "alphabet-btn";
-    btn.textContent = letter;
-
-    btn.addEventListener("click", () => {
-      scrollToLetter(letter);
-    });
-
-    alphabetBar.appendChild(btn);
+  btn.addEventListener("click", () => {
+    scrollToLetter(letter);
   });
-}
+
+  alphabetBar.appendChild(btn);
+});
 
 function scrollToLetter(letter) {
 
@@ -131,10 +117,12 @@ function scrollToLetter(letter) {
     const title = card.querySelector(".card-title").textContent;
 
     if (title.toUpperCase().startsWith(letter)) {
+
       card.scrollIntoView({
         behavior: "smooth",
         block: "start"
       });
+
       break;
     }
   }

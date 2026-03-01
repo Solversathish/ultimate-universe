@@ -13,46 +13,48 @@
     <div class="logo">ULTIMATE MULTIVERSE</div>
 
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="🔍 Search multiverse...">
-      <div class="search-results" id="searchResults"></div>
+      <input type="text" placeholder="🔍 Search multiverse...">
     </div>
   </div>
 </header>
 
 <div class="page-container">
-<section class="controls-bar">
 
-  <!-- ROW 1 -->
-  <div class="controls-row row-1">
-    <div id="breadcrumbs" class="breadcrumbs"></div>
+  <!-- CONTROLS -->
+  <section class="controls-bar">
 
-    <div class="right-actions">
-      <button id="toggleImages">Hide Images</button>
-      <main id="worldContainer" class="grid-container"></main>
+    <!-- Row 1 -->
+    <div class="row-1">
+      <div class="breadcrumbs" id="breadcrumbs"></div>
 
-      <select id="filterSelect">
-        <option value="">Sort</option>
-        <option value="az">A–Z</option>
-        <option value="za">Z–A</option>
-      </select>
+      <div class="right-actions">
+        <button id="toggleImages" class="toggle-btn">Hide Images</button>
+
+        <select id="filterSelect" class="sort-select">
+          <option value="">Sort</option>
+          <option value="az">A–Z</option>
+          <option value="za">Z–A</option>
+        </select>
+      </div>
     </div>
-  </div>
 
-  <!-- ROW 2 -->
-  <div class="controls-row row-2">
-    <div id="worldCount" class="entity-count"></div>
+    <!-- Row 2 -->
+    <div class="row-2">
+      <div class="alphabet-wrapper">
+        <div id="alphabetBar" class="alphabet-bar"></div>
+      </div>
 
-    <div class="alphabet-wrapper">
-      <div id="alphabetBar" class="alphabet-bar"></div>
+      <div id="worldCount" class="entity-count"></div>
     </div>
-  </div>
 
-</section>
+  </section>
 
-<main class="grid-container" id="worldContainer"></main>
+  <!-- GRID -->
+  <main id="worldContainer" class="grid-container"></main>
+
 </div>
 
-<script src="assets/js/main.js" defer></script>
 <script src="assets/js/world.js" defer></script>
+
 </body>
 </html>
