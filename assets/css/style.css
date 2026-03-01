@@ -317,10 +317,6 @@ body::before {
     gap: 10px;
   }
 
-  .alphabet-wrapper {
-    width: 100%;
-  }
-
   /* -------- ROW 3 -------- */
   .row-2 .right-actions {
     display: none;
@@ -330,8 +326,22 @@ body::before {
 
 }
 
-.page-container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 40px auto;
+/* Alphabet scroll for mobile */
+@media (max-width: 768px) {
+
+  .alphabet-wrapper {
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  .alphabet-bar {
+    display: flex;
+    flex-wrap: nowrap;   /* 🔥 important */
+    gap: 8px;
+  }
+
+  .alphabet-bar button {
+    flex: 0 0 auto;      /* prevent shrinking */
+  }
+
 }
