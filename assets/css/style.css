@@ -201,7 +201,7 @@ body::before {
 }
 
 .entity-count {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: #00ff88;
 }
@@ -323,22 +323,29 @@ body::before {
 
 }
 
-/* Alphabet scroll for mobile */
+/* ================= PHONE ALPHABET SCROLL ONLY ================= */
 @media (max-width: 768px) {
 
   .alphabet-wrapper {
-    overflow-x: auto;
     width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* smooth scroll */
   }
 
   .alphabet-bar {
-    display: flex;
-    flex-wrap: nowrap;   /* 🔥 important */
+    display: inline-flex;
+    flex-wrap: nowrap;     /* prevent wrapping */
     gap: 8px;
+    min-width: max-content; /* allow full width scroll */
   }
 
-  .alphabet-bar button {
-    flex: 0 0 auto;      /* prevent shrinking */
+  .alphabet-btn {
+    flex: 0 0 auto;   /* prevent shrinking */
+  }
+
+  /* Hide scrollbar visually */
+  .alphabet-wrapper::-webkit-scrollbar {
+    display: none;
   }
 
 }
