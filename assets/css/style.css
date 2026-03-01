@@ -277,7 +277,7 @@ body::before {
   }
 
   .grid-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin: 20px auto;
   }
 
@@ -306,20 +306,17 @@ body::before {
   }
 
   .row-2 .entity-count {
-    display: block;
     order: 1;
   }
 
   /* -------- ROW 2 -------- */
   .row-2 {
     flex-direction: column;
-    align-items: flex-start;
     gap: 10px;
   }
 
   /* -------- ROW 3 -------- */
   .row-2 .right-actions {
-    display: none;
     align-items: center;
     width: 100%;
   }
