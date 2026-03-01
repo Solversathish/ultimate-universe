@@ -110,7 +110,7 @@ body::before {
 .grid-container {
   width: 90%;
   max-width: 1200px;
-  margin: 40px auto;
+  margin: 20px auto;
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(6, 1fr);
