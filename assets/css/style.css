@@ -113,7 +113,7 @@ body::before {
   margin: 40px auto;
   display: grid;
   gap: 25px;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
 
 /* ================= CARD ================= */
@@ -277,7 +277,7 @@ body::before {
   }
 
   .grid-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin: 20px auto;
   }
 
