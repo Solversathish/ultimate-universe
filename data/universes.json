@@ -18,5 +18,15 @@
     "id": "vehicles",
     "name": "Vehicles",
     "image": "assets/images/vehicles.png"
+  },
+  {
+    "id": "sports",
+    "name": "Sports",
+    "image": "assets/images/sports.png"
+  },
+  {
+    "id": "actors",
+    "name": "Actors",
+    "image": "assets/images/actors.png"
   }
 ]
