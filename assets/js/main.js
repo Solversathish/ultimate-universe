@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!searchInput) return;
 
-  fetch("data/search.json")
+  fetch("data/search-data.json")
     .then(res => res.json())
     .then(data => {
 

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
 
-  const container = document.getElementById("universeContainer");
+  const container = document.getElementById("homeContainer");
 
   const universes = await fetch("data/universes.json")
     .then(res => res.json());
