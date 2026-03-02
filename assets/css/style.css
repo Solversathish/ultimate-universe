@@ -10,8 +10,19 @@
 
 body {
   min-height: 100vh;
-  background: #000;
   color: #fff;
+  background: url("../images/landing.jpg") no-repeat center center;
+background-size: cover;
+}
+
+.rotating-logo {
+  width: 150px;
+  animation: rotateLogo 10s linear infinite;
+}
+
+@keyframes rotateLogo {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 /* =========================================
