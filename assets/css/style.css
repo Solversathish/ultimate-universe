@@ -14,6 +14,14 @@ body {
   background: url("../images/landing.jpg") no-repeat center center;
 background-size: cover;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
  
 /* =========================================
    LANDING PAGE

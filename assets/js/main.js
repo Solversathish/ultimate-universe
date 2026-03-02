@@ -2,16 +2,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const searchInput = document.getElementById("searchInput");
   const searchResults = document.getElementById("searchResults");
+  const searchBox = document.querySelector(".search-box");
 
-  if (!searchInput) return;
+  if (!searchInput || !searchResults || !searchBox) return;
 
+  // 🔥 Load search data once
   fetch("data/search-data.json")
     .then(res => res.json())
     .then(data => {
 
+      // ===== SEARCH INPUT =====
       searchInput.addEventListener("input", () => {
 
-        const value = searchInput.value.toLowerCase();
+        const value = searchInput.value.toLowerCase().trim();
         searchResults.innerHTML = "";
 
         if (!value) {
@@ -30,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
           div.className = "search-item";
 
           div.innerHTML = `
-            <img src="${item.image}">
+            <img src="${item.image}" alt="${item.name}">
             <div>
               <div>${item.name}</div>
               <div class="search-type">${item.type}</div>
@@ -46,9 +49,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
         searchResults.style.display =
           filtered.length > 0 ? "block" : "none";
-
       });
 
-    });
+    })
+    .catch(err => console.error("Search load error:", err));
+
+
+  // ===== CLICK OUTSIDE CLOSE =====
+  document.addEventListener("click", (event) => {
+    if (!searchBox.contains(event.target)) {
+      searchResults.style.display = "none";
+    }
+  });
 
 });
