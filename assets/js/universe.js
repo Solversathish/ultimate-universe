@@ -1,5 +1,5 @@
 // ===============================
-// UNIVERSE PAGE SCRIPT
+// UNIVERSE PAGE SCRIPT (CLEAN)
 // ===============================
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -11,37 +11,44 @@ document.addEventListener("DOMContentLoaded", async () => {
   const toggleBtn = document.getElementById("toggleImages");
   const sortSelect = document.getElementById("filterSelect");
 
-  const urlParams = new URLSearchParams(window.location.search);
-  const universeId = urlParams.get("universe");
+  const params = new URLSearchParams(window.location.search);
+  const universeId = params.get("universe");
 
   if (!universeId) return;
 
   try {
 
-    const worldsData = await fetch("data/worlds.json").then(res => res.json());
-
-    const worlds = worldsData.filter(w => w.universe === universeId);
+    // ✅ Load worlds from folder-based structure
+    const worlds = await fetch(`data/${universeId}/worlds.json`)
+      .then(res => res.json());
 
     renderWorlds(worlds);
     generateAlphabet(worlds);
     updateCount(worlds.length);
+
+    // ===== Breadcrumbs =====
+    if (breadcrumbs) {
+      breadcrumbs.innerHTML = `
+        <a href="home.html">Home</a> &gt; ${universeId}
+      `;
+    }
 
     // ===== Toggle Images =====
     if (toggleBtn) {
       toggleBtn.addEventListener("click", () => {
         container.classList.toggle("hide-images");
 
-        if (container.classList.contains("hide-images")) {
-          toggleBtn.textContent = "Show Images";
-        } else {
-          toggleBtn.textContent = "Hide Images";
-        }
+        toggleBtn.textContent =
+          container.classList.contains("hide-images")
+            ? "Show Images"
+            : "Hide Images";
       });
     }
 
     // ===== Sort =====
     if (sortSelect) {
       sortSelect.addEventListener("change", () => {
+
         let sorted = [...worlds];
 
         if (sortSelect.value === "az") {
@@ -53,14 +60,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
 
         renderWorlds(sorted);
-      });
-    }
 
-    // ===== Breadcrumbs =====
-    if (breadcrumbs) {
-      breadcrumbs.innerHTML = `
-        <a href="home.html">Home</a> &gt; ${universeId}
-      `;
+      });
     }
 
   } catch (error) {
@@ -93,7 +94,8 @@ function renderWorlds(worlds) {
     `;
 
     card.addEventListener("click", () => {
-      window.location.href = `world.html?world=${world.id}`;
+      window.location.href =
+        `world.html?universe=${new URLSearchParams(window.location.search).get("universe")}&world=${world.id}`;
     });
 
     container.appendChild(card);
@@ -109,11 +111,13 @@ function renderWorlds(worlds) {
 function generateAlphabet(items) {
 
   const alphabetBar = document.getElementById("alphabetBar");
+  if (!alphabetBar) return;
+
   alphabetBar.innerHTML = "";
 
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-  letters.forEach((letter) => {
+  letters.forEach(letter => {
 
     const btn = document.createElement("button");
     btn.textContent = letter;

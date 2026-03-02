@@ -1,0 +1,9 @@
+[
+  {
+    "id": "naruto",
+    "name": "Naruto",
+    "image": "assets/images/naruto-world.png",
+    "universe": "anime",
+    "created": 2002
+  }
+]
