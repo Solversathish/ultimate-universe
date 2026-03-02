@@ -206,22 +206,16 @@ body::before {
   color: #00ff88;
 }
 
-/* Alphabet */
+/* ================= ALPHABET DESKTOP ================= */
+
 .alphabet-wrapper {
   display: flex;
   justify-content: flex-end;
-  gap: 6px;
 }
 
 .alphabet-bar {
   display: flex;
   gap: 8px;
-  white-space: nowrap;
-  align-self: flex-end;
-}
-
-.alphabet-bar::-webkit-scrollbar {
-  display: none;
 }
 
 .alphabet-btn {
@@ -232,12 +226,37 @@ body::before {
   border-radius: 6px;
   cursor: pointer;
   transition: 0.2s ease;
+  flex: 0 0 auto;
 }
 
 .alphabet-btn:hover {
   background: #00ff88;
   color: black;
   box-shadow: 0 0 8px #00ff88;
+}
+
+
+/* ================= ALPHABET PHONE SCROLL ================= */
+
+@media (max-width: 768px) {
+
+  .alphabet-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    display: block;              /* 🔥 IMPORTANT */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .alphabet-bar {
+    display: flex;
+    flex-wrap: nowrap;           /* 🔥 prevent wrap */
+    gap: 8px;
+    width: max-content;          /* 🔥 force full width */
+  }
+
+  .alphabet-wrapper::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 /* ================= BREADCRUMBS ================= */
@@ -318,33 +337,6 @@ body::before {
   .row-2 .right-actions {
     align-items: center;
     width: 100%;
-  }
-
-}
-
-/* ================= PHONE ALPHABET SCROLL ONLY ================= */
-@media (max-width: 768px) {
-
-  .alphabet-wrapper {
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch; /* smooth scroll */
-  }
-
-  .alphabet-bar {
-    display: flex;
-    flex-wrap: nowrap;     /* prevent wrapping */
-    gap: 8px;
-    min-width: max-content; /* allow full width scroll */
-  }
-
-  .alphabet-btn {
-    flex: 0 0 auto;   /* prevent shrinking */
-  }
-
-  /* Hide scrollbar visually */
-  .alphabet-wrapper::-webkit-scrollbar {
-    display: none;
   }
 
 }
