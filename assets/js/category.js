@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", async function () {
+document.addEventListener("DOMContentLoaded", async () => {
 
   const container = document.getElementById("categoryContainer");
   const breadcrumbs = document.getElementById("breadcrumbs");
@@ -10,77 +10,60 @@ document.addEventListener("DOMContentLoaded", async function () {
   if (!container) return;
 
   const params = new URLSearchParams(window.location.search);
-  const id =
-    params.get("id") ||
-    params.get("universe") ||
-    params.get("parent");
+  const universeId = params.get("universe");
+  const parentId = params.get("parent");
 
-  if (!id) return;
+  if (!universeId) {
+    container.innerHTML = "<p style='color:white'>Universe not specified.</p>";
+    return;
+  }
 
-  let data = [];
+  let database = [];
 
   try {
-
-    // ================= LOAD UNIVERSES =================
-    const universes = await fetch("data/universes.json")
-      .then(res => res.json());
-
-    // ================= CHECK IF UNIVERSE =================
-    const universe = universes.find(u => u.id === id);
-
-    if (universe) {
-
-      data = await fetch(`data/${id}/worlds.json`)
-        .then(res => res.json());
-
-      if (breadcrumbs) {
-        breadcrumbs.innerHTML =
-          `<a href="home.html">Home</a> > ${universe.name}`;
-      }
-
-    } else {
-
-      // ================= CHECK IF WORLD =================
-      for (let u of universes) {
-
-        const worlds = await fetch(`data/${u.id}/worlds.json`)
-          .then(res => res.json())
-          .catch(() => []);
-
-        const world = worlds.find(w => w.id === id);
-
-        if (world) {
-
-          data = await fetch(`data/${u.id}/${id}.json`)
-            .then(res => res.json());
-
-          if (breadcrumbs) {
-            breadcrumbs.innerHTML = `
-              <a href="home.html">Home</a> >
-              <a href="category.html?id=${u.id}">${u.name}</a> >
-              ${world.name}
-            `;
-          }
-
-          break;
-        }
-      }
-    }
-
-    // ================= IF EMPTY =================
-    if (!data || data.length === 0) {
-      container.innerHTML =
-        "<p style='color:white'>No data found.</p>";
-      return;
-    }
-
-    render(data);
-    generateAlphabet(data);
-    updateCount(data.length);
-
-  } catch (error) {
-    console.error("Category error:", error);
+    database = await fetch(`data/${universeId}.json`)
+      .then(res => {
+        if (!res.ok) throw new Error("Universe file not found");
+        return res.json();
+      });
+  } catch (err) {
+    console.error(err);
+    container.innerHTML = "<p style='color:white'>Data not found.</p>";
+    return;
   }
+
+  // ================= FILTER ITEMS =================
+  let items;
+
+  if (!parentId) {
+    items = database.filter(item => item.parent === null);
+    if (breadcrumbs) {
+      breadcrumbs.innerHTML =
+        `<a href="home.html">Home</a> > ${capitalize(universeId)}`;
+    }
+  } else {
+    items = database.filter(item => item.parent === parentId);
+
+    if (breadcrumbs) {
+      breadcrumbs.innerHTML = `
+        <a href="home.html">Home</a> >
+        <a href="category.html?universe=${universeId}">
+          ${capitalize(universeId)}
+        </a> >
+        ${capitalize(parentId)}
+      `;
+    }
+  }
+
+  if (!items || items.length === 0) {
+    container.innerHTML =
+      "<p style='color:white'>No items found.</p>";
+    return;
+  }
+
+  render(items);
+  generateAlphabet(items);
+  updateCount(items.length);
 
   // ================= TOGGLE =================
   if (toggleBtn) {
@@ -96,7 +79,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   // ================= SORT =================
   if (sortSelect) {
     sortSelect.addEventListener("change", () => {
-      let sorted = [...data];
+      let sorted = [...items];
 
       if (sortSelect.value === "az")
         sorted.sort((a, b) => a.name.localeCompare(b.name));
@@ -117,6 +100,9 @@ function render(items) {
   const container = document.getElementById("categoryContainer");
   container.innerHTML = "";
 
+  const params = new URLSearchParams(window.location.search);
+  const universeId = params.get("universe");
+
   items.forEach(item => {
 
     const card = document.createElement("div");
@@ -133,9 +119,14 @@ function render(items) {
     card.addEventListener("click", () => {
 
       if (item.type === "entity") {
-        window.location.href = `entity.html?id=${item.id}`;
+
+        window.location.href =
+          `entity.html?universe=${universeId}&id=${item.id}`;
+
       } else {
-        window.location.href = `category.html?id=${item.id}`;
+
+        window.location.href =
+          `category.html?universe=${universeId}&parent=${item.id}`;
       }
 
     });
@@ -185,4 +176,10 @@ function generateAlphabet(items) {
     bar.appendChild(btn);
   });
 
+}
+
+
+// ================= HELPER =================
+function capitalize(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
 }

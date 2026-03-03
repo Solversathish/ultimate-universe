@@ -1,0 +1,18 @@
+[
+  {
+    "id": "naruto",
+    "name": "Naruto",
+    "type": "category",
+    "parent": null,
+    "image": "assets/images/worlds/naruto.png"
+  },
+  {
+    "id": "naruto_uzumaki",
+    "name": "Naruto Uzumaki",
+    "type": "entity",
+    "parent": "naruto",
+    "thumbnail": "assets/images/entities/naruto.png",
+    "age": 33,
+    "description": "Seventh Hokage of Hidden Leaf."
+  }
+]
