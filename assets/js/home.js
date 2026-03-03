@@ -26,4 +26,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   });
 
+  
+updateHomeCount(universes.length);
+
+function updateHomeCount(total) {
+  const el = document.getElementById("homeCount");
+  if (el) el.textContent = `${total} items`;
+}
+
 });
