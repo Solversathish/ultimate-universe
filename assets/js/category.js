@@ -48,13 +48,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // ================= BREADCRUMB =================
 
- let breadcrumbHTML = `<a href="home.html">Home</a>`;
-
-breadcrumbHTML += ` > <a href="category.html?universe=${universe}">
-  ${universe}
-</a>`;
-
-if (levels.length > 0) {
+  let breadcrumbHTML =
+    `<a href="home.html">Home</a> > 
+     <a href="category.html?universe=${universeId}">
+       ${capitalize(universeId)}
+     </a>`;
 
   let accumulatedPath = "";
 
@@ -63,14 +61,13 @@ if (levels.length > 0) {
     accumulatedPath = levels.slice(0, index + 1).join(",");
 
     breadcrumbHTML += `
-      > <a href="category.html?universe=${universe}&path=${accumulatedPath}">
-        ${level}
-      </a>
+      > <a href="category.html?universe=${universeId}&path=${accumulatedPath}">
+          ${capitalize(level)}
+        </a>
     `;
   });
-}
 
-breadcrumbs.innerHTML = breadcrumbHTML;
+  breadcrumbs.innerHTML = breadcrumbHTML;
 
   // ================= PAGINATION =================
 
