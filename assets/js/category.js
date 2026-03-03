@@ -1,7 +1,4 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  let currentPage = 1;
-const itemsPerPage = 60;
-let filteredItems = [];
 
   const container = document.getElementById("categoryContainer");
   const breadcrumbs = document.getElementById("breadcrumbs");
@@ -14,220 +11,198 @@ let filteredItems = [];
 
   const params = new URLSearchParams(window.location.search);
   const universeId = params.get("universe");
-  const parentId = params.get("parent");
+  const path = params.get("path");
 
   if (!universeId) {
-    container.innerHTML = "<p style='color:white'>Universe not specified.</p>";
+    container.innerHTML = "Universe not specified";
     return;
   }
 
-  let database = [];
+  const levels = path ? path.split(",") : [];
+
+  let database;
 
   try {
     database = await fetch(`data/${universeId}.json`)
-      .then(res => {
-        if (!res.ok) throw new Error("Universe file not found");
-        return res.json();
-      });
+      .then(res => res.json());
   } catch (err) {
-    console.error(err);
-    container.innerHTML = "<p style='color:white'>Data not found.</p>";
+    container.innerHTML = "Data not found";
     return;
   }
 
-  // ================= FILTER ITEMS =================
+  // ================= FILTER LOGIC =================
+
   let items;
 
-  if (!parentId) {
+  if (levels.length === 0) {
     items = database.filter(item => item.parent === null);
-    if (breadcrumbs) {
-      breadcrumbs.innerHTML =
-        `<a href="home.html">Home</a> > ${capitalize(universeId)}`;
-    }
   } else {
-    items = database.filter(item => item.parent === parentId);
-
-    if (breadcrumbs) {
-      breadcrumbs.innerHTML = `
-        <a href="home.html">Home</a> >
-        <a href="category.html?universe=${universeId}">
-          ${capitalize(universeId)}
-        </a> >
-        ${capitalize(parentId)}
-      `;
-    }
+    const lastLevel = levels[levels.length - 1];
+    items = database.filter(item => item.parent === lastLevel);
   }
 
   if (!items || items.length === 0) {
-    container.innerHTML =
-      "<p style='color:white'>No items found.</p>";
+    container.innerHTML = "No items found";
     return;
   }
 
-  filteredItems = items;
-  renderPage();
+  // ================= BREADCRUMB =================
+
+ let breadcrumbHTML = `<a href="home.html">Home</a>`;
+
+breadcrumbHTML += ` > <a href="category.html?universe=${universe}">
+  ${universe}
+</a>`;
+
+if (levels.length > 0) {
+
+  let accumulatedPath = "";
+
+  levels.forEach((level, index) => {
+
+    accumulatedPath = levels.slice(0, index + 1).join(",");
+
+    breadcrumbHTML += `
+      > <a href="category.html?universe=${universe}&path=${accumulatedPath}">
+        ${level}
+      </a>
+    `;
+  });
+}
+
+breadcrumbs.innerHTML = breadcrumbHTML;
+
+  // ================= PAGINATION =================
+
+  let currentPage = 1;
+  const itemsPerPage = 60;
+  let filteredItems = items;
 
   function renderPage() {
 
-  const container = document.getElementById("categoryContainer");
-  container.innerHTML = "";
+    container.innerHTML = "";
 
-  const start = (currentPage - 1) * itemsPerPage;
-  const end = start + itemsPerPage;
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
 
-  const pageItems = filteredItems.slice(start, end);
+    const pageItems = filteredItems.slice(start, end);
 
-  pageItems.forEach(item => {
+    pageItems.forEach(item => {
 
-    const card = document.createElement("div");
-    card.className = "card";
+      const card = document.createElement("div");
+      card.className = "card";
 
-    card.innerHTML = `
-      <div class="image-wrapper">
-        <img src="${item.image || item.thumbnail || ''}">
-      </div>
-      <div class="card-title">${item.name}</div>
-    `;
+      card.innerHTML = `
+        <div class="image-wrapper">
+          <img src="${item.image || item.thumbnail || ''}">
+        </div>
+        <div class="card-title">${item.name}</div>
+      `;
 
-    card.addEventListener("click", () => {
+      card.addEventListener("click", () => {
 
-      const params = new URLSearchParams(window.location.search);
-      const universeId = params.get("universe");
+        if (item.type === "entity") {
 
-      if (item.type === "entity") {
-        window.location.href =
-          `entity.html?universe=${universeId}&id=${item.id}`;
-      } else {
-        window.location.href =
-          `category.html?universe=${universeId}&parent=${item.id}`;
-      }
+          window.location.href =
+            `entity.html?universe=${universeId}&id=${item.id}`;
 
+        } else {
+
+          let newPath;
+
+          if (path) {
+            newPath = path + "," + item.id;
+          } else {
+            newPath = item.id;
+          }
+
+          window.location.href =
+            `category.html?universe=${universeId}&path=${newPath}`;
+        }
+
+      });
+
+      container.appendChild(card);
     });
 
-    container.appendChild(card);
-  });
-
-}
-
-  createPagination();
+  }
 
   function createPagination() {
 
-  const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
+    let paginationContainer = document.getElementById("pagination");
 
-  let paginationContainer = document.getElementById("pagination");
+    if (!paginationContainer) {
+      paginationContainer = document.createElement("div");
+      paginationContainer.id = "pagination";
+      paginationContainer.className = "pagination";
+      container.after(paginationContainer);
+    }
 
-  if (!paginationContainer) {
-    paginationContainer = document.createElement("div");
-    paginationContainer.id = "pagination";
-    paginationContainer.className = "pagination";
-    document.querySelector(".grid-container").after(paginationContainer);
+    paginationContainer.innerHTML = "";
+
+    const totalPages =
+      Math.ceil(filteredItems.length / itemsPerPage);
+
+    for (let i = 1; i <= totalPages; i++) {
+
+      const btn = document.createElement("button");
+      btn.textContent = i;
+
+      if (i === currentPage)
+        btn.classList.add("active-page");
+
+      btn.addEventListener("click", () => {
+        currentPage = i;
+        renderPage();
+        createPagination();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      paginationContainer.appendChild(btn);
+    }
   }
 
-  paginationContainer.innerHTML = "";
+  renderPage();
+  createPagination();
 
-  for (let i = 1; i <= totalPages; i++) {
+  // ================= COUNT =================
 
-    const btn = document.createElement("button");
-    btn.textContent = i;
-
-    if (i === currentPage)
-      btn.classList.add("active-page");
-
-    btn.addEventListener("click", () => {
-      currentPage = i;
-      renderPage();
-      createPagination();
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-
-    paginationContainer.appendChild(btn);
-  }
-}
-
-  generateAlphabet(items);
-  updateCount(items.length);
+  countElement.textContent = `${items.length} Items`;
 
   // ================= TOGGLE =================
-  if (toggleBtn) {
-    toggleBtn.addEventListener("click", () => {
-      container.classList.toggle("hide-images");
-      toggleBtn.textContent =
-        container.classList.contains("hide-images")
-          ? "Show Images"
-          : "Hide Images";
-    });
-  }
+
+  toggleBtn?.addEventListener("click", () => {
+    container.classList.toggle("hide-images");
+    toggleBtn.textContent =
+      container.classList.contains("hide-images")
+        ? "Show Images"
+        : "Hide Images";
+  });
 
   // ================= SORT =================
-  if (sortSelect) {
-    sortSelect.addEventListener("change", () => {
-      let sorted = [...items];
 
-      if (sortSelect.value === "az")
-        sorted.sort((a, b) => a.name.localeCompare(b.name));
+  sortSelect?.addEventListener("change", () => {
 
-      if (sortSelect.value === "za")
-        sorted.sort((a, b) => b.name.localeCompare(a.name));
+    if (sortSelect.value === "az")
+      filteredItems.sort((a, b) => a.name.localeCompare(b.name));
 
-      render(sorted);
-    });
-  }
+    if (sortSelect.value === "za")
+      filteredItems.sort((a, b) => b.name.localeCompare(a.name));
+
+    currentPage = 1;
+    renderPage();
+    createPagination();
+  });
+
+  // ================= ALPHABET =================
+
+  generateAlphabet(items);
 
 });
 
 
-// ================= RENDER =================
-function render(items) {
+// ================= ALPHABET FUNCTION =================
 
-  const container = document.getElementById("categoryContainer");
-  container.innerHTML = "";
-
-  const params = new URLSearchParams(window.location.search);
-  const universeId = params.get("universe");
-
-  items.forEach(item => {
-
-    const card = document.createElement("div");
-    card.className = "card";
-    card.id = item.id;
-
-    card.innerHTML = `
-      <div class="image-wrapper">
-        <img src="${item.image || item.thumbnail || ''}" alt="${item.name}">
-      </div>
-      <div class="card-title">${item.name}</div>
-    `;
-
-    card.addEventListener("click", () => {
-
-      if (item.type === "entity") {
-
-        window.location.href =
-          `entity.html?universe=${universeId}&id=${item.id}`;
-
-      } else {
-
-        window.location.href =
-          `category.html?universe=${universeId}&parent=${item.id}`;
-      }
-
-    });
-
-    container.appendChild(card);
-  });
-
-}
-
-
-// ================= COUNT =================
-function updateCount(total) {
-  const el = document.getElementById("categoryCount");
-  if (el) el.textContent = `${total} Items`;
-}
-
-
-// ================= ALPHABET =================
 function generateAlphabet(items) {
 
   const bar = document.getElementById("alphabetBar");
@@ -258,11 +233,11 @@ function generateAlphabet(items) {
 
     bar.appendChild(btn);
   });
-
 }
 
 
 // ================= HELPER =================
+
 function capitalize(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }

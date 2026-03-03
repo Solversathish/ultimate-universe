@@ -571,7 +571,7 @@ body::before {
   }
 
   .right-actions {
-    gap: 6px;
+    gap: 1px;
   }
 
 }
