@@ -397,89 +397,85 @@ body::before {
 }
 
 /* ================= ENTITY PAGE ================= */
-.entity-container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 40px auto;
-  display: flex;
-  gap: 30px;
+.entity-container{
+  max-width:1200px;
+  margin:auto;
+  padding:20px;
 }
 
-.entity-image {
-  flex: 1;
+.entity-layout{
+  display:flex;
+  gap:30px;
+  align-items:flex-start;
 }
 
-.entity-image img {
-  width: 100%;
-  border-radius: 15px;
-  border: 2px solid #00ff88;
+.entity-image{
+  width:300px;
+  flex-shrink:0;
 }
 
-.entity-details {
-  flex: 2;
+.entity-image img{
+  width:100%;
+  border-radius:12px;
+  border:2px solid #00ff99;
 }
 
-.entity-details h1 {
-  margin-bottom: 10px;
+.entity-details{
+  flex:1;
 }
 
-.entity-meta {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 15px;
+.entity-details h1{
+  font-size:36px;
+  margin-bottom:15px;
 }
 
-.meta-box {
-  background: rgba(0,0,0,0.6);
-  border: 1px solid #00ff88;
-  padding: 6px 10px;
-  border-radius: 6px;
+.entity-actions{
+  display:flex;
+  gap:10px;
+  margin-bottom:15px;
 }
 
-.tab-buttons {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 15px;
+.entity-actions button{
+  padding:8px 16px;
+  border-radius:20px;
+  border:none;
+  background:#eaeaea;
+  cursor:pointer;
 }
 
-.tab-buttons button {
-  border: 1px solid #00ff88;
-  background: transparent;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
-  cursor: pointer;
+.entity-tabs{
+  display:flex;
 }
 
-.tab-buttons button.active,
-.tab-buttons button:hover {
-  background: #00ff88;
-  color: black;
+.entity-tabs button{
+  flex:1;
+  padding:10px;
+  border:1px solid #999;
+  background:#f2f2f2;
 }
 
-.tab-content {
-  background: rgba(0,0,0,0.6);
-  padding: 15px;
-  border-radius: 10px;
-  border: 1px solid #00ff88;
+.entity-tabs .active{
+  background:#ddd;
 }
 
-/* Phone entity layout */
-@media (max-width: 768px) {
-  .entity-container {
-    flex-direction: column;
-  }
-
-  .search-box {
-    width: 100%;
-  }
-
-  .header-container {
-    flex-direction: column;
-    gap: 10px;
-  }
+.entity-content{
+  padding:20px;
+  background:#c6a9a9;
+  margin-top:10px;
+  min-height:300px;
 }
 
+@media (max-width:768px){
+
+.entity-layout{
+  flex-direction:column;
+}
+
+.entity-image{
+  width:100%;
+}
+
+}
 /* ================= BREADCRUMBS ================= */
 
 .row-1 {
