@@ -597,7 +597,7 @@ body::before {
 
 @media (max-width: 786px) {
   .home-controls {
-    max-width: 90%;
+    max-width: 95%;
   }
   
 }
