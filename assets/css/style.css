@@ -275,6 +275,7 @@ body::before {
 .alphabet-wrapper {
   width: 100%;
   overflow-x: auto;
+  scrollbar-width: none;
 }
 
 .alphabet-bar {
@@ -282,6 +283,7 @@ body::before {
   justify-content: center;
   gap: 8px;
   white-space: nowrap;
+  min-width: max-content;
 }
 
 /* Right actions */
@@ -562,10 +564,10 @@ body::before {
 @media (max-width: 768px) {
 
   .row-3 {
-    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: nowrap;
+    display: flex;
   }
 
   .entity-count {
@@ -574,6 +576,16 @@ body::before {
 
   .right-actions {
     gap: 1px;
+  }
+
+  .row-3 .entity-count {
+    order: 1;
+  }
+
+  .row-3 .right-actions {
+    order: 2;
+    display: flex;
+    gap: 8px;
   }
 
 }
