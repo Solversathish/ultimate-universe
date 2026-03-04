@@ -14,14 +14,19 @@ document.addEventListener("DOMContentLoaded", async () => {
   let database = [];
 
   try {
-    database = await fetch(`data/${universeId}.json`)
-      .then(res => {
-        if (!res.ok) throw new Error("Universe file not found");
-        return res.json();
-      });
-  } catch (err) {
+
+    const response = await fetch(`data/${universeId}.json`);
+
+    if (!response.ok) throw new Error("Universe file not found");
+
+    database = await response.json();
+
+  } catch (error) {
+
+    console.error(error);
     container.innerHTML = "<p style='color:white'>Data not found.</p>";
     return;
+
   }
 
   const entity = database.find(item => item.id === entityId);
@@ -36,69 +41,128 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 
+
+/* =========================
+   RENDER ENTITY PAGE
+========================= */
+
 function renderEntity(entity) {
 
   const container = document.getElementById("entityContainer");
 
   container.innerHTML = `
-    <div class="entity-container">
 
+  <div class="entity-layout">
+
+      <!-- LEFT IMAGE -->
       <div class="entity-image">
         <img src="${entity.heroImage || entity.thumbnail || entity.image || ''}">
       </div>
 
+      <!-- RIGHT SIDE -->
       <div class="entity-details">
 
-        <h1>${entity.name}</h1>
+        <h1 class="entity-name">${entity.name}</h1>
 
+        <!-- META DATA -->
         <div class="entity-meta">
-          ${entity.category ? `<div class="meta-box">${entity.category}</div>` : ""}
-          ${entity.age ? `<div class="meta-box">Age: ${entity.age}</div>` : ""}
+
+          ${entity.age ? `
+            <div class="meta-box">
+              <span class="meta-label">Age</span>
+              ${entity.age}
+            </div>
+          ` : ""}
+
+          ${entity.category ? `
+            <div class="meta-box">
+              <span class="meta-label">Category</span>
+              ${entity.category}
+            </div>
+          ` : ""}
+
+          ${entity.anime ? `
+            <div class="meta-box">
+              <span class="meta-label">Anime</span>
+              ${entity.anime}
+            </div>
+          ` : ""}
+
         </div>
 
-        <div class="tab-buttons">
-          <button class="tab-btn active" data-tab="desc">Description</button>
-          <button class="tab-btn" data-tab="powers">Powers</button>
-          <button class="tab-btn" data-tab="extra">Extra</button>
+        <!-- TABS -->
+        <div class="entity-tabs">
+
+          <button class="tab-btn active" data-tab="description">
+            Description
+          </button>
+
+          <button class="tab-btn" data-tab="powers">
+            Powers
+          </button>
+
+          <button class="tab-btn" data-tab="info">
+            Info
+          </button>
+
         </div>
 
-        <div class="tab-content" id="tabContent">
+        <!-- TAB CONTENT -->
+        <div class="entity-content" id="tabContent">
+
           ${entity.description || "No description available."}
+
         </div>
 
       </div>
 
-    </div>
+  </div>
+
   `;
 
   setupTabs(entity);
+
 }
 
+
+
+/* =========================
+   TAB SWITCH SYSTEM
+========================= */
 
 function setupTabs(entity) {
 
   const buttons = document.querySelectorAll(".tab-btn");
   const content = document.getElementById("tabContent");
 
-  buttons.forEach(btn => {
+  buttons.forEach(button => {
 
-    btn.addEventListener("click", () => {
+    button.addEventListener("click", () => {
 
       buttons.forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
+      button.classList.add("active");
 
-      const tab = btn.getAttribute("data-tab");
+      const tab = button.dataset.tab;
 
-      if (tab === "desc") {
-        content.innerHTML = entity.description || "No description.";
+      if (tab === "description") {
+
+        content.innerHTML =
+          entity.description || "No description available.";
+
       }
 
       if (tab === "powers") {
-        content.innerHTML = entity.powers || "No powers listed.";
+
+        content.innerHTML =
+          entity.powers || "No powers listed.";
+
       }
 
-      if (tab === "extra") {
-        content.innerHTML = entity.extra || "No extra information.";
+      if (tab === "info") {
+
+        content.innerHTML =
+          entity.extra || entity.info || "No additional info.";
+
       }
 
     });

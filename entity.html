@@ -31,22 +31,44 @@
 
       <h1 id="entityName"></h1>
 
-      <!-- ACTION BUTTONS -->
-      <div class="entity-actions">
-        <button>Power</button>
-        <button>Abilities</button>
-        <button>Weapons</button>
+      <!-- META INFO -->
+      <div class="entity-meta">
+
+        <div class="meta-item">
+          <span class="meta-label">Age</span>
+          <span id="entityAge"></span>
+        </div>
+
+        <div class="meta-item">
+          <span class="meta-label">Category</span>
+          <span id="entityCategory"></span>
+        </div>
+
+        <div class="meta-item">
+          <span class="meta-label">Anime</span>
+          <span id="entityAnime"></span>
+        </div>
+
       </div>
 
       <!-- TABS -->
       <div class="entity-tabs">
-        <button class="tab active">Info</button>
-        <button class="tab">Stats</button>
-        <button class="tab">History</button>
+
+        <button class="tab active" data-tab="description">Description</button>
+        <button class="tab" data-tab="powers">Powers</button>
+        <button class="tab" data-tab="info">Info</button>
+
       </div>
 
-      <!-- CONTENT AREA -->
-      <div class="entity-content" id="entityDescription">
+      <!-- CONTENT -->
+      <div class="entity-content">
+
+        <div id="descriptionTab" class="tab-content active"></div>
+
+        <div id="powersTab" class="tab-content"></div>
+
+        <div id="infoTab" class="tab-content"></div>
+
       </div>
 
     </div>
