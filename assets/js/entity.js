@@ -11,113 +11,68 @@ document.addEventListener("DOMContentLoaded", async () => {
     return;
   }
 
-  let database = [];
-
   try {
 
-    const response = await fetch(`data/${universeId}.json`);
+    const database = await fetch(`data/${universeId}.json`)
+      .then(res => res.json());
 
-    if (!response.ok) throw new Error("Universe file not found");
+    // Find entity
+    const entity = database.find(item => item.id === entityId);
 
-    database = await response.json();
+    if (!entity) {
+      container.innerHTML = "<p style='color:white'>Entity not found.</p>";
+      return;
+    }
+
+    renderEntity(entity);
 
   } catch (error) {
 
     console.error(error);
-    container.innerHTML = "<p style='color:white'>Data not found.</p>";
-    return;
+    container.innerHTML = "<p style='color:white'>Error loading entity.</p>";
 
   }
-
-  const entity = database.find(item => item.id === entityId);
-
-  if (!entity) {
-    container.innerHTML = "<p style='color:white'>Entity not found.</p>";
-    return;
-  }
-
-  renderEntity(entity);
 
 });
 
 
-
-/* =========================
-   RENDER ENTITY PAGE
-========================= */
 
 function renderEntity(entity) {
 
   const container = document.getElementById("entityContainer");
 
   container.innerHTML = `
-
+  
   <div class="entity-layout">
 
-      <!-- LEFT IMAGE -->
-      <div class="entity-image">
-        <img src="${entity.heroImage || entity.thumbnail || entity.image || ''}">
+    <div class="entity-image">
+      <img src="${entity.heroImage || entity.thumbnail || ''}">
+    </div>
+
+    <div class="entity-details">
+
+      <h1>${entity.name}</h1>
+
+      <div class="entity-meta">
+        ${entity.category ? `<div class="meta-box">${entity.category}</div>` : ""}
+        ${entity.age ? `<div class="meta-box">Age: ${entity.age}</div>` : ""}
       </div>
 
-      <!-- RIGHT SIDE -->
-      <div class="entity-details">
+      <div class="entity-tabs">
 
-        <h1 class="entity-name">${entity.name}</h1>
-
-        <!-- META DATA -->
-        <div class="entity-meta">
-
-          ${entity.age ? `
-            <div class="meta-box">
-              <span class="meta-label">Age</span>
-              ${entity.age}
-            </div>
-          ` : ""}
-
-          ${entity.category ? `
-            <div class="meta-box">
-              <span class="meta-label">Category</span>
-              ${entity.category}
-            </div>
-          ` : ""}
-
-          ${entity.anime ? `
-            <div class="meta-box">
-              <span class="meta-label">Anime</span>
-              ${entity.anime}
-            </div>
-          ` : ""}
-
-        </div>
-
-        <!-- TABS -->
-        <div class="entity-tabs">
-
-          <button class="tab-btn active" data-tab="description">
-            Description
-          </button>
-
-          <button class="tab-btn" data-tab="powers">
-            Powers
-          </button>
-
-          <button class="tab-btn" data-tab="info">
-            Info
-          </button>
-
-        </div>
-
-        <!-- TAB CONTENT -->
-        <div class="entity-content" id="tabContent">
-
-          ${entity.description || "No description available."}
-
-        </div>
+        <button class="tab-btn active" data-tab="desc">Description</button>
+        <button class="tab-btn" data-tab="powers">Powers</button>
+        <button class="tab-btn" data-tab="extra">Info</button>
 
       </div>
+
+      <div class="entity-content" id="tabContent">
+  ${entity.description || "No description available."}
+</div>
+
+    </div>
 
   </div>
-
   `;
 
   setupTabs(entity);
@@ -126,44 +81,28 @@ function renderEntity(entity) {
 
 
 
-/* =========================
-   TAB SWITCH SYSTEM
-========================= */
-
 function setupTabs(entity) {
 
   const buttons = document.querySelectorAll(".tab-btn");
   const content = document.getElementById("tabContent");
 
-  buttons.forEach(button => {
+  buttons.forEach(btn => {
 
-    button.addEventListener("click", () => {
+    btn.addEventListener("click", () => {
 
       buttons.forEach(b => b.classList.remove("active"));
-      button.classList.add("active");
+      btn.classList.add("active");
 
-      const tab = button.dataset.tab;
+      const tab = btn.dataset.tab;
 
-      if (tab === "description") {
+      if (tab === "desc")
+        content.innerHTML = entity.description || "No description";
 
-        content.innerHTML =
-          entity.description || "No description available.";
+      if (tab === "powers")
+        content.innerHTML = entity.powers || "No powers listed";
 
-      }
-
-      if (tab === "powers") {
-
-        content.innerHTML =
-          entity.powers || "No powers listed.";
-
-      }
-
-      if (tab === "info") {
-
-        content.innerHTML =
-          entity.extra || entity.info || "No additional info.";
-
-      }
+      if (tab === "extra")
+        content.innerHTML = entity.extra || "No extra info";
 
     });
 
