@@ -563,25 +563,19 @@ body::before {
 
 @media (max-width: 768px) {
 
-  .row row-3 {
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
+  .row-3 {
     display: flex;
+    align-items: center;
   }
 
   .entity-count {
-    font-size: 14px;
+    font-weight: 600;
   }
 
-  .row-3 .entity-count {
-    order: 1;
-  }
-
-  .row-3 .right-actions {
-    order: 2;
+  .right-actions {
+    margin-left: auto;
     display: flex;
-    gap: 8px;
+    gap: 6px;
   }
 
 }
