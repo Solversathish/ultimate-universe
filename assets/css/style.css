@@ -586,7 +586,8 @@ body::before {
 /* HOME CONTROL BAR */
 
 .home-controls {
-  max-width: 1200px;
+  justify-content: space-between;
+  max-width: 1175px;
   margin: 0 auto;
   padding: 0 16px;
   display: flex;
@@ -594,8 +595,8 @@ body::before {
 }
 
 .home-title {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 550;
   color: #00ff88;
 }
 
@@ -605,7 +606,7 @@ body::before {
 
 @media (max-width: 786px) {
   .home-controls {
-    width: 90%;
+    max-width: 90%;
   }
   
 }
