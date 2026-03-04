@@ -6,6 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
       document.getElementById("headerContainer").innerHTML = data;
 
+      // Start search AFTER header loads
+      if (window.initSearch) {
+        window.initSearch();
+      }
+
     });
 
 });

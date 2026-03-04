@@ -1,28 +1,20 @@
 [
   {
-    "id": "anime",
     "name": "Anime",
     "type": "universe",
     "url": "category.html?universe=anime",
-    "image": "assets/images/universes/anime.png",
-    "tags": ["japanese", "animation"]
+    "image": "assets/images/universes/anime.png"
   },
-
   {
-    "id": "naruto",
     "name": "Naruto",
     "type": "category",
-    "url": "category.html?universe=anime&parent=naruto",
-    "image": "assets/images/worlds/naruto.png",
-    "tags": ["ninja", "shinobi"]
+    "url": "category.html?universe=anime&path=naruto",
+    "image": "assets/images/worlds/naruto.png"
   },
-
   {
-    "id": "naruto_uzumaki",
     "name": "Naruto Uzumaki",
     "type": "entity",
     "url": "entity.html?universe=anime&id=naruto_uzumaki",
-    "image": "assets/images/entities/naruto.png",
-    "tags": ["hokage", "leaf village"]
+    "image": "assets/images/entities/naruto.png"
   }
 ]
