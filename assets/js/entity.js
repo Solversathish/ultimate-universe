@@ -90,9 +90,48 @@ function renderEntity(entity) {
   }
 
   if(entity.stats){
-    tabs.push("Career Stats");
-    contents["Career Stats"] = JSON.stringify(entity.stats, null, 2);
-  }
+
+  tabs.push("Career Stats");
+
+  let statsHTML = "";
+
+  Object.entries(entity.stats).forEach(([format,data]) => {
+
+    statsHTML += `<div class="stats-section"><strong>${format}</strong></div>`;
+
+    if(typeof data === "object"){
+
+      Object.entries(data).forEach(([key,value]) => {
+
+        statsHTML += `
+        <div class="info-row">
+          <div class="info-key">${key}</div>
+          <div class="info-value">${value}</div>
+        </div>
+        `;
+
+      });
+
+    } else {
+
+      statsHTML += `
+      <div class="info-row">
+        <div class="info-key">${format}</div>
+        <div class="info-value">${data}</div>
+      </div>
+      `;
+
+    }
+
+  });
+
+  contents["Career Stats"] = `
+  <div class="info-table">
+  ${statsHTML}
+  </div>
+  `;
+
+}
 
   if(entity.achievements){
     tabs.push("Achievements");
