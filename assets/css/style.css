@@ -32,7 +32,7 @@ body::before {
 
 .landing-body {
   height: 100vh;
-  background: url("../images/landing.jpg") no-repeat center center;
+  background: url("https://res.cloudinary.com/do6nej9li/image/upload/f_auto,q_auto/landing_az2z2l.jpg") no-repeat center center;
   background-size: cover;
   justify-content: center;
   display: flex;
@@ -728,7 +728,7 @@ display:block;
 
 .tab-buttons{
   display:flex;
-  width: 80%;
+  width: 100%;
 }
 
 .tab-btn{
