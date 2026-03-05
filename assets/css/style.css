@@ -64,8 +64,6 @@ body::before {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
-
 /* ================= FUTURISTIC ROTATING BUTTON ================= */
 
 .enter-btn {
@@ -730,7 +728,7 @@ display:block;
 
 .tab-buttons{
   display:flex;
-  width: 90%;
+  width: 80%;
 }
 
 .tab-btn{
