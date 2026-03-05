@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   const container = document.getElementById("entityContainer");
   const galleryContainer = document.getElementById("galleryContainer");
+  const breadcrumbs = document.getElementById("breadcrumbs");
 
   const params = new URLSearchParams(window.location.search);
   const universeId = params.get("universe");
@@ -24,6 +25,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
 
+    createBreadcrumbs(universeId, entity);
     renderEntity(entity);
     renderGallery(entity);
 
@@ -38,18 +40,85 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 
 
+/* ================= BREADCRUMBS ================= */
+
+function createBreadcrumbs(universeId, entity){
+
+  const breadcrumbs = document.getElementById("breadcrumbs");
+
+  if(!breadcrumbs) return;
+
+  breadcrumbs.innerHTML = `
+  <a href="home.html">Home</a> >
+  <a href="category.html?universe=${universeId}">
+  ${capitalize(universeId)}
+  </a> >
+  <span>${entity.name}</span>
+  `;
+
+}
+
+
+
 /* ================= ENTITY MAIN ================= */
 
 function renderEntity(entity) {
 
   const container = document.getElementById("entityContainer");
 
+  const tabs = [];
+  const contents = {};
+
+  if(entity.description){
+    tabs.push("Description");
+    contents["Description"] = entity.description;
+  }
+
+  if(entity.powers){
+    tabs.push("Powers");
+    contents["Powers"] = entity.powers;
+  }
+
+  if(entity.extra){
+    tabs.push("Extra");
+    contents["Extra"] = entity.extra;
+  }
+
+  if(entity.biography){
+    tabs.push("Biography");
+    contents["Biography"] = entity.biography;
+  }
+
+  if(entity.stats){
+    tabs.push("Career Stats");
+    contents["Career Stats"] = JSON.stringify(entity.stats, null, 2);
+  }
+
+  if(entity.nutrition){
+    tabs.push("Nutrition");
+    contents["Nutrition"] = JSON.stringify(entity.nutrition, null, 2);
+  }
+
+  if(entity.benefits){
+    tabs.push("Benefits");
+    contents["Benefits"] = entity.benefits.join("<br>");
+  }
+
+
+  const tabButtons = tabs.map((tab,i)=>`
+  <button class="tab-btn ${i===0?"active":""}" data-tab="${tab}">
+  ${tab}
+  </button>
+  `).join("");
+
+  const firstContent = contents[tabs[0]] || "";
+
   container.innerHTML = `
 
   <div class="entity-main">
 
     <div class="entity-hero">
-      <img src="${entity.heroImage || entity.thumbnail || entity.image || ''}">
+      <img src="${entity.heroImage || entity.thumbnail || ''}">
     </div>
 
     <div class="entity-details">
@@ -59,23 +128,11 @@ function renderEntity(entity) {
       ${generateInfoTable(entity.info)}
 
       <div class="tab-buttons">
-
-        <button class="tab-btn active" data-tab="desc">
-        Description
-        </button>
-
-        <button class="tab-btn" data-tab="powers">
-        Abilities
-        </button>
-
-        <button class="tab-btn" data-tab="extra">
-        Extra
-        </button>
-
+        ${tabButtons}
       </div>
 
       <div class="tab-content" id="tabContent">
-        ${entity.description || "No description available."}
+        ${firstContent}
       </div>
 
     </div>
@@ -84,7 +141,7 @@ function renderEntity(entity) {
 
   `;
 
-  setupTabs(entity);
+  setupTabs(contents);
 
 }
 
@@ -123,26 +180,21 @@ function renderGallery(entity){
 
   const galleryContainer = document.getElementById("galleryContainer");
 
-  if(!galleryContainer) return;
-
-  if(!entity.gallery || entity.gallery.length === 0){
-    galleryContainer.innerHTML = "";
-    return;
-  }
+  if(!entity.gallery) return;
 
   galleryContainer.innerHTML = `
 
   <div class="gallery-container">
 
-    <h2>Gallery</h2>
+  <h2>Gallery</h2>
 
-    <div class="gallery-grid">
+  <div class="gallery-grid">
 
-      ${entity.gallery.map(img => `
-        <img src="${img}">
-      `).join("")}
+  ${entity.gallery.map(img=>`
+  <img src="${img}">
+  `).join("")}
 
-    </div>
+  </div>
 
   </div>
 
@@ -154,31 +206,32 @@ function renderGallery(entity){
 
 /* ================= TABS ================= */
 
-function setupTabs(entity) {
+function setupTabs(contents){
 
   const buttons = document.querySelectorAll(".tab-btn");
   const content = document.getElementById("tabContent");
 
-  buttons.forEach(btn => {
+  buttons.forEach(btn=>{
 
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click",()=>{
 
-      buttons.forEach(b => b.classList.remove("active"));
+      buttons.forEach(b=>b.classList.remove("active"));
       btn.classList.add("active");
 
       const tab = btn.dataset.tab;
 
-      if (tab === "desc")
-        content.innerHTML = entity.description || "No description";
-
-      if (tab === "powers")
-        content.innerHTML = entity.powers || "No powers listed";
-
-      if (tab === "extra")
-        content.innerHTML = entity.extra || "No extra info";
+      content.innerHTML = contents[tab];
 
     });
 
   });
 
+}
+
+
+
+/* ================= HELPER ================= */
+
+function capitalize(str){
+  return str.charAt(0).toUpperCase()+str.slice(1);
 }
