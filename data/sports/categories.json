@@ -1,0 +1,9 @@
+[
+    {
+    "id": "cricket",
+    "name": "Cricket",
+    "type": "category",
+    "parent": null,
+    "image": "assets/images/sports/cricket.png"
+  }
+]
