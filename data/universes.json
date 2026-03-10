@@ -1,17 +1,14 @@
 [
   {
     "id": "anime",
-    "name": "Anime",
-    "image": "https://res.cloudinary.com/do6nej9li/image/upload/f_auto,q_auto/v1772721424/Anme_pntgar.jpg"
+    "name": "Anime"
   },
   {
     "id": "fruits",
-    "name": "Fruits",
-    "image": "https://res.cloudinary.com/do6nej9li/image/upload/f_auto,q_auto/v1772721425/Fruts_a1osqo.jpg"
+    "name": "Fruits"
   },
   {
     "id": "sports",
-    "name": "Sports",
-    "image": "https://res.cloudinary.com/do6nej9li/image/upload/f_auto,q_auto/v1772721425/Sprts_oqix1w.jpg"
+    "name": "Sports"
   }
 ]
