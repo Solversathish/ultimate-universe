@@ -659,6 +659,7 @@ display:block;
 @media (max-width: 786px) {
   .home-controls {
     max-width: 95%;
+    margin-top: 5px;
   }
   
 }
