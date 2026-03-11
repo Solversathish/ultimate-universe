@@ -16,12 +16,17 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try{
 
+    /* ================= UNIVERSE ENTITY ================= */
+
     const universeData = await fetch("data/universe_entities.json")
     .then(res=>res.json());
 
     if(universeData[universe] && entityId === universe){
       entity = universeData[universe];
     }
+
+
+    /* ================= WORLD ENTITY ================= */
 
     if(!entity){
 
@@ -34,6 +39,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     }
 
+
+    /* ================= SUBWORLD ENTITY ================= */
+
     if(!entity){
 
       const subworldData = await fetch("data/subworld_entities.json")
@@ -45,9 +53,67 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     }
 
+
+    /* ================= NORMAL ENTITY ================= */
+
+    if(!entity){
+
+      if(universe === "fruits"){
+
+        const fruits = await fetch(`data/fruits/fruits.json`)
+        .then(res=>res.json());
+
+        entity = fruits.find(f=>f.id === entityId);
+
+      }else{
+
+        const categories = await fetch(`data/${universe}/categories.json`)
+        .then(res=>res.json());
+
+        for(const cat of categories){
+
+          try{
+
+            const level1 = await fetch(`data/${universe}/${cat.id}.json`)
+            .then(res=>res.json());
+
+            entity = level1.find(i=>i.id === entityId);
+
+            if(entity) break;
+
+            for(const sub of level1){
+
+              if(sub.type !== "category") continue;
+
+              try{
+
+                const level2 = await fetch(`data/${universe}/${sub.id}.json`)
+                .then(res=>res.json());
+
+                entity = level2.find(i=>i.id === entityId);
+
+                if(entity) break;
+
+              }catch{}
+
+            }
+
+            if(entity) break;
+
+          }catch{}
+
+        }
+
+      }
+
+    }
+
   }catch(err){
+
     console.error(err);
+
   }
+
 
   if(!entity){
     container.innerHTML="Entity not found";
@@ -61,6 +127,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 
+
+/* ================= BREADCRUMBS ================= */
+
 function createBreadcrumbs(universe, entity){
 
   const breadcrumbs = document.getElementById("breadcrumbs");
@@ -71,21 +140,18 @@ function createBreadcrumbs(universe, entity){
 
   let html = `<a href="home.html">Home</a> > `;
 
-  // ===== UNIVERSE LEVEL =====
+  /* ===== UNIVERSE ===== */
+
   if(entityId === universe){
-
-    // Current page = universe entity (About Anime)
     html += `<span>${formatName(universe)}</span>`;
-
-  } else {
-
+  }else{
     html += `<a href="category.html?universe=${universe}">
-      ${formatName(universe)}
+    ${formatName(universe)}
     </a>`;
-
   }
 
-  // ===== CATEGORY LEVELS =====
+  /* ===== CATEGORY LEVELS ===== */
+
   if(path){
 
     const levels = path.split(",");
@@ -95,34 +161,26 @@ function createBreadcrumbs(universe, entity){
 
       accumulated = levels.slice(0,index+1).join(",");
 
-      // last level should be text if entity page
-      if(index === levels.length - 1 && entityId !== universe){
-
-        html += ` > <span>${formatName(level)}</span>`;
-
-      }else{
-
-        html += ` > <a href="category.html?universe=${universe}&path=${accumulated}">
-        ${formatName(level)}
-        </a>`;
-
-      }
+      html += ` > <a href="category.html?universe=${universe}&path=${accumulated}">
+      ${formatName(level)}
+      </a>`;
 
     });
 
   }
 
-  // ===== ENTITY LEVEL =====
-  if(entityId !== universe && (!path || !path.endsWith(entityId))){
+  /* ===== ENTITY ===== */
 
+  if(entityId !== universe){
     html += ` > <span>${entity.name}</span>`;
-
   }
 
   breadcrumbs.innerHTML = html;
 
 }
 
+
+/* ================= ENTITY PAGE ================= */
 
 function renderEntity(entity){
 
@@ -155,6 +213,9 @@ function renderEntity(entity){
 }
 
 
+
+/* ================= INFO TABLE ================= */
+
 function generateInfoTable(info){
 
   if(!info) return "";
@@ -177,6 +238,9 @@ function generateInfoTable(info){
 
 }
 
+
+
+/* ================= GALLERY ================= */
 
 function renderGallery(entity){
 
@@ -202,6 +266,9 @@ function renderGallery(entity){
 
 }
 
+
+
+/* ================= HELPERS ================= */
 
 function formatName(str){
 

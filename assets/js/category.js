@@ -58,11 +58,23 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   /* ================= BREADCRUMBS ================= */
 
-  let breadcrumbHTML = `
-  <a href="home.html">Home</a> >
+  let breadcrumbHTML = `<a href="home.html">Home</a> > `;
+
+if(levels.length === 0){
+
+  // Universe list page (Anime view list)
+  breadcrumbHTML += `<span>${capitalize(universe)}</span>`;
+
+}
+else{
+
+  // deeper pages
+  breadcrumbHTML += `
   <a href="category.html?universe=${universe}">
   ${capitalize(universe)}
   </a>`;
+
+}
 
   let accumulatedPath = "";
 
