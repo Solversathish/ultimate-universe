@@ -862,3 +862,44 @@ right:20px;
 font-size:25px;
 cursor:pointer;
 }
+
+.view-list-wrapper{
+  text-align:center;
+  margin:5px 0;
+}
+
+.view-list-btn{
+  padding:10px 24px;
+  font-size:16px;
+  border:2px solid #00ff9c;
+  background:transparent;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.view-list-btn:hover{
+  background:#00ff9c;
+  color:black;
+}
+
+.entity-navigation{
+  display:flex;
+  justify-content:space-between;
+  max-width:900px;
+  margin:40px auto;
+}
+
+.entity-navigation button{
+  padding:10px 20px;
+  border:2px solid #00ff9c;
+  background:transparent;
+  color:white;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.entity-navigation button:hover{
+  background:#00ff9c;
+  color:black;
+}

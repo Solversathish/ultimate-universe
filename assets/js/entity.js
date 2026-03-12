@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const params = new URLSearchParams(window.location.search);
   const universe = params.get("universe");
   const entityId = params.get("id");
+  let path = params.get("path");
 
   if(!universe || !entityId){
     container.innerHTML="Invalid entity";
@@ -25,7 +26,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       entity = universeData[universe];
     }
 
-
     /* ================= WORLD ENTITY ================= */
 
     if(!entity){
@@ -39,7 +39,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     }
 
-
     /* ================= SUBWORLD ENTITY ================= */
 
     if(!entity){
@@ -48,16 +47,14 @@ document.addEventListener("DOMContentLoaded", async () => {
       .then(res=>res.json());
 
       if(subworldData[entityId]){
-  entity = subworldData[entityId];
+        entity = subworldData[entityId];
 
-  // ensure breadcrumb path exists
-  if(!path && entity.path){
-    path = entity.path;
-  }
-}
+        if(!path && entity.path){
+          path = entity.path;
+        }
+      }
 
     }
-
 
     /* ================= NORMAL ENTITY ================= */
 
@@ -114,20 +111,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
   }catch(err){
-
     console.error(err);
-
   }
-
 
   if(!entity){
     container.innerHTML="Entity not found";
     return;
   }
 
-  createBreadcrumbs(universe,entity);
-  renderEntity(entity);
+  createBreadcrumbs(universe,entity,path);
+  renderEntity(entity,universe,path);
   renderGallery(entity);
+  buildNavigation(entityId);
+
+  /* LOAD PREV NEXT AFTER ENTITY */
+  loadPrevNext(universe,entityId,path);
 
 });
 
@@ -145,8 +143,6 @@ function createBreadcrumbs(universe, entity, forcedPath){
 
   let html = `<a href="home.html">Home</a> > `;
 
-  /* ===== UNIVERSE ===== */
-
   if(entityId === universe){
     html += `<span>${formatName(universe)}</span>`;
   }else{
@@ -154,8 +150,6 @@ function createBreadcrumbs(universe, entity, forcedPath){
     ${formatName(universe)}
     </a>`;
   }
-
-  /* ===== CATEGORY LEVELS ===== */
 
   if(path){
 
@@ -174,8 +168,6 @@ function createBreadcrumbs(universe, entity, forcedPath){
 
   }
 
-  /* ===== ENTITY ===== */
-
   if(entityId !== universe){
     html += ` > <span>${entity.name}</span>`;
   }
@@ -185,11 +177,31 @@ function createBreadcrumbs(universe, entity, forcedPath){
 }
 
 
+
 /* ================= ENTITY PAGE ================= */
 
-function renderEntity(entity){
+function renderEntity(entity,universe,path){
 
   const container=document.getElementById("entityContainer");
+
+  let viewListBtn = "";
+
+  if(entity.type !== "entity"){
+
+    const listURL = entity.id === universe
+    ? `category.html?universe=${universe}`
+    : `category.html?universe=${universe}&path=${path}`;
+
+    viewListBtn = `
+    <div class="view-list-wrapper">
+      <button class="view-list-btn"
+      onclick="window.location.href='${listURL}'">
+      View Full List
+      </button>
+    </div>
+    `;
+
+  }
 
   container.innerHTML=`
 
@@ -213,8 +225,53 @@ function renderEntity(entity){
 
   </div>
 
+  ${viewListBtn}
+
+  <div id="entityNavigation"></div>
+
   `;
 
+}
+
+
+
+/* ================= PREVIOUS NEXT ================= */
+
+async function buildNavigation(entityId){
+
+  const nav = document.getElementById("entityNavigation");
+
+  let db = [];
+
+  try{
+    db = await fetch("data/search-data.json")
+    .then(r=>r.json());
+  }catch{
+    return;
+  }
+
+  const index = db.findIndex(i => i.id === entityId);
+
+  if(index === -1) return;
+
+  const prev = db[index-1];
+  const next = db[index+1];
+
+  nav.innerHTML = `
+  <div class="entity-navigation">
+
+    ${prev ? `
+    <button onclick="window.location.href='${prev.url}'">
+    ← ${prev.name}
+    </button>` : `<div></div>`}
+
+    ${next ? `
+    <button onclick="window.location.href='${next.url}'">
+    ${next.name} →
+    </button>` : `<div></div>`}
+
+  </div>
+  `;
 }
 
 
@@ -238,7 +295,6 @@ function generateInfoTable(info){
   });
 
   html+=`</div>`;
-
   return html;
 
 }

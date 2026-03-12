@@ -1,14 +1,27 @@
 [
   {
     "id": "anime",
-    "name": "Anime"
-  },
-  {
-    "id": "fruits",
-    "name": "Fruits"
+    "name": "Anime",
+    "type": "universe"
   },
   {
     "id": "sports",
-    "name": "Sports"
+    "name": "Sports",
+    "type": "universe"
+  },
+  {
+    "id": "fruits",
+    "name": "Fruits",
+    "type": "universe"
+  },
+  {
+    "id": "vehicles",
+    "name": "Vehicles",
+    "type": "universe"
+  },
+  {
+    "id": "animals",
+    "name": "Animals",
+    "type": "universe"
   }
 ]
