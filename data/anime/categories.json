@@ -3,7 +3,30 @@
     "id": "naruto",
     "name": "Naruto",
     "type": "category",
-    "parent": null,
-    "image": "assets/images/worlds/naruto.png"
+    "parent": null
+  },
+  {
+    "id": "onepiece",
+    "name": "One Piece",
+    "type": "category",
+    "parent": null
+  },
+  {
+    "id": "dragonball",
+    "name": "Dragon Ball",
+    "type": "category",
+    "parent": null
+  },
+  {
+    "id": "bleach",
+    "name": "Bleach",
+    "type": "category",
+    "parent": null
+  },
+  {
+    "id": "jujutsu_kaisen",
+    "name": "Jujutsu Kaisen",
+    "type": "category",
+    "parent": null
   }
 ]
