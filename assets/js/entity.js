@@ -249,13 +249,45 @@ if(entity.type !== "entity"){
 
 async function buildNavigation(entityId){
 
-  const nav = document.getElementById("entityNavigation");
+  const params = new URLSearchParams(window.location.search);
+
+  const universe = params.get("universe");
+  const path = params.get("path");
 
   let db = [];
 
   try{
-    db = await fetch("data/search-data.json")
-    .then(r=>r.json());
+
+    /* UNIVERSE LEVEL */
+
+    if(entityId === universe){
+
+      db = await fetch("data/universes.json")
+      .then(r=>r.json());
+
+    }
+
+    /* WORLD LEVEL */
+
+    else if(!path){
+
+      db = await fetch(`data/${universe}/categories.json`)
+      .then(r=>r.json());
+
+    }
+
+    /* ENTITY LEVEL */
+
+    else{
+
+      const levels = path.split(",");
+      const last = levels[levels.length-1];
+
+      db = await fetch(`data/${universe}/${last}.json`)
+      .then(r=>r.json());
+
+    }
+
   }catch{
     return;
   }
@@ -267,16 +299,18 @@ async function buildNavigation(entityId){
   const prev = db[index-1];
   const next = db[index+1];
 
+  const nav = document.getElementById("entityNavigation");
+
   nav.innerHTML = `
   <div class="entity-navigation">
 
     ${prev ? `
-    <button onclick="window.location.href='${prev.url}'">
+    <button onclick="window.location.href='entity.html?universe=${universe}&path=${path || ""}&id=${prev.id}'">
     ← ${prev.name}
     </button>` : `<div></div>`}
 
     ${next ? `
-    <button onclick="window.location.href='${next.url}'">
+    <button onclick="window.location.href='entity.html?universe=${universe}&path=${path || ""}&id=${next.id}'">
     ${next.name} →
     </button>` : `<div></div>`}
 
