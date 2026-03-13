@@ -83,25 +83,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             if(entity) break;
 
-            for(const sub of level1){
-
-              if(sub.type !== "category") continue;
-
-              try{
-
-                const level2 = await fetch(`data/${universe}/${sub.id}.json`)
-                .then(res=>res.json());
-
-                entity = level2.find(i=>i.id === entityId);
-
-                if(entity) break;
-
-              }catch{}
-
-            }
-
-            if(entity) break;
-
           }catch{}
 
         }
@@ -123,11 +104,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   renderEntity(entity,universe,path);
   renderGallery(entity);
 
-  /* PREVIOUS NEXT */
-
   buildNavigation(entityId);
 
 });
+
 
 
 /* ================= BREADCRUMBS ================= */
@@ -176,6 +156,7 @@ function createBreadcrumbs(universe, entity, forcedPath){
 }
 
 
+
 /* ================= ENTITY PAGE ================= */
 
 function renderEntity(entity,universe,path){
@@ -184,42 +165,40 @@ function renderEntity(entity,universe,path){
 
   let viewListBtn = "";
 
-/* SHOW BUTTON IF THIS PAGE HAS A LIST PAGE */
+  if(entity.type !== "entity"){
 
-if(entity.type !== "entity"){
+    let listURL="";
 
-  let listURL = "";
+    if(entity.id === universe){
 
-  if(entity.id === universe){
+      listURL = `category.html?universe=${universe}`;
 
-    listURL = `category.html?universe=${universe}`;
+    }else if(path){
 
-  }else if(path){
+      listURL = `category.html?universe=${universe}&path=${path}`;
 
-    listURL = `category.html?universe=${universe}&path=${path}`;
+    }else{
 
-  }else{
+      listURL = `category.html?universe=${universe}&path=${entity.id}`;
 
-    listURL = `category.html?universe=${universe}&path=${entity.id}`;
+    }
 
+    viewListBtn = `
+    <div class="view-list-wrapper">
+      <button class="view-list-btn"
+      onclick="window.location.href='${listURL}'">
+      View Full List of ${entity.name}
+      </button>
+    </div>
+    `;
   }
-
-  viewListBtn = `
-  <div class="view-list-wrapper">
-    <button class="view-list-btn"
-    onclick="window.location.href='${listURL}'">
-    View Full List of ${entity.name}
-    </button>
-  </div>
-  `;
-}
 
   container.innerHTML=`
 
   <div class="entity-main">
 
     <div class="entity-hero">
-      <img src="${getCDNImage(entity.id,"hero",universe,path)}" loading="lazy">
+      <img src="${getCDNImage(entity.id,"hero",universe)}" loading="lazy">
     </div>
 
     <div class="entity-details">
@@ -241,8 +220,8 @@ if(entity.type !== "entity"){
   <div id="entityNavigation"></div>
 
   `;
-
 }
+
 
 
 /* ================= PREVIOUS NEXT ================= */
@@ -255,28 +234,33 @@ async function buildNavigation(entityId){
   const path = params.get("path");
 
   let db = [];
+  let level = "";
 
   try{
 
-    /* UNIVERSE LEVEL */
+    /* ================= UNIVERSE LEVEL ================= */
 
     if(entityId === universe){
 
       db = await fetch("data/universes.json")
       .then(r=>r.json());
 
+      level = "universe";
+
     }
 
-    /* WORLD LEVEL */
+    /* ================= WORLD LEVEL ================= */
 
     else if(!path){
 
       db = await fetch(`data/${universe}/categories.json`)
       .then(r=>r.json());
 
+      level = "world";
+
     }
 
-    /* ENTITY LEVEL */
+    /* ================= ENTITY LEVEL ================= */
 
     else{
 
@@ -285,6 +269,8 @@ async function buildNavigation(entityId){
 
       db = await fetch(`data/${universe}/${last}.json`)
       .then(r=>r.json());
+
+      level = "entity";
 
     }
 
@@ -301,16 +287,31 @@ async function buildNavigation(entityId){
 
   const nav = document.getElementById("entityNavigation");
 
+  /* ================= URL GENERATOR ================= */
+
+  function buildURL(item){
+
+    if(level === "universe"){
+      return `entity.html?universe=${item.id}&id=${item.id}`;
+    }
+
+    if(level === "world"){
+      return `entity.html?universe=${universe}&id=${item.id}`;
+    }
+
+    return `entity.html?universe=${universe}&path=${path}&id=${item.id}`;
+  }
+
   nav.innerHTML = `
   <div class="entity-navigation">
 
     ${prev ? `
-    <button onclick="window.location.href='entity.html?universe=${universe}&path=${path || ""}&id=${prev.id}'">
+    <button onclick="window.location.href='${buildURL(prev)}'">
     ← ${prev.name}
     </button>` : `<div></div>`}
 
     ${next ? `
-    <button onclick="window.location.href='entity.html?universe=${universe}&path=${path || ""}&id=${next.id}'">
+    <button onclick="window.location.href='${buildURL(next)}'">
     ${next.name} →
     </button>` : `<div></div>`}
 
@@ -343,6 +344,7 @@ function generateInfoTable(info){
 }
 
 
+
 /* ================= GALLERY ================= */
 
 function renderGallery(entity){
@@ -366,8 +368,8 @@ function renderGallery(entity){
   </div>
 
   `;
-
 }
+
 
 
 /* ================= HELPERS ================= */
