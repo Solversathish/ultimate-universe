@@ -122,13 +122,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   createBreadcrumbs(universe,entity,path);
   renderEntity(entity,universe,path);
   renderGallery(entity);
+
+  /* PREVIOUS NEXT */
+
   buildNavigation(entityId);
 
-  /* LOAD PREV NEXT AFTER ENTITY */
-  loadPrevNext(universe,entityId,path);
-
 });
-
 
 
 /* ================= BREADCRUMBS ================= */
@@ -177,7 +176,6 @@ function createBreadcrumbs(universe, entity, forcedPath){
 }
 
 
-
 /* ================= ENTITY PAGE ================= */
 
 function renderEntity(entity,universe,path){
@@ -186,22 +184,35 @@ function renderEntity(entity,universe,path){
 
   let viewListBtn = "";
 
-  if(entity.type !== "entity"){
+/* SHOW BUTTON IF THIS PAGE HAS A LIST PAGE */
 
-    const listURL = entity.id === universe
-    ? `category.html?universe=${universe}`
-    : `category.html?universe=${universe}&path=${path}`;
+if(entity.type !== "entity"){
 
-    viewListBtn = `
-    <div class="view-list-wrapper">
-      <button class="view-list-btn"
-      onclick="window.location.href='${listURL}'">
-      View Full List
-      </button>
-    </div>
-    `;
+  let listURL = "";
+
+  if(entity.id === universe){
+
+    listURL = `category.html?universe=${universe}`;
+
+  }else if(path){
+
+    listURL = `category.html?universe=${universe}&path=${path}`;
+
+  }else{
+
+    listURL = `category.html?universe=${universe}&path=${entity.id}`;
 
   }
+
+  viewListBtn = `
+  <div class="view-list-wrapper">
+    <button class="view-list-btn"
+    onclick="window.location.href='${listURL}'">
+    View Full List of ${entity.name}
+    </button>
+  </div>
+  `;
+}
 
   container.innerHTML=`
 
@@ -232,7 +243,6 @@ function renderEntity(entity,universe,path){
   `;
 
 }
-
 
 
 /* ================= PREVIOUS NEXT ================= */
@@ -275,7 +285,6 @@ async function buildNavigation(entityId){
 }
 
 
-
 /* ================= INFO TABLE ================= */
 
 function generateInfoTable(info){
@@ -298,7 +307,6 @@ function generateInfoTable(info){
   return html;
 
 }
-
 
 
 /* ================= GALLERY ================= */
@@ -326,7 +334,6 @@ function renderGallery(entity){
   `;
 
 }
-
 
 
 /* ================= HELPERS ================= */

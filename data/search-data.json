@@ -1,20 +1,32 @@
 [
-  {
-    "name": "Anime",
-    "type": "universe",
-    "url": "category.html?universe=anime",
-    "image": "assets/images/universes/anime.png"
-  },
-  {
-    "name": "Naruto",
-    "type": "category",
-    "url": "category.html?universe=anime&path=naruto",
-    "image": "assets/images/worlds/naruto.png"
-  },
-  {
-    "name": "Naruto Uzumaki",
-    "type": "entity",
-    "url": "entity.html?universe=anime&id=naruto_uzumaki",
-    "image": "assets/images/entities/naruto.png"
-  }
+{
+"id":"anime",
+"name":"Anime",
+"url":"entity.html?universe=anime&id=anime",
+"type":"universe"
+},
+{
+"id":"naruto",
+"name":"Naruto",
+"url":"entity.html?universe=anime&id=naruto",
+"type":"category"
+},
+{
+"id":"naruto_uzumaki",
+"name":"Naruto Uzumaki",
+"url":"entity.html?universe=anime&path=naruto&id=naruto_uzumaki",
+"type":"entity"
+},
+{
+"id":"sasuke_uchiha",
+"name":"Sasuke Uchiha",
+"url":"entity.html?universe=anime&path=naruto&id=sasuke_uchiha",
+"type":"entity"
+},
+{
+"id":"sakura_haruno",
+"name":"Sakura Haruno",
+"url":"entity.html?universe=anime&path=naruto&id=sakura_haruno",
+"type":"entity"
+}
 ]
