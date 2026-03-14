@@ -1,0 +1,156 @@
+[
+{
+"id":"pele",
+"name":"Pelé",
+"type":"entity",
+"parent":"football_brazil",
+
+"info":{
+"country":"Brazil",
+"position":"Forward",
+"born":"23 October 1940",
+"national_team_goals":"77"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Pelé is widely regarded as one of the greatest football players of all time and a global icon of the sport."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won three FIFA World Cups with Brazil in 1958, 1962 and 1970."
+},
+"tab3":{
+"title":"Facts",
+"content":"Pelé scored over 1000 career goals including club and international matches."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"ronaldo_nazario",
+"name":"Ronaldo Nazário",
+"type":"entity",
+"parent":"football_brazil",
+
+"info":{
+"country":"Brazil",
+"position":"Striker",
+"born":"18 September 1976",
+"national_team_goals":"62"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Ronaldo Nazário was one of the most explosive strikers in football history."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the FIFA World Cup in 1994 and 2002 and won the Ballon d'Or twice."
+},
+"tab3":{
+"title":"Facts",
+"content":"Ronaldo was the top scorer of the 2002 FIFA World Cup."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"ronaldinho",
+"name":"Ronaldinho",
+"type":"entity",
+"parent":"football_brazil",
+
+"info":{
+"country":"Brazil",
+"position":"Attacking Midfielder",
+"born":"21 March 1980",
+"national_team_goals":"33"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Ronaldinho was famous for his incredible dribbling skills, creativity and joyful playing style."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the FIFA World Cup in 2002 and the Ballon d'Or in 2005."
+},
+"tab3":{
+"title":"Facts",
+"content":"Ronaldinho became one of the most entertaining footballers ever."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"neymar",
+"name":"Neymar Jr",
+"type":"entity",
+"parent":"football_brazil",
+
+"info":{
+"country":"Brazil",
+"position":"Forward",
+"born":"5 February 1992",
+"national_team_goals":"79"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Neymar is one of Brazil's most talented modern footballers known for his flair and creativity."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the UEFA Champions League with Barcelona and Olympic gold with Brazil."
+},
+"tab3":{
+"title":"Facts",
+"content":"Neymar became Brazil's all time top scorer surpassing Pelé."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"kaka",
+"name":"Kaká",
+"type":"entity",
+"parent":"football_brazil",
+
+"info":{
+"country":"Brazil",
+"position":"Attacking Midfielder",
+"born":"22 April 1982",
+"national_team_goals":"29"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Kaká was one of the most elegant attacking midfielders in football history."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the Ballon d'Or in 2007 and the UEFA Champions League with AC Milan."
+},
+"tab3":{
+"title":"Facts",
+"content":"Kaká was known for his speed, vision and sportsmanship."
+}
+},
+
+"gallery_count":5
+}
+]

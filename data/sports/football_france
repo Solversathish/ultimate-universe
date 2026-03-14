@@ -1,0 +1,156 @@
+[
+{
+"id":"zinedine_zidane",
+"name":"Zinedine Zidane",
+"type":"entity",
+"parent":"football_france",
+
+"info":{
+"country":"France",
+"position":"Midfielder",
+"born":"23 June 1972",
+"national_team_goals":"31"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Zinedine Zidane is one of the greatest midfielders in football history and a legend of French football."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He led France to victory in the 1998 FIFA World Cup and UEFA Euro 2000."
+},
+"tab3":{
+"title":"Facts",
+"content":"Zidane later became a successful manager and won multiple Champions League titles with Real Madrid."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"kylian_mbappe",
+"name":"Kylian Mbappé",
+"type":"entity",
+"parent":"football_france",
+
+"info":{
+"country":"France",
+"position":"Forward",
+"born":"20 December 1998",
+"national_team_goals":"46"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Kylian Mbappé is one of the fastest and most talented players in modern football."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the FIFA World Cup with France in 2018 at just 19 years old."
+},
+"tab3":{
+"title":"Facts",
+"content":"Mbappé became one of the youngest players to score in a World Cup final."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"thierry_henry",
+"name":"Thierry Henry",
+"type":"entity",
+"parent":"football_france",
+
+"info":{
+"country":"France",
+"position":"Forward",
+"born":"17 August 1977",
+"national_team_goals":"51"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Thierry Henry is considered one of the greatest strikers in football history."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the 1998 FIFA World Cup and UEFA Euro 2000 with France."
+},
+"tab3":{
+"title":"Facts",
+"content":"Henry became Arsenal's all time top scorer."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"michel_platini",
+"name":"Michel Platini",
+"type":"entity",
+"parent":"football_france",
+
+"info":{
+"country":"France",
+"position":"Midfielder",
+"born":"21 June 1955",
+"national_team_goals":"41"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Michel Platini was one of the most creative midfielders in football history."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He led France to victory in the UEFA Euro 1984."
+},
+"tab3":{
+"title":"Facts",
+"content":"Platini won the Ballon d'Or three consecutive times."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"antoine_griezmann",
+"name":"Antoine Griezmann",
+"type":"entity",
+"parent":"football_france",
+
+"info":{
+"country":"France",
+"position":"Forward",
+"born":"21 March 1991",
+"national_team_goals":"44"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Antoine Griezmann is a key attacking player for the French national team."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He played a major role in France winning the 2018 FIFA World Cup."
+},
+"tab3":{
+"title":"Facts",
+"content":"Griezmann has played for clubs like Atlético Madrid and Barcelona."
+}
+},
+
+"gallery_count":5
+}
+]

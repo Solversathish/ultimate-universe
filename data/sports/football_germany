@@ -1,0 +1,156 @@
+[
+{
+"id":"franz_beckenbauer",
+"name":"Franz Beckenbauer",
+"type":"entity",
+"parent":"football_germany",
+
+"info":{
+"country":"Germany",
+"position":"Defender",
+"born":"11 September 1945",
+"national_team_goals":"14"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Franz Beckenbauer was one of the greatest defenders in football history."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the FIFA World Cup both as a player and a manager."
+},
+"tab3":{
+"title":"Facts",
+"content":"Beckenbauer was nicknamed 'Der Kaiser'."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"miroslav_klose",
+"name":"Miroslav Klose",
+"type":"entity",
+"parent":"football_germany",
+
+"info":{
+"country":"Germany",
+"position":"Striker",
+"born":"9 June 1978",
+"national_team_goals":"71"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Miroslav Klose is the top scorer in FIFA World Cup history."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He helped Germany win the 2014 FIFA World Cup."
+},
+"tab3":{
+"title":"Facts",
+"content":"Klose scored 16 goals in World Cup tournaments."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"thomas_muller",
+"name":"Thomas Müller",
+"type":"entity",
+"parent":"football_germany",
+
+"info":{
+"country":"Germany",
+"position":"Forward",
+"born":"13 September 1989",
+"national_team_goals":"45"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Thomas Müller is known for his intelligence and positioning on the field."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the 2014 FIFA World Cup with Germany."
+},
+"tab3":{
+"title":"Facts",
+"content":"Müller is famous for his 'Raumdeuter' playing style."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"manuel_neuer",
+"name":"Manuel Neuer",
+"type":"entity",
+"parent":"football_germany",
+
+"info":{
+"country":"Germany",
+"position":"Goalkeeper",
+"born":"27 March 1986",
+"national_team_clean_sheets":"48"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Manuel Neuer is considered one of the greatest goalkeepers of all time."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the 2014 FIFA World Cup with Germany."
+},
+"tab3":{
+"title":"Facts",
+"content":"Neuer revolutionized the role of the modern 'sweeper keeper'."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"toni_kroos",
+"name":"Toni Kroos",
+"type":"entity",
+"parent":"football_germany",
+
+"info":{
+"country":"Germany",
+"position":"Midfielder",
+"born":"4 January 1990",
+"national_team_goals":"17"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Toni Kroos is known for his passing accuracy and midfield control."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the 2014 FIFA World Cup and multiple Champions League titles."
+},
+"tab3":{
+"title":"Facts",
+"content":"Kroos played most of his career at Real Madrid."
+}
+},
+
+"gallery_count":5
+}
+]

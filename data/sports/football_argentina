@@ -1,0 +1,156 @@
+[
+{
+"id":"lionel_messi",
+"name":"Lionel Messi",
+"type":"entity",
+"parent":"football_argentina",
+
+"info":{
+"country":"Argentina",
+"position":"Forward",
+"born":"24 June 1987",
+"national_team_goals":"106"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Lionel Messi is widely regarded as one of the greatest football players in history."
+},
+"tab2":{
+"title":"Achievements",
+"content":"Messi won the FIFA World Cup 2022 and has won multiple Ballon d'Or awards."
+},
+"tab3":{
+"title":"Facts",
+"content":"He spent most of his career at Barcelona and became their all-time top scorer."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"diego_maradona",
+"name":"Diego Maradona",
+"type":"entity",
+"parent":"football_argentina",
+
+"info":{
+"country":"Argentina",
+"position":"Attacking Midfielder",
+"born":"30 October 1960",
+"national_team_goals":"34"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Diego Maradona was one of the most iconic football players in history."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He captained Argentina to victory in the 1986 FIFA World Cup."
+},
+"tab3":{
+"title":"Facts",
+"content":"He scored the famous 'Hand of God' goal against England in 1986."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"angel_di_maria",
+"name":"Ángel Di María",
+"type":"entity",
+"parent":"football_argentina",
+
+"info":{
+"country":"Argentina",
+"position":"Winger",
+"born":"14 February 1988",
+"national_team_goals":"31"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Ángel Di María is known for his speed and attacking creativity."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He scored the winning goal in the 2021 Copa América final."
+},
+"tab3":{
+"title":"Facts",
+"content":"Di María played for clubs like Real Madrid, PSG and Juventus."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"sergio_aguero",
+"name":"Sergio Agüero",
+"type":"entity",
+"parent":"football_argentina",
+
+"info":{
+"country":"Argentina",
+"position":"Striker",
+"born":"2 June 1988",
+"national_team_goals":"41"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Sergio Agüero was one of the most lethal strikers of his generation."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He became Manchester City's all time top scorer."
+},
+"tab3":{
+"title":"Facts",
+"content":"Agüero scored the famous last minute goal that won the Premier League for Manchester City in 2012."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"javier_zanetti",
+"name":"Javier Zanetti",
+"type":"entity",
+"parent":"football_argentina",
+
+"info":{
+"country":"Argentina",
+"position":"Defender",
+"born":"10 August 1973",
+"national_team_goals":"5"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Javier Zanetti was one of the most reliable defenders in football history."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He captained Inter Milan for many years and won the UEFA Champions League."
+},
+"tab3":{
+"title":"Facts",
+"content":"Zanetti played more than 850 matches for Inter Milan."
+}
+},
+
+"gallery_count":5
+}
+]

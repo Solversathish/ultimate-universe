@@ -1,0 +1,156 @@
+[
+{
+"id":"andres_iniesta",
+"name":"Andrés Iniesta",
+"type":"entity",
+"parent":"football_spain",
+
+"info":{
+"country":"Spain",
+"position":"Midfielder",
+"born":"11 May 1984",
+"national_team_goals":"13"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Andrés Iniesta is one of the greatest midfielders in football history."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He scored the winning goal in the 2010 FIFA World Cup final."
+},
+"tab3":{
+"title":"Facts",
+"content":"Iniesta was a key part of Barcelona's golden era."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"xavi",
+"name":"Xavi",
+"type":"entity",
+"parent":"football_spain",
+
+"info":{
+"country":"Spain",
+"position":"Midfielder",
+"born":"25 January 1980",
+"national_team_goals":"13"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Xavi was the heart of Spain's tiki taka style of football."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the 2010 FIFA World Cup and two UEFA European Championships."
+},
+"tab3":{
+"title":"Facts",
+"content":"Xavi later became the manager of FC Barcelona."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"sergio_ramos",
+"name":"Sergio Ramos",
+"type":"entity",
+"parent":"football_spain",
+
+"info":{
+"country":"Spain",
+"position":"Defender",
+"born":"30 March 1986",
+"national_team_goals":"23"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Sergio Ramos is one of the greatest defenders in football history."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He won the 2010 FIFA World Cup and multiple Champions League titles."
+},
+"tab3":{
+"title":"Facts",
+"content":"Ramos scored many important goals despite being a defender."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"iker_casillas",
+"name":"Iker Casillas",
+"type":"entity",
+"parent":"football_spain",
+
+"info":{
+"country":"Spain",
+"position":"Goalkeeper",
+"born":"20 May 1981",
+"national_team_clean_sheets":"102"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Iker Casillas was one of the best goalkeepers of his generation."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He captained Spain to victory in the 2010 FIFA World Cup."
+},
+"tab3":{
+"title":"Facts",
+"content":"Casillas spent most of his career at Real Madrid."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"david_villa",
+"name":"David Villa",
+"type":"entity",
+"parent":"football_spain",
+
+"info":{
+"country":"Spain",
+"position":"Forward",
+"born":"3 December 1981",
+"national_team_goals":"59"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"David Villa is Spain's all time top scorer."
+},
+"tab2":{
+"title":"Achievements",
+"content":"He played a key role in Spain winning the 2010 FIFA World Cup."
+},
+"tab3":{
+"title":"Facts",
+"content":"Villa scored crucial goals in the 2010 World Cup knockout stage."
+}
+},
+
+"gallery_count":5
+}
+]
