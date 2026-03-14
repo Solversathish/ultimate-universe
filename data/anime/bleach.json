@@ -1,0 +1,151 @@
+[
+{
+"id":"ichigo_kurosaki",
+"name":"Ichigo Kurosaki",
+"type":"entity",
+"parent":"bleach",
+
+"info":{
+"role":"Soul Reaper",
+"weapon":"Zanpakuto",
+"ability":"Getsuga Tensho"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Ichigo Kurosaki is the main protagonist of Bleach who gains the powers of a Soul Reaper."
+},
+"tab2":{
+"title":"Abilities",
+"content":"Ichigo possesses immense spiritual power, Bankai transformation and Hollow abilities."
+},
+"tab3":{
+"title":"Facts",
+"content":"Ichigo protects both the human world and the Soul Society from powerful enemies."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"rukia_kuchiki",
+"name":"Rukia Kuchiki",
+"type":"entity",
+"parent":"bleach",
+
+"info":{
+"role":"Soul Reaper",
+"division":"13th Division",
+"weapon":"Sode no Shirayuki"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Rukia Kuchiki is the Soul Reaper who transfers her powers to Ichigo."
+},
+"tab2":{
+"title":"Abilities",
+"content":"Rukia uses powerful ice-based techniques with her Zanpakuto."
+},
+"tab3":{
+"title":"Facts",
+"content":"Rukia belongs to the noble Kuchiki clan in Soul Society."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"byakuya_kuchiki",
+"name":"Byakuya Kuchiki",
+"type":"entity",
+"parent":"bleach",
+
+"info":{
+"role":"Captain",
+"division":"6th Division",
+"weapon":"Senbonzakura"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Byakuya Kuchiki is the captain of the 6th Division in the Soul Society."
+},
+"tab2":{
+"title":"Abilities",
+"content":"His Zanpakuto transforms into thousands of blade petals."
+},
+"tab3":{
+"title":"Facts",
+"content":"Byakuya is known for his calm personality and strong sense of honor."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"toshiro_hitsugaya",
+"name":"Toshiro Hitsugaya",
+"type":"entity",
+"parent":"bleach",
+
+"info":{
+"role":"Captain",
+"division":"10th Division",
+"weapon":"Hyōrinmaru"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Toshiro Hitsugaya is the youngest captain in the Soul Society."
+},
+"tab2":{
+"title":"Abilities",
+"content":"His Zanpakuto controls ice and snow in combat."
+},
+"tab3":{
+"title":"Facts",
+"content":"Hitsugaya is considered a prodigy among Soul Reapers."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"kenpachi_zaraki",
+"name":"Kenpachi Zaraki",
+"type":"entity",
+"parent":"bleach",
+
+"info":{
+"role":"Captain",
+"division":"11th Division",
+"title":"Battle Maniac"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Kenpachi Zaraki is one of the strongest and most fearless captains in Soul Society."
+},
+"tab2":{
+"title":"Abilities",
+"content":"He relies on raw strength and overwhelming spiritual pressure."
+},
+"tab3":{
+"title":"Facts",
+"content":"Kenpachi loves fighting powerful opponents."
+}
+},
+
+"gallery_count":5
+}
+]
