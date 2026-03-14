@@ -1,6 +1,6 @@
 [
 {
-"id":"usa_basketball_team",
+"id":"basketball_usa",
 "name":"USA",
 "type":"category",
 "parent":"basketball",
@@ -30,7 +30,7 @@
 },
 
 {
-"id":"spain_basketball_team",
+"id":"basketball_spain",
 "name":"Spain",
 "type":"category",
 "parent":"basketball",
@@ -60,7 +60,7 @@
 },
 
 {
-"id":"canada_basketball_team",
+"id":"basketball_canada",
 "name":"Canada",
 "type":"category",
 "parent":"basketball",
@@ -90,7 +90,7 @@
 },
 
 {
-"id":"serbia_basketball_team",
+"id":"basketball_serbia",
 "name":"Serbia",
 "type":"category",
 "parent":"basketball",
@@ -120,7 +120,7 @@
 },
 
 {
-"id":"australia_basketball_team",
+"id":"basketball_australia",
 "name":"Australia",
 "type":"category",
 "parent":"basketball",

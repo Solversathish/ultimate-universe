@@ -1,6 +1,6 @@
 [
 {
-"id":"brazil_football_team",
+"id":"football_brazil",
 "name":"Brazil",
 "type":"category",
 "parent":"football",
@@ -30,7 +30,7 @@
 },
 
 {
-"id":"argentina_football_team",
+"id":"football_argentina",
 "name":"Argentina",
 "type":"category",
 "parent":"football",
@@ -60,7 +60,7 @@
 },
 
 {
-"id":"france_football_team",
+"id":"football_france",
 "name":"France",
 "type":"category",
 "parent":"football",
@@ -90,7 +90,7 @@
 },
 
 {
-"id":"germany_football_team",
+"id":"football_germany",
 "name":"Germany",
 "type":"category",
 "parent":"football",
@@ -120,7 +120,7 @@
 },
 
 {
-"id":"spain_football_team",
+"id":"football_spain",
 "name":"Spain",
 "type":"category",
 "parent":"football",
