@@ -1,0 +1,151 @@
+[
+{
+"id":"apple",
+"name":"Apple",
+"type":"entity",
+"parent":"fruits",
+
+"info":{
+"scientific_name":"Malus domestica",
+"origin":"Central Asia",
+"color":"Red / Green / Yellow"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Apple is one of the most widely cultivated fruits in the world and is known for its sweet and crisp taste."
+},
+"tab2":{
+"title":"Nutrition",
+"content":"Apples contain fiber, vitamin C and various antioxidants that are beneficial for health."
+},
+"tab3":{
+"title":"Facts",
+"content":"The phrase 'An apple a day keeps the doctor away' highlights its health benefits."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"banana",
+"name":"Banana",
+"type":"entity",
+"parent":"fruits",
+
+"info":{
+"scientific_name":"Musa",
+"origin":"Southeast Asia",
+"color":"Yellow"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Bananas are one of the most popular fruits worldwide and are known for their soft texture and sweetness."
+},
+"tab2":{
+"title":"Nutrition",
+"content":"Bananas are rich in potassium, vitamin B6 and dietary fiber."
+},
+"tab3":{
+"title":"Facts",
+"content":"Bananas are technically classified as berries in botanical terms."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"mango",
+"name":"Mango",
+"type":"entity",
+"parent":"fruits",
+
+"info":{
+"scientific_name":"Mangifera indica",
+"origin":"South Asia",
+"color":"Yellow / Orange"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Mango is known as the 'King of Fruits' and is famous for its sweet and juicy flavor."
+},
+"tab2":{
+"title":"Nutrition",
+"content":"Mangoes contain vitamins A, C and antioxidants."
+},
+"tab3":{
+"title":"Facts",
+"content":"India is the largest producer of mangoes in the world."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"strawberry",
+"name":"Strawberry",
+"type":"entity",
+"parent":"fruits",
+
+"info":{
+"scientific_name":"Fragaria",
+"origin":"Europe",
+"color":"Red"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Strawberries are small red fruits known for their sweet flavor and aroma."
+},
+"tab2":{
+"title":"Nutrition",
+"content":"They are rich in vitamin C, antioxidants and fiber."
+},
+"tab3":{
+"title":"Facts",
+"content":"Strawberries are the only fruit with seeds on the outside."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"pineapple",
+"name":"Pineapple",
+"type":"entity",
+"parent":"fruits",
+
+"info":{
+"scientific_name":"Ananas comosus",
+"origin":"South America",
+"color":"Yellow"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Pineapple is a tropical fruit known for its sweet and tangy taste."
+},
+"tab2":{
+"title":"Nutrition",
+"content":"It contains vitamin C and bromelain, an enzyme that aids digestion."
+},
+"tab3":{
+"title":"Facts",
+"content":"Pineapple plants take around two years to produce a single fruit."
+}
+},
+
+"gallery_count":5
+}
+]
