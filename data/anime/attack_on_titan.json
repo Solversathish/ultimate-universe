@@ -1,0 +1,151 @@
+[
+{
+"id":"eren_yeager",
+"name":"Eren Yeager",
+"type":"entity",
+"parent":"attack_on_titan",
+
+"info":{
+"rank":"Scout Regiment",
+"ability":"Attack Titan",
+"goal":"Freedom"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Eren Yeager is the main protagonist of Attack on Titan who dreams of destroying all Titans."
+},
+"tab2":{
+"title":"Abilities",
+"content":"Eren possesses the power of the Attack Titan and later gains additional Titan abilities."
+},
+"tab3":{
+"title":"Facts",
+"content":"Eren's determination to achieve freedom drives the entire story."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"mikasa_ackerman",
+"name":"Mikasa Ackerman",
+"type":"entity",
+"parent":"attack_on_titan",
+
+"info":{
+"rank":"Scout Regiment",
+"family":"Ackerman Clan",
+"skill":"Elite Soldier"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Mikasa Ackerman is one of the strongest soldiers in the Scout Regiment and Eren's closest companion."
+},
+"tab2":{
+"title":"Abilities",
+"content":"Mikasa has exceptional combat skills and uses ODM gear with extreme precision."
+},
+"tab3":{
+"title":"Facts",
+"content":"She belongs to the powerful Ackerman bloodline."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"armin_arlert",
+"name":"Armin Arlert",
+"type":"entity",
+"parent":"attack_on_titan",
+
+"info":{
+"rank":"Scout Regiment",
+"ability":"Colossal Titan",
+"strength":"Strategist"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Armin Arlert is a brilliant strategist and one of Eren's closest friends."
+},
+"tab2":{
+"title":"Abilities",
+"content":"Armin inherits the Colossal Titan power later in the story."
+},
+"tab3":{
+"title":"Facts",
+"content":"Armin often saves his friends through intelligent strategies."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"levi_ackerman",
+"name":"Levi Ackerman",
+"type":"entity",
+"parent":"attack_on_titan",
+
+"info":{
+"rank":"Captain",
+"unit":"Scout Regiment",
+"title":"Humanity's Strongest Soldier"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Levi Ackerman is the captain of the Scout Regiment and the strongest soldier in humanity."
+},
+"tab2":{
+"title":"Abilities",
+"content":"Levi possesses incredible speed and combat skill using ODM gear."
+},
+"tab3":{
+"title":"Facts",
+"content":"Levi belongs to the Ackerman clan known for powerful warriors."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"reiner_braun",
+"name":"Reiner Braun",
+"type":"entity",
+"parent":"attack_on_titan",
+
+"info":{
+"rank":"Warrior",
+"ability":"Armored Titan",
+"origin":"Marley"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Reiner Braun is a warrior candidate who possesses the Armored Titan."
+},
+"tab2":{
+"title":"Abilities",
+"content":"Reiner can transform into the powerful Armored Titan with immense durability."
+},
+"tab3":{
+"title":"Facts",
+"content":"Reiner struggles with his identity throughout the story."
+}
+},
+
+"gallery_count":5
+}
+]
