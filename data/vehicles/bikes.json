@@ -1,0 +1,151 @@
+[
+{
+"id":"yamaha_r1",
+"name":"Yamaha YZF-R1",
+"type":"entity",
+"parent":"bikes",
+
+"info":{
+"manufacturer":"Yamaha",
+"country":"Japan",
+"engine":"998cc"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"The Yamaha YZF-R1 is one of the most famous superbikes in the world known for its racing technology and aggressive design."
+},
+"tab2":{
+"title":"Specifications",
+"content":"It features a 998cc inline four engine, advanced electronics, traction control and aerodynamic design."
+},
+"tab3":{
+"title":"Facts",
+"content":"The R1 is heavily inspired by Yamaha's MotoGP racing technology."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"kawasaki_ninja_h2",
+"name":"Kawasaki Ninja H2",
+"type":"entity",
+"parent":"bikes",
+
+"info":{
+"manufacturer":"Kawasaki",
+"country":"Japan",
+"engine":"998cc Supercharged"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"The Kawasaki Ninja H2 is one of the most powerful production motorcycles ever built."
+},
+"tab2":{
+"title":"Specifications",
+"content":"It features a supercharged engine, advanced electronics and aerodynamic bodywork."
+},
+"tab3":{
+"title":"Facts",
+"content":"The Ninja H2R track version can exceed 400 km/h."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"ducati_panigale_v4",
+"name":"Ducati Panigale V4",
+"type":"entity",
+"parent":"bikes",
+
+"info":{
+"manufacturer":"Ducati",
+"country":"Italy",
+"engine":"1103cc V4"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"The Ducati Panigale V4 is a premium superbike known for its Italian design and racing performance."
+},
+"tab2":{
+"title":"Specifications",
+"content":"It features a powerful V4 engine, advanced electronics and MotoGP inspired technology."
+},
+"tab3":{
+"title":"Facts",
+"content":"The Panigale V4 replaced the legendary Ducati V-twin superbikes."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"suzuki_hayabusa",
+"name":"Suzuki Hayabusa",
+"type":"entity",
+"parent":"bikes",
+
+"info":{
+"manufacturer":"Suzuki",
+"country":"Japan",
+"engine":"1340cc"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"The Suzuki Hayabusa is one of the most iconic sport bikes known for its speed and unique aerodynamic design."
+},
+"tab2":{
+"title":"Specifications",
+"content":"It features a powerful engine designed for high speed touring and sport riding."
+},
+"tab3":{
+"title":"Facts",
+"content":"The Hayabusa held the title of the fastest production motorcycle in the world for many years."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"bmw_s1000rr",
+"name":"BMW S1000RR",
+"type":"entity",
+"parent":"bikes",
+
+"info":{
+"manufacturer":"BMW",
+"country":"Germany",
+"engine":"999cc"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"The BMW S1000RR is a high performance superbike developed by BMW Motorrad."
+},
+"tab2":{
+"title":"Specifications",
+"content":"It features advanced electronics, quick shifter, traction control and powerful inline four engine."
+},
+"tab3":{
+"title":"Facts",
+"content":"The S1000RR is widely used in superbike racing competitions."
+}
+},
+
+"gallery_count":5
+}
+]
