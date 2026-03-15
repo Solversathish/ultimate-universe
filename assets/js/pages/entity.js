@@ -170,17 +170,13 @@ function renderEntity(entity,universe,path){
     let listURL="";
 
     if(entity.id === universe){
-
       listURL = `category.html?universe=${universe}`;
-
-    }else if(path){
-
+    }
+    else if(path){
       listURL = `category.html?universe=${universe}&path=${path}`;
-
-    }else{
-
+    }
+    else{
       listURL = `category.html?universe=${universe}&path=${entity.id}`;
-
     }
 
     viewListBtn = `
@@ -198,7 +194,7 @@ function renderEntity(entity,universe,path){
   <div class="entity-main">
 
     <div class="entity-hero">
-      <img src="${getCDNImage(entity.id,"hero",universe)}" loading="lazy">
+      <img src="${getCDNImage(entity.id,"hero",universe,path)}" loading="lazy">
     </div>
 
     <div class="entity-details">
@@ -207,9 +203,7 @@ function renderEntity(entity,universe,path){
 
       ${generateInfoTable(entity.info)}
 
-      <div class="tab-content">
-        ${entity.description || ""}
-      </div>
+      ${generateTabs(entity)}
 
     </div>
 
@@ -219,7 +213,44 @@ function renderEntity(entity,universe,path){
 
   <div id="entityNavigation"></div>
 
+  <button id="scrollTopBtn">↑</button>
+
   `;
+
+}
+
+
+
+/* ================= TABS ================= */
+
+function generateTabs(entity){
+
+  if(!entity.tabs) return "";
+
+  return `
+
+  <div class="tabs">
+
+    <button onclick="showTab('tab1')">${entity.tabs.tab1.title}</button>
+    <button onclick="showTab('tab2')">${entity.tabs.tab2.title}</button>
+    <button onclick="showTab('tab3')">${entity.tabs.tab3.title}</button>
+
+  </div>
+
+  <div id="tab1" class="tab-content">${entity.tabs.tab1.content}</div>
+  <div id="tab2" class="tab-content" style="display:none">${entity.tabs.tab2.content}</div>
+  <div id="tab3" class="tab-content" style="display:none">${entity.tabs.tab3.content}</div>
+
+  `;
+}
+
+function showTab(tab){
+
+  document.querySelectorAll(".tab-content")
+  .forEach(t=>t.style.display="none");
+
+  document.getElementById(tab).style.display="block";
+
 }
 
 
@@ -238,8 +269,6 @@ async function buildNavigation(entityId){
 
   try{
 
-    /* ================= UNIVERSE LEVEL ================= */
-
     if(entityId === universe){
 
       db = await fetch("data/universes.json")
@@ -249,8 +278,6 @@ async function buildNavigation(entityId){
 
     }
 
-    /* ================= WORLD LEVEL ================= */
-
     else if(!path){
 
       db = await fetch(`data/${universe}/categories.json`)
@@ -259,8 +286,6 @@ async function buildNavigation(entityId){
       level = "world";
 
     }
-
-    /* ================= ENTITY LEVEL ================= */
 
     else{
 
@@ -286,8 +311,6 @@ async function buildNavigation(entityId){
   const next = db[index+1];
 
   const nav = document.getElementById("entityNavigation");
-
-  /* ================= URL GENERATOR ================= */
 
   function buildURL(item){
 
@@ -317,7 +340,9 @@ async function buildNavigation(entityId){
 
   </div>
   `;
+
 }
+
 
 
 /* ================= INFO TABLE ================= */
@@ -351,7 +376,13 @@ function renderGallery(entity){
 
   const galleryContainer=document.getElementById("galleryContainer");
 
-  if(!entity.gallery) return;
+  if(!entity.gallery_count) return;
+
+  let images="";
+
+  for(let i=1;i<=entity.gallery_count;i++){
+    images += `<img src="${getCDNImage(entity.id,"gallery")}g${i}.png" loading="lazy">`;
+  }
 
   galleryContainer.innerHTML=`
 
@@ -361,7 +392,7 @@ function renderGallery(entity){
 
   <div class="gallery-grid">
 
-  ${entity.gallery.map(img=>`<img src="${img}" loading="lazy">`).join("")}
+  ${images}
 
   </div>
 
@@ -369,6 +400,18 @@ function renderGallery(entity){
 
   `;
 }
+
+
+
+/* ================= SCROLL TOP ================= */
+
+document.addEventListener("click",function(e){
+
+  if(e.target.id==="scrollTopBtn"){
+    window.scrollTo({top:0,behavior:"smooth"});
+  }
+
+});
 
 
 

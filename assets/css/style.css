@@ -883,25 +883,70 @@ cursor:pointer;
   color:black;
 }
 
-.entity-navigation{
-  display:flex;
-  justify-content:space-between;
-  max-width:900px;
-  margin:40px auto;
+.entity-nav{
+
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+
+background:#111;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:10px;
+
+z-index:1000;
+
 }
 
-.entity-navigation button{
-  padding:10px 20px;
-  border:2px solid #00ff9c;
-  background:transparent;
-  color:white;
-  border-radius:6px;
-  cursor:pointer;
+.entity-nav button{
+
+background:#222;
+color:white;
+
+border:none;
+padding:10px 16px;
+
+border-radius:6px;
+
+cursor:pointer;
+
 }
 
-.entity-navigation button:hover{
-  background:#00ff9c;
-  color:black;
+.nav-left{
+width:30%;
+}
+
+.nav-center{
+width:40%;
+text-align:center;
+}
+
+.nav-right{
+width:30%;
+text-align:right;
+}
+
+#scrollTopBtn{
+
+position:fixed;
+
+right:20px;
+bottom:80px;
+
+background:#000;
+color:#fff;
+
+border:none;
+padding:10px 14px;
+
+border-radius:6px;
+
+cursor:pointer;
+
 }
 
 .no-items{
