@@ -1,0 +1,151 @@
+[
+{
+"id":"golden_retriever",
+"name":"Golden Retriever",
+"type":"entity",
+"parent":"dogs",
+
+"info":{
+"origin":"United Kingdom",
+"breed_group":"Sporting",
+"lifespan":"10-12 years"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Golden Retrievers are one of the most popular dog breeds known for their friendly nature, intelligence and loyalty."
+},
+"tab2":{
+"title":"Characteristics",
+"content":"They are highly trainable, energetic and love outdoor activities such as swimming and fetching."
+},
+"tab3":{
+"title":"Facts",
+"content":"Golden Retrievers are widely used as guide dogs, therapy dogs and search-and-rescue dogs."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"german_shepherd",
+"name":"German Shepherd",
+"type":"entity",
+"parent":"dogs",
+
+"info":{
+"origin":"Germany",
+"breed_group":"Herding",
+"lifespan":"9-13 years"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"German Shepherds are strong, intelligent and versatile working dogs commonly used in police and military roles."
+},
+"tab2":{
+"title":"Characteristics",
+"content":"They are loyal, confident and highly trainable, making them excellent guard and service dogs."
+},
+"tab3":{
+"title":"Facts",
+"content":"German Shepherds are among the most popular dog breeds for law enforcement agencies."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"siberian_husky",
+"name":"Siberian Husky",
+"type":"entity",
+"parent":"dogs",
+
+"info":{
+"origin":"Siberia",
+"breed_group":"Working",
+"lifespan":"12-14 years"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Siberian Huskies are medium-sized working dogs originally bred for pulling sleds in cold climates."
+},
+"tab2":{
+"title":"Characteristics",
+"content":"They are energetic, intelligent and known for their striking blue or multicolored eyes."
+},
+"tab3":{
+"title":"Facts",
+"content":"Siberian Huskies can run long distances and thrive in cold weather environments."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"bulldog",
+"name":"Bulldog",
+"type":"entity",
+"parent":"dogs",
+
+"info":{
+"origin":"England",
+"breed_group":"Non-Sporting",
+"lifespan":"8-10 years"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Bulldogs are muscular dogs known for their wrinkled faces and distinctive pushed-in noses."
+},
+"tab2":{
+"title":"Characteristics",
+"content":"Despite their tough appearance, Bulldogs are gentle, friendly and affectionate companions."
+},
+"tab3":{
+"title":"Facts",
+"content":"The Bulldog is a symbol of determination and courage in British culture."
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"labrador_retriever",
+"name":"Labrador Retriever",
+"type":"entity",
+"parent":"dogs",
+
+"info":{
+"origin":"Canada",
+"breed_group":"Sporting",
+"lifespan":"10-12 years"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Labrador Retrievers are one of the most popular dog breeds in the world known for their friendly and outgoing personality."
+},
+"tab2":{
+"title":"Characteristics",
+"content":"They are intelligent, energetic and excellent family pets as well as working dogs."
+},
+"tab3":{
+"title":"Facts",
+"content":"Labradors are commonly used as guide dogs, therapy dogs and rescue dogs."
+}
+},
+
+"gallery_count":5
+}
+]
