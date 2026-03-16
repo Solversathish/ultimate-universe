@@ -81,9 +81,17 @@ item.universe,
 item.path
 );
 
-const parentLabel = item.parent
-? item.parent
-: formatName(item.universe);
+let parentLabel = "";
+
+if(item.type === "universe"){
+parentLabel = "Universe";
+}
+else if(item.type === "entity"){
+parentLabel = item.parent;
+}
+else{
+parentLabel = formatName(item.universe);
+}
 
 html += `
 
