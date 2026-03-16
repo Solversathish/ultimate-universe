@@ -1,32 +1,992 @@
 [
-{
-"id":"anime",
-"name":"Anime",
-"url":"entity.html?universe=anime&id=anime",
-"type":"universe"
-},
-{
-"id":"naruto",
-"name":"Naruto",
-"url":"entity.html?universe=anime&id=naruto",
-"type":"category"
-},
-{
-"id":"naruto_uzumaki",
-"name":"Naruto Uzumaki",
-"url":"entity.html?universe=anime&path=naruto&id=naruto_uzumaki",
-"type":"entity"
-},
-{
-"id":"sasuke_uchiha",
-"name":"Sasuke Uchiha",
-"url":"entity.html?universe=anime&path=naruto&id=sasuke_uchiha",
-"type":"entity"
-},
-{
-"id":"sakura_haruno",
-"name":"Sakura Haruno",
-"url":"entity.html?universe=anime&path=naruto&id=sakura_haruno",
-"type":"entity"
-}
+  {
+    "name": "Golden Retriever",
+    "id": "golden_retriever",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=dogs&id=golden_retriever"
+  },
+  {
+    "name": "German Shepherd",
+    "id": "german_shepherd",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=dogs&id=german_shepherd"
+  },
+  {
+    "name": "Siberian Husky",
+    "id": "siberian_husky",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=dogs&id=siberian_husky"
+  },
+  {
+    "name": "Bulldog",
+    "id": "bulldog",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=dogs&id=bulldog"
+  },
+  {
+    "name": "Labrador Retriever",
+    "id": "labrador_retriever",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=dogs&id=labrador_retriever"
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "id": "tyrannosaurus_rex",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=extinct_animals&id=tyrannosaurus_rex"
+  },
+  {
+    "name": "Woolly Mammoth",
+    "id": "woolly_mammoth",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=extinct_animals&id=woolly_mammoth"
+  },
+  {
+    "name": "Dodo",
+    "id": "dodo",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=extinct_animals&id=dodo"
+  },
+  {
+    "name": "Saber-Toothed Tiger",
+    "id": "saber_toothed_tiger",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=extinct_animals&id=saber_toothed_tiger"
+  },
+  {
+    "name": "Triceratops",
+    "id": "triceratops",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=extinct_animals&id=triceratops"
+  },
+  {
+    "name": "Butterfly",
+    "id": "butterfly",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=insects&id=butterfly"
+  },
+  {
+    "name": "Honey Bee",
+    "id": "honey_bee",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=insects&id=honey_bee"
+  },
+  {
+    "name": "Ant",
+    "id": "ant",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=insects&id=ant"
+  },
+  {
+    "name": "Dragonfly",
+    "id": "dragonfly",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=insects&id=dragonfly"
+  },
+  {
+    "name": "Ladybug",
+    "id": "ladybug",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=insects&id=ladybug"
+  },
+  {
+    "name": "Lion",
+    "id": "lion",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=mammals&id=lion"
+  },
+  {
+    "name": "Elephant",
+    "id": "elephant",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=mammals&id=elephant"
+  },
+  {
+    "name": "Dolphin",
+    "id": "dolphin",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=mammals&id=dolphin"
+  },
+  {
+    "name": "Bat",
+    "id": "bat",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=mammals&id=bat"
+  },
+  {
+    "name": "Kangaroo",
+    "id": "kangaroo",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=mammals&id=kangaroo"
+  },
+  {
+    "name": "Great White Shark",
+    "id": "great_white_shark",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=marine_animals&id=great_white_shark"
+  },
+  {
+    "name": "Octopus",
+    "id": "octopus",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=marine_animals&id=octopus"
+  },
+  {
+    "name": "Dolphin",
+    "id": "dolphin_marine",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=marine_animals&id=dolphin_marine"
+  },
+  {
+    "name": "Jellyfish",
+    "id": "jellyfish",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=marine_animals&id=jellyfish"
+  },
+  {
+    "name": "Seahorse",
+    "id": "seahorse",
+    "type": "animals",
+    "url": "entity.html?universe=animals&path=marine_animals&id=seahorse"
+  },
+  {
+    "name": "Eren Yeager",
+    "id": "eren_yeager",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=attack_on_titan&id=eren_yeager"
+  },
+  {
+    "name": "Mikasa Ackerman",
+    "id": "mikasa_ackerman",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=attack_on_titan&id=mikasa_ackerman"
+  },
+  {
+    "name": "Armin Arlert",
+    "id": "armin_arlert",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=attack_on_titan&id=armin_arlert"
+  },
+  {
+    "name": "Levi Ackerman",
+    "id": "levi_ackerman",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=attack_on_titan&id=levi_ackerman"
+  },
+  {
+    "name": "Reiner Braun",
+    "id": "reiner_braun",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=attack_on_titan&id=reiner_braun"
+  },
+  {
+    "name": "Ichigo Kurosaki",
+    "id": "ichigo_kurosaki",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=bleach&id=ichigo_kurosaki"
+  },
+  {
+    "name": "Rukia Kuchiki",
+    "id": "rukia_kuchiki",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=bleach&id=rukia_kuchiki"
+  },
+  {
+    "name": "Byakuya Kuchiki",
+    "id": "byakuya_kuchiki",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=bleach&id=byakuya_kuchiki"
+  },
+  {
+    "name": "Toshiro Hitsugaya",
+    "id": "toshiro_hitsugaya",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=bleach&id=toshiro_hitsugaya"
+  },
+  {
+    "name": "Kenpachi Zaraki",
+    "id": "kenpachi_zaraki",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=bleach&id=kenpachi_zaraki"
+  },
+  {
+    "name": "Kid Goku",
+    "id": "kid_goku",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=dragon_ball&id=kid_goku"
+  },
+  {
+    "name": "Bulma",
+    "id": "bulma",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=dragon_ball&id=bulma"
+  },
+  {
+    "name": "Krillin",
+    "id": "krillin",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=dragon_ball&id=krillin"
+  },
+  {
+    "name": "Master Roshi",
+    "id": "master_roshi",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=dragon_ball&id=master_roshi"
+  },
+  {
+    "name": "Yamcha",
+    "id": "yamcha",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=dragon_ball&id=yamcha"
+  },
+  {
+    "name": "Naruto Uzumaki",
+    "id": "naruto_uzumaki",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=naruto&id=naruto_uzumaki"
+  },
+  {
+    "name": "Sasuke Uchiha",
+    "id": "sasuke_uchiha",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=naruto&id=sasuke_uchiha"
+  },
+  {
+    "name": "Sakura Haruno",
+    "id": "sakura_haruno",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=naruto&id=sakura_haruno"
+  },
+  {
+    "name": "Kakashi Hatake",
+    "id": "kakashi_hatake",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=naruto&id=kakashi_hatake"
+  },
+  {
+    "name": "Itachi Uchiha",
+    "id": "itachi_uchiha",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=naruto&id=itachi_uchiha"
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "id": "monkey_d_luffy",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=one_piece&id=monkey_d_luffy"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "id": "roronoa_zoro",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=one_piece&id=roronoa_zoro"
+  },
+  {
+    "name": "Nami",
+    "id": "nami",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=one_piece&id=nami"
+  },
+  {
+    "name": "Sanji",
+    "id": "sanji",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=one_piece&id=sanji"
+  },
+  {
+    "name": "Trafalgar Law",
+    "id": "trafalgar_law",
+    "type": "anime",
+    "url": "entity.html?universe=anime&path=one_piece&id=trafalgar_law"
+  },
+  {
+    "name": "Apple",
+    "id": "apple",
+    "type": "fruits",
+    "url": "entity.html?universe=fruits&path=fruits&id=apple"
+  },
+  {
+    "name": "Banana",
+    "id": "banana",
+    "type": "fruits",
+    "url": "entity.html?universe=fruits&path=fruits&id=banana"
+  },
+  {
+    "name": "Mango",
+    "id": "mango",
+    "type": "fruits",
+    "url": "entity.html?universe=fruits&path=fruits&id=mango"
+  },
+  {
+    "name": "Strawberry",
+    "id": "strawberry",
+    "type": "fruits",
+    "url": "entity.html?universe=fruits&path=fruits&id=strawberry"
+  },
+  {
+    "name": "Pineapple",
+    "id": "pineapple",
+    "type": "fruits",
+    "url": "entity.html?universe=fruits&path=fruits&id=pineapple"
+  },
+  {
+    "name": "Patty Mills",
+    "id": "patty_mills",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_australia&id=patty_mills"
+  },
+  {
+    "name": "Ben Simmons",
+    "id": "ben_simmons",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_australia&id=ben_simmons"
+  },
+  {
+    "name": "Andrew Bogut",
+    "id": "andrew_bogut",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_australia&id=andrew_bogut"
+  },
+  {
+    "name": "Josh Giddey",
+    "id": "josh_giddey",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_australia&id=josh_giddey"
+  },
+  {
+    "name": "Matthew Dellavedova",
+    "id": "matthew_dellavedova",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_australia&id=matthew_dellavedova"
+  },
+  {
+    "name": "Steve Nash",
+    "id": "steve_nash",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_canada&id=steve_nash"
+  },
+  {
+    "name": "Jamal Murray",
+    "id": "jamal_murray",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_canada&id=jamal_murray"
+  },
+  {
+    "name": "Shai Gilgeous-Alexander",
+    "id": "shai_gilgeous_alexander",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_canada&id=shai_gilgeous_alexander"
+  },
+  {
+    "name": "Andrew Wiggins",
+    "id": "andrew_wiggins",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_canada&id=andrew_wiggins"
+  },
+  {
+    "name": "RJ Barrett",
+    "id": "rj_barrett",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_canada&id=rj_barrett"
+  },
+  {
+    "name": "Nikola Jokic",
+    "id": "nikola_jokic",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_serbia&id=nikola_jokic"
+  },
+  {
+    "name": "Bogdan Bogdanovic",
+    "id": "bogdan_bogdanovic",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_serbia&id=bogdan_bogdanovic"
+  },
+  {
+    "name": "Vlade Divac",
+    "id": "vlade_divac",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_serbia&id=vlade_divac"
+  },
+  {
+    "name": "Peja Stojakovic",
+    "id": "peja_stojakovic",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_serbia&id=peja_stojakovic"
+  },
+  {
+    "name": "Milos Teodosic",
+    "id": "milos_teodosic",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_serbia&id=milos_teodosic"
+  },
+  {
+    "name": "Pau Gasol",
+    "id": "pau_gasol",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_spain&id=pau_gasol"
+  },
+  {
+    "name": "Marc Gasol",
+    "id": "marc_gasol",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_spain&id=marc_gasol"
+  },
+  {
+    "name": "Ricky Rubio",
+    "id": "ricky_rubio",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_spain&id=ricky_rubio"
+  },
+  {
+    "name": "Juan Carlos Navarro",
+    "id": "juan_carlos_navarro",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_spain&id=juan_carlos_navarro"
+  },
+  {
+    "name": "Sergio Llull",
+    "id": "sergio_llull",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_spain&id=sergio_llull"
+  },
+  {
+    "name": "Michael Jordan",
+    "id": "michael_jordan",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_usa&id=michael_jordan"
+  },
+  {
+    "name": "LeBron James",
+    "id": "lebron_james",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_usa&id=lebron_james"
+  },
+  {
+    "name": "Kobe Bryant",
+    "id": "kobe_bryant",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_usa&id=kobe_bryant"
+  },
+  {
+    "name": "Magic Johnson",
+    "id": "magic_johnson",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_usa&id=magic_johnson"
+  },
+  {
+    "name": "Larry Bird",
+    "id": "larry_bird",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=basketball_usa&id=larry_bird"
+  },
+  {
+    "name": "Ricky Ponting",
+    "id": "ricky_ponting",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_australia&id=ricky_ponting"
+  },
+  {
+    "name": "Steve Smith",
+    "id": "steve_smith",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_australia&id=steve_smith"
+  },
+  {
+    "name": "David Warner",
+    "id": "david_warner",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_australia&id=david_warner"
+  },
+  {
+    "name": "Glenn McGrath",
+    "id": "glenn_mcgrath",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_australia&id=glenn_mcgrath"
+  },
+  {
+    "name": "Shane Warne",
+    "id": "shane_warne",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_australia&id=shane_warne"
+  },
+  {
+    "name": "Joe Root",
+    "id": "joe_root",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_england&id=joe_root"
+  },
+  {
+    "name": "Ben Stokes",
+    "id": "ben_stokes",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_england&id=ben_stokes"
+  },
+  {
+    "name": "James Anderson",
+    "id": "james_anderson",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_england&id=james_anderson"
+  },
+  {
+    "name": "Jos Buttler",
+    "id": "jos_buttler",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_england&id=jos_buttler"
+  },
+  {
+    "name": "Stuart Broad",
+    "id": "stuart_broad",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_england&id=stuart_broad"
+  },
+  {
+    "name": "MS Dhoni",
+    "id": "ms_dhoni",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_india&id=ms_dhoni"
+  },
+  {
+    "name": "Virat Kohli",
+    "id": "virat_kohli",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_india&id=virat_kohli"
+  },
+  {
+    "name": "Rohit Sharma",
+    "id": "rohit_sharma",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_india&id=rohit_sharma"
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "id": "jasprit_bumrah",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_india&id=jasprit_bumrah"
+  },
+  {
+    "name": "KL Rahul",
+    "id": "kl_rahul",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_india&id=kl_rahul"
+  },
+  {
+    "name": "Babar Azam",
+    "id": "babar_azam",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_pakistan&id=babar_azam"
+  },
+  {
+    "name": "Shahid Afridi",
+    "id": "shahid_afridi",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_pakistan&id=shahid_afridi"
+  },
+  {
+    "name": "Wasim Akram",
+    "id": "wasim_akram",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_pakistan&id=wasim_akram"
+  },
+  {
+    "name": "Imran Khan",
+    "id": "imran_khan",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_pakistan&id=imran_khan"
+  },
+  {
+    "name": "Mohammad Rizwan",
+    "id": "mohammad_rizwan",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_pakistan&id=mohammad_rizwan"
+  },
+  {
+    "name": "AB de Villiers",
+    "id": "ab_de_villiers",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_south_africa&id=ab_de_villiers"
+  },
+  {
+    "name": "Jacques Kallis",
+    "id": "jacques_kallis",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_south_africa&id=jacques_kallis"
+  },
+  {
+    "name": "Dale Steyn",
+    "id": "dale_steyn",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_south_africa&id=dale_steyn"
+  },
+  {
+    "name": "Faf du Plessis",
+    "id": "faf_du_plessis",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_south_africa&id=faf_du_plessis"
+  },
+  {
+    "name": "Quinton de Kock",
+    "id": "quinton_de_kock",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=cricket_south_africa&id=quinton_de_kock"
+  },
+  {
+    "name": "Lionel Messi",
+    "id": "lionel_messi",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_argentina&id=lionel_messi"
+  },
+  {
+    "name": "Diego Maradona",
+    "id": "diego_maradona",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_argentina&id=diego_maradona"
+  },
+  {
+    "name": "Ángel Di María",
+    "id": "angel_di_maria",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_argentina&id=angel_di_maria"
+  },
+  {
+    "name": "Sergio Agüero",
+    "id": "sergio_aguero",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_argentina&id=sergio_aguero"
+  },
+  {
+    "name": "Javier Zanetti",
+    "id": "javier_zanetti",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_argentina&id=javier_zanetti"
+  },
+  {
+    "name": "Pelé",
+    "id": "pele",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_brazil&id=pele"
+  },
+  {
+    "name": "Ronaldo Nazário",
+    "id": "ronaldo_nazario",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_brazil&id=ronaldo_nazario"
+  },
+  {
+    "name": "Ronaldinho",
+    "id": "ronaldinho",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_brazil&id=ronaldinho"
+  },
+  {
+    "name": "Neymar Jr",
+    "id": "neymar",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_brazil&id=neymar"
+  },
+  {
+    "name": "Kaká",
+    "id": "kaka",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_brazil&id=kaka"
+  },
+  {
+    "name": "Zinedine Zidane",
+    "id": "zinedine_zidane",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_france&id=zinedine_zidane"
+  },
+  {
+    "name": "Kylian Mbappé",
+    "id": "kylian_mbappe",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_france&id=kylian_mbappe"
+  },
+  {
+    "name": "Thierry Henry",
+    "id": "thierry_henry",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_france&id=thierry_henry"
+  },
+  {
+    "name": "Michel Platini",
+    "id": "michel_platini",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_france&id=michel_platini"
+  },
+  {
+    "name": "Antoine Griezmann",
+    "id": "antoine_griezmann",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_france&id=antoine_griezmann"
+  },
+  {
+    "name": "Franz Beckenbauer",
+    "id": "franz_beckenbauer",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_germany&id=franz_beckenbauer"
+  },
+  {
+    "name": "Miroslav Klose",
+    "id": "miroslav_klose",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_germany&id=miroslav_klose"
+  },
+  {
+    "name": "Thomas Müller",
+    "id": "thomas_muller",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_germany&id=thomas_muller"
+  },
+  {
+    "name": "Manuel Neuer",
+    "id": "manuel_neuer",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_germany&id=manuel_neuer"
+  },
+  {
+    "name": "Toni Kroos",
+    "id": "toni_kroos",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_germany&id=toni_kroos"
+  },
+  {
+    "name": "Andrés Iniesta",
+    "id": "andres_iniesta",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_spain&id=andres_iniesta"
+  },
+  {
+    "name": "Xavi",
+    "id": "xavi",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_spain&id=xavi"
+  },
+  {
+    "name": "Sergio Ramos",
+    "id": "sergio_ramos",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_spain&id=sergio_ramos"
+  },
+  {
+    "name": "Iker Casillas",
+    "id": "iker_casillas",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_spain&id=iker_casillas"
+  },
+  {
+    "name": "David Villa",
+    "id": "david_villa",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=football_spain&id=david_villa"
+  },
+  {
+    "name": "Lewis Hamilton",
+    "id": "lewis_hamilton",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=formula_1&id=lewis_hamilton"
+  },
+  {
+    "name": "Max Verstappen",
+    "id": "max_verstappen",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=formula_1&id=max_verstappen"
+  },
+  {
+    "name": "Michael Schumacher",
+    "id": "michael_schumacher",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=formula_1&id=michael_schumacher"
+  },
+  {
+    "name": "Ayrton Senna",
+    "id": "ayrton_senna",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=formula_1&id=ayrton_senna"
+  },
+  {
+    "name": "Sebastian Vettel",
+    "id": "sebastian_vettel",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=formula_1&id=sebastian_vettel"
+  },
+  {
+    "name": "Novak Djokovic",
+    "id": "novak_djokovic",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=tennis&id=novak_djokovic"
+  },
+  {
+    "name": "Rafael Nadal",
+    "id": "rafael_nadal",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=tennis&id=rafael_nadal"
+  },
+  {
+    "name": "Roger Federer",
+    "id": "roger_federer",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=tennis&id=roger_federer"
+  },
+  {
+    "name": "Carlos Alcaraz",
+    "id": "carlos_alcaraz",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=tennis&id=carlos_alcaraz"
+  },
+  {
+    "name": "Andy Murray",
+    "id": "andy_murray",
+    "type": "sports",
+    "url": "entity.html?universe=sports&path=tennis&id=andy_murray"
+  },
+  {
+    "name": "Boeing 747",
+    "id": "boeing_747",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=aircraft&id=boeing_747"
+  },
+  {
+    "name": "Airbus A380",
+    "id": "airbus_a380",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=aircraft&id=airbus_a380"
+  },
+  {
+    "name": "F-22 Raptor",
+    "id": "f22_raptor",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=aircraft&id=f22_raptor"
+  },
+  {
+    "name": "F-35 Lightning II",
+    "id": "f35_lightning",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=aircraft&id=f35_lightning"
+  },
+  {
+    "name": "B-2 Spirit",
+    "id": "b2_spirit",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=aircraft&id=b2_spirit"
+  },
+  {
+    "name": "Yamaha YZF-R1",
+    "id": "yamaha_r1",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=bikes&id=yamaha_r1"
+  },
+  {
+    "name": "Kawasaki Ninja H2",
+    "id": "kawasaki_ninja_h2",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=bikes&id=kawasaki_ninja_h2"
+  },
+  {
+    "name": "Ducati Panigale V4",
+    "id": "ducati_panigale_v4",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=bikes&id=ducati_panigale_v4"
+  },
+  {
+    "name": "Suzuki Hayabusa",
+    "id": "suzuki_hayabusa",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=bikes&id=suzuki_hayabusa"
+  },
+  {
+    "name": "BMW S1000RR",
+    "id": "bmw_s1000rr",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=bikes&id=bmw_s1000rr"
+  },
+  {
+    "name": "Toyota Camry",
+    "id": "toyota_camry",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=cars&id=toyota_camry"
+  },
+  {
+    "name": "Tesla Model S",
+    "id": "tesla_model_s",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=cars&id=tesla_model_s"
+  },
+  {
+    "name": "BMW M3",
+    "id": "bmw_m3",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=cars&id=bmw_m3"
+  },
+  {
+    "name": "Ford Mustang",
+    "id": "ford_mustang",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=cars&id=ford_mustang"
+  },
+  {
+    "name": "Lamborghini Aventador",
+    "id": "lamborghini_aventador",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=cars&id=lamborghini_aventador"
+  },
+  {
+    "name": "Bullock Cart",
+    "id": "bullock_cart",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=other_vehicles&id=bullock_cart"
+  },
+  {
+    "name": "Horse Carriage",
+    "id": "horse_carriage",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=other_vehicles&id=horse_carriage"
+  },
+  {
+    "name": "Rickshaw",
+    "id": "rickshaw",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=other_vehicles&id=rickshaw"
+  },
+  {
+    "name": "Snowmobile",
+    "id": "snowmobile",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=other_vehicles&id=snowmobile"
+  },
+  {
+    "name": "Segway",
+    "id": "segway",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=other_vehicles&id=segway"
+  },
+  {
+    "name": "RMS Titanic",
+    "id": "titanic",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=ships&id=titanic"
+  },
+  {
+    "name": "Queen Mary 2",
+    "id": "queen_mary_2",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=ships&id=queen_mary_2"
+  },
+  {
+    "name": "USS Enterprise",
+    "id": "uss_enterprise",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=ships&id=uss_enterprise"
+  },
+  {
+    "name": "Ever Given",
+    "id": "ever_given",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=ships&id=ever_given"
+  },
+  {
+    "name": "HMS Victory",
+    "id": "hms_victory",
+    "type": "vehicles",
+    "url": "entity.html?universe=vehicles&path=ships&id=hms_victory"
+  }
 ]
