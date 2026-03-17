@@ -3,6 +3,7 @@
 "id":"ms_dhoni",
 "name":"MS Dhoni",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=ms_dhoni",
 "parent":"cricket_india",
 
 "info":{
@@ -34,6 +35,7 @@
 "id":"virat_kohli",
 "name":"Virat Kohli",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=virat_kohli",
 "parent":"cricket_india",
 
 "info":{
@@ -65,6 +67,7 @@
 "id":"rohit_sharma",
 "name":"Rohit Sharma",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=rohit_sharma",
 "parent":"cricket_india",
 
 "info":{
@@ -96,6 +99,7 @@
 "id":"jasprit_bumrah",
 "name":"Jasprit Bumrah",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=jasprit_bumrah",
 "parent":"cricket_india",
 
 "info":{
@@ -127,6 +131,7 @@
 "id":"kl_rahul",
 "name":"KL Rahul",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=kl_rahul",
 "parent":"cricket_india",
 
 "info":{

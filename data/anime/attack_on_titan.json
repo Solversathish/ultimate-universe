@@ -3,6 +3,7 @@
 "id":"eren_yeager",
 "name":"Eren Yeager",
 "type":"entity",
+"url":"entity.html?universe=anime&path=attack_on_titan&id=eren_yeager",
 "parent":"attack_on_titan",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"mikasa_ackerman",
 "name":"Mikasa Ackerman",
 "type":"entity",
+"url":"entity.html?universe=anime&path=attack_on_titan&id=mikasa_ackerman",
 "parent":"attack_on_titan",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"armin_arlert",
 "name":"Armin Arlert",
 "type":"entity",
+"url":"entity.html?universe=anime&path=attack_on_titan&id=armin_arlert",
 "parent":"attack_on_titan",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"levi_ackerman",
 "name":"Levi Ackerman",
 "type":"entity",
+"url":"entity.html?universe=anime&path=attack_on_titan&id=levi_ackerman",
 "parent":"attack_on_titan",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"reiner_braun",
 "name":"Reiner Braun",
 "type":"entity",
+"url":"entity.html?universe=anime&path=attack_on_titan&id=reiner_braun",
 "parent":"attack_on_titan",
 
 "info":{

@@ -3,6 +3,7 @@
 "id":"monkey_d_luffy",
 "name":"Monkey D. Luffy",
 "type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=monkey_d_luffy",
 "parent":"one_piece",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"roronoa_zoro",
 "name":"Roronoa Zoro",
 "type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=roronoa_zoro",
 "parent":"one_piece",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"nami",
 "name":"Nami",
 "type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=nami",
 "parent":"one_piece",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"sanji",
 "name":"Sanji",
 "type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=sanji",
 "parent":"one_piece",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"trafalgar_law",
 "name":"Trafalgar Law",
 "type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=trafalgar_law",
 "parent":"one_piece",
 
 "info":{

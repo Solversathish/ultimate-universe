@@ -3,6 +3,7 @@
 "id":"tyrannosaurus_rex",
 "name":"Tyrannosaurus Rex",
 "type":"entity",
+"url":"entity.html?universe=animals&path=extinct_animals&id=tyrannosaurus_rex",
 "parent":"extinct_animals",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"woolly_mammoth",
 "name":"Woolly Mammoth",
 "type":"entity",
+"url":"entity.html?universe=animals&path=extinct_animals&id=woolly_mammoth",
 "parent":"extinct_animals",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"dodo",
 "name":"Dodo",
 "type":"entity",
+"url":"entity.html?universe=animals&path=extinct_animals&id=dodo",
 "parent":"extinct_animals",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"saber_toothed_tiger",
 "name":"Saber-Toothed Tiger",
 "type":"entity",
+"url":"entity.html?universe=animals&path=extinct_animals&id=saber_toothed_tiger",
 "parent":"extinct_animals",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"triceratops",
 "name":"Triceratops",
 "type":"entity",
+"url":"entity.html?universe=animals&path=extinct_animals&id=triceratops",
 "parent":"extinct_animals",
 
 "info":{

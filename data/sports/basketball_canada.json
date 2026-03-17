@@ -3,6 +3,7 @@
 "id":"steve_nash",
 "name":"Steve Nash",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_canada&id=steve_nash",
 "parent":"basketball_canada",
 
 "info":{
@@ -25,6 +26,7 @@
 "id":"jamal_murray",
 "name":"Jamal Murray",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_canada&id=jamal_murray",
 "parent":"basketball_canada",
 
 "info":{
@@ -47,6 +49,7 @@
 "id":"shai_gilgeous_alexander",
 "name":"Shai Gilgeous-Alexander",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_canada&id=shai_gilgeous_alexander",
 "parent":"basketball_canada",
 
 "info":{
@@ -69,6 +72,7 @@
 "id":"andrew_wiggins",
 "name":"Andrew Wiggins",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_canada&id=andrew_wiggins",
 "parent":"basketball_canada",
 
 "info":{
@@ -91,6 +95,7 @@
 "id":"rj_barrett",
 "name":"RJ Barrett",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_canada&id=rj_barrett",
 "parent":"basketball_canada",
 
 "info":{

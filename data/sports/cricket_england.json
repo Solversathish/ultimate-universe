@@ -3,6 +3,7 @@
 "id":"joe_root",
 "name":"Joe Root",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_england&id=joe_root",
 "parent":"cricket_england",
 
 "info":{
@@ -34,6 +35,7 @@
 "id":"ben_stokes",
 "name":"Ben Stokes",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_england&id=ben_stokes",
 "parent":"cricket_england",
 
 "info":{
@@ -65,6 +67,7 @@
 "id":"james_anderson",
 "name":"James Anderson",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_england&id=james_anderson",
 "parent":"cricket_england",
 
 "info":{
@@ -96,6 +99,7 @@
 "id":"jos_buttler",
 "name":"Jos Buttler",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_england&id=jos_buttler",
 "parent":"cricket_england",
 
 "info":{
@@ -127,6 +131,7 @@
 "id":"stuart_broad",
 "name":"Stuart Broad",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_england&id=stuart_broad",
 "parent":"cricket_england",
 
 "info":{

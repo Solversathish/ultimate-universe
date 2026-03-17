@@ -3,6 +3,7 @@
 "id":"great_white_shark",
 "name":"Great White Shark",
 "type":"entity",
+"url":"entity.html?universe=animals&path=marine_animals&id=great_white_shark",
 "parent":"marine_animals",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"octopus",
 "name":"Octopus",
 "type":"entity",
+"url":"entity.html?universe=animals&path=marine_animals&id=octopus",
 "parent":"marine_animals",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"dolphin_marine",
 "name":"Dolphin",
 "type":"entity",
+"url":"entity.html?universe=animals&path=marine_animals&id=dolphin_marine",
 "parent":"marine_animals",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"jellyfish",
 "name":"Jellyfish",
 "type":"entity",
+"url":"entity.html?universe=animals&path=marine_animals&id=jellyfish",
 "parent":"marine_animals",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"seahorse",
 "name":"Seahorse",
 "type":"entity",
+"url":"entity.html?universe=animals&path=marine_animals&id=seahorse",
 "parent":"marine_animals",
 
 "info":{

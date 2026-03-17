@@ -3,6 +3,7 @@
 "id":"golden_retriever",
 "name":"Golden Retriever",
 "type":"entity",
+"url":"entity.html?universe=animals&path=dogs&id=golden_retriever",
 "parent":"dogs",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"german_shepherd",
 "name":"German Shepherd",
 "type":"entity",
+"url":"entity.html?universe=animals&path=dogs&id=german_shepherd",
 "parent":"dogs",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"siberian_husky",
 "name":"Siberian Husky",
 "type":"entity",
+"url":"entity.html?universe=animals&path=dogs&id=siberian_husky",
 "parent":"dogs",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"bulldog",
 "name":"Bulldog",
 "type":"entity",
+"url":"entity.html?universe=animals&path=dogs&id=bulldog",
 "parent":"dogs",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"labrador_retriever",
 "name":"Labrador Retriever",
 "type":"entity",
+"url":"entity.html?universe=animals&path=dogs&id=labrador_retriever",
 "parent":"dogs",
 
 "info":{

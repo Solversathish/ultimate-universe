@@ -3,6 +3,7 @@
 "id":"ichigo_kurosaki",
 "name":"Ichigo Kurosaki",
 "type":"entity",
+"url":"entity.html?universe=anime&path=bleach&id=ichigo_kurosaki",
 "parent":"bleach",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"rukia_kuchiki",
 "name":"Rukia Kuchiki",
 "type":"entity",
+"url":"entity.html?universe=anime&path=bleach&id=rukia_kuchiki",
 "parent":"bleach",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"byakuya_kuchiki",
 "name":"Byakuya Kuchiki",
 "type":"entity",
+"url":"entity.html?universe=anime&path=bleach&id=byakuya_kuchiki",
 "parent":"bleach",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"toshiro_hitsugaya",
 "name":"Toshiro Hitsugaya",
 "type":"entity",
+"url":"entity.html?universe=anime&path=bleach&id=toshiro_hitsugaya",
 "parent":"bleach",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"kenpachi_zaraki",
 "name":"Kenpachi Zaraki",
 "type":"entity",
+"url":"entity.html?universe=anime&path=bleach&id=kenpachi_zaraki",
 "parent":"bleach",
 
 "info":{

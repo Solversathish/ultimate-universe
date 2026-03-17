@@ -3,6 +3,7 @@
 "id":"kid_goku",
 "name":"Kid Goku",
 "type":"entity",
+"url":"entity.html?universe=anime&path=dragon_ball&id=kid_goku",
 "parent":"dragon_ball",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"bulma",
 "name":"Bulma",
 "type":"entity",
+"url":"entity.html?universe=anime&path=dragon_ball&id=bulma",
 "parent":"dragon_ball",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"krillin",
 "name":"Krillin",
 "type":"entity",
+"url":"entity.html?universe=anime&path=dragon_ball&id=krillin",
 "parent":"dragon_ball",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"master_roshi",
 "name":"Master Roshi",
 "type":"entity",
+"url":"entity.html?universe=anime&path=dragon_ball&id=master_roshi",
 "parent":"dragon_ball",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"yamcha",
 "name":"Yamcha",
 "type":"entity",
+"url":"entity.html?universe=anime&path=dragon_ball&id=yamcha",
 "parent":"dragon_ball",
 
 "info":{

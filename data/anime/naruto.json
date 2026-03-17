@@ -3,6 +3,7 @@
 "id":"naruto_uzumaki",
 "name":"Naruto Uzumaki",
 "type":"entity",
+"url":"entity.html?universe=anime&path=naruto&id=naruto_uzumaki",
 "parent":"naruto",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"sasuke_uchiha",
 "name":"Sasuke Uchiha",
 "type":"entity",
+"url":"entity.html?universe=anime&path=naruto&id=sasuke_uchiha",
 "parent":"naruto",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"sakura_haruno",
 "name":"Sakura Haruno",
 "type":"entity",
+"url":"entity.html?universe=anime&path=naruto&id=sakura_haruno",
 "parent":"naruto",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"kakashi_hatake",
 "name":"Kakashi Hatake",
 "type":"entity",
+"url":"entity.html?universe=anime&path=naruto&id=kakashi_hatake",
 "parent":"naruto",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"itachi_uchiha",
 "name":"Itachi Uchiha",
 "type":"entity",
+"url":"entity.html?universe=anime&path=naruto&id=itachi_uchiha",
 "parent":"naruto",
 
 "info":{

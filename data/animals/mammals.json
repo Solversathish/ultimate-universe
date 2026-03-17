@@ -3,6 +3,7 @@
 "id":"lion",
 "name":"Lion",
 "type":"entity",
+"url":"entity.html?universe=animals&path=mammals&id=lion",
 "parent":"mammals",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"elephant",
 "name":"Elephant",
 "type":"entity",
+"url":"entity.html?universe=animals&path=mammals&id=elephant",
 "parent":"mammals",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"dolphin",
 "name":"Dolphin",
 "type":"entity",
+"url":"entity.html?universe=animals&path=mammals&id=dolphin",
 "parent":"mammals",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"bat",
 "name":"Bat",
 "type":"entity",
+"url":"entity.html?universe=animals&path=mammals&id=bat",
 "parent":"mammals",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"kangaroo",
 "name":"Kangaroo",
 "type":"entity",
+"url":"entity.html?universe=animals&path=mammals&id=kangaroo",
 "parent":"mammals",
 
 "info":{

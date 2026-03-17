@@ -3,6 +3,7 @@
 "id":"apple",
 "name":"Apple",
 "type":"entity",
+"url":"entity.html?universe=fruits&path=&id=apple",
 "parent":"fruits",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"banana",
 "name":"Banana",
 "type":"entity",
+"url":"entity.html?universe=fruits&path=&id=banana",
 "parent":"fruits",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"mango",
 "name":"Mango",
 "type":"entity",
+"url":"entity.html?universe=fruits&path=&id=mango",
 "parent":"fruits",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"strawberry",
 "name":"Strawberry",
 "type":"entity",
+"url":"entity.html?universe=fruits&path=&id=strawberry",
 "parent":"fruits",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"pineapple",
 "name":"Pineapple",
 "type":"entity",
+"url":"entity.html?universe=fruits&path=&id=pineapple",
 "parent":"fruits",
 
 "info":{

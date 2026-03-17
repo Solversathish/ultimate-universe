@@ -3,6 +3,7 @@
 "id":"ab_de_villiers",
 "name":"AB de Villiers",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_south_africa&id=ab_de_villiers",
 "parent":"cricket_south_africa",
 
 "info":{
@@ -34,6 +35,7 @@
 "id":"jacques_kallis",
 "name":"Jacques Kallis",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_south_africa&id=jacques_kallis",
 "parent":"cricket_south_africa",
 
 "info":{
@@ -65,6 +67,7 @@
 "id":"dale_steyn",
 "name":"Dale Steyn",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_south_africa&id=dale_steyn",
 "parent":"cricket_south_africa",
 
 "info":{
@@ -96,6 +99,7 @@
 "id":"faf_du_plessis",
 "name":"Faf du Plessis",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_south_africa&id=faf_du_plessis",
 "parent":"cricket_south_africa",
 
 "info":{
@@ -127,6 +131,7 @@
 "id":"quinton_de_kock",
 "name":"Quinton de Kock",
 "type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_south_africa&id=quinton_de_kock",
 "parent":"cricket_south_africa",
 
 "info":{

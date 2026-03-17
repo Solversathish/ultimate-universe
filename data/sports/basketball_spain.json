@@ -3,6 +3,7 @@
 "id":"pau_gasol",
 "name":"Pau Gasol",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_spain&id=pau_gasol",
 "parent":"basketball_spain",
 
 "info":{
@@ -18,7 +19,7 @@
 "content":"Pau Gasol is one of the greatest European basketball players in history."
 },
 "tab2":{
-"title":"Achievements",
+"title":"Achievements", 
 "content":"He won two NBA championships with the Los Angeles Lakers."
 },
 "tab3":{
@@ -34,6 +35,7 @@
 "id":"marc_gasol",
 "name":"Marc Gasol",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_spain&id=marc_gasol",
 "parent":"basketball_spain",
 
 "info":{
@@ -65,6 +67,7 @@
 "id":"ricky_rubio",
 "name":"Ricky Rubio",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_spain&id=ricky_rubio",
 "parent":"basketball_spain",
 
 "info":{
@@ -96,6 +99,7 @@
 "id":"juan_carlos_navarro",
 "name":"Juan Carlos Navarro",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_spain&id=juan_carlos_navarro",
 "parent":"basketball_spain",
 
 "info":{
@@ -127,6 +131,7 @@
 "id":"sergio_llull",
 "name":"Sergio Llull",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_spain&id=sergio_llull",
 "parent":"basketball_spain",
 
 "info":{

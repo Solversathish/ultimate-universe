@@ -3,6 +3,7 @@
 "id":"butterfly",
 "name":"Butterfly",
 "type":"entity",
+"url":"entity.html?universe=animals&path=insects&id=butterfly",
 "parent":"insects",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"honey_bee",
 "name":"Honey Bee",
 "type":"entity",
+"url":"entity.html?universe=animals&path=insects&id=honey_bee",
 "parent":"insects",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"ant",
 "name":"Ant",
 "type":"entity",
+"url":"entity.html?universe=animals&path=insects&id=ant",
 "parent":"insects",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"dragonfly",
 "name":"Dragonfly",
 "type":"entity",
+"url":"entity.html?universe=animals&path=insects&id=dragonfly",
 "parent":"insects",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"ladybug",
 "name":"Ladybug",
 "type":"entity",
+"url":"entity.html?universe=animals&path=insects&id=ladybug",
 "parent":"insects",
 
 "info":{

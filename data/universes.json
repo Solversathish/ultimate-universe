@@ -3,13 +3,16 @@
 "id":"anime",
 "name":"Anime",
 "type":"category",
+"url":"category.html?universe=anime",
 "parent":null
+
 },
 
 {
 "id":"sports",
 "name":"Sports",
 "type":"category",
+"url":"category.html?universe=sports",
 "parent":null
 },
 
@@ -17,6 +20,7 @@
 "id":"fruits",
 "name":"Fruits",
 "type":"category",
+"url":"category.html?universe=fruits",
 "parent":null
 },
 
@@ -24,6 +28,7 @@
 "id":"vehicles",
 "name":"Vehicles",
 "type":"category",
+"url":"category.html?universe=vehicles",
 "parent":null
 },
 
@@ -31,6 +36,7 @@
 "id":"animals",
 "name":"Animals",
 "type":"category",
+"url":"category.html?universe=animals",
 "parent":null
 }
 ]

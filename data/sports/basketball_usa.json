@@ -3,6 +3,7 @@
 "id":"michael_jordan",
 "name":"Michael Jordan",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_usa&id=michael_jordan",
 "parent":"basketball_usa",
 
 "info":{
@@ -34,6 +35,7 @@
 "id":"lebron_james",
 "name":"LeBron James",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_usa&id=lebron_james",
 "parent":"basketball_usa",
 
 "info":{
@@ -65,6 +67,7 @@
 "id":"kobe_bryant",
 "name":"Kobe Bryant",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_usa&id=kobe_bryant",
 "parent":"basketball_usa",
 
 "info":{
@@ -96,6 +99,7 @@
 "id":"magic_johnson",
 "name":"Magic Johnson",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_usa&id=magic_johnson",
 "parent":"basketball_usa",
 
 "info":{
@@ -127,6 +131,7 @@
 "id":"larry_bird",
 "name":"Larry Bird",
 "type":"entity",
+"url":"entity.html?universe=sports&path=basketball,basketball_usa&id=larry_bird",
 "parent":"basketball_usa",
 
 "info":{
