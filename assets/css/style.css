@@ -991,22 +991,25 @@ color:#00ff88;
 .image-modal{
   display: none;
   position: fixed;
-  z-index: 9999;
   inset: 0;
+  z-index: 9999;
+
   background: rgba(0,0,0,0.95);
 
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+
+  padding: 0 15px;   /* ✅ SIDE SPACE */
 }
 
 #modalImg{
-  max-width: 90vw;
+  max-width: 100%;
   max-height: 70vh;
+
   object-fit: contain;
-  display: block;
-margin: 0 auto;
+
+  margin-bottom: 1px; /* ✅ SPACE FROM THUMBNAILS */
 }
 
 .image-modal{
@@ -1062,8 +1065,6 @@ margin: 0 auto;
 
   #modalImg{
     max-height: 55vh; /* ✅ smaller for phone */
-    justify-content: center;
-    align-items: center;
   }
 
   .modal-thumbnails img{
@@ -1080,4 +1081,14 @@ margin: 0 auto;
   padding: 10px;
 }
 
+}
+
+.modal-center{
+  width: 100%;
+  max-width: 900px;   /* ✅ CONTROL WIDTH */
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
