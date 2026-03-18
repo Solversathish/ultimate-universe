@@ -7,9 +7,11 @@
 "parent":"naruto",
 
 "info":{
-"village":"Hidden Leaf",
-"rank":"Hokage",
-"team":"Team 7"
+"Village:":"Hidden Leaf",
+"Rank:":"Hokage",
+"Team:":"Team 7",
+"Sex:":"Male",
+"Clan:":"Uzumaki clan"
 },
 
 "tabs":{
