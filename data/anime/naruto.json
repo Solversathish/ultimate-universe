@@ -77,27 +77,31 @@
 "parent":"naruto",
 
 "info":{
-"village":"Hidden Leaf",
-"team":"Team 7",
-"specialty":"Medical Ninja"
+"Village:":"Hidden Leaf",
+"Rank:":"Jonin",
+"Team:":"Team 7",
+"Sex:":"Female",
+"Clan:":"Haruno clan"
 },
 
 "tabs":{
 "tab1":{
 "title":"Description",
-"content":"Sakura Haruno is a skilled medical ninja and one of Naruto's closest teammates."
+"content":"Sakura Haruno is a kunoichi from the Hidden Leaf Village known for her intelligence and medical skills.<br><br>She starts as a normal ninja but becomes one of the strongest kunoichi through hard work.<br><br>Under Tsunade’s training, she gains incredible strength and healing abilities.<br><br>Sakura plays a crucial role in supporting her team during battles."
 },
+
 "tab2":{
 "title":"Abilities",
-"content":"She has incredible chakra control and powerful super strength."
+"content":"<ul><li>Medical Ninjutsu</li><li>Superhuman Strength</li><li>Chakra Control</li><li>Healing Techniques</li><li>Summoning Jutsu (Katsuyu)</li><li>Advanced Taijutsu</li><li>Byakugou Seal</li><li>Poison Resistance</li><li>Battle Intelligence</li><li>Support Skills</li><li>Regeneration Ability</li><li>Precise Chakra Attacks</li><li>High Endurance</li><li>Team Coordination</li><li>Defensive Techniques</li></ul>"
 },
+
 "tab3":{
 "title":"Facts",
-"content":"Sakura becomes one of the strongest medical ninjas in the series."
+"content":"<ul><li>Student of Tsunade</li><li>One of the strongest medical ninjas</li><li>Teammate of Naruto and Sasuke</li><li>Married Sasuke</li><li>Mother of Sarada</li></ul>"
 }
 },
 
-"gallery_count":5
+"gallery_count":6
 },
 
 {
@@ -108,27 +112,31 @@
 "parent":"naruto",
 
 "info":{
-"title":"Copy Ninja",
-"rank":"Hokage",
-"team":"Team 7 leader"
+"Village:":"Hidden Leaf",
+"Rank:":"Jonin",
+"Team:":"Team 7 Leader",
+"Sex:":"Male",
+"Clan:":"Hatake clan"
 },
 
 "tabs":{
 "tab1":{
 "title":"Description",
-"content":"Kakashi Hatake is the teacher of Team 7 and one of the most skilled ninjas in the Hidden Leaf Village."
+"content":"Kakashi Hatake is a highly skilled ninja known as the Copy Ninja for his ability to replicate techniques using his Sharingan.<br><br>He is the leader of Team 7 and mentor to Naruto, Sasuke, and Sakura.<br><br>Kakashi is calm, intelligent, and always values teamwork above all.<br><br>He later becomes the Sixth Hokage of the Hidden Leaf Village."
 },
+
 "tab2":{
 "title":"Abilities",
-"content":"Kakashi uses Sharingan, lightning blade techniques and strategic combat skills."
+"content":"<ul><li>Sharingan</li><li>Lightning Blade (Chidori)</li><li>Copy Ninja Techniques</li><li>Kamui (Space-Time Jutsu)</li><li>High Intelligence</li><li>Advanced Taijutsu</li><li>Stealth & Assassination</li><li>Fire, Water & Lightning Release</li><li>Genjutsu Skills</li><li>Summoning Jutsu (Dogs)</li><li>Fast Reflexes</li><li>Strategic Combat</li><li>Hand Seal Mastery</li><li>Shadow Clone Jutsu</li><li>Leadership Skills</li></ul>"
 },
+
 "tab3":{
 "title":"Facts",
-"content":"Kakashi later becomes the Sixth Hokage."
+"content":"<ul><li>Known as the Copy Ninja</li><li>Student of Minato Namikaze</li><li>Always wears a mask</li><li>Reads Icha Icha novels</li><li>Became the Sixth Hokage</li></ul>"
 }
 },
 
-"gallery_count":5
+"gallery_count":6
 },
 
 {
@@ -139,26 +147,30 @@
 "parent":"naruto",
 
 "info":{
-"clan":"Uchiha",
-"organization":"Akatsuki",
-"rank":"Elite Ninja"
+"Village:":"Hidden Leaf",
+"Rank:":"Anbu / Rogue Ninja",
+"Team:":"Akatsuki",
+"Sex:":"Male",
+"Clan:":"Uchiha clan"
 },
 
 "tabs":{
 "tab1":{
 "title":"Description",
-"content":"Itachi Uchiha is one of the most powerful and mysterious characters in Naruto."
+"content":"Itachi Uchiha is a prodigy of the Uchiha clan known for his intelligence and powerful genjutsu.<br><br>He sacrificed everything, including his clan, to protect the Hidden Leaf Village.<br><br>Though seen as a villain, his actions were driven by peace and love for his brother Sasuke.<br><br>Itachi remains one of the most respected and tragic characters in the series."
 },
+
 "tab2":{
 "title":"Abilities",
-"content":"He possesses Mangekyo Sharingan and powerful genjutsu techniques."
+"content":"<ul><li>Sharingan</li><li>Mangekyou Sharingan</li><li>Tsukuyomi</li><li>Amaterasu</li><li>Susanoo</li><li>Genjutsu Mastery</li><li>Fire Style Jutsu</li><li>High Intelligence</li><li>Shuriken Mastery</li><li>Fast Hand Seals</li><li>Crow Clone Jutsu</li><li>Illusion Techniques</li><li>Strategic Thinking</li><li>Stealth Skills</li><li>Exceptional Reflexes</li></ul>"
 },
+
 "tab3":{
 "title":"Facts",
-"content":"Itachi sacrificed everything to protect his village and his younger brother Sasuke."
+"content":"<ul><li>Killed his clan to prevent war</li><li>Joined Akatsuki as a spy</li><li>Brother of Sasuke</li><li>Highly intelligent prodigy</li><li>Secretly protected the Leaf Village</li></ul>"
 }
 },
 
-"gallery_count":5
+"gallery_count":6
 }
 ]
