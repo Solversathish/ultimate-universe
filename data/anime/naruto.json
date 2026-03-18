@@ -42,27 +42,31 @@
 "parent":"naruto",
 
 "info":{
-"clan":"Uchiha",
-"rank":"Rogue Ninja",
-"abilities":"Sharingan"
+"Village:":"Hidden Leaf",
+"Rank:":"Shinobi",
+"Team:":"Team 7",
+"Sex:":"Male",
+"Clan:":"Uchiha clan"
 },
 
 "tabs":{
 "tab1":{
 "title":"Description",
-"content":"Sasuke Uchiha is Naruto's rival and one of the last surviving members of the Uchiha clan."
+"content":"Sasuke Uchiha is a powerful ninja from the Uchiha clan known for his intelligence and calm personality.<br><br>He was driven by revenge after witnessing the destruction of his clan by his brother Itachi.<br><br>Sasuke seeks power at any cost to achieve his goals and surpass his limits.<br><br>Over time, he evolves from a revenge-driven individual into a protector of the ninja world."
 },
+
 "tab2":{
 "title":"Abilities",
-"content":"Sasuke uses Sharingan, Rinnegan, lightning techniques and powerful sword combat."
+"content":"<ul><li>Sharingan</li><li>Rinnegan</li><li>Chidori</li><li>Amaterasu</li><li>Susanoo</li><li>Fire Style Jutsu</li><li>Lightning Release</li><li>Genjutsu Mastery</li><li>High Speed Combat</li><li>Swordsmanship</li><li>Space-Time Ninjutsu</li><li>Chidori Variants</li><li>Advanced Tactical Intelligence</li><li>Curse Mark Power</li><li>Perfect Susanoo</li></ul>"
 },
+
 "tab3":{
 "title":"Facts",
-"content":"Sasuke seeks revenge for his clan and later helps protect the world."
+"content":"<ul><li>Last surviving member of the Uchiha clan</li><li>Younger brother of Itachi Uchiha</li><li>Trained under Orochimaru</li><li>Rival and best friend of Naruto</li><li>Married Sakura and has a daughter Sarada</li></ul>"
 }
 },
 
-"gallery_count":5
+"gallery_count":6
 },
 
 {
