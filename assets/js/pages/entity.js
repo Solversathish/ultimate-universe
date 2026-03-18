@@ -66,7 +66,7 @@ renderNavigation(list,id,universe,path);
 
 /* GALLERY */
 
-renderGallery(entity);
+renderGallery(entity, universe, path);
 
 });
 
@@ -301,17 +301,90 @@ gallery.innerHTML = `
 <h2>Gallery</h2>
 
 <div class="gallery-grid">
-
 ${images}
-
 </div>
 
 </div>
 
 `;
 
+/* ================= MODAL LOGIC ================= */
+
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImg");
+const closeBtn = document.querySelector(".close-btn");
+
+const allImages = [];
+
+document.querySelectorAll(".gallery-grid img").forEach((img, index) => {
+
+  allImages.push(img.src);
+
+  img.onclick = () => {
+
+    modal.style.display = "block";
+    modalImg.src = img.src;
+
+    renderThumbnails(allImages, index);
+
+  };
+
+});
+
+/* CLOSE BUTTON */
+
+closeBtn.onclick = () => {
+  modal.style.display = "none";
+};
+
+/* CLICK OUTSIDE CLOSE */
+
+modal.onclick = (e) => {
+  if(e.target === modal){
+    modal.style.display = "none";
+  }
+};
+
+/* ================= THUMBNAILS ================= */
+
+function renderThumbnails(images, activeIndex){
+
+const container = document.getElementById("modalThumbnails");
+
+let html = "";
+
+images.forEach((src, index) => {
+
+  html += `
+    <img src="${src}" 
+      class="${index === activeIndex ? 'active' : ''}" 
+      data-index="${index}">
+  `;
+
+});
+
+container.innerHTML = html;
+
+document.querySelectorAll(".modal-thumbnails img").forEach(img => {
+
+  img.onclick = () => {
+
+    const index = img.dataset.index;
+
+    modalImg.src = images[index];
+
+    document.querySelectorAll(".modal-thumbnails img")
+      .forEach(i => i.classList.remove("active"));
+
+    img.classList.add("active");
+
+  };
+
+});
+
 }
 
+} // ✅ VERY IMPORTANT (closing renderGallery)
 
 
 /* HELPERS */
