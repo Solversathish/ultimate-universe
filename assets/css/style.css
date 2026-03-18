@@ -769,6 +769,16 @@ display:block;
   background:rgba(0,0,0,0.5);
 }
 
+.tab-content ul{
+  padding-left: 20px;   /* space from left */
+  margin-top: 10px;
+}
+
+.tab-content li{
+  margin-bottom: 10px;  /* 🔥 THIS FIXES SPACING */
+  line-height: 1;     /* better readability */
+}
+
 .gallery-container{
   max-width:1200px;
   margin:auto;
