@@ -3,6 +3,7 @@
 "id":"lewis_hamilton",
 "name":"Lewis Hamilton",
 "type":"entity",
+"url":"entity.html?universe=sports&path=formula_1&id=lewis_hamilton",
 "parent":"formula_1",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"max_verstappen",
 "name":"Max Verstappen",
 "type":"entity",
+"url":"entity.html?universe=sports&path=formula_1&id=max_verstappen",
 "parent":"formula_1",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"michael_schumacher",
 "name":"Michael Schumacher",
 "type":"entity",
+"url":"entity.html?universe=sports&path=formula_1&id=michael_schumacher",
 "parent":"formula_1",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"ayrton_senna",
 "name":"Ayrton Senna",
 "type":"entity",
+"url":"entity.html?universe=sports&path=formula_1&id=ayrton_senna",
 "parent":"formula_1",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"sebastian_vettel",
 "name":"Sebastian Vettel",
 "type":"entity",
+"url":"entity.html?universe=sports&path=formula_1&id=sebastian_vettel",
 "parent":"formula_1",
 
 "info":{

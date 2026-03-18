@@ -3,6 +3,7 @@
 "id":"titanic",
 "name":"RMS Titanic",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=ships&id=titanic",
 "parent":"ships",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"queen_mary_2",
 "name":"Queen Mary 2",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=ships&id=queen_mary_2",
 "parent":"ships",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"uss_enterprise",
 "name":"USS Enterprise",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=ships&id=uss_enterprise",
 "parent":"ships",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"ever_given",
 "name":"Ever Given",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=ships&id=ever_given",
 "parent":"ships",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"hms_victory",
 "name":"HMS Victory",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=ships&id=hms_victory",
 "parent":"ships",
 
 "info":{

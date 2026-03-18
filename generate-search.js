@@ -3,13 +3,13 @@ const fs = require("fs");
 const dataFolder = "./data";
 const searchData = [];
 
-/* LOAD UNIVERSES */
+/* LOAD UNIVERSes */
 
 const universes = JSON.parse(
 fs.readFileSync(`${dataFolder}/universes.json`, "utf8")
 );
 
-/* UNIVERSE LEVEL */
+/* ADD UNIVERSes */
 
 universes.forEach(u => {
 
@@ -17,48 +17,53 @@ searchData.push({
 name: u.name,
 id: u.id,
 type: "universe",
+universe: u.id,
+path: "",
+parent: "",
 url: `category.html?universe=${u.id}`
 });
 
 });
 
-/* SCAN UNIVERSE FOLDERS */
+/* RECURSIVE FUNCTION */
 
-universes.forEach(u => {
+function scan(universe, currentPath = "", parentName = ""){
 
-const folder = `${dataFolder}/${u.id}`;
+let filePath;
 
-if(!fs.existsSync(folder)) return;
+if(currentPath === ""){
+filePath = `${dataFolder}/${universe}/categories.json`;
+}
+else{
+const last = currentPath.split(",").pop();
+filePath = `${dataFolder}/${universe}/${last}.json`;
+}
 
-const files = fs.readdirSync(folder);
+if(!fs.existsSync(filePath)) return;
 
-files.forEach(file => {
-
-if(!file.endsWith(".json")) return;
-
-const fileName = file.replace(".json","");
-const data = JSON.parse(
-fs.readFileSync(`${folder}/${file}`,"utf8")
-);
+const data = JSON.parse(fs.readFileSync(filePath,"utf8"));
 
 data.forEach(item => {
+
+const newPath = currentPath
+? `${currentPath},${item.id}`
+: item.id;
 
 /* CATEGORY */
 
 if(item.type === "category"){
 
-let path = fileName === "categories"
-? item.id
-: `${fileName},${item.id}`;
-
 searchData.push({
 name: item.name,
 id: item.id,
-universe: u.id,
-parent: fileName.replace(/_/g," "),
 type: "category",
-url: `category.html?universe=${u.id}&path=${path}`
+universe: universe,
+path: currentPath,
+parent: parentName || universe,
+url: `category.html?universe=${universe}&path=${newPath}`
 });
+
+scan(universe, newPath, item.name);
 
 }
 
@@ -69,17 +74,50 @@ if(item.type === "entity"){
 searchData.push({
 name: item.name,
 id: item.id,
-universe: u.id,
-parent: fileName.replace(/_/g," "),
 type: "entity",
-url: `entity.html?universe=${u.id}&path=${fileName}&id=${item.id}`
+universe: universe,
+path: currentPath,
+parent: parentName,
+url: `entity.html?universe=${universe}&path=${currentPath}&id=${item.id}`
 });
 
 }
 
 });
 
-});
+}
+
+/* RUN */
+
+universes.forEach(u => {
+
+  if(u.id === "fruits"){
+
+    const fruitsFile = `${dataFolder}/fruits/fruits.json`;
+
+    if(fs.existsSync(fruitsFile)){
+
+      const fruits = JSON.parse(fs.readFileSync(fruitsFile,"utf8"));
+
+      fruits.forEach(item => {
+
+        searchData.push({
+          name: item.name,
+          id: item.id,
+          type: "entity",
+          universe: "fruits",
+          path: "",
+          parent: "Fruits",
+          url: `entity.html?universe=fruits&id=${item.id}`
+        });
+
+      });
+
+    }
+
+  }else{
+    scan(u.id);
+  }
 
 });
 
@@ -90,4 +128,4 @@ fs.writeFileSync(
 JSON.stringify(searchData,null,2)
 );
 
-console.log("Search data generated successfully");
+console.log("✅ Search data generated correctly");

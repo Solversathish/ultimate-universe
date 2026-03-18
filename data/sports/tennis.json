@@ -3,6 +3,7 @@
 "id":"novak_djokovic",
 "name":"Novak Djokovic",
 "type":"entity",
+"url":"entity.html?universe=sports&path=tennis&id=novak_djokovic",
 "parent":"tennis",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"rafael_nadal",
 "name":"Rafael Nadal",
 "type":"entity",
+"url":"entity.html?universe=sports&path=tennis&id=rafael_nadal",
 "parent":"tennis",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"roger_federer",
 "name":"Roger Federer",
 "type":"entity",
+"url":"entity.html?universe=sports&path=tennis&id=roger_federer",
 "parent":"tennis",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"carlos_alcaraz",
 "name":"Carlos Alcaraz",
 "type":"entity",
+"url":"entity.html?universe=sports&path=tennis&id=carlos_alcaraz",
 "parent":"tennis",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"andy_murray",
 "name":"Andy Murray",
 "type":"entity",
+"url":"entity.html?universe=sports&path=tennis&id=andy_murray",
 "parent":"tennis",
 
 "info":{

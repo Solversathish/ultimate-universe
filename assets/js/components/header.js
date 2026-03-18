@@ -25,29 +25,23 @@ if(!input) return;
 let database = [];
 
 try{
-
 database = await fetch("data/search-data.json")
 .then(r=>r.json());
-
 }catch(err){
-
 console.error("Search data load error",err);
 return;
-
 }
 
 
-/* ================= SEARCH INPUT ================= */
+/* INPUT */
 
 input.addEventListener("input", () => {
 
 const query = input.value.trim().toLowerCase();
 
 if(query.length < 2){
-
 results.style.display = "none";
 return;
-
 }
 
 const filtered = database.filter(item =>
@@ -59,15 +53,13 @@ renderResults(filtered);
 });
 
 
-/* ================= RENDER RESULTS ================= */
+/* RENDER */
 
 function renderResults(list){
 
 if(list.length === 0){
-
 results.style.display="none";
 return;
-
 }
 
 let html="";
@@ -78,19 +70,21 @@ const img = getCDNImage(
 item.id,
 "thumb",
 item.universe,
-item.path
+item.path || ""
 );
 
-let parentLabel = "";
+/* LABEL */
+
+let label = "";
 
 if(item.type === "universe"){
-parentLabel = "Universe";
+label = "Universe";
 }
-else if(item.type === "entity"){
-parentLabel = item.parent;
+else if(item.type === "category"){
+label = item.parent || formatName(item.universe);
 }
 else{
-parentLabel = formatName(item.universe);
+label = item.parent || "";
 }
 
 html += `
@@ -102,8 +96,7 @@ html += `
 <div>
 
 <div>${item.name}</div>
-
-<div class="search-type">${parentLabel}</div>
+<div class="search-type">${label}</div>
 
 </div>
 
@@ -114,19 +107,16 @@ html += `
 });
 
 results.innerHTML = html;
-
 results.style.display="block";
 
 
-/* ================= CLICK RESULT ================= */
+/* CLICK */
 
-document.querySelectorAll(".search-item").forEach(item => {
+document.querySelectorAll(".search-item").forEach(el => {
 
-item.addEventListener("click", () => {
-
-window.location.href = item.dataset.url;
-
-});
+el.onclick = () => {
+window.location.href = el.dataset.url;
+};
 
 });
 
@@ -135,8 +125,7 @@ window.location.href = item.dataset.url;
 }
 
 
-
-/* ================= HELPERS ================= */
+/* HELPERS */
 
 function formatName(str){
 

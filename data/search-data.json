@@ -3,1630 +3,1845 @@
     "name": "Anime",
     "id": "anime",
     "type": "universe",
+    "universe": "anime",
+    "path": "",
+    "parent": "",
     "url": "category.html?universe=anime"
   },
   {
     "name": "Sports",
     "id": "sports",
     "type": "universe",
+    "universe": "sports",
+    "path": "",
+    "parent": "",
     "url": "category.html?universe=sports"
   },
   {
     "name": "Fruits",
     "id": "fruits",
     "type": "universe",
+    "universe": "fruits",
+    "path": "",
+    "parent": "",
     "url": "category.html?universe=fruits"
   },
   {
     "name": "Vehicles",
     "id": "vehicles",
     "type": "universe",
+    "universe": "vehicles",
+    "path": "",
+    "parent": "",
     "url": "category.html?universe=vehicles"
   },
   {
     "name": "Animals",
     "id": "animals",
     "type": "universe",
+    "universe": "animals",
+    "path": "",
+    "parent": "",
     "url": "category.html?universe=animals"
-  },
-  {
-    "name": "Eren Yeager",
-    "id": "eren_yeager",
-    "universe": "anime",
-    "parent": "attack on titan",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=attack_on_titan&id=eren_yeager"
-  },
-  {
-    "name": "Mikasa Ackerman",
-    "id": "mikasa_ackerman",
-    "universe": "anime",
-    "parent": "attack on titan",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=attack_on_titan&id=mikasa_ackerman"
-  },
-  {
-    "name": "Armin Arlert",
-    "id": "armin_arlert",
-    "universe": "anime",
-    "parent": "attack on titan",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=attack_on_titan&id=armin_arlert"
-  },
-  {
-    "name": "Levi Ackerman",
-    "id": "levi_ackerman",
-    "universe": "anime",
-    "parent": "attack on titan",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=attack_on_titan&id=levi_ackerman"
-  },
-  {
-    "name": "Reiner Braun",
-    "id": "reiner_braun",
-    "universe": "anime",
-    "parent": "attack on titan",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=attack_on_titan&id=reiner_braun"
-  },
-  {
-    "name": "Ichigo Kurosaki",
-    "id": "ichigo_kurosaki",
-    "universe": "anime",
-    "parent": "bleach",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=bleach&id=ichigo_kurosaki"
-  },
-  {
-    "name": "Rukia Kuchiki",
-    "id": "rukia_kuchiki",
-    "universe": "anime",
-    "parent": "bleach",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=bleach&id=rukia_kuchiki"
-  },
-  {
-    "name": "Byakuya Kuchiki",
-    "id": "byakuya_kuchiki",
-    "universe": "anime",
-    "parent": "bleach",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=bleach&id=byakuya_kuchiki"
-  },
-  {
-    "name": "Toshiro Hitsugaya",
-    "id": "toshiro_hitsugaya",
-    "universe": "anime",
-    "parent": "bleach",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=bleach&id=toshiro_hitsugaya"
-  },
-  {
-    "name": "Kenpachi Zaraki",
-    "id": "kenpachi_zaraki",
-    "universe": "anime",
-    "parent": "bleach",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=bleach&id=kenpachi_zaraki"
   },
   {
     "name": "Naruto",
     "id": "naruto",
-    "universe": "anime",
-    "parent": "categories",
     "type": "category",
+    "universe": "anime",
+    "path": "",
+    "parent": "anime",
     "url": "category.html?universe=anime&path=naruto"
-  },
-  {
-    "name": "One Piece",
-    "id": "one_piece",
-    "universe": "anime",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=anime&path=one_piece"
-  },
-  {
-    "name": "Bleach",
-    "id": "bleach",
-    "universe": "anime",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=anime&path=bleach"
-  },
-  {
-    "name": "Dragon Ball",
-    "id": "dragon_ball",
-    "universe": "anime",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=anime&path=dragon_ball"
-  },
-  {
-    "name": "Attack on Titan",
-    "id": "attack_on_titan",
-    "universe": "anime",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=anime&path=attack_on_titan"
-  },
-  {
-    "name": "Kid Goku",
-    "id": "kid_goku",
-    "universe": "anime",
-    "parent": "dragon ball",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=dragon_ball&id=kid_goku"
-  },
-  {
-    "name": "Bulma",
-    "id": "bulma",
-    "universe": "anime",
-    "parent": "dragon ball",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=dragon_ball&id=bulma"
-  },
-  {
-    "name": "Krillin",
-    "id": "krillin",
-    "universe": "anime",
-    "parent": "dragon ball",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=dragon_ball&id=krillin"
-  },
-  {
-    "name": "Master Roshi",
-    "id": "master_roshi",
-    "universe": "anime",
-    "parent": "dragon ball",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=dragon_ball&id=master_roshi"
-  },
-  {
-    "name": "Yamcha",
-    "id": "yamcha",
-    "universe": "anime",
-    "parent": "dragon ball",
-    "type": "entity",
-    "url": "entity.html?universe=anime&path=dragon_ball&id=yamcha"
   },
   {
     "name": "Naruto Uzumaki",
     "id": "naruto_uzumaki",
-    "universe": "anime",
-    "parent": "naruto",
     "type": "entity",
+    "universe": "anime",
+    "path": "naruto",
+    "parent": "Naruto",
     "url": "entity.html?universe=anime&path=naruto&id=naruto_uzumaki"
   },
   {
     "name": "Sasuke Uchiha",
     "id": "sasuke_uchiha",
-    "universe": "anime",
-    "parent": "naruto",
     "type": "entity",
+    "universe": "anime",
+    "path": "naruto",
+    "parent": "Naruto",
     "url": "entity.html?universe=anime&path=naruto&id=sasuke_uchiha"
   },
   {
     "name": "Sakura Haruno",
     "id": "sakura_haruno",
-    "universe": "anime",
-    "parent": "naruto",
     "type": "entity",
+    "universe": "anime",
+    "path": "naruto",
+    "parent": "Naruto",
     "url": "entity.html?universe=anime&path=naruto&id=sakura_haruno"
   },
   {
     "name": "Kakashi Hatake",
     "id": "kakashi_hatake",
-    "universe": "anime",
-    "parent": "naruto",
     "type": "entity",
+    "universe": "anime",
+    "path": "naruto",
+    "parent": "Naruto",
     "url": "entity.html?universe=anime&path=naruto&id=kakashi_hatake"
   },
   {
     "name": "Itachi Uchiha",
     "id": "itachi_uchiha",
-    "universe": "anime",
-    "parent": "naruto",
     "type": "entity",
+    "universe": "anime",
+    "path": "naruto",
+    "parent": "Naruto",
     "url": "entity.html?universe=anime&path=naruto&id=itachi_uchiha"
+  },
+  {
+    "name": "One Piece",
+    "id": "one_piece",
+    "type": "category",
+    "universe": "anime",
+    "path": "",
+    "parent": "anime",
+    "url": "category.html?universe=anime&path=one_piece"
   },
   {
     "name": "Monkey D. Luffy",
     "id": "monkey_d_luffy",
-    "universe": "anime",
-    "parent": "one piece",
     "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
     "url": "entity.html?universe=anime&path=one_piece&id=monkey_d_luffy"
   },
   {
     "name": "Roronoa Zoro",
     "id": "roronoa_zoro",
-    "universe": "anime",
-    "parent": "one piece",
     "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
     "url": "entity.html?universe=anime&path=one_piece&id=roronoa_zoro"
   },
   {
     "name": "Nami",
     "id": "nami",
-    "universe": "anime",
-    "parent": "one piece",
     "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
     "url": "entity.html?universe=anime&path=one_piece&id=nami"
   },
   {
     "name": "Sanji",
     "id": "sanji",
-    "universe": "anime",
-    "parent": "one piece",
     "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
     "url": "entity.html?universe=anime&path=one_piece&id=sanji"
   },
   {
     "name": "Trafalgar Law",
     "id": "trafalgar_law",
-    "universe": "anime",
-    "parent": "one piece",
     "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
     "url": "entity.html?universe=anime&path=one_piece&id=trafalgar_law"
+  },
+  {
+    "name": "Bleach",
+    "id": "bleach",
+    "type": "category",
+    "universe": "anime",
+    "path": "",
+    "parent": "anime",
+    "url": "category.html?universe=anime&path=bleach"
+  },
+  {
+    "name": "Ichigo Kurosaki",
+    "id": "ichigo_kurosaki",
+    "type": "entity",
+    "universe": "anime",
+    "path": "bleach",
+    "parent": "Bleach",
+    "url": "entity.html?universe=anime&path=bleach&id=ichigo_kurosaki"
+  },
+  {
+    "name": "Rukia Kuchiki",
+    "id": "rukia_kuchiki",
+    "type": "entity",
+    "universe": "anime",
+    "path": "bleach",
+    "parent": "Bleach",
+    "url": "entity.html?universe=anime&path=bleach&id=rukia_kuchiki"
+  },
+  {
+    "name": "Byakuya Kuchiki",
+    "id": "byakuya_kuchiki",
+    "type": "entity",
+    "universe": "anime",
+    "path": "bleach",
+    "parent": "Bleach",
+    "url": "entity.html?universe=anime&path=bleach&id=byakuya_kuchiki"
+  },
+  {
+    "name": "Toshiro Hitsugaya",
+    "id": "toshiro_hitsugaya",
+    "type": "entity",
+    "universe": "anime",
+    "path": "bleach",
+    "parent": "Bleach",
+    "url": "entity.html?universe=anime&path=bleach&id=toshiro_hitsugaya"
+  },
+  {
+    "name": "Kenpachi Zaraki",
+    "id": "kenpachi_zaraki",
+    "type": "entity",
+    "universe": "anime",
+    "path": "bleach",
+    "parent": "Bleach",
+    "url": "entity.html?universe=anime&path=bleach&id=kenpachi_zaraki"
+  },
+  {
+    "name": "Dragon Ball",
+    "id": "dragon_ball",
+    "type": "category",
+    "universe": "anime",
+    "path": "",
+    "parent": "anime",
+    "url": "category.html?universe=anime&path=dragon_ball"
+  },
+  {
+    "name": "Kid Goku",
+    "id": "kid_goku",
+    "type": "entity",
+    "universe": "anime",
+    "path": "dragon_ball",
+    "parent": "Dragon Ball",
+    "url": "entity.html?universe=anime&path=dragon_ball&id=kid_goku"
+  },
+  {
+    "name": "Bulma",
+    "id": "bulma",
+    "type": "entity",
+    "universe": "anime",
+    "path": "dragon_ball",
+    "parent": "Dragon Ball",
+    "url": "entity.html?universe=anime&path=dragon_ball&id=bulma"
+  },
+  {
+    "name": "Krillin",
+    "id": "krillin",
+    "type": "entity",
+    "universe": "anime",
+    "path": "dragon_ball",
+    "parent": "Dragon Ball",
+    "url": "entity.html?universe=anime&path=dragon_ball&id=krillin"
+  },
+  {
+    "name": "Master Roshi",
+    "id": "master_roshi",
+    "type": "entity",
+    "universe": "anime",
+    "path": "dragon_ball",
+    "parent": "Dragon Ball",
+    "url": "entity.html?universe=anime&path=dragon_ball&id=master_roshi"
+  },
+  {
+    "name": "Yamcha",
+    "id": "yamcha",
+    "type": "entity",
+    "universe": "anime",
+    "path": "dragon_ball",
+    "parent": "Dragon Ball",
+    "url": "entity.html?universe=anime&path=dragon_ball&id=yamcha"
+  },
+  {
+    "name": "Attack on Titan",
+    "id": "attack_on_titan",
+    "type": "category",
+    "universe": "anime",
+    "path": "",
+    "parent": "anime",
+    "url": "category.html?universe=anime&path=attack_on_titan"
+  },
+  {
+    "name": "Eren Yeager",
+    "id": "eren_yeager",
+    "type": "entity",
+    "universe": "anime",
+    "path": "attack_on_titan",
+    "parent": "Attack on Titan",
+    "url": "entity.html?universe=anime&path=attack_on_titan&id=eren_yeager"
+  },
+  {
+    "name": "Mikasa Ackerman",
+    "id": "mikasa_ackerman",
+    "type": "entity",
+    "universe": "anime",
+    "path": "attack_on_titan",
+    "parent": "Attack on Titan",
+    "url": "entity.html?universe=anime&path=attack_on_titan&id=mikasa_ackerman"
+  },
+  {
+    "name": "Armin Arlert",
+    "id": "armin_arlert",
+    "type": "entity",
+    "universe": "anime",
+    "path": "attack_on_titan",
+    "parent": "Attack on Titan",
+    "url": "entity.html?universe=anime&path=attack_on_titan&id=armin_arlert"
+  },
+  {
+    "name": "Levi Ackerman",
+    "id": "levi_ackerman",
+    "type": "entity",
+    "universe": "anime",
+    "path": "attack_on_titan",
+    "parent": "Attack on Titan",
+    "url": "entity.html?universe=anime&path=attack_on_titan&id=levi_ackerman"
+  },
+  {
+    "name": "Reiner Braun",
+    "id": "reiner_braun",
+    "type": "entity",
+    "universe": "anime",
+    "path": "attack_on_titan",
+    "parent": "Attack on Titan",
+    "url": "entity.html?universe=anime&path=attack_on_titan&id=reiner_braun"
+  },
+  {
+    "name": "Cricket",
+    "id": "cricket",
+    "type": "category",
+    "universe": "sports",
+    "path": "",
+    "parent": "sports",
+    "url": "category.html?universe=sports&path=cricket"
+  },
+  {
+    "name": "India",
+    "id": "cricket_india",
+    "type": "category",
+    "universe": "sports",
+    "path": "cricket",
+    "parent": "Cricket",
+    "url": "category.html?universe=sports&path=cricket,cricket_india"
+  },
+  {
+    "name": "MS Dhoni",
+    "id": "ms_dhoni",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "India",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ms_dhoni"
+  },
+  {
+    "name": "Virat Kohli",
+    "id": "virat_kohli",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "India",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=virat_kohli"
+  },
+  {
+    "name": "Rohit Sharma",
+    "id": "rohit_sharma",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "India",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=rohit_sharma"
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "id": "jasprit_bumrah",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "India",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=jasprit_bumrah"
+  },
+  {
+    "name": "KL Rahul",
+    "id": "kl_rahul",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "India",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=kl_rahul"
+  },
+  {
+    "name": "Australia",
+    "id": "cricket_australia",
+    "type": "category",
+    "universe": "sports",
+    "path": "cricket",
+    "parent": "Cricket",
+    "url": "category.html?universe=sports&path=cricket,cricket_australia"
+  },
+  {
+    "name": "Ricky Ponting",
+    "id": "ricky_ponting",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_australia",
+    "parent": "Australia",
+    "url": "entity.html?universe=sports&path=cricket,cricket_australia&id=ricky_ponting"
+  },
+  {
+    "name": "Steve Smith",
+    "id": "steve_smith",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_australia",
+    "parent": "Australia",
+    "url": "entity.html?universe=sports&path=cricket,cricket_australia&id=steve_smith"
+  },
+  {
+    "name": "David Warner",
+    "id": "david_warner",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_australia",
+    "parent": "Australia",
+    "url": "entity.html?universe=sports&path=cricket,cricket_australia&id=david_warner"
+  },
+  {
+    "name": "Glenn McGrath",
+    "id": "glenn_mcgrath",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_australia",
+    "parent": "Australia",
+    "url": "entity.html?universe=sports&path=cricket,cricket_australia&id=glenn_mcgrath"
+  },
+  {
+    "name": "Shane Warne",
+    "id": "shane_warne",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_australia",
+    "parent": "Australia",
+    "url": "entity.html?universe=sports&path=cricket,cricket_australia&id=shane_warne"
+  },
+  {
+    "name": "England",
+    "id": "cricket_england",
+    "type": "category",
+    "universe": "sports",
+    "path": "cricket",
+    "parent": "Cricket",
+    "url": "category.html?universe=sports&path=cricket,cricket_england"
+  },
+  {
+    "name": "Joe Root",
+    "id": "joe_root",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_england",
+    "parent": "England",
+    "url": "entity.html?universe=sports&path=cricket,cricket_england&id=joe_root"
+  },
+  {
+    "name": "Ben Stokes",
+    "id": "ben_stokes",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_england",
+    "parent": "England",
+    "url": "entity.html?universe=sports&path=cricket,cricket_england&id=ben_stokes"
+  },
+  {
+    "name": "James Anderson",
+    "id": "james_anderson",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_england",
+    "parent": "England",
+    "url": "entity.html?universe=sports&path=cricket,cricket_england&id=james_anderson"
+  },
+  {
+    "name": "Jos Buttler",
+    "id": "jos_buttler",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_england",
+    "parent": "England",
+    "url": "entity.html?universe=sports&path=cricket,cricket_england&id=jos_buttler"
+  },
+  {
+    "name": "Stuart Broad",
+    "id": "stuart_broad",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_england",
+    "parent": "England",
+    "url": "entity.html?universe=sports&path=cricket,cricket_england&id=stuart_broad"
+  },
+  {
+    "name": "Pakistan",
+    "id": "cricket_pakistan",
+    "type": "category",
+    "universe": "sports",
+    "path": "cricket",
+    "parent": "Cricket",
+    "url": "category.html?universe=sports&path=cricket,cricket_pakistan"
+  },
+  {
+    "name": "Babar Azam",
+    "id": "babar_azam",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_pakistan",
+    "parent": "Pakistan",
+    "url": "entity.html?universe=sports&path=cricket,cricket_pakistan&id=babar_azam"
+  },
+  {
+    "name": "Shahid Afridi",
+    "id": "shahid_afridi",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_pakistan",
+    "parent": "Pakistan",
+    "url": "entity.html?universe=sports&path=cricket,cricket_pakistan&id=shahid_afridi"
+  },
+  {
+    "name": "Wasim Akram",
+    "id": "wasim_akram",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_pakistan",
+    "parent": "Pakistan",
+    "url": "entity.html?universe=sports&path=cricket,cricket_pakistan&id=wasim_akram"
+  },
+  {
+    "name": "Imran Khan",
+    "id": "imran_khan",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_pakistan",
+    "parent": "Pakistan",
+    "url": "entity.html?universe=sports&path=cricket,cricket_pakistan&id=imran_khan"
+  },
+  {
+    "name": "Mohammad Rizwan",
+    "id": "mohammad_rizwan",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_pakistan",
+    "parent": "Pakistan",
+    "url": "entity.html?universe=sports&path=cricket,cricket_pakistan&id=mohammad_rizwan"
+  },
+  {
+    "name": "South Africa",
+    "id": "cricket_south_africa",
+    "type": "category",
+    "universe": "sports",
+    "path": "cricket",
+    "parent": "Cricket",
+    "url": "category.html?universe=sports&path=cricket,cricket_south_africa"
+  },
+  {
+    "name": "AB de Villiers",
+    "id": "ab_de_villiers",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_south_africa",
+    "parent": "South Africa",
+    "url": "entity.html?universe=sports&path=cricket,cricket_south_africa&id=ab_de_villiers"
+  },
+  {
+    "name": "Jacques Kallis",
+    "id": "jacques_kallis",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_south_africa",
+    "parent": "South Africa",
+    "url": "entity.html?universe=sports&path=cricket,cricket_south_africa&id=jacques_kallis"
+  },
+  {
+    "name": "Dale Steyn",
+    "id": "dale_steyn",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_south_africa",
+    "parent": "South Africa",
+    "url": "entity.html?universe=sports&path=cricket,cricket_south_africa&id=dale_steyn"
+  },
+  {
+    "name": "Faf du Plessis",
+    "id": "faf_du_plessis",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_south_africa",
+    "parent": "South Africa",
+    "url": "entity.html?universe=sports&path=cricket,cricket_south_africa&id=faf_du_plessis"
+  },
+  {
+    "name": "Quinton de Kock",
+    "id": "quinton_de_kock",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_south_africa",
+    "parent": "South Africa",
+    "url": "entity.html?universe=sports&path=cricket,cricket_south_africa&id=quinton_de_kock"
+  },
+  {
+    "name": "Football",
+    "id": "football",
+    "type": "category",
+    "universe": "sports",
+    "path": "",
+    "parent": "sports",
+    "url": "category.html?universe=sports&path=football"
+  },
+  {
+    "name": "Brazil",
+    "id": "football_brazil",
+    "type": "category",
+    "universe": "sports",
+    "path": "football",
+    "parent": "Football",
+    "url": "category.html?universe=sports&path=football,football_brazil"
+  },
+  {
+    "name": "Pelé",
+    "id": "pele",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_brazil",
+    "parent": "Brazil",
+    "url": "entity.html?universe=sports&path=football,football_brazil&id=pele"
+  },
+  {
+    "name": "Ronaldo Nazário",
+    "id": "ronaldo_nazario",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_brazil",
+    "parent": "Brazil",
+    "url": "entity.html?universe=sports&path=football,football_brazil&id=ronaldo_nazario"
+  },
+  {
+    "name": "Ronaldinho",
+    "id": "ronaldinho",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_brazil",
+    "parent": "Brazil",
+    "url": "entity.html?universe=sports&path=football,football_brazil&id=ronaldinho"
+  },
+  {
+    "name": "Neymar Jr",
+    "id": "neymar",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_brazil",
+    "parent": "Brazil",
+    "url": "entity.html?universe=sports&path=football,football_brazil&id=neymar"
+  },
+  {
+    "name": "Kaká",
+    "id": "kaka",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_brazil",
+    "parent": "Brazil",
+    "url": "entity.html?universe=sports&path=football,football_brazil&id=kaka"
+  },
+  {
+    "name": "Argentina",
+    "id": "football_argentina",
+    "type": "category",
+    "universe": "sports",
+    "path": "football",
+    "parent": "Football",
+    "url": "category.html?universe=sports&path=football,football_argentina"
+  },
+  {
+    "name": "Lionel Messi",
+    "id": "lionel_messi",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_argentina",
+    "parent": "Argentina",
+    "url": "entity.html?universe=sports&path=football,football_argentina&id=lionel_messi"
+  },
+  {
+    "name": "Diego Maradona",
+    "id": "diego_maradona",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_argentina",
+    "parent": "Argentina",
+    "url": "entity.html?universe=sports&path=football,football_argentina&id=diego_maradona"
+  },
+  {
+    "name": "Ángel Di María",
+    "id": "angel_di_maria",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_argentina",
+    "parent": "Argentina",
+    "url": "entity.html?universe=sports&path=football,football_argentina&id=angel_di_maria"
+  },
+  {
+    "name": "Sergio Agüero",
+    "id": "sergio_aguero",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_argentina",
+    "parent": "Argentina",
+    "url": "entity.html?universe=sports&path=football,football_argentina&id=sergio_aguero"
+  },
+  {
+    "name": "Javier Zanetti",
+    "id": "javier_zanetti",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_argentina",
+    "parent": "Argentina",
+    "url": "entity.html?universe=sports&path=football,football_argentina&id=javier_zanetti"
+  },
+  {
+    "name": "France",
+    "id": "football_france",
+    "type": "category",
+    "universe": "sports",
+    "path": "football",
+    "parent": "Football",
+    "url": "category.html?universe=sports&path=football,football_france"
+  },
+  {
+    "name": "Zinedine Zidane",
+    "id": "zinedine_zidane",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_france",
+    "parent": "France",
+    "url": "entity.html?universe=sports&path=football,football_france&id=zinedine_zidane"
+  },
+  {
+    "name": "Kylian Mbappé",
+    "id": "kylian_mbappe",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_france",
+    "parent": "France",
+    "url": "entity.html?universe=sports&path=football,football_france&id=kylian_mbappe"
+  },
+  {
+    "name": "Thierry Henry",
+    "id": "thierry_henry",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_france",
+    "parent": "France",
+    "url": "entity.html?universe=sports&path=football,football_france&id=thierry_henry"
+  },
+  {
+    "name": "Michel Platini",
+    "id": "michel_platini",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_france",
+    "parent": "France",
+    "url": "entity.html?universe=sports&path=football,football_france&id=michel_platini"
+  },
+  {
+    "name": "Antoine Griezmann",
+    "id": "antoine_griezmann",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_france",
+    "parent": "France",
+    "url": "entity.html?universe=sports&path=football,football_france&id=antoine_griezmann"
+  },
+  {
+    "name": "Germany",
+    "id": "football_germany",
+    "type": "category",
+    "universe": "sports",
+    "path": "football",
+    "parent": "Football",
+    "url": "category.html?universe=sports&path=football,football_germany"
+  },
+  {
+    "name": "Franz Beckenbauer",
+    "id": "franz_beckenbauer",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_germany",
+    "parent": "Germany",
+    "url": "entity.html?universe=sports&path=football,football_germany&id=franz_beckenbauer"
+  },
+  {
+    "name": "Miroslav Klose",
+    "id": "miroslav_klose",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_germany",
+    "parent": "Germany",
+    "url": "entity.html?universe=sports&path=football,football_germany&id=miroslav_klose"
+  },
+  {
+    "name": "Thomas Müller",
+    "id": "thomas_muller",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_germany",
+    "parent": "Germany",
+    "url": "entity.html?universe=sports&path=football,football_germany&id=thomas_muller"
+  },
+  {
+    "name": "Manuel Neuer",
+    "id": "manuel_neuer",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_germany",
+    "parent": "Germany",
+    "url": "entity.html?universe=sports&path=football,football_germany&id=manuel_neuer"
+  },
+  {
+    "name": "Toni Kroos",
+    "id": "toni_kroos",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_germany",
+    "parent": "Germany",
+    "url": "entity.html?universe=sports&path=football,football_germany&id=toni_kroos"
+  },
+  {
+    "name": "Spain",
+    "id": "football_spain",
+    "type": "category",
+    "universe": "sports",
+    "path": "football",
+    "parent": "Football",
+    "url": "category.html?universe=sports&path=football,football_spain"
+  },
+  {
+    "name": "Andrés Iniesta",
+    "id": "andres_iniesta",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_spain",
+    "parent": "Spain",
+    "url": "entity.html?universe=sports&path=football,football_spain&id=andres_iniesta"
+  },
+  {
+    "name": "Xavi",
+    "id": "xavi",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_spain",
+    "parent": "Spain",
+    "url": "entity.html?universe=sports&path=football,football_spain&id=xavi"
+  },
+  {
+    "name": "Sergio Ramos",
+    "id": "sergio_ramos",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_spain",
+    "parent": "Spain",
+    "url": "entity.html?universe=sports&path=football,football_spain&id=sergio_ramos"
+  },
+  {
+    "name": "Iker Casillas",
+    "id": "iker_casillas",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_spain",
+    "parent": "Spain",
+    "url": "entity.html?universe=sports&path=football,football_spain&id=iker_casillas"
+  },
+  {
+    "name": "David Villa",
+    "id": "david_villa",
+    "type": "entity",
+    "universe": "sports",
+    "path": "football,football_spain",
+    "parent": "Spain",
+    "url": "entity.html?universe=sports&path=football,football_spain&id=david_villa"
+  },
+  {
+    "name": "Basketball",
+    "id": "basketball",
+    "type": "category",
+    "universe": "sports",
+    "path": "",
+    "parent": "sports",
+    "url": "category.html?universe=sports&path=basketball"
   },
   {
     "name": "USA",
     "id": "basketball_usa",
-    "universe": "sports",
-    "parent": "basketball",
     "type": "category",
+    "universe": "sports",
+    "path": "basketball",
+    "parent": "Basketball",
     "url": "category.html?universe=sports&path=basketball,basketball_usa"
+  },
+  {
+    "name": "Michael Jordan",
+    "id": "michael_jordan",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_usa",
+    "parent": "USA",
+    "url": "entity.html?universe=sports&path=basketball,basketball_usa&id=michael_jordan"
+  },
+  {
+    "name": "LeBron James",
+    "id": "lebron_james",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_usa",
+    "parent": "USA",
+    "url": "entity.html?universe=sports&path=basketball,basketball_usa&id=lebron_james"
+  },
+  {
+    "name": "Kobe Bryant",
+    "id": "kobe_bryant",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_usa",
+    "parent": "USA",
+    "url": "entity.html?universe=sports&path=basketball,basketball_usa&id=kobe_bryant"
+  },
+  {
+    "name": "Magic Johnson",
+    "id": "magic_johnson",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_usa",
+    "parent": "USA",
+    "url": "entity.html?universe=sports&path=basketball,basketball_usa&id=magic_johnson"
+  },
+  {
+    "name": "Larry Bird",
+    "id": "larry_bird",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_usa",
+    "parent": "USA",
+    "url": "entity.html?universe=sports&path=basketball,basketball_usa&id=larry_bird"
   },
   {
     "name": "Spain",
     "id": "basketball_spain",
-    "universe": "sports",
-    "parent": "basketball",
     "type": "category",
+    "universe": "sports",
+    "path": "basketball",
+    "parent": "Basketball",
     "url": "category.html?universe=sports&path=basketball,basketball_spain"
+  },
+  {
+    "name": "Pau Gasol",
+    "id": "pau_gasol",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_spain",
+    "parent": "Spain",
+    "url": "entity.html?universe=sports&path=basketball,basketball_spain&id=pau_gasol"
+  },
+  {
+    "name": "Marc Gasol",
+    "id": "marc_gasol",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_spain",
+    "parent": "Spain",
+    "url": "entity.html?universe=sports&path=basketball,basketball_spain&id=marc_gasol"
+  },
+  {
+    "name": "Ricky Rubio",
+    "id": "ricky_rubio",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_spain",
+    "parent": "Spain",
+    "url": "entity.html?universe=sports&path=basketball,basketball_spain&id=ricky_rubio"
+  },
+  {
+    "name": "Juan Carlos Navarro",
+    "id": "juan_carlos_navarro",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_spain",
+    "parent": "Spain",
+    "url": "entity.html?universe=sports&path=basketball,basketball_spain&id=juan_carlos_navarro"
+  },
+  {
+    "name": "Sergio Llull",
+    "id": "sergio_llull",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_spain",
+    "parent": "Spain",
+    "url": "entity.html?universe=sports&path=basketball,basketball_spain&id=sergio_llull"
   },
   {
     "name": "Canada",
     "id": "basketball_canada",
-    "universe": "sports",
-    "parent": "basketball",
     "type": "category",
+    "universe": "sports",
+    "path": "basketball",
+    "parent": "Basketball",
     "url": "category.html?universe=sports&path=basketball,basketball_canada"
+  },
+  {
+    "name": "Steve Nash",
+    "id": "steve_nash",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_canada",
+    "parent": "Canada",
+    "url": "entity.html?universe=sports&path=basketball,basketball_canada&id=steve_nash"
+  },
+  {
+    "name": "Jamal Murray",
+    "id": "jamal_murray",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_canada",
+    "parent": "Canada",
+    "url": "entity.html?universe=sports&path=basketball,basketball_canada&id=jamal_murray"
+  },
+  {
+    "name": "Shai Gilgeous-Alexander",
+    "id": "shai_gilgeous_alexander",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_canada",
+    "parent": "Canada",
+    "url": "entity.html?universe=sports&path=basketball,basketball_canada&id=shai_gilgeous_alexander"
+  },
+  {
+    "name": "Andrew Wiggins",
+    "id": "andrew_wiggins",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_canada",
+    "parent": "Canada",
+    "url": "entity.html?universe=sports&path=basketball,basketball_canada&id=andrew_wiggins"
+  },
+  {
+    "name": "RJ Barrett",
+    "id": "rj_barrett",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_canada",
+    "parent": "Canada",
+    "url": "entity.html?universe=sports&path=basketball,basketball_canada&id=rj_barrett"
   },
   {
     "name": "Serbia",
     "id": "basketball_serbia",
-    "universe": "sports",
-    "parent": "basketball",
     "type": "category",
+    "universe": "sports",
+    "path": "basketball",
+    "parent": "Basketball",
     "url": "category.html?universe=sports&path=basketball,basketball_serbia"
+  },
+  {
+    "name": "Nikola Jokic",
+    "id": "nikola_jokic",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_serbia",
+    "parent": "Serbia",
+    "url": "entity.html?universe=sports&path=basketball,basketball_serbia&id=nikola_jokic"
+  },
+  {
+    "name": "Bogdan Bogdanovic",
+    "id": "bogdan_bogdanovic",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_serbia",
+    "parent": "Serbia",
+    "url": "entity.html?universe=sports&path=basketball,basketball_serbia&id=bogdan_bogdanovic"
+  },
+  {
+    "name": "Vlade Divac",
+    "id": "vlade_divac",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_serbia",
+    "parent": "Serbia",
+    "url": "entity.html?universe=sports&path=basketball,basketball_serbia&id=vlade_divac"
+  },
+  {
+    "name": "Peja Stojakovic",
+    "id": "peja_stojakovic",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_serbia",
+    "parent": "Serbia",
+    "url": "entity.html?universe=sports&path=basketball,basketball_serbia&id=peja_stojakovic"
+  },
+  {
+    "name": "Milos Teodosic",
+    "id": "milos_teodosic",
+    "type": "entity",
+    "universe": "sports",
+    "path": "basketball,basketball_serbia",
+    "parent": "Serbia",
+    "url": "entity.html?universe=sports&path=basketball,basketball_serbia&id=milos_teodosic"
   },
   {
     "name": "Australia",
     "id": "basketball_australia",
-    "universe": "sports",
-    "parent": "basketball",
     "type": "category",
+    "universe": "sports",
+    "path": "basketball",
+    "parent": "Basketball",
     "url": "category.html?universe=sports&path=basketball,basketball_australia"
   },
   {
     "name": "Patty Mills",
     "id": "patty_mills",
-    "universe": "sports",
-    "parent": "basketball australia",
     "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_australia&id=patty_mills"
+    "universe": "sports",
+    "path": "basketball,basketball_australia",
+    "parent": "Australia",
+    "url": "entity.html?universe=sports&path=basketball,basketball_australia&id=patty_mills"
   },
   {
     "name": "Ben Simmons",
     "id": "ben_simmons",
-    "universe": "sports",
-    "parent": "basketball australia",
     "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_australia&id=ben_simmons"
+    "universe": "sports",
+    "path": "basketball,basketball_australia",
+    "parent": "Australia",
+    "url": "entity.html?universe=sports&path=basketball,basketball_australia&id=ben_simmons"
   },
   {
     "name": "Andrew Bogut",
     "id": "andrew_bogut",
-    "universe": "sports",
-    "parent": "basketball australia",
     "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_australia&id=andrew_bogut"
+    "universe": "sports",
+    "path": "basketball,basketball_australia",
+    "parent": "Australia",
+    "url": "entity.html?universe=sports&path=basketball,basketball_australia&id=andrew_bogut"
   },
   {
     "name": "Josh Giddey",
     "id": "josh_giddey",
-    "universe": "sports",
-    "parent": "basketball australia",
     "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_australia&id=josh_giddey"
+    "universe": "sports",
+    "path": "basketball,basketball_australia",
+    "parent": "Australia",
+    "url": "entity.html?universe=sports&path=basketball,basketball_australia&id=josh_giddey"
   },
   {
     "name": "Matthew Dellavedova",
     "id": "matthew_dellavedova",
-    "universe": "sports",
-    "parent": "basketball australia",
     "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_australia&id=matthew_dellavedova"
-  },
-  {
-    "name": "Steve Nash",
-    "id": "steve_nash",
     "universe": "sports",
-    "parent": "basketball canada",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_canada&id=steve_nash"
-  },
-  {
-    "name": "Jamal Murray",
-    "id": "jamal_murray",
-    "universe": "sports",
-    "parent": "basketball canada",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_canada&id=jamal_murray"
-  },
-  {
-    "name": "Shai Gilgeous-Alexander",
-    "id": "shai_gilgeous_alexander",
-    "universe": "sports",
-    "parent": "basketball canada",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_canada&id=shai_gilgeous_alexander"
-  },
-  {
-    "name": "Andrew Wiggins",
-    "id": "andrew_wiggins",
-    "universe": "sports",
-    "parent": "basketball canada",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_canada&id=andrew_wiggins"
-  },
-  {
-    "name": "RJ Barrett",
-    "id": "rj_barrett",
-    "universe": "sports",
-    "parent": "basketball canada",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_canada&id=rj_barrett"
-  },
-  {
-    "name": "Nikola Jokic",
-    "id": "nikola_jokic",
-    "universe": "sports",
-    "parent": "basketball serbia",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_serbia&id=nikola_jokic"
-  },
-  {
-    "name": "Bogdan Bogdanovic",
-    "id": "bogdan_bogdanovic",
-    "universe": "sports",
-    "parent": "basketball serbia",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_serbia&id=bogdan_bogdanovic"
-  },
-  {
-    "name": "Vlade Divac",
-    "id": "vlade_divac",
-    "universe": "sports",
-    "parent": "basketball serbia",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_serbia&id=vlade_divac"
-  },
-  {
-    "name": "Peja Stojakovic",
-    "id": "peja_stojakovic",
-    "universe": "sports",
-    "parent": "basketball serbia",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_serbia&id=peja_stojakovic"
-  },
-  {
-    "name": "Milos Teodosic",
-    "id": "milos_teodosic",
-    "universe": "sports",
-    "parent": "basketball serbia",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_serbia&id=milos_teodosic"
-  },
-  {
-    "name": "Pau Gasol",
-    "id": "pau_gasol",
-    "universe": "sports",
-    "parent": "basketball spain",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_spain&id=pau_gasol"
-  },
-  {
-    "name": "Marc Gasol",
-    "id": "marc_gasol",
-    "universe": "sports",
-    "parent": "basketball spain",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_spain&id=marc_gasol"
-  },
-  {
-    "name": "Ricky Rubio",
-    "id": "ricky_rubio",
-    "universe": "sports",
-    "parent": "basketball spain",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_spain&id=ricky_rubio"
-  },
-  {
-    "name": "Juan Carlos Navarro",
-    "id": "juan_carlos_navarro",
-    "universe": "sports",
-    "parent": "basketball spain",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_spain&id=juan_carlos_navarro"
-  },
-  {
-    "name": "Sergio Llull",
-    "id": "sergio_llull",
-    "universe": "sports",
-    "parent": "basketball spain",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_spain&id=sergio_llull"
-  },
-  {
-    "name": "Michael Jordan",
-    "id": "michael_jordan",
-    "universe": "sports",
-    "parent": "basketball usa",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_usa&id=michael_jordan"
-  },
-  {
-    "name": "LeBron James",
-    "id": "lebron_james",
-    "universe": "sports",
-    "parent": "basketball usa",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_usa&id=lebron_james"
-  },
-  {
-    "name": "Kobe Bryant",
-    "id": "kobe_bryant",
-    "universe": "sports",
-    "parent": "basketball usa",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_usa&id=kobe_bryant"
-  },
-  {
-    "name": "Magic Johnson",
-    "id": "magic_johnson",
-    "universe": "sports",
-    "parent": "basketball usa",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_usa&id=magic_johnson"
-  },
-  {
-    "name": "Larry Bird",
-    "id": "larry_bird",
-    "universe": "sports",
-    "parent": "basketball usa",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=basketball_usa&id=larry_bird"
-  },
-  {
-    "name": "Cricket",
-    "id": "cricket",
-    "universe": "sports",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=sports&path=cricket"
-  },
-  {
-    "name": "Football",
-    "id": "football",
-    "universe": "sports",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=sports&path=football"
-  },
-  {
-    "name": "Basketball",
-    "id": "basketball",
-    "universe": "sports",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=sports&path=basketball"
+    "path": "basketball,basketball_australia",
+    "parent": "Australia",
+    "url": "entity.html?universe=sports&path=basketball,basketball_australia&id=matthew_dellavedova"
   },
   {
     "name": "Tennis",
     "id": "tennis",
-    "universe": "sports",
-    "parent": "categories",
     "type": "category",
+    "universe": "sports",
+    "path": "",
+    "parent": "sports",
     "url": "category.html?universe=sports&path=tennis"
-  },
-  {
-    "name": "Formula 1",
-    "id": "formula_1",
-    "universe": "sports",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=sports&path=formula_1"
-  },
-  {
-    "name": "India",
-    "id": "cricket_india",
-    "universe": "sports",
-    "parent": "cricket",
-    "type": "category",
-    "url": "category.html?universe=sports&path=cricket,cricket_india"
-  },
-  {
-    "name": "Australia",
-    "id": "cricket_australia",
-    "universe": "sports",
-    "parent": "cricket",
-    "type": "category",
-    "url": "category.html?universe=sports&path=cricket,cricket_australia"
-  },
-  {
-    "name": "England",
-    "id": "cricket_england",
-    "universe": "sports",
-    "parent": "cricket",
-    "type": "category",
-    "url": "category.html?universe=sports&path=cricket,cricket_england"
-  },
-  {
-    "name": "Pakistan",
-    "id": "cricket_pakistan",
-    "universe": "sports",
-    "parent": "cricket",
-    "type": "category",
-    "url": "category.html?universe=sports&path=cricket,cricket_pakistan"
-  },
-  {
-    "name": "South Africa",
-    "id": "cricket_south_africa",
-    "universe": "sports",
-    "parent": "cricket",
-    "type": "category",
-    "url": "category.html?universe=sports&path=cricket,cricket_south_africa"
-  },
-  {
-    "name": "Ricky Ponting",
-    "id": "ricky_ponting",
-    "universe": "sports",
-    "parent": "cricket australia",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_australia&id=ricky_ponting"
-  },
-  {
-    "name": "Steve Smith",
-    "id": "steve_smith",
-    "universe": "sports",
-    "parent": "cricket australia",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_australia&id=steve_smith"
-  },
-  {
-    "name": "David Warner",
-    "id": "david_warner",
-    "universe": "sports",
-    "parent": "cricket australia",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_australia&id=david_warner"
-  },
-  {
-    "name": "Glenn McGrath",
-    "id": "glenn_mcgrath",
-    "universe": "sports",
-    "parent": "cricket australia",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_australia&id=glenn_mcgrath"
-  },
-  {
-    "name": "Shane Warne",
-    "id": "shane_warne",
-    "universe": "sports",
-    "parent": "cricket australia",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_australia&id=shane_warne"
-  },
-  {
-    "name": "Joe Root",
-    "id": "joe_root",
-    "universe": "sports",
-    "parent": "cricket england",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_england&id=joe_root"
-  },
-  {
-    "name": "Ben Stokes",
-    "id": "ben_stokes",
-    "universe": "sports",
-    "parent": "cricket england",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_england&id=ben_stokes"
-  },
-  {
-    "name": "James Anderson",
-    "id": "james_anderson",
-    "universe": "sports",
-    "parent": "cricket england",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_england&id=james_anderson"
-  },
-  {
-    "name": "Jos Buttler",
-    "id": "jos_buttler",
-    "universe": "sports",
-    "parent": "cricket england",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_england&id=jos_buttler"
-  },
-  {
-    "name": "Stuart Broad",
-    "id": "stuart_broad",
-    "universe": "sports",
-    "parent": "cricket england",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_england&id=stuart_broad"
-  },
-  {
-    "name": "MS Dhoni",
-    "id": "ms_dhoni",
-    "universe": "sports",
-    "parent": "cricket india",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_india&id=ms_dhoni"
-  },
-  {
-    "name": "Virat Kohli",
-    "id": "virat_kohli",
-    "universe": "sports",
-    "parent": "cricket india",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_india&id=virat_kohli"
-  },
-  {
-    "name": "Rohit Sharma",
-    "id": "rohit_sharma",
-    "universe": "sports",
-    "parent": "cricket india",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_india&id=rohit_sharma"
-  },
-  {
-    "name": "Jasprit Bumrah",
-    "id": "jasprit_bumrah",
-    "universe": "sports",
-    "parent": "cricket india",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_india&id=jasprit_bumrah"
-  },
-  {
-    "name": "KL Rahul",
-    "id": "kl_rahul",
-    "universe": "sports",
-    "parent": "cricket india",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_india&id=kl_rahul"
-  },
-  {
-    "name": "Babar Azam",
-    "id": "babar_azam",
-    "universe": "sports",
-    "parent": "cricket pakistan",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_pakistan&id=babar_azam"
-  },
-  {
-    "name": "Shahid Afridi",
-    "id": "shahid_afridi",
-    "universe": "sports",
-    "parent": "cricket pakistan",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_pakistan&id=shahid_afridi"
-  },
-  {
-    "name": "Wasim Akram",
-    "id": "wasim_akram",
-    "universe": "sports",
-    "parent": "cricket pakistan",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_pakistan&id=wasim_akram"
-  },
-  {
-    "name": "Imran Khan",
-    "id": "imran_khan",
-    "universe": "sports",
-    "parent": "cricket pakistan",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_pakistan&id=imran_khan"
-  },
-  {
-    "name": "Mohammad Rizwan",
-    "id": "mohammad_rizwan",
-    "universe": "sports",
-    "parent": "cricket pakistan",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_pakistan&id=mohammad_rizwan"
-  },
-  {
-    "name": "AB de Villiers",
-    "id": "ab_de_villiers",
-    "universe": "sports",
-    "parent": "cricket south africa",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_south_africa&id=ab_de_villiers"
-  },
-  {
-    "name": "Jacques Kallis",
-    "id": "jacques_kallis",
-    "universe": "sports",
-    "parent": "cricket south africa",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_south_africa&id=jacques_kallis"
-  },
-  {
-    "name": "Dale Steyn",
-    "id": "dale_steyn",
-    "universe": "sports",
-    "parent": "cricket south africa",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_south_africa&id=dale_steyn"
-  },
-  {
-    "name": "Faf du Plessis",
-    "id": "faf_du_plessis",
-    "universe": "sports",
-    "parent": "cricket south africa",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_south_africa&id=faf_du_plessis"
-  },
-  {
-    "name": "Quinton de Kock",
-    "id": "quinton_de_kock",
-    "universe": "sports",
-    "parent": "cricket south africa",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=cricket_south_africa&id=quinton_de_kock"
-  },
-  {
-    "name": "Brazil",
-    "id": "football_brazil",
-    "universe": "sports",
-    "parent": "football",
-    "type": "category",
-    "url": "category.html?universe=sports&path=football,football_brazil"
-  },
-  {
-    "name": "Argentina",
-    "id": "football_argentina",
-    "universe": "sports",
-    "parent": "football",
-    "type": "category",
-    "url": "category.html?universe=sports&path=football,football_argentina"
-  },
-  {
-    "name": "France",
-    "id": "football_france",
-    "universe": "sports",
-    "parent": "football",
-    "type": "category",
-    "url": "category.html?universe=sports&path=football,football_france"
-  },
-  {
-    "name": "Germany",
-    "id": "football_germany",
-    "universe": "sports",
-    "parent": "football",
-    "type": "category",
-    "url": "category.html?universe=sports&path=football,football_germany"
-  },
-  {
-    "name": "Spain",
-    "id": "football_spain",
-    "universe": "sports",
-    "parent": "football",
-    "type": "category",
-    "url": "category.html?universe=sports&path=football,football_spain"
-  },
-  {
-    "name": "Lionel Messi",
-    "id": "lionel_messi",
-    "universe": "sports",
-    "parent": "football argentina",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_argentina&id=lionel_messi"
-  },
-  {
-    "name": "Diego Maradona",
-    "id": "diego_maradona",
-    "universe": "sports",
-    "parent": "football argentina",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_argentina&id=diego_maradona"
-  },
-  {
-    "name": "Ángel Di María",
-    "id": "angel_di_maria",
-    "universe": "sports",
-    "parent": "football argentina",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_argentina&id=angel_di_maria"
-  },
-  {
-    "name": "Sergio Agüero",
-    "id": "sergio_aguero",
-    "universe": "sports",
-    "parent": "football argentina",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_argentina&id=sergio_aguero"
-  },
-  {
-    "name": "Javier Zanetti",
-    "id": "javier_zanetti",
-    "universe": "sports",
-    "parent": "football argentina",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_argentina&id=javier_zanetti"
-  },
-  {
-    "name": "Pelé",
-    "id": "pele",
-    "universe": "sports",
-    "parent": "football brazil",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_brazil&id=pele"
-  },
-  {
-    "name": "Ronaldo Nazário",
-    "id": "ronaldo_nazario",
-    "universe": "sports",
-    "parent": "football brazil",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_brazil&id=ronaldo_nazario"
-  },
-  {
-    "name": "Ronaldinho",
-    "id": "ronaldinho",
-    "universe": "sports",
-    "parent": "football brazil",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_brazil&id=ronaldinho"
-  },
-  {
-    "name": "Neymar Jr",
-    "id": "neymar",
-    "universe": "sports",
-    "parent": "football brazil",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_brazil&id=neymar"
-  },
-  {
-    "name": "Kaká",
-    "id": "kaka",
-    "universe": "sports",
-    "parent": "football brazil",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_brazil&id=kaka"
-  },
-  {
-    "name": "Zinedine Zidane",
-    "id": "zinedine_zidane",
-    "universe": "sports",
-    "parent": "football france",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_france&id=zinedine_zidane"
-  },
-  {
-    "name": "Kylian Mbappé",
-    "id": "kylian_mbappe",
-    "universe": "sports",
-    "parent": "football france",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_france&id=kylian_mbappe"
-  },
-  {
-    "name": "Thierry Henry",
-    "id": "thierry_henry",
-    "universe": "sports",
-    "parent": "football france",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_france&id=thierry_henry"
-  },
-  {
-    "name": "Michel Platini",
-    "id": "michel_platini",
-    "universe": "sports",
-    "parent": "football france",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_france&id=michel_platini"
-  },
-  {
-    "name": "Antoine Griezmann",
-    "id": "antoine_griezmann",
-    "universe": "sports",
-    "parent": "football france",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_france&id=antoine_griezmann"
-  },
-  {
-    "name": "Franz Beckenbauer",
-    "id": "franz_beckenbauer",
-    "universe": "sports",
-    "parent": "football germany",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_germany&id=franz_beckenbauer"
-  },
-  {
-    "name": "Miroslav Klose",
-    "id": "miroslav_klose",
-    "universe": "sports",
-    "parent": "football germany",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_germany&id=miroslav_klose"
-  },
-  {
-    "name": "Thomas Müller",
-    "id": "thomas_muller",
-    "universe": "sports",
-    "parent": "football germany",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_germany&id=thomas_muller"
-  },
-  {
-    "name": "Manuel Neuer",
-    "id": "manuel_neuer",
-    "universe": "sports",
-    "parent": "football germany",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_germany&id=manuel_neuer"
-  },
-  {
-    "name": "Toni Kroos",
-    "id": "toni_kroos",
-    "universe": "sports",
-    "parent": "football germany",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_germany&id=toni_kroos"
-  },
-  {
-    "name": "Andrés Iniesta",
-    "id": "andres_iniesta",
-    "universe": "sports",
-    "parent": "football spain",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_spain&id=andres_iniesta"
-  },
-  {
-    "name": "Xavi",
-    "id": "xavi",
-    "universe": "sports",
-    "parent": "football spain",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_spain&id=xavi"
-  },
-  {
-    "name": "Sergio Ramos",
-    "id": "sergio_ramos",
-    "universe": "sports",
-    "parent": "football spain",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_spain&id=sergio_ramos"
-  },
-  {
-    "name": "Iker Casillas",
-    "id": "iker_casillas",
-    "universe": "sports",
-    "parent": "football spain",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_spain&id=iker_casillas"
-  },
-  {
-    "name": "David Villa",
-    "id": "david_villa",
-    "universe": "sports",
-    "parent": "football spain",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=football_spain&id=david_villa"
-  },
-  {
-    "name": "Lewis Hamilton",
-    "id": "lewis_hamilton",
-    "universe": "sports",
-    "parent": "formula 1",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=formula_1&id=lewis_hamilton"
-  },
-  {
-    "name": "Max Verstappen",
-    "id": "max_verstappen",
-    "universe": "sports",
-    "parent": "formula 1",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=formula_1&id=max_verstappen"
-  },
-  {
-    "name": "Michael Schumacher",
-    "id": "michael_schumacher",
-    "universe": "sports",
-    "parent": "formula 1",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=formula_1&id=michael_schumacher"
-  },
-  {
-    "name": "Ayrton Senna",
-    "id": "ayrton_senna",
-    "universe": "sports",
-    "parent": "formula 1",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=formula_1&id=ayrton_senna"
-  },
-  {
-    "name": "Sebastian Vettel",
-    "id": "sebastian_vettel",
-    "universe": "sports",
-    "parent": "formula 1",
-    "type": "entity",
-    "url": "entity.html?universe=sports&path=formula_1&id=sebastian_vettel"
   },
   {
     "name": "Novak Djokovic",
     "id": "novak_djokovic",
-    "universe": "sports",
-    "parent": "tennis",
     "type": "entity",
+    "universe": "sports",
+    "path": "tennis",
+    "parent": "Tennis",
     "url": "entity.html?universe=sports&path=tennis&id=novak_djokovic"
   },
   {
     "name": "Rafael Nadal",
     "id": "rafael_nadal",
-    "universe": "sports",
-    "parent": "tennis",
     "type": "entity",
+    "universe": "sports",
+    "path": "tennis",
+    "parent": "Tennis",
     "url": "entity.html?universe=sports&path=tennis&id=rafael_nadal"
   },
   {
     "name": "Roger Federer",
     "id": "roger_federer",
-    "universe": "sports",
-    "parent": "tennis",
     "type": "entity",
+    "universe": "sports",
+    "path": "tennis",
+    "parent": "Tennis",
     "url": "entity.html?universe=sports&path=tennis&id=roger_federer"
   },
   {
     "name": "Carlos Alcaraz",
     "id": "carlos_alcaraz",
-    "universe": "sports",
-    "parent": "tennis",
     "type": "entity",
+    "universe": "sports",
+    "path": "tennis",
+    "parent": "Tennis",
     "url": "entity.html?universe=sports&path=tennis&id=carlos_alcaraz"
   },
   {
     "name": "Andy Murray",
     "id": "andy_murray",
-    "universe": "sports",
-    "parent": "tennis",
     "type": "entity",
+    "universe": "sports",
+    "path": "tennis",
+    "parent": "Tennis",
     "url": "entity.html?universe=sports&path=tennis&id=andy_murray"
+  },
+  {
+    "name": "Formula 1",
+    "id": "formula_1",
+    "type": "category",
+    "universe": "sports",
+    "path": "",
+    "parent": "sports",
+    "url": "category.html?universe=sports&path=formula_1"
+  },
+  {
+    "name": "Lewis Hamilton",
+    "id": "lewis_hamilton",
+    "type": "entity",
+    "universe": "sports",
+    "path": "formula_1",
+    "parent": "Formula 1",
+    "url": "entity.html?universe=sports&path=formula_1&id=lewis_hamilton"
+  },
+  {
+    "name": "Max Verstappen",
+    "id": "max_verstappen",
+    "type": "entity",
+    "universe": "sports",
+    "path": "formula_1",
+    "parent": "Formula 1",
+    "url": "entity.html?universe=sports&path=formula_1&id=max_verstappen"
+  },
+  {
+    "name": "Michael Schumacher",
+    "id": "michael_schumacher",
+    "type": "entity",
+    "universe": "sports",
+    "path": "formula_1",
+    "parent": "Formula 1",
+    "url": "entity.html?universe=sports&path=formula_1&id=michael_schumacher"
+  },
+  {
+    "name": "Ayrton Senna",
+    "id": "ayrton_senna",
+    "type": "entity",
+    "universe": "sports",
+    "path": "formula_1",
+    "parent": "Formula 1",
+    "url": "entity.html?universe=sports&path=formula_1&id=ayrton_senna"
+  },
+  {
+    "name": "Sebastian Vettel",
+    "id": "sebastian_vettel",
+    "type": "entity",
+    "universe": "sports",
+    "path": "formula_1",
+    "parent": "Formula 1",
+    "url": "entity.html?universe=sports&path=formula_1&id=sebastian_vettel"
   },
   {
     "name": "Apple",
     "id": "apple",
-    "universe": "fruits",
-    "parent": "fruits",
     "type": "entity",
-    "url": "entity.html?universe=fruits&path=fruits&id=apple"
+    "universe": "fruits",
+    "path": "",
+    "parent": "Fruits",
+    "url": "entity.html?universe=fruits&id=apple"
   },
   {
     "name": "Banana",
     "id": "banana",
-    "universe": "fruits",
-    "parent": "fruits",
     "type": "entity",
-    "url": "entity.html?universe=fruits&path=fruits&id=banana"
+    "universe": "fruits",
+    "path": "",
+    "parent": "Fruits",
+    "url": "entity.html?universe=fruits&id=banana"
   },
   {
     "name": "Mango",
     "id": "mango",
-    "universe": "fruits",
-    "parent": "fruits",
     "type": "entity",
-    "url": "entity.html?universe=fruits&path=fruits&id=mango"
+    "universe": "fruits",
+    "path": "",
+    "parent": "Fruits",
+    "url": "entity.html?universe=fruits&id=mango"
   },
   {
     "name": "Strawberry",
     "id": "strawberry",
-    "universe": "fruits",
-    "parent": "fruits",
     "type": "entity",
-    "url": "entity.html?universe=fruits&path=fruits&id=strawberry"
+    "universe": "fruits",
+    "path": "",
+    "parent": "Fruits",
+    "url": "entity.html?universe=fruits&id=strawberry"
   },
   {
     "name": "Pineapple",
     "id": "pineapple",
+    "type": "entity",
     "universe": "fruits",
-    "parent": "fruits",
-    "type": "entity",
-    "url": "entity.html?universe=fruits&path=fruits&id=pineapple"
+    "path": "",
+    "parent": "Fruits",
+    "url": "entity.html?universe=fruits&id=pineapple"
   },
   {
-    "name": "Boeing 747",
-    "id": "boeing_747",
+    "name": "Cars",
+    "id": "cars",
+    "type": "category",
     "universe": "vehicles",
-    "parent": "aircraft",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=aircraft&id=boeing_747"
-  },
-  {
-    "name": "Airbus A380",
-    "id": "airbus_a380",
-    "universe": "vehicles",
-    "parent": "aircraft",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=aircraft&id=airbus_a380"
-  },
-  {
-    "name": "F-22 Raptor",
-    "id": "f22_raptor",
-    "universe": "vehicles",
-    "parent": "aircraft",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=aircraft&id=f22_raptor"
-  },
-  {
-    "name": "F-35 Lightning II",
-    "id": "f35_lightning",
-    "universe": "vehicles",
-    "parent": "aircraft",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=aircraft&id=f35_lightning"
-  },
-  {
-    "name": "B-2 Spirit",
-    "id": "b2_spirit",
-    "universe": "vehicles",
-    "parent": "aircraft",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=aircraft&id=b2_spirit"
-  },
-  {
-    "name": "Yamaha YZF-R1",
-    "id": "yamaha_r1",
-    "universe": "vehicles",
-    "parent": "bikes",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=bikes&id=yamaha_r1"
-  },
-  {
-    "name": "Kawasaki Ninja H2",
-    "id": "kawasaki_ninja_h2",
-    "universe": "vehicles",
-    "parent": "bikes",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=bikes&id=kawasaki_ninja_h2"
-  },
-  {
-    "name": "Ducati Panigale V4",
-    "id": "ducati_panigale_v4",
-    "universe": "vehicles",
-    "parent": "bikes",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=bikes&id=ducati_panigale_v4"
-  },
-  {
-    "name": "Suzuki Hayabusa",
-    "id": "suzuki_hayabusa",
-    "universe": "vehicles",
-    "parent": "bikes",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=bikes&id=suzuki_hayabusa"
-  },
-  {
-    "name": "BMW S1000RR",
-    "id": "bmw_s1000rr",
-    "universe": "vehicles",
-    "parent": "bikes",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=bikes&id=bmw_s1000rr"
+    "path": "",
+    "parent": "vehicles",
+    "url": "category.html?universe=vehicles&path=cars"
   },
   {
     "name": "Toyota Camry",
     "id": "toyota_camry",
-    "universe": "vehicles",
-    "parent": "cars",
     "type": "entity",
+    "universe": "vehicles",
+    "path": "cars",
+    "parent": "Cars",
     "url": "entity.html?universe=vehicles&path=cars&id=toyota_camry"
   },
   {
     "name": "Tesla Model S",
     "id": "tesla_model_s",
-    "universe": "vehicles",
-    "parent": "cars",
     "type": "entity",
+    "universe": "vehicles",
+    "path": "cars",
+    "parent": "Cars",
     "url": "entity.html?universe=vehicles&path=cars&id=tesla_model_s"
   },
   {
     "name": "BMW M3",
     "id": "bmw_m3",
-    "universe": "vehicles",
-    "parent": "cars",
     "type": "entity",
+    "universe": "vehicles",
+    "path": "cars",
+    "parent": "Cars",
     "url": "entity.html?universe=vehicles&path=cars&id=bmw_m3"
   },
   {
     "name": "Ford Mustang",
     "id": "ford_mustang",
-    "universe": "vehicles",
-    "parent": "cars",
     "type": "entity",
+    "universe": "vehicles",
+    "path": "cars",
+    "parent": "Cars",
     "url": "entity.html?universe=vehicles&path=cars&id=ford_mustang"
   },
   {
     "name": "Lamborghini Aventador",
     "id": "lamborghini_aventador",
-    "universe": "vehicles",
-    "parent": "cars",
     "type": "entity",
-    "url": "entity.html?universe=vehicles&path=cars&id=lamborghini_aventador"
-  },
-  {
-    "name": "Cars",
-    "id": "cars",
     "universe": "vehicles",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=vehicles&path=cars"
+    "path": "cars",
+    "parent": "Cars",
+    "url": "entity.html?universe=vehicles&path=cars&id=lamborghini_aventador"
   },
   {
     "name": "Bikes",
     "id": "bikes",
-    "universe": "vehicles",
-    "parent": "categories",
     "type": "category",
+    "universe": "vehicles",
+    "path": "",
+    "parent": "vehicles",
     "url": "category.html?universe=vehicles&path=bikes"
+  },
+  {
+    "name": "Yamaha YZF-R1",
+    "id": "yamaha_r1",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "bikes",
+    "parent": "Bikes",
+    "url": "entity.html?universe=vehicles&path=bikes&id=yamaha_r1"
+  },
+  {
+    "name": "Kawasaki Ninja H2",
+    "id": "kawasaki_ninja_h2",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "bikes",
+    "parent": "Bikes",
+    "url": "entity.html?universe=vehicles&path=bikes&id=kawasaki_ninja_h2"
+  },
+  {
+    "name": "Ducati Panigale V4",
+    "id": "ducati_panigale_v4",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "bikes",
+    "parent": "Bikes",
+    "url": "entity.html?universe=vehicles&path=bikes&id=ducati_panigale_v4"
+  },
+  {
+    "name": "Suzuki Hayabusa",
+    "id": "suzuki_hayabusa",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "bikes",
+    "parent": "Bikes",
+    "url": "entity.html?universe=vehicles&path=bikes&id=suzuki_hayabusa"
+  },
+  {
+    "name": "BMW S1000RR",
+    "id": "bmw_s1000rr",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "bikes",
+    "parent": "Bikes",
+    "url": "entity.html?universe=vehicles&path=bikes&id=bmw_s1000rr"
   },
   {
     "name": "Aircraft",
     "id": "aircraft",
-    "universe": "vehicles",
-    "parent": "categories",
     "type": "category",
+    "universe": "vehicles",
+    "path": "",
+    "parent": "vehicles",
     "url": "category.html?universe=vehicles&path=aircraft"
+  },
+  {
+    "name": "Boeing 747",
+    "id": "boeing_747",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "aircraft",
+    "parent": "Aircraft",
+    "url": "entity.html?universe=vehicles&path=aircraft&id=boeing_747"
+  },
+  {
+    "name": "Airbus A380",
+    "id": "airbus_a380",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "aircraft",
+    "parent": "Aircraft",
+    "url": "entity.html?universe=vehicles&path=aircraft&id=airbus_a380"
+  },
+  {
+    "name": "F-22 Raptor",
+    "id": "f22_raptor",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "aircraft",
+    "parent": "Aircraft",
+    "url": "entity.html?universe=vehicles&path=aircraft&id=f22_raptor"
+  },
+  {
+    "name": "F-35 Lightning II",
+    "id": "f35_lightning",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "aircraft",
+    "parent": "Aircraft",
+    "url": "entity.html?universe=vehicles&path=aircraft&id=f35_lightning"
+  },
+  {
+    "name": "B-2 Spirit",
+    "id": "b2_spirit",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "aircraft",
+    "parent": "Aircraft",
+    "url": "entity.html?universe=vehicles&path=aircraft&id=b2_spirit"
   },
   {
     "name": "Ships",
     "id": "ships",
-    "universe": "vehicles",
-    "parent": "categories",
     "type": "category",
+    "universe": "vehicles",
+    "path": "",
+    "parent": "vehicles",
     "url": "category.html?universe=vehicles&path=ships"
-  },
-  {
-    "name": "Other Vehicles",
-    "id": "other_vehicles",
-    "universe": "vehicles",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=vehicles&path=other_vehicles"
-  },
-  {
-    "name": "Bullock Cart",
-    "id": "bullock_cart",
-    "universe": "vehicles",
-    "parent": "other vehicles",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=other_vehicles&id=bullock_cart"
-  },
-  {
-    "name": "Horse Carriage",
-    "id": "horse_carriage",
-    "universe": "vehicles",
-    "parent": "other vehicles",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=other_vehicles&id=horse_carriage"
-  },
-  {
-    "name": "Rickshaw",
-    "id": "rickshaw",
-    "universe": "vehicles",
-    "parent": "other vehicles",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=other_vehicles&id=rickshaw"
-  },
-  {
-    "name": "Snowmobile",
-    "id": "snowmobile",
-    "universe": "vehicles",
-    "parent": "other vehicles",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=other_vehicles&id=snowmobile"
-  },
-  {
-    "name": "Segway",
-    "id": "segway",
-    "universe": "vehicles",
-    "parent": "other vehicles",
-    "type": "entity",
-    "url": "entity.html?universe=vehicles&path=other_vehicles&id=segway"
   },
   {
     "name": "RMS Titanic",
     "id": "titanic",
-    "universe": "vehicles",
-    "parent": "ships",
     "type": "entity",
+    "universe": "vehicles",
+    "path": "ships",
+    "parent": "Ships",
     "url": "entity.html?universe=vehicles&path=ships&id=titanic"
   },
   {
     "name": "Queen Mary 2",
     "id": "queen_mary_2",
-    "universe": "vehicles",
-    "parent": "ships",
     "type": "entity",
+    "universe": "vehicles",
+    "path": "ships",
+    "parent": "Ships",
     "url": "entity.html?universe=vehicles&path=ships&id=queen_mary_2"
   },
   {
     "name": "USS Enterprise",
     "id": "uss_enterprise",
-    "universe": "vehicles",
-    "parent": "ships",
     "type": "entity",
+    "universe": "vehicles",
+    "path": "ships",
+    "parent": "Ships",
     "url": "entity.html?universe=vehicles&path=ships&id=uss_enterprise"
   },
   {
     "name": "Ever Given",
     "id": "ever_given",
-    "universe": "vehicles",
-    "parent": "ships",
     "type": "entity",
+    "universe": "vehicles",
+    "path": "ships",
+    "parent": "Ships",
     "url": "entity.html?universe=vehicles&path=ships&id=ever_given"
   },
   {
     "name": "HMS Victory",
     "id": "hms_victory",
-    "universe": "vehicles",
-    "parent": "ships",
     "type": "entity",
+    "universe": "vehicles",
+    "path": "ships",
+    "parent": "Ships",
     "url": "entity.html?universe=vehicles&path=ships&id=hms_victory"
+  },
+  {
+    "name": "Other Vehicles",
+    "id": "other_vehicles",
+    "type": "category",
+    "universe": "vehicles",
+    "path": "",
+    "parent": "vehicles",
+    "url": "category.html?universe=vehicles&path=other_vehicles"
+  },
+  {
+    "name": "Bullock Cart",
+    "id": "bullock_cart",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "other_vehicles",
+    "parent": "Other Vehicles",
+    "url": "entity.html?universe=vehicles&path=other_vehicles&id=bullock_cart"
+  },
+  {
+    "name": "Horse Carriage",
+    "id": "horse_carriage",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "other_vehicles",
+    "parent": "Other Vehicles",
+    "url": "entity.html?universe=vehicles&path=other_vehicles&id=horse_carriage"
+  },
+  {
+    "name": "Rickshaw",
+    "id": "rickshaw",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "other_vehicles",
+    "parent": "Other Vehicles",
+    "url": "entity.html?universe=vehicles&path=other_vehicles&id=rickshaw"
+  },
+  {
+    "name": "Snowmobile",
+    "id": "snowmobile",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "other_vehicles",
+    "parent": "Other Vehicles",
+    "url": "entity.html?universe=vehicles&path=other_vehicles&id=snowmobile"
+  },
+  {
+    "name": "Segway",
+    "id": "segway",
+    "type": "entity",
+    "universe": "vehicles",
+    "path": "other_vehicles",
+    "parent": "Other Vehicles",
+    "url": "entity.html?universe=vehicles&path=other_vehicles&id=segway"
   },
   {
     "name": "Mammals",
     "id": "mammals",
-    "universe": "animals",
-    "parent": "categories",
     "type": "category",
+    "universe": "animals",
+    "path": "",
+    "parent": "animals",
     "url": "category.html?universe=animals&path=mammals"
-  },
-  {
-    "name": "Dogs",
-    "id": "dogs",
-    "universe": "animals",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=animals&path=dogs"
-  },
-  {
-    "name": "Extinct Animals",
-    "id": "extinct_animals",
-    "universe": "animals",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=animals&path=extinct_animals"
-  },
-  {
-    "name": "Insects",
-    "id": "insects",
-    "universe": "animals",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=animals&path=insects"
-  },
-  {
-    "name": "Marine Animals",
-    "id": "marine_animals",
-    "universe": "animals",
-    "parent": "categories",
-    "type": "category",
-    "url": "category.html?universe=animals&path=marine_animals"
-  },
-  {
-    "name": "Golden Retriever",
-    "id": "golden_retriever",
-    "universe": "animals",
-    "parent": "dogs",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=dogs&id=golden_retriever"
-  },
-  {
-    "name": "German Shepherd",
-    "id": "german_shepherd",
-    "universe": "animals",
-    "parent": "dogs",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=dogs&id=german_shepherd"
-  },
-  {
-    "name": "Siberian Husky",
-    "id": "siberian_husky",
-    "universe": "animals",
-    "parent": "dogs",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=dogs&id=siberian_husky"
-  },
-  {
-    "name": "Bulldog",
-    "id": "bulldog",
-    "universe": "animals",
-    "parent": "dogs",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=dogs&id=bulldog"
-  },
-  {
-    "name": "Labrador Retriever",
-    "id": "labrador_retriever",
-    "universe": "animals",
-    "parent": "dogs",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=dogs&id=labrador_retriever"
-  },
-  {
-    "name": "Tyrannosaurus Rex",
-    "id": "tyrannosaurus_rex",
-    "universe": "animals",
-    "parent": "extinct animals",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=extinct_animals&id=tyrannosaurus_rex"
-  },
-  {
-    "name": "Woolly Mammoth",
-    "id": "woolly_mammoth",
-    "universe": "animals",
-    "parent": "extinct animals",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=extinct_animals&id=woolly_mammoth"
-  },
-  {
-    "name": "Dodo",
-    "id": "dodo",
-    "universe": "animals",
-    "parent": "extinct animals",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=extinct_animals&id=dodo"
-  },
-  {
-    "name": "Saber-Toothed Tiger",
-    "id": "saber_toothed_tiger",
-    "universe": "animals",
-    "parent": "extinct animals",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=extinct_animals&id=saber_toothed_tiger"
-  },
-  {
-    "name": "Triceratops",
-    "id": "triceratops",
-    "universe": "animals",
-    "parent": "extinct animals",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=extinct_animals&id=triceratops"
-  },
-  {
-    "name": "Butterfly",
-    "id": "butterfly",
-    "universe": "animals",
-    "parent": "insects",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=insects&id=butterfly"
-  },
-  {
-    "name": "Honey Bee",
-    "id": "honey_bee",
-    "universe": "animals",
-    "parent": "insects",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=insects&id=honey_bee"
-  },
-  {
-    "name": "Ant",
-    "id": "ant",
-    "universe": "animals",
-    "parent": "insects",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=insects&id=ant"
-  },
-  {
-    "name": "Dragonfly",
-    "id": "dragonfly",
-    "universe": "animals",
-    "parent": "insects",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=insects&id=dragonfly"
-  },
-  {
-    "name": "Ladybug",
-    "id": "ladybug",
-    "universe": "animals",
-    "parent": "insects",
-    "type": "entity",
-    "url": "entity.html?universe=animals&path=insects&id=ladybug"
   },
   {
     "name": "Lion",
     "id": "lion",
-    "universe": "animals",
-    "parent": "mammals",
     "type": "entity",
+    "universe": "animals",
+    "path": "mammals",
+    "parent": "Mammals",
     "url": "entity.html?universe=animals&path=mammals&id=lion"
   },
   {
     "name": "Elephant",
     "id": "elephant",
-    "universe": "animals",
-    "parent": "mammals",
     "type": "entity",
+    "universe": "animals",
+    "path": "mammals",
+    "parent": "Mammals",
     "url": "entity.html?universe=animals&path=mammals&id=elephant"
   },
   {
     "name": "Dolphin",
     "id": "dolphin",
-    "universe": "animals",
-    "parent": "mammals",
     "type": "entity",
+    "universe": "animals",
+    "path": "mammals",
+    "parent": "Mammals",
     "url": "entity.html?universe=animals&path=mammals&id=dolphin"
   },
   {
     "name": "Bat",
     "id": "bat",
-    "universe": "animals",
-    "parent": "mammals",
     "type": "entity",
+    "universe": "animals",
+    "path": "mammals",
+    "parent": "Mammals",
     "url": "entity.html?universe=animals&path=mammals&id=bat"
   },
   {
     "name": "Kangaroo",
     "id": "kangaroo",
-    "universe": "animals",
-    "parent": "mammals",
     "type": "entity",
+    "universe": "animals",
+    "path": "mammals",
+    "parent": "Mammals",
     "url": "entity.html?universe=animals&path=mammals&id=kangaroo"
+  },
+  {
+    "name": "Dogs",
+    "id": "dogs",
+    "type": "category",
+    "universe": "animals",
+    "path": "",
+    "parent": "animals",
+    "url": "category.html?universe=animals&path=dogs"
+  },
+  {
+    "name": "Golden Retriever",
+    "id": "golden_retriever",
+    "type": "entity",
+    "universe": "animals",
+    "path": "dogs",
+    "parent": "Dogs",
+    "url": "entity.html?universe=animals&path=dogs&id=golden_retriever"
+  },
+  {
+    "name": "German Shepherd",
+    "id": "german_shepherd",
+    "type": "entity",
+    "universe": "animals",
+    "path": "dogs",
+    "parent": "Dogs",
+    "url": "entity.html?universe=animals&path=dogs&id=german_shepherd"
+  },
+  {
+    "name": "Siberian Husky",
+    "id": "siberian_husky",
+    "type": "entity",
+    "universe": "animals",
+    "path": "dogs",
+    "parent": "Dogs",
+    "url": "entity.html?universe=animals&path=dogs&id=siberian_husky"
+  },
+  {
+    "name": "Bulldog",
+    "id": "bulldog",
+    "type": "entity",
+    "universe": "animals",
+    "path": "dogs",
+    "parent": "Dogs",
+    "url": "entity.html?universe=animals&path=dogs&id=bulldog"
+  },
+  {
+    "name": "Labrador Retriever",
+    "id": "labrador_retriever",
+    "type": "entity",
+    "universe": "animals",
+    "path": "dogs",
+    "parent": "Dogs",
+    "url": "entity.html?universe=animals&path=dogs&id=labrador_retriever"
+  },
+  {
+    "name": "Extinct Animals",
+    "id": "extinct_animals",
+    "type": "category",
+    "universe": "animals",
+    "path": "",
+    "parent": "animals",
+    "url": "category.html?universe=animals&path=extinct_animals"
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "id": "tyrannosaurus_rex",
+    "type": "entity",
+    "universe": "animals",
+    "path": "extinct_animals",
+    "parent": "Extinct Animals",
+    "url": "entity.html?universe=animals&path=extinct_animals&id=tyrannosaurus_rex"
+  },
+  {
+    "name": "Woolly Mammoth",
+    "id": "woolly_mammoth",
+    "type": "entity",
+    "universe": "animals",
+    "path": "extinct_animals",
+    "parent": "Extinct Animals",
+    "url": "entity.html?universe=animals&path=extinct_animals&id=woolly_mammoth"
+  },
+  {
+    "name": "Dodo",
+    "id": "dodo",
+    "type": "entity",
+    "universe": "animals",
+    "path": "extinct_animals",
+    "parent": "Extinct Animals",
+    "url": "entity.html?universe=animals&path=extinct_animals&id=dodo"
+  },
+  {
+    "name": "Saber-Toothed Tiger",
+    "id": "saber_toothed_tiger",
+    "type": "entity",
+    "universe": "animals",
+    "path": "extinct_animals",
+    "parent": "Extinct Animals",
+    "url": "entity.html?universe=animals&path=extinct_animals&id=saber_toothed_tiger"
+  },
+  {
+    "name": "Triceratops",
+    "id": "triceratops",
+    "type": "entity",
+    "universe": "animals",
+    "path": "extinct_animals",
+    "parent": "Extinct Animals",
+    "url": "entity.html?universe=animals&path=extinct_animals&id=triceratops"
+  },
+  {
+    "name": "Insects",
+    "id": "insects",
+    "type": "category",
+    "universe": "animals",
+    "path": "",
+    "parent": "animals",
+    "url": "category.html?universe=animals&path=insects"
+  },
+  {
+    "name": "Butterfly",
+    "id": "butterfly",
+    "type": "entity",
+    "universe": "animals",
+    "path": "insects",
+    "parent": "Insects",
+    "url": "entity.html?universe=animals&path=insects&id=butterfly"
+  },
+  {
+    "name": "Honey Bee",
+    "id": "honey_bee",
+    "type": "entity",
+    "universe": "animals",
+    "path": "insects",
+    "parent": "Insects",
+    "url": "entity.html?universe=animals&path=insects&id=honey_bee"
+  },
+  {
+    "name": "Ant",
+    "id": "ant",
+    "type": "entity",
+    "universe": "animals",
+    "path": "insects",
+    "parent": "Insects",
+    "url": "entity.html?universe=animals&path=insects&id=ant"
+  },
+  {
+    "name": "Dragonfly",
+    "id": "dragonfly",
+    "type": "entity",
+    "universe": "animals",
+    "path": "insects",
+    "parent": "Insects",
+    "url": "entity.html?universe=animals&path=insects&id=dragonfly"
+  },
+  {
+    "name": "Ladybug",
+    "id": "ladybug",
+    "type": "entity",
+    "universe": "animals",
+    "path": "insects",
+    "parent": "Insects",
+    "url": "entity.html?universe=animals&path=insects&id=ladybug"
+  },
+  {
+    "name": "Marine Animals",
+    "id": "marine_animals",
+    "type": "category",
+    "universe": "animals",
+    "path": "",
+    "parent": "animals",
+    "url": "category.html?universe=animals&path=marine_animals"
   },
   {
     "name": "Great White Shark",
     "id": "great_white_shark",
-    "universe": "animals",
-    "parent": "marine animals",
     "type": "entity",
+    "universe": "animals",
+    "path": "marine_animals",
+    "parent": "Marine Animals",
     "url": "entity.html?universe=animals&path=marine_animals&id=great_white_shark"
   },
   {
     "name": "Octopus",
     "id": "octopus",
-    "universe": "animals",
-    "parent": "marine animals",
     "type": "entity",
+    "universe": "animals",
+    "path": "marine_animals",
+    "parent": "Marine Animals",
     "url": "entity.html?universe=animals&path=marine_animals&id=octopus"
   },
   {
     "name": "Dolphin",
     "id": "dolphin_marine",
-    "universe": "animals",
-    "parent": "marine animals",
     "type": "entity",
+    "universe": "animals",
+    "path": "marine_animals",
+    "parent": "Marine Animals",
     "url": "entity.html?universe=animals&path=marine_animals&id=dolphin_marine"
   },
   {
     "name": "Jellyfish",
     "id": "jellyfish",
-    "universe": "animals",
-    "parent": "marine animals",
     "type": "entity",
+    "universe": "animals",
+    "path": "marine_animals",
+    "parent": "Marine Animals",
     "url": "entity.html?universe=animals&path=marine_animals&id=jellyfish"
   },
   {
     "name": "Seahorse",
     "id": "seahorse",
-    "universe": "animals",
-    "parent": "marine animals",
     "type": "entity",
+    "universe": "animals",
+    "path": "marine_animals",
+    "parent": "Marine Animals",
     "url": "entity.html?universe=animals&path=marine_animals&id=seahorse"
   }
 ]

@@ -3,6 +3,7 @@
 "id":"bullock_cart",
 "name":"Bullock Cart",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=other_vehicles&id=bullock_cart",
 "parent":"other_vehicles",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"horse_carriage",
 "name":"Horse Carriage",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=other_vehicles&id=horse_carriage",
 "parent":"other_vehicles",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"rickshaw",
 "name":"Rickshaw",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=other_vehicles&id=rickshaw",
 "parent":"other_vehicles",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"snowmobile",
 "name":"Snowmobile",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=other_vehicles&id=snowmobile",
 "parent":"other_vehicles",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"segway",
 "name":"Segway",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=other_vehicles&id=segway",
 "parent":"other_vehicles",
 
 "info":{

@@ -3,6 +3,7 @@
 "id":"yamaha_r1",
 "name":"Yamaha YZF-R1",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=bikes&id=yamaha_r1",
 "parent":"bikes",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"kawasaki_ninja_h2",
 "name":"Kawasaki Ninja H2",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=bikes&id=kawasaki_ninja_h2",
 "parent":"bikes",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"ducati_panigale_v4",
 "name":"Ducati Panigale V4",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=bikes&id=ducati_panigale_v4",
 "parent":"bikes",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"suzuki_hayabusa",
 "name":"Suzuki Hayabusa",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=bikes&id=suzuki_hayabusa",
 "parent":"bikes",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"bmw_s1000rr",
 "name":"BMW S1000RR",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=bikes&id=bmw_s1000rr",
 "parent":"bikes",
 
 "info":{

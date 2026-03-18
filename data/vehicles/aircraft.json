@@ -3,6 +3,7 @@
 "id":"boeing_747",
 "name":"Boeing 747",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=aircraft&id=boeing_747",
 "parent":"aircraft",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"airbus_a380",
 "name":"Airbus A380",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=aircraft&id=airbus_a380",
 "parent":"aircraft",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"f22_raptor",
 "name":"F-22 Raptor",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=aircraft&id=f22_raptor",
 "parent":"aircraft",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"f35_lightning",
 "name":"F-35 Lightning II",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=aircraft&id=f35_lightning",
 "parent":"aircraft",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"b2_spirit",
 "name":"B-2 Spirit",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=aircraft&id=b2_spirit",
 "parent":"aircraft",
 
 "info":{

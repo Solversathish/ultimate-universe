@@ -3,6 +3,7 @@
 "id":"toyota_camry",
 "name":"Toyota Camry",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=cars&id=toyota_camry",
 "parent":"cars",
 
 "info":{
@@ -33,6 +34,7 @@
 "id":"tesla_model_s",
 "name":"Tesla Model S",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=cars&id=tesla_model_s",
 "parent":"cars",
 
 "info":{
@@ -63,6 +65,7 @@
 "id":"bmw_m3",
 "name":"BMW M3",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=cars&id=bmw_m3",
 "parent":"cars",
 
 "info":{
@@ -93,6 +96,7 @@
 "id":"ford_mustang",
 "name":"Ford Mustang",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=cars&id=ford_mustang",
 "parent":"cars",
 
 "info":{
@@ -123,6 +127,7 @@
 "id":"lamborghini_aventador",
 "name":"Lamborghini Aventador",
 "type":"entity",
+"url":"entity.html?universe=vehicles&path=cars&id=lamborghini_aventador",
 "parent":"cars",
 
 "info":{
