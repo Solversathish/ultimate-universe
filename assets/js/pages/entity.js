@@ -52,6 +52,35 @@ container.innerHTML="Entity not found";
 return;
 }
 
+/* ================= SEO PART (FINAL FIXED) ================= */
+
+try{
+
+  const cleanDescription = (entity.tabs?.tab1?.content || "")
+    .replace(/<br>/g, " ")
+    .replace(/<[^>]*>/g, "")
+    .trim()
+    .slice(0, 155);
+
+  // ✅ Title
+  const tab1Title = entity.tabs.tab1.title;
+const tab2Title = entity.tabs.tab2.title;
+const tab3Title = entity.tabs.tab3.title;
+
+document.title = `${entity.name} - ${tab1Title}, ${tab2Title}, ${tab3Title}`;
+
+  // ✅ Meta Description
+  const metaDesc = document.querySelector("meta[name='description']");
+  if(metaDesc){
+    metaDesc.setAttribute("content", cleanDescription);
+  }
+
+}catch(e){
+  console.warn("SEO error:", e);
+}
+
+/* ======================================================= */
+
 /* BREADCRUMBS */
 
 createBreadcrumbs(universe,path,entity);
