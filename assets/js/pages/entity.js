@@ -52,28 +52,60 @@ container.innerHTML="Entity not found";
 return;
 }
 
-/* ================= SEO PART (FINAL FIXED) ================= */
+/* ================= SEO PART (FIXED 🔥) ================= */
 
 try{
 
-  const cleanDescription = (entity.tabs?.tab1?.content || "")
-    .replace(/<br>/g, " ")
+  const rawContent = entity?.tabs?.tab1?.content || entity.name;
+
+  const cleanDescription = rawContent
+    .replace(/<br\s*\/?>/g, " ")
     .replace(/<[^>]*>/g, "")
     .trim()
-    .slice(0, 155);
+    .slice(0, 160);
 
-  // ✅ Title
-  const tab1Title = entity.tabs.tab1.title;
-const tab2Title = entity.tabs.tab2.title;
-const tab3Title = entity.tabs.tab3.title;
+  const tab1Title = entity?.tabs?.tab1?.title || "Info";
+  const tab2Title = entity?.tabs?.tab2?.title || "Abilities";
+  const tab3Title = entity?.tabs?.tab3?.title || "Facts";
 
-document.title = `${entity.name} - ${tab1Title}, ${tab2Title}, ${tab3Title}`;
+  // ✅ TITLE
+  document.title = `${entity.name} - ${tab1Title}, ${tab2Title}, ${tab3Title}`;
 
-  // ✅ Meta Description
+  // ✅ DESCRIPTION
   const metaDesc = document.querySelector("meta[name='description']");
   if(metaDesc){
     metaDesc.setAttribute("content", cleanDescription);
   }
+
+  // ✅ KEYWORDS
+  const keywords = [
+    entity.name,
+    `${entity.name} abilities`,
+    `${entity.name} powers`,
+    `${entity.name} facts`,
+    universe
+  ].join(", ");
+
+  const metaKeywords = document.querySelector("meta[name='keywords']");
+  if(metaKeywords){
+    metaKeywords.setAttribute("content", keywords);
+  }
+
+  // ✅ OPEN GRAPH
+  const setMeta = (property, content) => {
+    let tag = document.querySelector(`meta[property='${property}']`);
+    if(!tag){
+      tag = document.createElement("meta");
+      tag.setAttribute("property", property);
+      document.head.appendChild(tag);
+    }
+    tag.setAttribute("content", content);
+  };
+
+  setMeta("og:title", document.title);
+  setMeta("og:description", cleanDescription);
+  setMeta("og:image", getCDNImage(entity.id,"hero",universe,path));
+  setMeta("og:type", "website");
 
 }catch(e){
   console.warn("SEO error:", e);
@@ -82,25 +114,21 @@ document.title = `${entity.name} - ${tab1Title}, ${tab2Title}, ${tab3Title}`;
 /* ======================================================= */
 
 /* BREADCRUMBS */
-
 createBreadcrumbs(universe,path,entity);
 
 /* ENTITY CONTENT */
-
 renderEntity(entity,universe,path);
 
 /* NAVIGATION */
-
 renderNavigation(list,id,universe,path);
 
 /* GALLERY */
-
 renderGallery(entity, universe, path);
 
 });
 
 
-/* BREADCRUMBS */
+/* ================= BREADCRUMBS ================= */
 
 function createBreadcrumbs(universe,path,entity){
 
@@ -136,8 +164,7 @@ breadcrumbs.innerHTML = html;
 }
 
 
-
-/* ENTITY PAGE */
+/* ================= ENTITY ================= */
 
 function renderEntity(entity,universe,path){
 
@@ -148,7 +175,10 @@ container.innerHTML = `
 <div class="entity-main">
 
 <div class="entity-hero">
-<img src="${getCDNImage(entity.id,"hero",universe,path)}" loading="lazy">
+<img 
+  src="${getCDNImage(entity.id,"hero",universe,path)}" 
+  alt="${entity.name} image"
+  loading="lazy">
 </div>
 
 <div class="entity-details">
@@ -174,8 +204,7 @@ window.scrollTo({top:0,behavior:"smooth"});
 }
 
 
-
-/* NAVIGATION */
+/* ================= NAVIGATION ================= */
 
 function renderNavigation(list,id,universe,path){
 
@@ -221,8 +250,7 @@ ${next.name} →
 }
 
 
-
-/* TABS */
+/* ================= TABS ================= */
 
 function generateTabs(entity){
 
@@ -277,8 +305,7 @@ event.target.classList.add("active");
 }
 
 
-
-/* INFO TABLE */
+/* ================= INFO TABLE ================= */
 
 function generateInfoTable(info){
 
@@ -304,8 +331,7 @@ return html;
 }
 
 
-
-/* GALLERY */
+/* ================= GALLERY ================= */
 
 function renderGallery(entity, universe, path){
 
@@ -318,7 +344,10 @@ let images="";
 for(let i=1;i<=entity.gallery_count;i++){
 
 images += `
-<img src="${getCDNImage(entity.id,"gallery",universe,path)}g${i}.png" loading="lazy">
+<img 
+  src="${getCDNImage(entity.id,"gallery",universe,path)}g${i}.png" 
+  alt="${entity.name} gallery image ${i}" 
+  loading="lazy">
 `;
 
 }
@@ -337,7 +366,7 @@ ${images}
 
 `;
 
-/* ================= MODAL LOGIC ================= */
+/* MODAL */
 
 const modal = document.getElementById("imageModal");
 const modalImg = document.getElementById("modalImg");
@@ -350,31 +379,20 @@ document.querySelectorAll(".gallery-grid img").forEach((img, index) => {
   allImages.push(img.src);
 
   img.onclick = () => {
-
     modal.style.display = "flex";
     modalImg.src = img.src;
-
     renderThumbnails(allImages, index);
-
   };
 
 });
 
-/* CLOSE BUTTON */
-
-closeBtn.onclick = () => {
-  modal.style.display = "none";
-};
-
-/* CLICK OUTSIDE CLOSE */
+closeBtn.onclick = () => modal.style.display = "none";
 
 modal.onclick = (e) => {
   if(e.target === modal){
     modal.style.display = "none";
   }
 };
-
-/* ================= THUMBNAILS ================= */
 
 function renderThumbnails(images, activeIndex){
 
@@ -383,13 +401,7 @@ const container = document.getElementById("modalThumbnails");
 let html = "";
 
 images.forEach((src, index) => {
-
-  html += `
-    <img src="${src}" 
-      class="${index === activeIndex ? 'active' : ''}" 
-      data-index="${index}">
-  `;
-
+  html += `<img src="${src}" class="${index===activeIndex?'active':''}" data-index="${index}">`;
 });
 
 container.innerHTML = html;
@@ -397,32 +409,24 @@ container.innerHTML = html;
 document.querySelectorAll(".modal-thumbnails img").forEach(img => {
 
   img.onclick = () => {
-
     const index = img.dataset.index;
-
     modalImg.src = images[index];
 
     document.querySelectorAll(".modal-thumbnails img")
-      .forEach(i => i.classList.remove("active"));
+    .forEach(i=>i.classList.remove("active"));
 
     img.classList.add("active");
-
   };
 
 });
 
 }
 
-} // ✅ VERY IMPORTANT (closing renderGallery)
+}
 
 
-/* HELPERS */
+/* ================= HELPERS ================= */
 
 function formatName(str){
-
-return str
-.replace(/_/g," ")
-.replace(/\b\w/g,c=>c.toUpperCase())
-.trim();
-
+return str.replace(/_/g," ").replace(/\b\w/g,c=>c.toUpperCase()).trim();
 }
