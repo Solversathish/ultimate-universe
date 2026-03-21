@@ -53,6 +53,8 @@ return;
 }
 
 /* ================= SEO PART (FIXED 🔥) ================= */
+document.querySelector("meta[name='description']")
+document.querySelector("meta[name='keywords']")
 
 try{
 
@@ -79,12 +81,12 @@ try{
 
   // ✅ KEYWORDS
   const keywords = [
-    entity.name,
-    `${entity.name} abilities`,
-    `${entity.name} powers`,
-    `${entity.name} facts`,
-    universe
-  ].join(", ");
+  entity.name,
+  `${entity.name} ${entity.tabs?.tab1?.title || ""}`,
+  `${entity.name} ${entity.tabs?.tab2?.title || ""}`,
+  `${entity.name} ${entity.tabs?.tab3?.title || ""}`,
+  universe
+].join(", ");
 
   const metaKeywords = document.querySelector("meta[name='keywords']");
   if(metaKeywords){
@@ -429,4 +431,8 @@ document.querySelectorAll(".modal-thumbnails img").forEach(img => {
 
 function formatName(str){
 return str.replace(/_/g," ").replace(/\b\w/g,c=>c.toUpperCase()).trim();
+}
+
+function slugify(name){
+  return name.toLowerCase().replace(/\s+/g, '-');
 }
