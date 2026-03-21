@@ -590,5 +590,370 @@
 "tab2":{"title":"Abilities","content":"<ul><li>Conqueror Haki</li><li>Armament Haki</li><li>Observation Haki</li><li>Swordsmanship</li><li>Speed</li><li>Strength</li><li>Combat Skills</li><li>Reflexes</li><li>Endurance</li><li>Mastery</li></ul>"},
 "tab3":{"title":"Facts","content":"<ul><li>Roger’s partner</li><li>Luffy’s teacher</li><li>Legendary pirate</li><li>Master of haki</li></ul>"}},
 "gallery_count":6
+},
+
+{
+"id":"ao",
+"name":"A O",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=ao",
+"parent":"one_piece",
+"info":{"Sea:":"New World","Role:":"Captain","Crew:":"A O Pirates","Sex:":"Male","Affiliation:":"Whitebeard Pirates"},
+"tabs":{
+"tab1":{"title":"Description","content":"A O is a pirate captain from the New World.<br><br>He leads the A O Pirates with authority.<br><br>He was allied under Whitebeard’s command.<br><br>He participated in the Marineford War.<br><br>He is known as a loyal subordinate pirate."},
+"tab2":{"title":"Abilities","content":"<ul><li>Swordsmanship</li><li>Physical Strength</li><li>Durability</li><li>Combat Experience</li><li>Leadership</li><li>Endurance</li><li>Weapon Handling</li><li>Pirate Combat Skills</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Captain of A O Pirates</li><li>Allied with Whitebeard</li><li>Fought in Marineford War</li><li>Operates in New World</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"abdullah",
+"name":"Abdullah",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=abdullah",
+"parent":"one_piece",
+"info":{"Sea:":"Dressrosa","Role:":"Gladiator","Group:":"Corrida Colosseum","Sex:":"Male","Fighting Style:":"Brawler"},
+"tabs":{
+"tab1":{"title":"Description","content":"Abdullah is a gladiator who fought in Dressrosa.<br><br>He participated in the Corrida Colosseum tournament.<br><br>He fights alongside his partner Jeet.<br><br>He is aggressive and fearless in battle.<br><br>He later becomes an ally to Luffy."},
+"tab2":{"title":"Abilities","content":"<ul><li>Hand-to-Hand Combat</li><li>Physical Strength</li><li>Durability</li><li>Speed</li><li>Endurance</li><li>Team Fighting</li><li>Combat Experience</li><li>Battle Awareness</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Gladiator in Dressrosa</li><li>Partner of Jeet</li><li>Fought in Corrida Colosseum</li><li>Ally of Straw Hat Pirates</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"absalom",
+"name":"Absalom",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=absalom",
+"parent":"one_piece",
+"info":{"Sea:":"Thriller Bark","Role:":"Commander","Crew:":"Thriller Bark Pirates","Sex:":"Male","Devil Fruit:":"Clear-Clear Fruit"},
+"tabs":{
+"tab1":{"title":"Description","content":"Absalom is a commander of the Thriller Bark Pirates.<br><br>He serves under Gecko Moria.<br><br>He possesses invisibility powers through his Devil Fruit.<br><br>He has a modified body with animal features.<br><br>He plays a major role in the Thriller Bark arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Invisibility</li><li>Stealth</li><li>Physical Strength</li><li>Durability</li><li>Gun Combat</li><li>Modified Body Enhancements</li><li>Speed</li><li>Combat Skills</li><li>Endurance</li><li>Surprise Attacks</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>User of Clear-Clear Fruit</li><li>Serves Gecko Moria</li><li>Thriller Bark Commander</li><li>Has animal modifications</li><li>Enemy of Straw Hats</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"acilia",
+"name":"Acilia",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=acilia",
+"parent":"one_piece",
+"info":{"Sea:":"Dressrosa","Role:":"Civilian","Affiliation:":"Dressrosa Kingdom","Sex:":"Female","Ability:":"None"},
+"tabs":{
+"tab1":{"title":"Description","content":"Acilia is a minor civilian character from Dressrosa.<br><br>She appears during the events of the Dressrosa arc.<br><br>She is part of the general population.<br><br>She does not participate in battles.<br><br>Her role is limited within the story."},
+"tab2":{"title":"Abilities","content":"<ul><li>Basic Human Strength</li><li>Awareness</li><li>Mobility</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Appears in Dressrosa Arc</li><li>Civilian character</li><li>No combat role</li><li>No special powers</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"adele",
+"name":"Adele",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=adele",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Mermaid","Affiliation:":"Mermaid Cafe","Sex:":"Female","Race:":"Mermaid"},
+"tabs":{
+"tab1":{"title":"Description","content":"Adele is a mermaid from Fish-Man Island.<br><br>She works at the Mermaid Café.<br><br>She is friendly and welcoming to visitors.<br><br>She interacts with the Straw Hat Pirates.<br><br>She appears during the Fish-Man Island arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Underwater Breathing</li><li>Fast Swimming</li><li>Enhanced Agility</li><li>Mermaid Physiology</li><li>Balance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Resident of Fish-Man Island</li><li>Works at Mermaid Café</li><li>Mermaid race</li><li>Appears in Fish-Man arc</li><li>Friendly personality</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"ageha_woman",
+"name":"Ageha Woman",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=ageha_woman",
+"parent":"one_piece",
+"info":{"Sea:":"Wano","Role:":"Geisha","Affiliation:":"Flower Capital","Sex:":"Female","Ability:":"None"},
+"tabs":{
+"tab1":{"title":"Description","content":"The Ageha Woman is a geisha from Wano Country.<br><br>She appears in the Flower Capital.<br><br>She represents the traditional culture of Wano.<br><br>She performs for nobles and guests.<br><br>Her role is minor in the storyline."},
+"tab2":{"title":"Abilities","content":"<ul><li>Dance Skills</li><li>Graceful Movement</li><li>Balance</li><li>Performance Skills</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Appears in Wano Arc</li><li>Geisha role</li><li>Non-combatant</li><li>Represents Wano culture</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"aggie_68",
+"name":"Aggie 68",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=aggie_68",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Prisoner","Affiliation:":"Impel Down","Sex:":"Male","Ability:":"Unknown"},
+"tabs":{
+"tab1":{"title":"Description","content":"Aggie 68 is a prisoner held in Impel Down.<br><br>He appears briefly during the prison arc.<br><br>He is one of many inmates.<br><br>He has limited screen presence.<br><br>His background is mostly unknown."},
+"tab2":{"title":"Abilities","content":"<ul><li>Basic Survival Skills</li><li>Endurance</li><li>Physical Strength</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Impel Down prisoner</li><li>Minor character</li><li>Limited appearance</li><li>No known powers</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"agotogi",
+"name":"Agotogi",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=agotogi",
+"parent":"one_piece",
+"info":{"Sea:":"Wano","Role:":"Subordinate","Affiliation:":"Beast Pirates","Sex:":"Male","Ability:":"Unknown"},
+"tabs":{
+"tab1":{"title":"Description","content":"Agotogi is a member of the Beast Pirates.<br><br>He appears during the Wano arc.<br><br>He serves under Kaido’s forces.<br><br>He participates in battles.<br><br>He has a minor role in the story."},
+"tab2":{"title":"Abilities","content":"<ul><li>Combat Skills</li><li>Physical Strength</li><li>Durability</li><li>Weapon Usage</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Beast Pirates member</li><li>Wano arc appearance</li><li>Serves Kaido</li><li>Minor fighter</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"agsilly",
+"name":"Agsilly",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=agsilly",
+"parent":"one_piece",
+"info":{"Sea:":"Unknown","Role:":"Unknown","Affiliation:":"Unknown","Sex:":"Unknown","Ability:":"Unknown"},
+"tabs":{
+"tab1":{"title":"Description","content":"Agsilly is a very minor character in One Piece.<br><br>Very little information is available.<br><br>The character appears briefly.<br><br>No major role is recorded.<br><br>Details remain largely unknown."},
+"tab2":{"title":"Abilities","content":"<ul><li>Unknown</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Extremely minor character</li><li>Limited data available</li><li>No major role</li><li>Little screen time</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"agyo",
+"name":"Agyo",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=agyo",
+"parent":"one_piece",
+"info":{"Sea:":"Skypiea","Role:":"Warrior","Affiliation:":"Shandia","Sex:":"Male","Ability:":"Warrior Skills"},
+"tabs":{
+"tab1":{"title":"Description","content":"Agyo is a Shandian warrior from Skypiea.<br><br>He fights to protect his homeland.<br><br>He participates in battles against enemies.<br><br>He is loyal to his tribe.<br><br>He appears in the Skypiea arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Combat Skills</li><li>Physical Strength</li><li>Durability</li><li>Weapon Usage</li><li>Endurance</li><li>Warrior Instinct</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Shandian warrior</li><li>Appears in Skypiea</li><li>Fights for homeland</li><li>Tribal fighter</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"aisa",
+"name":"Aisa",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=aisa",
+"parent":"one_piece",
+"info":{"Sea:":"Skypiea","Role:":"Child","Affiliation:":"Shandia","Sex:":"Female","Ability:":"Mantra"},
+"tabs":{
+"tab1":{"title":"Description","content":"Aisa is a young girl from the Shandian tribe.<br><br>She possesses strong Mantra abilities.<br><br>She can sense voices across great distances.<br><br>She plays a role in the Skypiea arc.<br><br>She shows emotional sensitivity."},
+"tab2":{"title":"Abilities","content":"<ul><li>Mantra (Observation Haki)</li><li>Voice Sensing</li><li>Awareness</li><li>Perception</li><li>Emotional Sensitivity</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Child from Shandia</li><li>Natural Mantra user</li><li>Appears in Skypiea</li><li>Strong sensing ability</li><li>Non-combatant</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"ahiru",
+"name":"Ahiru",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=ahiru",
+"parent":"one_piece",
+"info":{"Sea:":"Alabasta","Role:":"Messenger","Affiliation:":"Alabasta Army","Sex:":"Female","Ability:":"Messenger Skills"},
+"tabs":{
+"tab1":{"title":"Description","content":"Ahiru is a messenger in Alabasta.<br><br>She delivers important messages during war.<br><br>She works for the royal army.<br><br>She plays a support role.<br><br>She appears in the Alabasta arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Fast Movement</li><li>Navigation</li><li>Endurance</li><li>Communication</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Alabasta messenger</li><li>Supports army</li><li>Appears in Alabasta arc</li><li>Non-combat role</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"akehende",
+"name":"Akehende",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=akehende",
+"parent":"one_piece",
+"info":{"Sea:":"Dressrosa","Role:":"Citizen","Affiliation:":"Dressrosa","Sex:":"Male","Ability:":"None"},
+"tabs":{
+"tab1":{"title":"Description","content":"Akehende is a resident of Dressrosa.<br><br>He appears during the Dressrosa arc.<br><br>He is part of the civilian population.<br><br>He has no combat role.<br><br>His presence is minor."},
+"tab2":{"title":"Abilities","content":"<ul><li>Basic Human Strength</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Dressrosa citizen</li><li>Minor character</li><li>No powers</li><li>Background role</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"akudai_kanzaburo",
+"name":"Akudai Kanzaburo",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=akudai_kanzaburo",
+"parent":"one_piece",
+"info":{"Sea:":"Wano","Role:":"Samurai","Affiliation:":"Kurozumi Clan","Sex:":"Male","Ability:":"Art-based Devil Fruit"},
+"tabs":{
+"tab1":{"title":"Description","content":"Kanzaburo is a samurai from Wano Country.<br><br>He is secretly a member of the Kurozumi clan.<br><br>He betrays the Kozuki allies.<br><br>He uses art-based powers.<br><br>He plays a major role in Wano arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Fude-Fude no Mi</li><li>Drawing Creation</li><li>Combat Skills</li><li>Deception</li><li>Strategy</li><li>Endurance</li><li>Samurai Skills</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Kurozumi spy</li><li>Wano arc character</li><li>Uses drawing powers</li><li>Betrayed allies</li><li>Samurai</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"akumai",
+"name":"Akumai",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=akumai",
+"parent":"one_piece",
+"info":{"Sea:":"Unknown","Role:":"Unknown","Affiliation:":"Unknown","Sex:":"Unknown","Ability:":"Unknown"},
+"tabs":{
+"tab1":{"title":"Description","content":"Akumai is a minor One Piece character.<br><br>There is very little information available.<br><br>The character has minimal appearance.<br><br>No major role is recorded.<br><br>Details are mostly unknown."},
+"tab2":{"title":"Abilities","content":"<ul><li>Unknown</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Minor character</li><li>Limited data</li><li>No major role</li><li>Unknown abilities</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"aladine",
+"name":"Aladine",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=aladine",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Doctor","Affiliation:":"Sun Pirates","Sex:":"Male","Race:":"Fish-Man"},
+"tabs":{
+"tab1":{"title":"Description","content":"Aladine is a fish-man doctor of the Sun Pirates.<br><br>He is a former member of the Neptune Army.<br><br>He later joins Jinbe’s crew.<br><br>He is calm and intelligent.<br><br>He appears in Fish-Man Island arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Fish-Man Karate</li><li>Medical Knowledge</li><li>Underwater Combat</li><li>Strength</li><li>Durability</li><li>Swimming Speed</li><li>Combat Skills</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Sun Pirates doctor</li><li>Fish-Man</li><li>Former soldier</li><li>Jinbe ally</li><li>Fish-Man Island character</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"albion",
+"name":"Albion",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=albion",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Pirate","Affiliation:":"Whitebeard Pirates Allies","Sex:":"Male","Ability:":"Unknown"},
+"tabs":{
+"tab1":{"title":"Description","content":"Albion is a pirate allied with Whitebeard.<br><br>He appears during the Marineford War.<br><br>He fights against the Marines.<br><br>He is part of the allied pirate forces.<br><br>He has a minor combat role."},
+"tab2":{"title":"Abilities","content":"<ul><li>Combat Skills</li><li>Physical Strength</li><li>Durability</li><li>Weapon Usage</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Whitebeard ally</li><li>Marineford participant</li><li>Pirate fighter</li><li>Minor role</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"alice",
+"name":"Alice",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=alice",
+"parent":"one_piece",
+"info":{"Sea:":"Unknown","Role:":"Minor Character","Affiliation:":"Unknown","Sex:":"Female","Ability:":"Unknown"},
+"tabs":{
+"tab1":{"title":"Description","content":"Alice is a very minor character in One Piece.<br><br>She appears briefly in the series.<br><br>Her role is limited in the storyline.<br><br>Little background information is available.<br><br>She is part of the world-building characters."},
+"tab2":{"title":"Abilities","content":"<ul><li>Unknown</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Minor character</li><li>Limited screen time</li><li>No known powers</li><li>Background role</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"ally",
+"name":"Ally",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=ally",
+"parent":"one_piece",
+"info":{"Sea:":"Unknown","Role:":"Minor Character","Affiliation:":"Unknown","Sex:":"Unknown","Ability:":"Unknown"},
+"tabs":{
+"tab1":{"title":"Description","content":"Ally is a minor One Piece character.<br><br>Very little information is available.<br><br>The character appears briefly.<br><br>No major storyline involvement is known.<br><br>Details remain limited."},
+"tab2":{"title":"Abilities","content":"<ul><li>Unknown</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Very minor character</li><li>Limited data available</li><li>No major role</li><li>Appears briefly</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"alpacaman",
+"name":"Alpacaman",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=alpacaman",
+"parent":"one_piece",
+"info":{"Sea:":"Wano","Role:":"Gifter","Affiliation:":"Beast Pirates","Sex:":"Male","Ability:":"SMILE"},
+"tabs":{
+"tab1":{"title":"Description","content":"Alpacaman is a member of the Beast Pirates.<br><br>He is a SMILE user with alpaca traits.<br><br>He appears during the Wano arc.<br><br>He serves under Kaido.<br><br>He is part of the Gifters group."},
+"tab2":{"title":"Abilities","content":"<ul><li>SMILE Transformation</li><li>Spitting Attacks</li><li>Physical Strength</li><li>Durability</li><li>Combat Skills</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Beast Pirates member</li><li>SMILE user</li><li>Wano arc character</li><li>Gifter class</li><li>Serves Kaido</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"alpha",
+"name":"Alpha",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=alpha",
+"parent":"one_piece",
+"info":{"Sea:":"Egghead","Role:":"Agent","Affiliation:":"CP0","Sex:":"Female","Ability:":"Rokushiki"},
+"tabs":{
+"tab1":{"title":"Description","content":"Alpha is an agent of CP0.<br><br>She appears during the Egghead arc.<br><br>She works under the World Government.<br><br>She is skilled and disciplined.<br><br>She plays a role in intelligence operations."},
+"tab2":{"title":"Abilities","content":"<ul><li>Rokushiki Techniques</li><li>Stealth</li><li>Combat Skills</li><li>Speed</li><li>Agility</li><li>Endurance</li><li>Assassination Skills</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>CP0 agent</li><li>Egghead arc</li><li>Government operative</li><li>Skilled fighter</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"alvida",
+"name":"Alvida",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=alvida",
+"parent":"one_piece",
+"info":{"Sea:":"East Blue","Role:":"Captain","Crew:":"Alvida Pirates","Sex:":"Female","Devil Fruit:":"Slip-Slip Fruit"},
+"tabs":{
+"tab1":{"title":"Description","content":"Alvida is a pirate captain from East Blue.<br><br>She was Luffy’s first enemy.<br><br>She later eats the Slip-Slip Fruit.<br><br>Her body becomes smooth and slippery.<br><br>She later joins Buggy."},
+"tab2":{"title":"Abilities","content":"<ul><li>Slip-Slip Fruit</li><li>Frictionless Body</li><li>Physical Strength</li><li>Durability</li><li>Combat Skills</li><li>Weapon Usage</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>First enemy of Luffy</li><li>Devil Fruit user</li><li>Allied with Buggy</li><li>East Blue pirate</li><li>Captain</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"amadob",
+"name":"Amadob",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=amadob",
+"parent":"one_piece",
+"info":{"Sea:":"Unknown","Role:":"Minor Character","Affiliation:":"Unknown","Sex:":"Unknown","Ability:":"Unknown"},
+"tabs":{
+"tab1":{"title":"Description","content":"Amadob is a minor character in One Piece.<br><br>Very limited information is available.<br><br>The character appears briefly.<br><br>No major involvement is recorded.<br><br>Details remain unknown."},
+"tab2":{"title":"Abilities","content":"<ul><li>Unknown</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Minor character</li><li>Limited appearance</li><li>No known powers</li><li>Background role</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"amazon",
+"name":"Amazon",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=amazon",
+"parent":"one_piece",
+"info":{"Sea:":"Amazon Lily","Role:":"Warrior","Affiliation:":"Kuja Tribe","Sex:":"Female","Ability:":"Haki"},
+"tabs":{
+"tab1":{"title":"Description","content":"Amazon refers to female warriors of Amazon Lily.<br><br>They belong to the Kuja Tribe.<br><br>They are skilled fighters.<br><br>They protect their island.<br><br>They are known for Haki usage."},
+"tab2":{"title":"Abilities","content":"<ul><li>Haki Usage</li><li>Archery</li><li>Combat Skills</li><li>Agility</li><li>Strength</li><li>Speed</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Kuja warriors</li><li>Amazon Lily residents</li><li>Use Haki</li><li>All female tribe</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"aramaki",
+"name":"Aramaki",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=aramaki",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Admiral","Affiliation:":"Marines","Sex:":"Male","Devil Fruit:":"Forest-Forest Fruit"},
+"tabs":{
+"tab1":{"title":"Description","content":"Aramaki is a Marine Admiral.<br><br>He is also known as Ryokugyu.<br><br>He possesses plant-based powers.<br><br>He appears in the Wano arc.<br><br>He is extremely powerful."},
+"tab2":{"title":"Abilities","content":"<ul><li>Forest-Forest Fruit</li><li>Plant Manipulation</li><li>Regeneration</li><li>Drain Ability</li><li>Strength</li><li>Durability</li><li>Speed</li><li>Combat Skills</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Marine Admiral</li><li>Nickname Ryokugyu</li><li>Devil Fruit user</li><li>Wano arc appearance</li><li>Top-tier fighter</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"arlong",
+"name":"Arlong",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=arlong",
+"parent":"one_piece",
+"info":{"Sea:":"East Blue","Role:":"Captain","Crew:":"Arlong Pirates","Sex:":"Male","Race:":"Fish-Man"},
+"tabs":{
+"tab1":{"title":"Description","content":"Arlong is a fish-man pirate captain.<br><br>He rules over Arlong Park.<br><br>He is a former Sun Pirate.<br><br>He is cruel and dominant.<br><br>He is defeated by Luffy."},
+"tab2":{"title":"Abilities","content":"<ul><li>Fish-Man Strength</li><li>Underwater Combat</li><li>Sharp Teeth Attacks</li><li>Durability</li><li>Speed</li><li>Combat Skills</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Arlong Park ruler</li><li>Fish-Man</li><li>Enemy of Straw Hats</li><li>Former Sun Pirate</li><li>Defeated by Luffy</li></ul>"}},
+"gallery_count":6
 }
+
 ]

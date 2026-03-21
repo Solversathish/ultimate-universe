@@ -603,6 +603,240 @@
     "url": "entity.html?universe=anime&path=one_piece&id=silvers_rayleigh"
   },
   {
+    "name": "A O",
+    "id": "ao",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=ao"
+  },
+  {
+    "name": "Abdullah",
+    "id": "abdullah",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=abdullah"
+  },
+  {
+    "name": "Absalom",
+    "id": "absalom",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=absalom"
+  },
+  {
+    "name": "Acilia",
+    "id": "acilia",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=acilia"
+  },
+  {
+    "name": "Adele",
+    "id": "adele",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=adele"
+  },
+  {
+    "name": "Ageha Woman",
+    "id": "ageha_woman",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=ageha_woman"
+  },
+  {
+    "name": "Aggie 68",
+    "id": "aggie_68",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=aggie_68"
+  },
+  {
+    "name": "Agotogi",
+    "id": "agotogi",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=agotogi"
+  },
+  {
+    "name": "Agsilly",
+    "id": "agsilly",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=agsilly"
+  },
+  {
+    "name": "Agyo",
+    "id": "agyo",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=agyo"
+  },
+  {
+    "name": "Aisa",
+    "id": "aisa",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=aisa"
+  },
+  {
+    "name": "Ahiru",
+    "id": "ahiru",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=ahiru"
+  },
+  {
+    "name": "Akehende",
+    "id": "akehende",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=akehende"
+  },
+  {
+    "name": "Akudai Kanzaburo",
+    "id": "akudai_kanzaburo",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=akudai_kanzaburo"
+  },
+  {
+    "name": "Akumai",
+    "id": "akumai",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=akumai"
+  },
+  {
+    "name": "Aladine",
+    "id": "aladine",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=aladine"
+  },
+  {
+    "name": "Albion",
+    "id": "albion",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=albion"
+  },
+  {
+    "name": "Alice",
+    "id": "alice",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=alice"
+  },
+  {
+    "name": "Ally",
+    "id": "ally",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=ally"
+  },
+  {
+    "name": "Alpacaman",
+    "id": "alpacaman",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=alpacaman"
+  },
+  {
+    "name": "Alpha",
+    "id": "alpha",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=alpha"
+  },
+  {
+    "name": "Alvida",
+    "id": "alvida",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=alvida"
+  },
+  {
+    "name": "Amadob",
+    "id": "amadob",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=amadob"
+  },
+  {
+    "name": "Amazon",
+    "id": "amazon",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=amazon"
+  },
+  {
+    "name": "Aramaki",
+    "id": "aramaki",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=aramaki"
+  },
+  {
+    "name": "Arlong",
+    "id": "arlong",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=arlong"
+  },
+  {
     "name": "Bleach",
     "id": "bleach",
     "type": "category",
