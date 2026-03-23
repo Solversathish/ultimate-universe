@@ -333,276 +333,6 @@
     "url": "category.html?universe=anime&path=one_piece"
   },
   {
-    "name": "Monkey D. Luffy",
-    "id": "monkey_d_luffy",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=monkey_d_luffy"
-  },
-  {
-    "name": "Roronoa Zoro",
-    "id": "roronoa_zoro",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=roronoa_zoro"
-  },
-  {
-    "name": "Nami",
-    "id": "nami",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=nami"
-  },
-  {
-    "name": "Usopp",
-    "id": "usopp",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=usopp"
-  },
-  {
-    "name": "Sanji",
-    "id": "sanji",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=sanji"
-  },
-  {
-    "name": "Tony Tony Chopper",
-    "id": "tony_tony_chopper",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=tony_tony_chopper"
-  },
-  {
-    "name": "Nico Robin",
-    "id": "nico_robin",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=nico_robin"
-  },
-  {
-    "name": "Franky",
-    "id": "franky",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=franky"
-  },
-  {
-    "name": "Brook",
-    "id": "brook",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=brook"
-  },
-  {
-    "name": "Trafalgar Law",
-    "id": "trafalgar_law",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=trafalgar_law"
-  },
-  {
-    "name": "Portgas D. Ace",
-    "id": "portgas_d_ace",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=portgas_d_ace"
-  },
-  {
-    "name": "Shanks",
-    "id": "shanks",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=shanks"
-  },
-  {
-    "name": "Dracule Mihawk",
-    "id": "dracule_mihawk",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=dracule_mihawk"
-  },
-  {
-    "name": "Donquixote Doflamingo",
-    "id": "donquixote_doflamingo",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=donquixote_doflamingo"
-  },
-  {
-    "name": "Crocodile",
-    "id": "crocodile",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=crocodile"
-  },
-  {
-    "name": "Enel",
-    "id": "enel",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=enel"
-  },
-  {
-    "name": "Smoker",
-    "id": "smoker",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=smoker"
-  },
-  {
-    "name": "Boa Hancock",
-    "id": "boa_hancock",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=boa_hancock"
-  },
-  {
-    "name": "Marshall D. Teach",
-    "id": "marshall_d_teach",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=marshall_d_teach"
-  },
-  {
-    "name": "Buggy",
-    "id": "buggy",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=buggy"
-  },
-  {
-    "name": "Eustass Kid",
-    "id": "eustass_kid",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=eustass_kid"
-  },
-  {
-    "name": "Killer",
-    "id": "killer",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=killer"
-  },
-  {
-    "name": "X Drake",
-    "id": "x_drake",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=x_drake"
-  },
-  {
-    "name": "Basil Hawkins",
-    "id": "basil_hawkins",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=basil_hawkins"
-  },
-  {
-    "name": "Capone Bege",
-    "id": "capone_bege",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=capone_bege"
-  },
-  {
-    "name": "Jewelry Bonney",
-    "id": "jewelry_bonney",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=jewelry_bonney"
-  },
-  {
-    "name": "Scratchmen Apoo",
-    "id": "scratchmen_apoo",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=scratchmen_apoo"
-  },
-  {
-    "name": "Urouge",
-    "id": "urouge",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=urouge"
-  },
-  {
-    "name": "Sabo",
-    "id": "sabo",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=sabo"
-  },
-  {
-    "name": "Silvers Rayleigh",
-    "id": "silvers_rayleigh",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=silvers_rayleigh"
-  },
-  {
     "name": "A O",
     "id": "ao",
     "type": "entity",
@@ -693,15 +423,6 @@
     "url": "entity.html?universe=anime&path=one_piece&id=agyo"
   },
   {
-    "name": "Aisa",
-    "id": "aisa",
-    "type": "entity",
-    "universe": "anime",
-    "path": "one_piece",
-    "parent": "One Piece",
-    "url": "entity.html?universe=anime&path=one_piece&id=aisa"
-  },
-  {
     "name": "Ahiru",
     "id": "ahiru",
     "type": "entity",
@@ -709,6 +430,15 @@
     "path": "one_piece",
     "parent": "One Piece",
     "url": "entity.html?universe=anime&path=one_piece&id=ahiru"
+  },
+  {
+    "name": "Aisa",
+    "id": "aisa",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=aisa"
   },
   {
     "name": "Akehende",
@@ -819,6 +549,33 @@
     "url": "entity.html?universe=anime&path=one_piece&id=amazon"
   },
   {
+    "name": "Andre",
+    "id": "andre",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=andre"
+  },
+  {
+    "name": "Ankoro",
+    "id": "ankoro",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=ankoro"
+  },
+  {
+    "name": "Aphelandra",
+    "id": "aphelandra",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=aphelandra"
+  },
+  {
     "name": "Aramaki",
     "id": "aramaki",
     "type": "entity",
@@ -835,6 +592,510 @@
     "path": "one_piece",
     "parent": "One Piece",
     "url": "entity.html?universe=anime&path=one_piece&id=arlong"
+  },
+  {
+    "name": "Aruyutayan V",
+    "id": "aruyutayan_v",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=aruyutayan_v"
+  },
+  {
+    "name": "Ashura Doji",
+    "id": "ashura_doji",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=ashura_doji"
+  },
+  {
+    "name": "Atlas",
+    "id": "atlas",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=atlas"
+  },
+  {
+    "name": "Atmos",
+    "id": "atmos",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=atmos"
+  },
+  {
+    "name": "Avalo Pizarro",
+    "id": "avalo_pizarro",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=avalo_pizarro"
+  },
+  {
+    "name": "Azuki",
+    "id": "azuki",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=azuki"
+  },
+  {
+    "name": "Babanuki",
+    "id": "babanuki",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=babanuki"
+  },
+  {
+    "name": "Babe",
+    "id": "babe",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=babe"
+  },
+  {
+    "name": "Baby 5",
+    "id": "baby_5",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=baby_5"
+  },
+  {
+    "name": "Bacura",
+    "id": "bacura",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=bacura"
+  },
+  {
+    "name": "Bakezo",
+    "id": "bakezo",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=bakezo"
+  },
+  {
+    "name": "Ban Dedessinée",
+    "id": "ban_dedessinee",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=ban_dedessinee"
+  },
+  {
+    "name": "Banchi",
+    "id": "banchi",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=banchi"
+  },
+  {
+    "name": "Banchina",
+    "id": "banchina",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=banchina"
+  },
+  {
+    "name": "Banshee",
+    "id": "banshee",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=banshee"
+  },
+  {
+    "name": "Banzaburo",
+    "id": "banzaburo",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=banzaburo"
+  },
+  {
+    "name": "Bao",
+    "id": "bao",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=bao"
+  },
+  {
+    "name": "Bao Huang",
+    "id": "bao_huang",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=bao_huang"
+  },
+  {
+    "name": "Bariete",
+    "id": "bariete",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=bariete"
+  },
+  {
+    "name": "Barry",
+    "id": "barry",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=barry"
+  },
+  {
+    "name": "Bartholomew Kuma",
+    "id": "bartholomew_kuma",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=bartholomew_kuma"
+  },
+  {
+    "name": "Bartolomeo",
+    "id": "bartolomeo",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=bartolomeo"
+  },
+  {
+    "name": "Basil Hawkins",
+    "id": "basil_hawkins",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=basil_hawkins"
+  },
+  {
+    "name": "Baskerville",
+    "id": "baskerville",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=baskerville"
+  },
+  {
+    "name": "Batman",
+    "id": "batman",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=batman"
+  },
+  {
+    "name": "Boa Hancock",
+    "id": "boa_hancock",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=boa_hancock"
+  },
+  {
+    "name": "Brook",
+    "id": "brook",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=brook"
+  },
+  {
+    "name": "Buggy",
+    "id": "buggy",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=buggy"
+  },
+  {
+    "name": "Capone Bege",
+    "id": "capone_bege",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=capone_bege"
+  },
+  {
+    "name": "Crocodile",
+    "id": "crocodile",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=crocodile"
+  },
+  {
+    "name": "Donquixote Doflamingo",
+    "id": "donquixote_doflamingo",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=donquixote_doflamingo"
+  },
+  {
+    "name": "Dracule Mihawk",
+    "id": "dracule_mihawk",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=dracule_mihawk"
+  },
+  {
+    "name": "Enel",
+    "id": "enel",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=enel"
+  },
+  {
+    "name": "Eustass Kid",
+    "id": "eustass_kid",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=eustass_kid"
+  },
+  {
+    "name": "Franky",
+    "id": "franky",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=franky"
+  },
+  {
+    "name": "Gyoro",
+    "id": "gyoro",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=gyoro"
+  },
+  {
+    "name": "Jewelry Bonney",
+    "id": "jewelry_bonney",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=jewelry_bonney"
+  },
+  {
+    "name": "Killer",
+    "id": "killer",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=killer"
+  },
+  {
+    "name": "Marshall D. Teach",
+    "id": "marshall_d_teach",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=marshall_d_teach"
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "id": "monkey_d_luffy",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=monkey_d_luffy"
+  },
+  {
+    "name": "Nami",
+    "id": "nami",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=nami"
+  },
+  {
+    "name": "Nico Robin",
+    "id": "nico_robin",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=nico_robin"
+  },
+  {
+    "name": "Nin",
+    "id": "nin",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=nin"
+  },
+  {
+    "name": "Portgas D. Ace",
+    "id": "portgas_d_ace",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=portgas_d_ace"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "id": "roronoa_zoro",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=roronoa_zoro"
+  },
+  {
+    "name": "Sabo",
+    "id": "sabo",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=sabo"
+  },
+  {
+    "name": "Sanji",
+    "id": "sanji",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=sanji"
+  },
+  {
+    "name": "Scratchmen Apoo",
+    "id": "scratchmen_apoo",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=scratchmen_apoo"
+  },
+  {
+    "name": "Shanks",
+    "id": "shanks",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=shanks"
+  },
+  {
+    "name": "Silvers Rayleigh",
+    "id": "silvers_rayleigh",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=silvers_rayleigh"
+  },
+  {
+    "name": "Smoker",
+    "id": "smoker",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=smoker"
+  },
+  {
+    "name": "Tony Tony Chopper",
+    "id": "tony_tony_chopper",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=tony_tony_chopper"
+  },
+  {
+    "name": "Trafalgar Law",
+    "id": "trafalgar_law",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=trafalgar_law"
+  },
+  {
+    "name": "Urouge",
+    "id": "urouge",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=urouge"
+  },
+  {
+    "name": "Usopp",
+    "id": "usopp",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=usopp"
+  },
+  {
+    "name": "X Drake",
+    "id": "x_drake",
+    "type": "entity",
+    "universe": "anime",
+    "path": "one_piece",
+    "parent": "One Piece",
+    "url": "entity.html?universe=anime&path=one_piece&id=x_drake"
   },
   {
     "name": "Bleach",

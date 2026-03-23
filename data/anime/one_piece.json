@@ -1,598 +1,6 @@
 [
-{
-"id":"monkey_d_luffy",
-"name":"Monkey D. Luffy",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=monkey_d_luffy",
-"parent":"one_piece",
 
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Captain",
-"Crew:":"Straw Hat Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"Gum-Gum Fruit"
-},
-
-"tabs":{
-"tab1":{
-"title":"Description",
-"content":"Monkey D. Luffy is the captain of the Straw Hat Pirates who dreams of becoming the Pirate King.<br><br>He gained rubber powers after eating a Devil Fruit.<br><br>Luffy is fearless, cheerful, and values his friends above everything.<br><br>He travels the seas in search of the legendary treasure One Piece."
-},
-
-"tab2":{
-"title":"Abilities",
-"content":"<ul><li>Rubber Body</li><li>Gum-Gum Pistol</li><li>Gear Second</li><li>Gear Third</li><li>Gear Fourth</li><li>Super Strength</li><li>High Speed</li><li>Durability</li><li>Observation Haki</li><li>Armament Haki</li><li>Conqueror’s Haki</li><li>Combat Instinct</li><li>Endurance</li><li>Elastic Attacks</li><li>Battle Creativity</li></ul>"
-},
-
-"tab3":{
-"title":"Facts",
-"content":"<ul><li>Captain of Straw Hat Pirates</li><li>Wants to become Pirate King</li><li>Inspired by Shanks</li><li>Has a straw hat as his symbol</li><li>Loves meat</li></ul>"
-}
-},
-
-"gallery_count":6
-},
-
-{
-"id":"roronoa_zoro",
-"name":"Roronoa Zoro",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=roronoa_zoro",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Swordsman",
-"Crew:":"Straw Hat Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"None"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Zoro is a master swordsman and Luffy’s right-hand man.<br><br>He aims to become the greatest swordsman.<br><br>He uses three-sword style.<br><br>He is extremely loyal."},
-"tab2":{"title":"Abilities","content":"<ul><li>Three Sword Style</li><li>Super Strength</li><li>Endurance</li><li>Sword Mastery</li><li>Speed</li><li>Armament Haki</li><li>Observation Haki</li><li>Durability</li><li>Combat Skills</li><li>Focus</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Gets lost easily</li><li>Loyal to Luffy</li><li>Uses 3 swords</li><li>Dreams to be strongest swordsman</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"nami",
-"name":"Nami",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=nami",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Navigator",
-"Crew:":"Straw Hat Pirates",
-"Sex:":"Female",
-"Devil Fruit:":"None"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Nami is the navigator of the Straw Hat crew.<br><br>She is skilled in weather prediction.<br><br>She loves money.<br><br>She is very intelligent."},
-"tab2":{"title":"Abilities","content":"<ul><li>Weather Control</li><li>Clima-Tact</li><li>Navigation</li><li>Intelligence</li><li>Speed</li><li>Agility</li><li>Strategy</li><li>Lightning Attacks</li><li>Accuracy</li><li>Reflexes</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Loves money</li><li>Navigator</li><li>Smartest crew member</li><li>Controls weather</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"usopp",
-"name":"Usopp",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=usopp",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Sniper",
-"Crew:":"Straw Hat Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"None"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Usopp is the sniper of the crew.<br><br>He is creative and resourceful.<br><br>He often lies but becomes brave in battle.<br><br>He dreams of being a great warrior."},
-"tab2":{"title":"Abilities","content":"<ul><li>Sniping</li><li>Accuracy</li><li>Trick Weapons</li><li>Strategy</li><li>Observation Haki</li><li>Speed</li><li>Agility</li><li>Creativity</li><li>Reflexes</li><li>Combat Skills</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Great liar</li><li>Sniper</li><li>Brave warrior dream</li><li>Inventor</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"sanji",
-"name":"Sanji",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=sanji",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Cook",
-"Crew:":"Straw Hat Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"None"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Sanji is the cook of the Straw Hat Pirates.<br><br>He fights using powerful kicks.<br><br>He respects women deeply.<br><br>He dreams of finding All Blue."},
-"tab2":{"title":"Abilities","content":"<ul><li>Black Leg Style</li><li>Speed</li><li>Strength</li><li>Diable Jambe</li><li>Observation Haki</li><li>Armament Haki</li><li>Agility</li><li>Reflexes</li><li>Cooking Skills</li><li>Combat Skills</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Cook of crew</li><li>Loves women</li><li>Won’t hit females</li><li>Dream: All Blue</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"tony_tony_chopper",
-"name":"Tony Tony Chopper",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=tony_tony_chopper",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Doctor",
-"Crew:":"Straw Hat Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"Human-Human Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Chopper is the doctor of the crew.<br><br>He is a reindeer who ate a Devil Fruit.<br><br>He can transform into human forms.<br><br>He is kind and caring."},
-"tab2":{"title":"Abilities","content":"<ul><li>Transformations</li><li>Medical Skills</li><li>Strength</li><li>Speed</li><li>Monster Point</li><li>Endurance</li><li>Agility</li><li>Healing</li><li>Combat Skills</li><li>Defense</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Reindeer doctor</li><li>Very cute</li><li>Loyal friend</li><li>Hates compliments</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"nico_robin",
-"name":"Nico Robin",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=nico_robin",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Archaeologist",
-"Crew:":"Straw Hat Pirates",
-"Sex:":"Female",
-"Devil Fruit:":"Flower-Flower Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Robin is the archaeologist of the crew.<br><br>She can grow body parts anywhere.<br><br>She seeks true history.<br><br>She is calm and intelligent."},
-"tab2":{"title":"Abilities","content":"<ul><li>Body Duplication</li><li>Giant Limbs</li><li>Clutch Attacks</li><li>Intelligence</li><li>Strategy</li><li>Speed</li><li>Agility</li><li>Combat Skills</li><li>Knowledge</li><li>Defense</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Archaeologist</li><li>Survivor of Ohara</li><li>Reads poneglyphs</li><li>Calm personality</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"franky",
-"name":"Franky",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=franky",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Shipwright",
-"Crew:":"Straw Hat Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"None"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Franky is the shipwright of the crew.<br><br>He is a cyborg.<br><br>He built the Thousand Sunny.<br><br>He is loud and confident."},
-"tab2":{"title":"Abilities","content":"<ul><li>Cyborg Weapons</li><li>Strength</li><li>Laser Attacks</li><li>Durability</li><li>Engineering</li><li>Speed</li><li>Combat Skills</li><li>Defense</li><li>Energy Attacks</li><li>Mechanics</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Cyborg</li><li>Says SUPER</li><li>Built Sunny</li><li>Loves cola</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"brook",
-"name":"Brook",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=brook",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Musician",
-"Crew:":"Straw Hat Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"Revive-Revive Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Brook is a skeleton musician.<br><br>He came back to life using his Devil Fruit.<br><br>He loves music and jokes.<br><br>He is a swordsman."},
-"tab2":{"title":"Abilities","content":"<ul><li>Soul Powers</li><li>Swordsmanship</li><li>Speed</li><li>Music Attacks</li><li>Ice Attacks</li><li>Agility</li><li>Reflexes</li><li>Endurance</li><li>Stealth</li><li>Combat Skills</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Skeleton</li><li>Loves music</li><li>Immortal body</li><li>Funny personality</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"trafalgar_law",
-"name":"Trafalgar Law",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=trafalgar_law",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Captain",
-"Crew:":"Heart Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"Op-Op Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Law is the captain of Heart Pirates.<br><br>He is a skilled doctor.<br><br>He is calm and strategic.<br><br>He is part of the Worst Generation."},
-"tab2":{"title":"Abilities","content":"<ul><li>Room Ability</li><li>Surgery Powers</li><li>Teleportation</li><li>Strategy</li><li>Sword Skills</li><li>Speed</li><li>Intelligence</li><li>Combat Skills</li><li>Precision</li><li>Control</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Doctor pirate</li><li>Heart Pirates captain</li><li>Uses Room</li><li>Calm personality</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"portgas_d_ace",
-"name":"Portgas D. Ace",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=portgas_d_ace",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Commander",
-"Crew:":"Whitebeard Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"Flame-Flame Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Ace is Luffy’s brother and a powerful pirate.<br><br>He serves under Whitebeard.<br><br>He controls fire using his Devil Fruit.<br><br>He is brave and loyal."},
-"tab2":{"title":"Abilities","content":"<ul><li>Fire Control</li><li>Flame Attacks</li><li>Speed</li><li>Strength</li><li>Durability</li><li>Combat Skills</li><li>Agility</li><li>Reflexes</li><li>Endurance</li><li>Power Attacks</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Luffy’s brother</li><li>Son of Roger</li><li>Fire powers</li><li>Loyal pirate</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"shanks",
-"name":"Shanks",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=shanks",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"New World",
-"Role:":"Captain",
-"Crew:":"Red-Haired Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"None"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Shanks is one of the Four Emperors.<br><br>He inspired Luffy to become a pirate.<br><br>He is calm but extremely powerful.<br><br>He values balance in the world."},
-"tab2":{"title":"Abilities","content":"<ul><li>Conqueror Haki</li><li>Armament Haki</li><li>Observation Haki</li><li>Swordsmanship</li><li>Speed</li><li>Strength</li><li>Leadership</li><li>Combat Skills</li><li>Reflexes</li><li>Presence</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Yonko</li><li>Inspired Luffy</li><li>Lost arm</li><li>Strong haki user</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"dracule_mihawk",
-"name":"Dracule Mihawk",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=dracule_mihawk",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Swordsman",
-"Crew:":"None",
-"Sex:":"Male",
-"Devil Fruit:":"None"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Mihawk is the strongest swordsman in the world.<br><br>He is Zoro’s goal.<br><br>He is calm and deadly.<br><br>He uses a massive black sword."},
-"tab2":{"title":"Abilities","content":"<ul><li>Sword Mastery</li><li>Precision</li><li>Speed</li><li>Strength</li><li>Armament Haki</li><li>Observation Haki</li><li>Combat Skills</li><li>Reflexes</li><li>Accuracy</li><li>Power Attacks</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Strongest swordsman</li><li>Zoro’s goal</li><li>Uses Yoru sword</li><li>Warlord</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"donquixote_doflamingo",
-"name":"Donquixote Doflamingo",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=donquixote_doflamingo",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Captain",
-"Crew:":"Donquixote Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"String-String Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Doflamingo is a powerful and cruel pirate.<br><br>He controls strings.<br><br>He was a former Warlord.<br><br>He is manipulative and dangerous."},
-"tab2":{"title":"Abilities","content":"<ul><li>String Control</li><li>Flight</li><li>Manipulation</li><li>Speed</li><li>Strength</li><li>Armament Haki</li><li>Observation Haki</li><li>Durability</li><li>Combat Skills</li><li>Strategy</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Warlord</li><li>String powers</li><li>Manipulative</li><li>Former king</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"crocodile",
-"name":"Crocodile",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=crocodile",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Warlord",
-"Crew:":"Baroque Works",
-"Sex:":"Male",
-"Devil Fruit:":"Sand-Sand Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Crocodile is a former Warlord.<br><br>He controls sand.<br><br>He is strategic and ruthless.<br><br>He tried to take over a kingdom."},
-"tab2":{"title":"Abilities","content":"<ul><li>Sand Control</li><li>Dehydration</li><li>Flight</li><li>Speed</li><li>Strength</li><li>Strategy</li><li>Combat Skills</li><li>Durability</li><li>Defense</li><li>Reflexes</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Warlord</li><li>Baroque Works leader</li><li>Sand powers</li><li>Villain</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"enel",
-"name":"Enel",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=enel",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Sky Island",
-"Role:":"God",
-"Crew:":"None",
-"Sex:":"Male",
-"Devil Fruit:":"Lightning-Lightning Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Enel is the ruler of Skypiea.<br><br>He controls lightning.<br><br>He believes he is a god.<br><br>He has immense power."},
-"tab2":{"title":"Abilities","content":"<ul><li>Lightning Control</li><li>Speed</li><li>Observation Haki</li><li>Destruction</li><li>Flight</li><li>Power Attacks</li><li>Reflexes</li><li>Durability</li><li>Energy Attacks</li><li>Awareness</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>God of Skypiea</li><li>Lightning powers</li><li>Very powerful</li><li>Defeated by Luffy</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"smoker",
-"name":"Smoker",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=smoker",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Marine",
-"Crew:":"Navy",
-"Sex:":"Male",
-"Devil Fruit:":"Smoke-Smoke Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Smoker is a Marine officer.<br><br>He hunts pirates.<br><br>He controls smoke.<br><br>He has strong justice beliefs."},
-"tab2":{"title":"Abilities","content":"<ul><li>Smoke Control</li><li>Flight</li><li>Speed</li><li>Strength</li><li>Armament Haki</li><li>Combat Skills</li><li>Durability</li><li>Reflexes</li><li>Capture Skills</li><li>Endurance</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Marine officer</li><li>Chases Luffy</li><li>Uses jitte</li><li>Justice driven</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"boa_hancock",
-"name":"Boa Hancock",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=boa_hancock",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Empress",
-"Crew:":"Kuja Pirates",
-"Sex:":"Female",
-"Devil Fruit:":"Love-Love Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Hancock is the Pirate Empress.<br><br>She can turn people into stone.<br><br>She loves Luffy.<br><br>She is very powerful."},
-"tab2":{"title":"Abilities","content":"<ul><li>Petrification</li><li>Kick Attacks</li><li>Speed</li><li>Strength</li><li>Observation Haki</li><li>Armament Haki</li><li>Beauty Charm</li><li>Combat Skills</li><li>Agility</li><li>Reflexes</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Pirate Empress</li><li>Loves Luffy</li><li>Warlord</li><li>Amazon Lily ruler</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"marshall_d_teach",
-"name":"Marshall D. Teach",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=marshall_d_teach",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"New World",
-"Role:":"Captain",
-"Crew:":"Blackbeard Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"Dark-Dark Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Blackbeard is a dangerous pirate.<br><br>He seeks power and chaos.<br><br>He controls darkness.<br><br>He is one of the Yonko."},
-"tab2":{"title":"Abilities","content":"<ul><li>Darkness Control</li><li>Gravity Pull</li><li>Strength</li><li>Durability</li><li>Strategy</li><li>Combat Skills</li><li>Endurance</li><li>Power Attacks</li><li>Control</li><li>Fearless Nature</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Yonko</li><li>Dangerous pirate</li><li>Seeks power</li><li>Main villain</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"buggy",
-"name":"Buggy",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=buggy",
-"parent":"one_piece",
-
-"info":{
-"Sea:":"Grand Line",
-"Role:":"Captain",
-"Crew:":"Buggy Pirates",
-"Sex:":"Male",
-"Devil Fruit:":"Chop-Chop Fruit"
-},
-
-"tabs":{
-"tab1":{"title":"Description","content":"Buggy is a comedic pirate.<br><br>He can split his body.<br><br>He is lucky and survives many situations.<br><br>He becomes famous accidentally."},
-"tab2":{"title":"Abilities","content":"<ul><li>Body Separation</li><li>Immunity to swords</li><li>Flight (body parts)</li><li>Speed</li><li>Agility</li><li>Durability</li><li>Combat Skills</li><li>Reflexes</li><li>Survival Skills</li><li>Luck</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Clown pirate</li><li>Former Roger crew</li><li>Very lucky</li><li>Comic character</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"eustass_kid",
-"name":"Eustass Kid",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=eustass_kid",
-"parent":"one_piece",
-"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Kid Pirates","Sex:":"Male","Devil Fruit:":"Magnet-Magnet Fruit"},
-"tabs":{
-"tab1":{"title":"Description","content":"Kid is a ruthless pirate captain.<br><br>He controls magnetism.<br><br>He is part of the Worst Generation.<br><br>He seeks power and dominance."},
-"tab2":{"title":"Abilities","content":"<ul><li>Magnetism Control</li><li>Metal Manipulation</li><li>Strength</li><li>Durability</li><li>Speed</li><li>Combat Skills</li><li>Armament Haki</li><li>Endurance</li><li>Power Attacks</li><li>Destruction</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Worst Generation</li><li>Ruthless pirate</li><li>Magnetic powers</li><li>Captain</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"killer",
-"name":"Killer",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=killer",
-"parent":"one_piece",
-"info":{"Sea:":"Grand Line","Role:":"Combatant","Crew:":"Kid Pirates","Sex:":"Male","Devil Fruit:":"None"},
-"tabs":{
-"tab1":{"title":"Description","content":"Killer is Kid’s right-hand man.<br><br>He is a skilled fighter.<br><br>He uses scythe-like weapons.<br><br>He is calm and deadly."},
-"tab2":{"title":"Abilities","content":"<ul><li>Blade Combat</li><li>Speed</li><li>Agility</li><li>Strength</li><li>Combat Skills</li><li>Endurance</li><li>Reflexes</li><li>Precision</li><li>Stealth</li><li>Attack Power</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Kid’s partner</li><li>Masked fighter</li><li>Uses blades</li><li>Calm personality</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"x_drake",
-"name":"X Drake",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=x_drake",
-"parent":"one_piece",
-"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Drake Pirates","Sex:":"Male","Devil Fruit:":"Dinosaur-Dinosaur Fruit"},
-"tabs":{
-"tab1":{"title":"Description","content":"Drake is a pirate and former Marine.<br><br>He can transform into a dinosaur.<br><br>He is part of the Worst Generation.<br><br>He is strong and strategic."},
-"tab2":{"title":"Abilities","content":"<ul><li>Dinosaur Transformation</li><li>Strength</li><li>Durability</li><li>Speed</li><li>Combat Skills</li><li>Endurance</li><li>Reflexes</li><li>Power Attacks</li><li>Defense</li><li>Strategy</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Worst Generation</li><li>Former Marine</li><li>Dinosaur powers</li><li>Captain</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"basil_hawkins",
-"name":"Basil Hawkins",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=basil_hawkins",
-"parent":"one_piece",
-"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Hawkins Pirates","Sex:":"Male","Devil Fruit:":"Straw-Straw Fruit"},
-"tabs":{
-"tab1":{"title":"Description","content":"Hawkins is a calm and mysterious pirate.<br><br>He uses straw powers.<br><br>He relies on tarot predictions.<br><br>He is strategic and composed."},
-"tab2":{"title":"Abilities","content":"<ul><li>Straw Control</li><li>Damage Transfer</li><li>Strategy</li><li>Prediction</li><li>Speed</li><li>Combat Skills</li><li>Durability</li><li>Defense</li><li>Control</li><li>Endurance</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Uses tarot cards</li><li>Straw powers</li><li>Calm nature</li><li>Worst Generation</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"capone_bege",
-"name":"Capone Bege",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=capone_bege",
-"parent":"one_piece",
-"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Fire Tank Pirates","Sex:":"Male","Devil Fruit:":"Castle-Castle Fruit"},
-"tabs":{
-"tab1":{"title":"Description","content":"Bege is a mafia-like pirate captain.<br><br>He can transform into a castle.<br><br>He uses strategy in battle.<br><br>He is calm and calculated."},
-"tab2":{"title":"Abilities","content":"<ul><li>Castle Transformation</li><li>Defense</li><li>Strategy</li><li>Gun Attacks</li><li>Durability</li><li>Combat Skills</li><li>Endurance</li><li>Control</li><li>Leadership</li><li>Precision</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Mafia style pirate</li><li>Castle powers</li><li>Strategic</li><li>Captain</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"jewelry_bonney",
-"name":"Jewelry Bonney",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=jewelry_bonney",
-"parent":"one_piece",
-"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Bonney Pirates","Sex:":"Female","Devil Fruit:":"Age-Age Fruit"},
-"tabs":{
-"tab1":{"title":"Description","content":"Bonney is a pirate captain with age powers.<br><br>She can change ages of people.<br><br>She is part of the Worst Generation.<br><br>She has a strong personality."},
-"tab2":{"title":"Abilities","content":"<ul><li>Age Manipulation</li><li>Speed</li><li>Agility</li><li>Combat Skills</li><li>Durability</li><li>Reflexes</li><li>Control</li><li>Endurance</li><li>Strategy</li><li>Adaptability</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Worst Generation</li><li>Controls age</li><li>Captain</li><li>Loves food</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"scratchmen_apoo",
-"name":"Scratchmen Apoo",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=scratchmen_apoo",
-"parent":"one_piece",
-"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"On Air Pirates","Sex:":"Male","Devil Fruit:":"Sound-Sound Fruit"},
-"tabs":{
-"tab1":{"title":"Description","content":"Apoo is a music-based pirate.<br><br>He uses sound attacks.<br><br>He is unpredictable.<br><br>He is part of Worst Generation."},
-"tab2":{"title":"Abilities","content":"<ul><li>Sound Attacks</li><li>Music Combat</li><li>Speed</li><li>Agility</li><li>Reflexes</li><li>Combat Skills</li><li>Endurance</li><li>Control</li><li>Strategy</li><li>Energy Attacks</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Music fighter</li><li>Worst Generation</li><li>Sound powers</li><li>Unpredictable</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"urouge",
-"name":"Urouge",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=urouge",
-"parent":"one_piece",
-"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Fallen Monk Pirates","Sex:":"Male","Devil Fruit:":"None"},
-"tabs":{
-"tab1":{"title":"Description","content":"Urouge is a monk-like pirate.<br><br>He gains power from damage.<br><br>He is physically strong.<br><br>He is calm and confident."},
-"tab2":{"title":"Abilities","content":"<ul><li>Damage Conversion</li><li>Strength</li><li>Durability</li><li>Speed</li><li>Combat Skills</li><li>Endurance</li><li>Reflexes</li><li>Power Boost</li><li>Defense</li><li>Stamina</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Monk pirate</li><li>Strong body</li><li>Worst Generation</li><li>Calm personality</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"sabo",
-"name":"Sabo",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=sabo",
-"parent":"one_piece",
-"info":{"Sea:":"Grand Line","Role:":"Chief of Staff","Crew:":"Revolutionary Army","Sex:":"Male","Devil Fruit:":"Flame-Flame Fruit"},
-"tabs":{
-"tab1":{"title":"Description","content":"Sabo is Luffy’s brother and revolutionary leader.<br><br>He inherited Ace’s fire powers.<br><br>He fights for freedom.<br><br>He is powerful and intelligent."},
-"tab2":{"title":"Abilities","content":"<ul><li>Fire Control</li><li>Dragon Claw</li><li>Strength</li><li>Speed</li><li>Armament Haki</li><li>Observation Haki</li><li>Combat Skills</li><li>Agility</li><li>Reflexes</li><li>Endurance</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Luffy’s brother</li><li>Revolutionary leader</li><li>Inherited Ace’s fruit</li><li>Strong fighter</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"silvers_rayleigh",
-"name":"Silvers Rayleigh",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=silvers_rayleigh",
-"parent":"one_piece",
-"info":{"Sea:":"Grand Line","Role:":"Vice Captain","Crew:":"Roger Pirates","Sex:":"Male","Devil Fruit:":"None"},
-"tabs":{
-"tab1":{"title":"Description","content":"Rayleigh is the former vice captain of Roger Pirates.<br><br>He is extremely powerful.<br><br>He trained Luffy.<br><br>He is calm and wise."},
-"tab2":{"title":"Abilities","content":"<ul><li>Conqueror Haki</li><li>Armament Haki</li><li>Observation Haki</li><li>Swordsmanship</li><li>Speed</li><li>Strength</li><li>Combat Skills</li><li>Reflexes</li><li>Endurance</li><li>Mastery</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Roger’s partner</li><li>Luffy’s teacher</li><li>Legendary pirate</li><li>Master of haki</li></ul>"}},
-"gallery_count":6
-},
-
-{
+    {
 "id":"ao",
 "name":"A O",
 "type":"entity",
@@ -733,6 +141,20 @@
 },
 
 {
+"id":"ahiru",
+"name":"Ahiru",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=ahiru",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Deputy Commander","Affiliation:":"Revolutionary Army","Sex:":"Female","Division:":"East Army"},
+"tabs":{
+"tab1":{"title":"Description","content":"Ahiru is the deputy commander of the East Army in the Revolutionary Army.<br><br>She serves directly under Belo Betty.<br><br>She appears during the Levely arc.<br><br>She is a calm and composed individual.<br><br>She plays a supporting role in Revolutionary operations."},
+"tab2":{"title":"Abilities","content":"<ul><li>Combat Skills</li><li>Leadership Support</li><li>Strategic Awareness</li><li>Weapon Usage</li><li>Mobility</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Deputy Commander of East Army</li><li>Works under Belo Betty</li><li>Revolutionary Army member</li><li>Appears in Levely arc</li><li>Human character</li></ul>"}},
+"gallery_count":6
+},
+
+{
 "id":"aisa",
 "name":"Aisa",
 "type":"entity",
@@ -743,20 +165,6 @@
 "tab1":{"title":"Description","content":"Aisa is a young girl from the Shandian tribe.<br><br>She possesses strong Mantra abilities.<br><br>She can sense voices across great distances.<br><br>She plays a role in the Skypiea arc.<br><br>She shows emotional sensitivity."},
 "tab2":{"title":"Abilities","content":"<ul><li>Mantra (Observation Haki)</li><li>Voice Sensing</li><li>Awareness</li><li>Perception</li><li>Emotional Sensitivity</li></ul>"},
 "tab3":{"title":"Facts","content":"<ul><li>Child from Shandia</li><li>Natural Mantra user</li><li>Appears in Skypiea</li><li>Strong sensing ability</li><li>Non-combatant</li></ul>"}},
-"gallery_count":6
-},
-
-{
-"id":"ahiru",
-"name":"Ahiru",
-"type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=ahiru",
-"parent":"one_piece",
-"info":{"Sea:":"Alabasta","Role:":"Messenger","Affiliation:":"Alabasta Army","Sex:":"Female","Ability:":"Messenger Skills"},
-"tabs":{
-"tab1":{"title":"Description","content":"Ahiru is a messenger in Alabasta.<br><br>She delivers important messages during war.<br><br>She works for the royal army.<br><br>She plays a support role.<br><br>She appears in the Alabasta arc."},
-"tab2":{"title":"Abilities","content":"<ul><li>Fast Movement</li><li>Navigation</li><li>Endurance</li><li>Communication</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Alabasta messenger</li><li>Supports army</li><li>Appears in Alabasta arc</li><li>Non-combat role</li></ul>"}},
 "gallery_count":6
 },
 
@@ -929,18 +337,61 @@
 },
 
 {
+"id":"andre",
+"name":"Andre",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=andre",
+"parent":"one_piece",
+"info":{"Sea:":"New World","Role:":"Captain","Affiliation:":"Whitebeard Pirates (Former)","Sex:":"Male","Weapon:":"Swords"},
+"tabs":{
+"tab1":{"title":"Description","content":"Andre is a pirate captain from the New World.<br><br>He was formerly a member of the Whitebeard Pirates.<br><br>He later formed his own crew under Whitebeard’s command.<br><br>He is the twin brother of Marine officer Candre.<br><br>He appears during the Marineford War saga."},
+"tab2":{"title":"Abilities","content":"<ul><li>Swordsmanship</li><li>Dual Sword Combat</li><li>Physical Strength</li><li>Durability</li><li>Combat Experience</li><li>Endurance</li><li>Battle Skills</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>New World pirate captain</li><li>Former Whitebeard Pirate</li><li>Twin brother of Candre</li><li>Marineford participant</li><li>Uses swords</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"ankoro",
+"name":"Ankoro",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=ankoro",
+"parent":"one_piece",
+"info":{"Sea:":"Underworld of the Sea","Role:":"Pet","Affiliation:":"Flying Pirates","Sex:":"Male","Race:":"Anglerfish"},
+"tabs":{
+"tab1":{"title":"Description","content":"Ankoro is a gigantic anglerfish from the depths of the ocean.<br><br>He was formerly under the command of Vander Decken IX.<br><br>He resides in the Underworld of the Sea far below Fish-Man Island.<br><br>He is treated as a pet by Vander Decken.<br><br>He appears during the Fish-Man Island arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Gigantic Size</li><li>Powerful Bite</li><li>Underwater Mobility</li><li>High Durability</li><li>Enhanced Strength</li><li>Deep Sea Survival</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Pet of Vander Decken IX</li><li>Giant anglerfish</li><li>Lives deep underwater</li><li>Appears in Fish-Man Island arc</li><li>Associated with Flying Pirates</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"aphelandra",
+"name":"Aphelandra",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=aphelandra",
+"parent":"one_piece",
+"info":{"Sea:":"Calm Belt","Role:":"Warrior","Affiliation:":"Kuja Tribe, Kuja Pirates","Sex:":"Female","Origin:":"Amazon Lily"},
+"tabs":{
+"tab1":{"title":"Description","content":"Aphelandra is a member of the Kuja tribe from Amazon Lily.<br><br>She is a tall and slender warrior of the island.<br><br>She later becomes a member of the Kuja Pirates.<br><br>She follows the leadership of Boa Hancock.<br><br>She appears during the Amazon Lily arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Archery Skills</li><li>Combat Skills</li><li>Physical Strength</li><li>Durability</li><li>Agility</li><li>Speed</li><li>Endurance</li><li>Kuja Fighting Techniques</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Kuja tribe member</li><li>From Amazon Lily</li><li>Serves under Boa Hancock</li><li>Becomes Kuja Pirate</li><li>Appears in Amazon Lily arc</li></ul>"}},
+"gallery_count":6
+},
+
+{
 "id":"aramaki",
 "name":"Aramaki",
 "type":"entity",
 "url":"entity.html?universe=anime&path=one_piece&id=aramaki",
 "parent":"one_piece",
-"info":{"Sea:":"Grand Line","Role:":"Admiral","Affiliation:":"Marines","Sex:":"Male","Devil Fruit:":"Forest-Forest Fruit"},
+"info":{"Sea:":"Grand Line","Role:":"Admiral","Affiliation:":"Marines","Sex:":"Male","Alias:":"Ryokugyu"},
 "tabs":{
-"tab1":{"title":"Description","content":"Aramaki is a Marine Admiral.<br><br>He is also known as Ryokugyu.<br><br>He possesses plant-based powers.<br><br>He appears in the Wano arc.<br><br>He is extremely powerful."},
-"tab2":{"title":"Abilities","content":"<ul><li>Forest-Forest Fruit</li><li>Plant Manipulation</li><li>Regeneration</li><li>Drain Ability</li><li>Strength</li><li>Durability</li><li>Speed</li><li>Combat Skills</li><li>Endurance</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Marine Admiral</li><li>Nickname Ryokugyu</li><li>Devil Fruit user</li><li>Wano arc appearance</li><li>Top-tier fighter</li></ul>"}},
+"tab1":{"title":"Description","content":"Aramaki is a Marine Admiral known as Ryokugyu.<br><br>He possesses plant-based powers.<br><br>He appears in the Wano arc.<br><br>He is extremely powerful.<br><br>He represents Marine authority."},
+"tab2":{"title":"Abilities","content":"<ul><li>Plant Manipulation</li><li>Regeneration</li><li>Energy Absorption</li><li>Strength</li><li>Durability</li><li>Combat Skills</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Marine Admiral</li><li>Alias Ryokugyu</li><li>Wano appearance</li><li>Top-tier fighter</li></ul>"}},
 "gallery_count":6
 },
+
 
 {
 "id":"arlong",
@@ -953,6 +404,20 @@
 "tab1":{"title":"Description","content":"Arlong is a fish-man pirate captain.<br><br>He rules over Arlong Park.<br><br>He is a former Sun Pirate.<br><br>He is cruel and dominant.<br><br>He is defeated by Luffy."},
 "tab2":{"title":"Abilities","content":"<ul><li>Fish-Man Strength</li><li>Underwater Combat</li><li>Sharp Teeth Attacks</li><li>Durability</li><li>Speed</li><li>Combat Skills</li><li>Endurance</li></ul>"},
 "tab3":{"title":"Facts","content":"<ul><li>Arlong Park ruler</li><li>Fish-Man</li><li>Enemy of Straw Hats</li><li>Former Sun Pirate</li><li>Defeated by Luffy</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"aruyutayan_v",
+"name":"Aruyutayan V",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=aruyutayan_v",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Royalty","Affiliation:":"Unknown Kingdom","Sex:":"Male","Title:":"King"},
+"tabs":{
+"tab1":{"title":"Description","content":"Aruyutayan V is a royal figure in the One Piece world.<br><br>He is associated with a kingdom participating in global affairs.<br><br>He appears during events involving world leaders.<br><br>He represents his nation among other rulers.<br><br>He has a very minor role in the story."},
+"tab2":{"title":"Abilities","content":"<ul><li>Leadership</li><li>Authority</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Royal character</li><li>King title</li><li>Appears among world leaders</li><li>Very minor role</li></ul>"}},
 "gallery_count":6
 },
 
@@ -990,7 +455,7 @@
 "type":"entity",
 "url":"entity.html?universe=anime&path=one_piece&id=atmos",
 "parent":"one_piece",
-"info":{"Sea:":"New World","Role":"Commander","Affiliation":"Whitebeard Pirates","Sex":"Male"},
+"info":{"Sea:":"New World","Role:":"Commander","Affiliation:":"Whitebeard Pirates","Sex:":"Male"},
 "tabs":{
 "tab1":{"title":"Description","content":"Atmos is a commander of the Whitebeard Pirates.<br><br>He participates in the Marineford War.<br><br>He is loyal to Whitebeard.<br><br>He is a large and powerful fighter.<br><br>He fights against Marines."},
 "tab2":{"title":"Abilities","content":"<ul><li>Swordsmanship</li><li>Physical Strength</li><li>Durability</li><li>Combat Skills</li><li>Endurance</li></ul>"},
@@ -1004,11 +469,25 @@
 "type":"entity",
 "url":"entity.html?universe=anime&path=one_piece&id=avalo_pizarro",
 "parent":"one_piece",
-"info":{"Sea:":"New World","Role":"Commander","Affiliation":"Blackbeard Pirates","Sex":"Male","Devil Fruit":"Island-Island Fruit"},
+"info":{"Sea:":"New World","Role:":"Commander","Affiliation:":"Blackbeard Pirates","Sex:":"Male","Devil Fruit:":"Island-Island Fruit"},
 "tabs":{
 "tab1":{"title":"Description","content":"Avalo Pizarro is a commander of the Blackbeard Pirates.<br><br>He was formerly imprisoned in Impel Down.<br><br>He is known as the Corrupt King.<br><br>He joined Blackbeard after Level 6 breakout.<br><br>He appears in later arcs."},
 "tab2":{"title":"Abilities","content":"<ul><li>Island-Island Fruit</li><li>Environment Control</li><li>Strength</li><li>Durability</li><li>Combat Skills</li><li>Endurance</li></ul>"},
 "tab3":{"title":"Facts","content":"<ul><li>Blackbeard commander</li><li>Level 6 prisoner</li><li>Corrupt King title</li><li>Devil Fruit user</li><li>New World pirate</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"azuki",
+"name":"Azuki",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=azuki",
+"parent":"one_piece",
+"info":{"Sea:":"New World","Role:":"Resident","Affiliation:":"Ebisu Town, Wano Country","Sex:":"Female","Alias:":"Bean-Washing Hag"},
+"tabs":{
+"tab1":{"title":"Description","content":"Azuki is an elderly woman living in Ebisu Town in Wano Country.<br><br>She is known for her cheerful and exaggerated expressions.<br><br>She lives among the poor citizens affected by Kaido’s rule.<br><br>She was forced to eat a defective SMILE fruit.<br><br>This caused her to only smile and laugh regardless of emotions."},
+"tab2":{"title":"Abilities","content":"<ul><li>Basic Human Abilities</li><li>Endurance</li><li>Emotional Suppression (SMILE Effect)</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Resident of Ebisu Town</li><li>Victim of defective SMILE fruit</li><li>Always smiling condition</li><li>Appears in Wano arc</li><li>Known as Bean-Washing Hag</li></ul>"}},
 "gallery_count":6
 },
 
@@ -1018,11 +497,25 @@
 "type":"entity",
 "url":"entity.html?universe=anime&path=one_piece&id=babanuki",
 "parent":"one_piece",
-"info":{"Sea":"Wano","Role":"Gifter","Affiliation":"Beast Pirates","Sex":"Male","Devil Fruit":"SMILE Elephant"},
+"info":{"Sea:":"Wano","Role:":"Gifter","Affiliation:":"Beast Pirates","Sex:":"Male","Devil Fruit:":"SMILE Elephant"},
 "tabs":{
 "tab1":{"title":"Description","content":"Babanuki is a Gifter of the Beast Pirates.<br><br>He is stationed in Udon prison.<br><br>He has an elephant SMILE ability.<br><br>He serves under Kaido.<br><br>He acts as a prison guard."},
 "tab2":{"title":"Abilities","content":"<ul><li>SMILE Transformation</li><li>Elephant Trunk Cannon</li><li>Physical Strength</li><li>Durability</li><li>Combat Skills</li><li>Endurance</li></ul>"},
 "tab3":{"title":"Facts","content":"<ul><li>Beast Pirates member</li><li>Udon prison guard</li><li>SMILE user</li><li>Wano arc</li><li>Elephant powers</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"babe",
+"name":"Babe",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=babe",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Officer Agent","Affiliation:":"Baroque Works (Former), Spiders Cafe","Sex:":"Male","Alias:":"Mr. 4"},
+"tabs":{
+"tab1":{"title":"Description","content":"Babe, also known as Mr. 4, is a former officer agent of Baroque Works.<br><br>He was partnered with Miss Merry Christmas.<br><br>He served under Crocodile during the Alabasta saga.<br><br>He later worked at the Spiders Cafe after Baroque Works disbanded.<br><br>He played a major antagonist role in the Alabasta arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Superhuman Strength</li><li>Durability</li><li>Bat Combat</li><li>Bomb Weapon Usage</li><li>Team Coordination</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Alias Mr. 4</li><li>Partner of Miss Merry Christmas</li><li>Baroque Works officer</li><li>Alabasta antagonist</li><li>Later works at Spiders Cafe</li></ul>"}},
 "gallery_count":6
 },
 
@@ -1032,7 +525,7 @@
 "type":"entity",
 "url":"entity.html?universe=anime&path=one_piece&id=baby_5",
 "parent":"one_piece",
-"info":{"Sea":"Dressrosa","Role":"Officer","Affiliation":"Donquixote Pirates","Sex":"Female","Devil Fruit":"Weapon-Weapon Fruit"},
+"info":{"Sea:":"Dressrosa","Role:":"Officer","Affiliation:":"Donquixote Pirates","Sex:":"Female","Devil Fruit:":"Weapon-Weapon Fruit"},
 "tabs":{
 "tab1":{"title":"Description","content":"Baby 5 is an officer of the Donquixote Pirates.<br><br>She has a tragic personality.<br><br>She desires to be needed by others.<br><br>She later marries Sai.<br><br>She appears in Dressrosa arc."},
 "tab2":{"title":"Abilities","content":"<ul><li>Weapon-Weapon Fruit</li><li>Body Weapon Transformation</li><li>Firearms Creation</li><li>Explosives</li><li>Combat Skills</li><li>Durability</li><li>Endurance</li></ul>"},
@@ -1041,16 +534,156 @@
 },
 
 {
-"id":"aramaki",
-"name":"Aramaki",
+"id":"bacura",
+"name":"Bacura",
 "type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=aramaki",
+"url":"entity.html?universe=anime&path=one_piece&id=bacura",
 "parent":"one_piece",
-"info":{"Sea":"Grand Line","Role":"Admiral","Affiliation":"Marines","Sex":"Male","Alias":"Ryokugyu"},
+"info":{"Sea:":"Calm Belt","Role:":"Executioner","Affiliation:":"Kuja Tribe, Kuja Pirates","Sex:":"Female","Race:":"Animal (Panther)"},
 "tabs":{
-"tab1":{"title":"Description","content":"Aramaki is a Marine Admiral known as Ryokugyu.<br><br>He possesses plant-based powers.<br><br>He appears in the Wano arc.<br><br>He is extremely powerful.<br><br>He represents Marine authority."},
-"tab2":{"title":"Abilities","content":"<ul><li>Plant Manipulation</li><li>Regeneration</li><li>Energy Absorption</li><li>Strength</li><li>Durability</li><li>Combat Skills</li><li>Endurance</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Marine Admiral</li><li>Alias Ryokugyu</li><li>Wano appearance</li><li>Top-tier fighter</li></ul>"}},
+"tab1":{"title":"Description","content":"Bacura is a giant black panther belonging to the Kuja tribe.<br><br>She serves under Boa Hancock on Amazon Lily.<br><br>She is known as the executioner of the Kuja tribe.<br><br>She has served the tribe for generations.<br><br>She appears during the Amazon Lily arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Gigantic Size</li><li>Sharp Claws</li><li>Powerful Bite</li><li>Enhanced Strength</li><li>High Speed</li><li>Agility</li><li>Durability</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Kuja tribe executioner</li><li>Serves Boa Hancock</li><li>Giant black panther</li><li>Amazon Lily resident</li><li>Appears in Amazon Lily arc</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"bakezo",
+"name":"Bakezo",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=bakezo",
+"parent":"one_piece",
+"info":{"Sea:":"New World","Role:":"Marine Officer","Affiliation:":"Marines, G-5","Sex:":"Male","Weapon:":"Sword"},
+"tabs":{
+"tab1":{"title":"Description","content":"Bakezo is a Marine officer from the G-5 branch.<br><br>He serves under the Marines in the New World.<br><br>He is known for his loyalty and dedication.<br><br>He is willing to sacrifice himself for his captain.<br><br>He appears during the Punk Hazard arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Swordsmanship</li><li>Combat Skills</li><li>Physical Strength</li><li>Durability</li><li>Endurance</li><li>Battle Experience</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Member of G-5 Marines</li><li>Marine officer</li><li>Appears in Punk Hazard arc</li><li>Loyal soldier</li><li>Uses a sword</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"ban_dedessinee",
+"name":"Ban Dedessinée",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=ban_dedessinee",
+"parent":"one_piece",
+"info":{"Sea:":"East Blue","Role:":"Queen","Affiliation:":"Frauce Kingdom","Sex:":"Female","Title:":"Queen"},
+"tabs":{
+"tab1":{"title":"Description","content":"Ban Dedessinée is the queen of the Frauce Kingdom.<br><br>She is a ruler from the East Blue.<br><br>She attended the Levely along with other world leaders.<br><br>She represents her kingdom in global political affairs.<br><br>She has a very minor role in the story."},
+"tab2":{"title":"Abilities","content":"<ul><li>Leadership</li><li>Authority</li><li>Political Influence</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Queen of Frauce Kingdom</li><li>East Blue ruler</li><li>Participated in Levely</li><li>World leader</li><li>Minor character</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"banchi",
+"name":"Banchi",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=banchi",
+"parent":"one_piece",
+"info":{"Sea:":"West Blue","Role:":"Transportation","Affiliation:":"Baroque Works (Former)","Sex:":"Male","Race:":"Animal (Turtle)"},
+"tabs":{
+"tab1":{"title":"Description","content":"Banchi is a giant turtle used for transportation by Baroque Works.<br><br>He is specifically associated with Miss All-Sunday.<br><br>He is classified as a Type A 'Big Friendly' creature.<br><br>He carries agents across desert environments.<br><br>He appears during the Alabasta arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Large Size</li><li>High Durability</li><li>Carrying Capacity</li><li>Desert Mobility</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Baroque Works transport animal</li><li>Used by Miss All-Sunday</li><li>Type A Big Friendly</li><li>Giant turtle</li><li>Appears in Alabasta arc</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"banchina",
+"name":"Banchina",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=banchina",
+"parent":"one_piece",
+"info":{"Sea:":"East Blue","Role:":"Civilian","Affiliation:":"Syrup Village","Sex:":"Female","Relation:":"Usopp's Mother"},
+"tabs":{
+"tab1":{"title":"Description","content":"Banchina was the mother of Usopp and wife of Yasopp.<br><br>She lived in Syrup Village in the East Blue.<br><br>She suffered from a long-term illness.<br><br>She raised Usopp alone while Yasopp was away at sea.<br><br>She eventually passed away due to her sickness."},
+"tab2":{"title":"Abilities","content":"<ul><li>Basic Human Abilities</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Mother of Usopp</li><li>Wife of Yasopp</li><li>Lived in Syrup Village</li><li>Died from illness</li><li>Important to Usopp’s backstory</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"banshee",
+"name":"Banshee",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=banshee",
+"parent":"one_piece",
+"info":{"Sea:":"New World","Role:":"Pirate","Affiliation:":"Spade Pirates","Sex:":"Female","Race:":"Mermaid"},
+"tabs":{
+"tab1":{"title":"Description","content":"Banshee is a mermaid and a member of the Spade Pirates.<br><br>She was the only female member of the crew.<br><br>She served under Portgas D. Ace.<br><br>She is loyal to her captain and crewmates.<br><br>She appears in Ace’s storyline."},
+"tab2":{"title":"Abilities","content":"<ul><li>Swimming Skills</li><li>Underwater Mobility</li><li>Physical Strength</li><li>Durability</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Member of Spade Pirates</li><li>Only female crew member</li><li>Served under Ace</li><li>Mermaid character</li><li>Appears in Ace story</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"banzaburo",
+"name":"Banzaburo",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=banzaburo",
+"parent":"one_piece",
+"info":{"Sea:":"New World","Role:":"Retainer","Affiliation:":"Kozuki Family","Sex:":"Male","Origin:":"Wano Country"},
+"tabs":{
+"tab1":{"title":"Description","content":"Banzaburo was a samurai from Wano Country.<br><br>He served the Kozuki Family faithfully.<br><br>He worked as a retainer and food taster.<br><br>He was loyal to Kozuki Sukiyaki.<br><br>He died before the present timeline."},
+"tab2":{"title":"Abilities","content":"<ul><li>Swordsmanship</li><li>Combat Skills</li><li>Loyalty</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Retainer of Kozuki Family</li><li>From Wano Country</li><li>Served Sukiyaki</li><li>Food taster</li><li>Deceased character</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"bao",
+"name":"Bao",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=bao",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Zombie","Affiliation:":"Thriller Bark","Sex:":"Male","Group:":"Trio"},
+"tabs":{
+"tab1":{"title":"Description","content":"Bao is one of the zombie trio members.<br><br>He serves under Gecko Moria.<br><br>He has a bucket-shaped head design.<br><br>He works alongside Gyoro and Nin.<br><br>He appears in Thriller Bark."},
+"tab2":{"title":"Abilities","content":"<ul><li>Undead Body</li><li>Durability</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Zombie trio</li><li>Thriller Bark member</li><li>Serves Moria</li><li>Bucket-shaped head</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"bao_huang",
+"name":"Bao Huang",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=bao_huang",
+"parent":"one_piece",
+"info":{"Sea:":"New World","Role:":"Scout / Surveillance","Affiliation:":"Beasts Pirates","Sex:":"Female","Devil Fruit:":"Flying Squirrel SMILE"},
+"tabs":{
+"tab1":{"title":"Description","content":"Bao Huang is a member of the Beasts Pirates and part of their surveillance division.<br><br>She works under Kaido and assists in monitoring the crew.<br><br>She appears in Wano Country as a communication support unit.<br><br>She keeps track of enemies and reports information.<br><br>She has a unique design with horns and a squirrel-like tail."},
+"tab2":{"title":"Abilities","content":"<ul><li>Flying Squirrel SMILE Transformation</li><li>Gliding Ability</li><li>Enhanced Mobility</li><li>Surveillance Skills</li><li>Communication Support</li><li>Observation Skills</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Member of Beasts Pirates</li><li>Works under Kaido</li><li>Uses SMILE fruit</li><li>Appears in Wano arc</li><li>Supports communication system</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"bariete",
+"name":"Bariete",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=bariete",
+"parent":"one_piece",
+"info":{"Sea:":"New World","Role:":"Guard / Recon","Affiliation:":"Mokomo Dukedom","Sex:":"Male","Race:":"Mink"},
+"tabs":{
+"tab1":{"title":"Description","content":"Bariete is a monkey mink from Zou.<br><br>He is part of the Recon Squad of Mokomo Dukedom.<br><br>He is responsible for guarding important locations.<br><br>He protects the gates of Zou.<br><br>He appears during the Zou arc."},
+"tab2":{"title":"Abilities","content":"<ul><li>Mink Physical Strength</li><li>Agility</li><li>Electro Ability</li><li>Jumping Skills</li><li>Combat Awareness</li><li>Guarding Skills</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Monkey mink character</li><li>Lives on Zou</li><li>Member of Recon Squad</li><li>Uses Electro</li><li>Guards Mokomo Dukedom</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"barry",
+"name":"Barry",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=barry",
+"parent":"one_piece",
+"info":{"Sea:":"New World","Role:":"Pirate","Affiliation:":"Spade Pirates","Sex:":"Male","Status:":"Alive"},
+"tabs":{
+"tab1":{"title":"Description","content":"Barry is a member of the Spade Pirates led by Portgas D. Ace.<br><br>He is loyal to his captain and crew.<br><br>He appears in Ace’s storyline.<br><br>He has a unique tall hat and slender appearance.<br><br>He travels with the crew during their adventures."},
+"tab2":{"title":"Abilities","content":"<ul><li>Basic Combat Skills</li><li>Endurance</li><li>Team Coordination</li><li>Loyalty</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Member of Spade Pirates</li><li>Serves under Ace</li><li>Minor character</li><li>Appears in Ace story</li><li>Pirate crew member</li></ul>"}},
 "gallery_count":6
 },
 
@@ -1060,7 +693,7 @@
 "type":"entity",
 "url":"entity.html?universe=anime&path=one_piece&id=bartholomew_kuma",
 "parent":"one_piece",
-"info":{"Sea":"Grand Line","Role":"Warlord","Affiliation":"Revolutionary Army","Sex":"Male","Devil Fruit":"Paw-Paw Fruit"},
+"info":{"Sea:":"Grand Line","Role:":"Warlord","Affiliation:":"Revolutionary Army","Sex:":"Male","Devil Fruit:":"Paw-Paw Fruit"},
 "tabs":{
 "tab1":{"title":"Description","content":"Kuma is a former Warlord of the Sea.<br><br>He is also linked to the Revolutionary Army.<br><br>He becomes a cyborg weapon.<br><br>He has a tragic past.<br><br>He plays a major role in the story."},
 "tab2":{"title":"Abilities","content":"<ul><li>Paw-Paw Fruit</li><li>Repulsion</li><li>Teleportation</li><li>Laser Attacks</li><li>Durability</li><li>Strength</li><li>Speed</li><li>Endurance</li></ul>"},
@@ -1074,11 +707,40 @@
 "type":"entity",
 "url":"entity.html?universe=anime&path=one_piece&id=bartolomeo",
 "parent":"one_piece",
-"info":{"Sea":"New World","Role":"Captain","Affiliation":"Barto Club","Sex":"Male","Devil Fruit":"Barrier-Barrier Fruit"},
+"info":{"Sea:":"New World","Role:":"Captain","Affiliation:":"Barto Club","Sex:":"Male","Devil Fruit:":"Barrier-Barrier Fruit"},
 "tabs":{
 "tab1":{"title":"Description","content":"Bartolomeo is the captain of the Barto Club.<br><br>He is a fan of Luffy.<br><br>He appears in Dressrosa.<br><br>He is loud and loyal.<br><br>He joins the Straw Hat Grand Fleet."},
 "tab2":{"title":"Abilities","content":"<ul><li>Barrier-Barrier Fruit</li><li>Barrier Creation</li><li>Defense</li><li>Combat Skills</li><li>Durability</li><li>Endurance</li></ul>"},
 "tab3":{"title":"Facts","content":"<ul><li>Straw Hat ally</li><li>Grand Fleet member</li><li>Devil Fruit user</li><li>Luffy fan</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"basil_hawkins",
+"name":"Basil Hawkins",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=basil_hawkins",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Hawkins Pirates","Sex:":"Male","Devil Fruit:":"Straw-Straw Fruit"},
+"tabs":{
+"tab1":{"title":"Description","content":"Hawkins is a calm and mysterious pirate.<br><br>He uses straw powers.<br><br>He relies on tarot predictions.<br><br>He is strategic and composed."},
+"tab2":{"title":"Abilities","content":"<ul><li>Straw Control</li><li>Damage Transfer</li><li>Strategy</li><li>Prediction</li><li>Speed</li><li>Combat Skills</li><li>Durability</li><li>Defense</li><li>Control</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Uses tarot cards</li><li>Straw powers</li><li>Calm nature</li><li>Worst Generation</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"baskerville",
+"name":"Baskerville",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=baskerville",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Chief Justice","Affiliation:":"Enies Lobby","Sex:":"Male (Trio)","Composition:":"Bas, And, Kerville"},
+"tabs":{
+"tab1":{"title":"Description","content":"Baskerville is the Chief Justice of Enies Lobby.<br><br>He appears as a three-headed figure.<br><br>He is actually three separate individuals: Bas, And, and Kerville.<br><br>They act together as a single authority.<br><br>They serve the World Government."},
+"tab2":{"title":"Abilities","content":"<ul><li>Judicial Authority</li><li>Team Coordination</li><li>Combat Skills</li><li>Durability</li><li>Endurance</li><li>Weapon Usage</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Chief Justice of Enies Lobby</li><li>Three individuals acting as one</li><li>Members: Bas, And, Kerville</li><li>Serve World Government</li><li>Appear in Enies Lobby arc</li></ul>"}},
 "gallery_count":6
 },
 
@@ -1088,7 +750,7 @@
 "type":"entity",
 "url":"entity.html?universe=anime&path=one_piece&id=batman",
 "parent":"one_piece",
-"info":{"Sea":"Wano","Role":"Gifter","Affiliation":"Beast Pirates","Sex":"Male","Devil Fruit":"SMILE (Bat)"},
+"info":{"Sea:":"Wano","Role:":"Gifter","Affiliation:":"Beast Pirates","Sex:":"Male","Devil Fruit:":"SMILE (Bat)"},
 "tabs":{
 "tab1":{"title":"Description","content":"Batman is a member of the Beast Pirates.<br><br>He is a SMILE user with bat abilities.<br><br>He appears during the Wano arc.<br><br>He fights using aerial attacks.<br><br>He serves under Kaido."},
 "tab2":{"title":"Abilities","content":"<ul><li>Bat SMILE Transformation</li><li>Flight</li><li>Enhanced Hearing</li><li>Archery</li><li>Combat Skills</li><li>Durability</li></ul>"},
@@ -1096,17 +758,626 @@
 "gallery_count":6
 },
 
+
 {
-"id":"ahiru",
-"name":"Ahiru",
+"id":"boa_hancock",
+"name":"Boa Hancock",
 "type":"entity",
-"url":"entity.html?universe=anime&path=one_piece&id=ahiru",
+"url":"entity.html?universe=anime&path=one_piece&id=boa_hancock",
 "parent":"one_piece",
-"info":{"Sea":"Grand Line","Role":"Deputy Commander","Affiliation":"Revolutionary Army","Sex":"Female","Division":"East Army"},
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Empress",
+"Crew:":"Kuja Pirates",
+"Sex:":"Female",
+"Devil Fruit:":"Love-Love Fruit"
+},
+
 "tabs":{
-"tab1":{"title":"Description","content":"Ahiru is the deputy commander of the East Army in the Revolutionary Army.<br><br>She serves directly under Belo Betty.<br><br>She appears during the Levely arc.<br><br>She is a calm and composed individual.<br><br>She plays a supporting role in Revolutionary operations."},
-"tab2":{"title":"Abilities","content":"<ul><li>Combat Skills</li><li>Leadership Support</li><li>Strategic Awareness</li><li>Weapon Usage</li><li>Mobility</li><li>Endurance</li></ul>"},
-"tab3":{"title":"Facts","content":"<ul><li>Deputy Commander of East Army</li><li>Works under Belo Betty</li><li>Revolutionary Army member</li><li>Appears in Levely arc</li><li>Human character</li></ul>"}},
+"tab1":{"title":"Description","content":"Hancock is the Pirate Empress.<br><br>She can turn people into stone.<br><br>She loves Luffy.<br><br>She is very powerful."},
+"tab2":{"title":"Abilities","content":"<ul><li>Petrification</li><li>Kick Attacks</li><li>Speed</li><li>Strength</li><li>Observation Haki</li><li>Armament Haki</li><li>Beauty Charm</li><li>Combat Skills</li><li>Agility</li><li>Reflexes</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Pirate Empress</li><li>Loves Luffy</li><li>Warlord</li><li>Amazon Lily ruler</li></ul>"}},
+"gallery_count":6
+},
+
+
+
+{
+"id":"brook",
+"name":"Brook",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=brook",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Musician",
+"Crew:":"Straw Hat Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"Revive-Revive Fruit"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Brook is a skeleton musician.<br><br>He came back to life using his Devil Fruit.<br><br>He loves music and jokes.<br><br>He is a swordsman."},
+"tab2":{"title":"Abilities","content":"<ul><li>Soul Powers</li><li>Swordsmanship</li><li>Speed</li><li>Music Attacks</li><li>Ice Attacks</li><li>Agility</li><li>Reflexes</li><li>Endurance</li><li>Stealth</li><li>Combat Skills</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Skeleton</li><li>Loves music</li><li>Immortal body</li><li>Funny personality</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"buggy",
+"name":"Buggy",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=buggy",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Captain",
+"Crew:":"Buggy Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"Chop-Chop Fruit"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Buggy is a comedic pirate.<br><br>He can split his body.<br><br>He is lucky and survives many situations.<br><br>He becomes famous accidentally."},
+"tab2":{"title":"Abilities","content":"<ul><li>Body Separation</li><li>Immunity to swords</li><li>Flight (body parts)</li><li>Speed</li><li>Agility</li><li>Durability</li><li>Combat Skills</li><li>Reflexes</li><li>Survival Skills</li><li>Luck</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Clown pirate</li><li>Former Roger crew</li><li>Very lucky</li><li>Comic character</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"capone_bege",
+"name":"Capone Bege",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=capone_bege",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Fire Tank Pirates","Sex:":"Male","Devil Fruit:":"Castle-Castle Fruit"},
+"tabs":{
+"tab1":{"title":"Description","content":"Bege is a mafia-like pirate captain.<br><br>He can transform into a castle.<br><br>He uses strategy in battle.<br><br>He is calm and calculated."},
+"tab2":{"title":"Abilities","content":"<ul><li>Castle Transformation</li><li>Defense</li><li>Strategy</li><li>Gun Attacks</li><li>Durability</li><li>Combat Skills</li><li>Endurance</li><li>Control</li><li>Leadership</li><li>Precision</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Mafia style pirate</li><li>Castle powers</li><li>Strategic</li><li>Captain</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"crocodile",
+"name":"Crocodile",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=crocodile",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Warlord",
+"Crew:":"Baroque Works",
+"Sex:":"Male",
+"Devil Fruit:":"Sand-Sand Fruit"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Crocodile is a former Warlord.<br><br>He controls sand.<br><br>He is strategic and ruthless.<br><br>He tried to take over a kingdom."},
+"tab2":{"title":"Abilities","content":"<ul><li>Sand Control</li><li>Dehydration</li><li>Flight</li><li>Speed</li><li>Strength</li><li>Strategy</li><li>Combat Skills</li><li>Durability</li><li>Defense</li><li>Reflexes</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Warlord</li><li>Baroque Works leader</li><li>Sand powers</li><li>Villain</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"donquixote_doflamingo",
+"name":"Donquixote Doflamingo",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=donquixote_doflamingo",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Captain",
+"Crew:":"Donquixote Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"String-String Fruit"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Doflamingo is a powerful and cruel pirate.<br><br>He controls strings.<br><br>He was a former Warlord.<br><br>He is manipulative and dangerous."},
+"tab2":{"title":"Abilities","content":"<ul><li>String Control</li><li>Flight</li><li>Manipulation</li><li>Speed</li><li>Strength</li><li>Armament Haki</li><li>Observation Haki</li><li>Durability</li><li>Combat Skills</li><li>Strategy</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Warlord</li><li>String powers</li><li>Manipulative</li><li>Former king</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"dracule_mihawk",
+"name":"Dracule Mihawk",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=dracule_mihawk",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Swordsman",
+"Crew:":"None",
+"Sex:":"Male",
+"Devil Fruit:":"None"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Mihawk is the strongest swordsman in the world.<br><br>He is Zoro’s goal.<br><br>He is calm and deadly.<br><br>He uses a massive black sword."},
+"tab2":{"title":"Abilities","content":"<ul><li>Sword Mastery</li><li>Precision</li><li>Speed</li><li>Strength</li><li>Armament Haki</li><li>Observation Haki</li><li>Combat Skills</li><li>Reflexes</li><li>Accuracy</li><li>Power Attacks</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Strongest swordsman</li><li>Zoro’s goal</li><li>Uses Yoru sword</li><li>Warlord</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"enel",
+"name":"Enel",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=enel",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Sky Island",
+"Role:":"God",
+"Crew:":"None",
+"Sex:":"Male",
+"Devil Fruit:":"Lightning-Lightning Fruit"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Enel is the ruler of Skypiea.<br><br>He controls lightning.<br><br>He believes he is a god.<br><br>He has immense power."},
+"tab2":{"title":"Abilities","content":"<ul><li>Lightning Control</li><li>Speed</li><li>Observation Haki</li><li>Destruction</li><li>Flight</li><li>Power Attacks</li><li>Reflexes</li><li>Durability</li><li>Energy Attacks</li><li>Awareness</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>God of Skypiea</li><li>Lightning powers</li><li>Very powerful</li><li>Defeated by Luffy</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"eustass_kid",
+"name":"Eustass Kid",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=eustass_kid",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Kid Pirates","Sex:":"Male","Devil Fruit:":"Magnet-Magnet Fruit"},
+"tabs":{
+"tab1":{"title":"Description","content":"Kid is a ruthless pirate captain.<br><br>He controls magnetism.<br><br>He is part of the Worst Generation.<br><br>He seeks power and dominance."},
+"tab2":{"title":"Abilities","content":"<ul><li>Magnetism Control</li><li>Metal Manipulation</li><li>Strength</li><li>Durability</li><li>Speed</li><li>Combat Skills</li><li>Armament Haki</li><li>Endurance</li><li>Power Attacks</li><li>Destruction</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Worst Generation</li><li>Ruthless pirate</li><li>Magnetic powers</li><li>Captain</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"franky",
+"name":"Franky",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=franky",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Shipwright",
+"Crew:":"Straw Hat Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"None"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Franky is the shipwright of the crew.<br><br>He is a cyborg.<br><br>He built the Thousand Sunny.<br><br>He is loud and confident."},
+"tab2":{"title":"Abilities","content":"<ul><li>Cyborg Weapons</li><li>Strength</li><li>Laser Attacks</li><li>Durability</li><li>Engineering</li><li>Speed</li><li>Combat Skills</li><li>Defense</li><li>Energy Attacks</li><li>Mechanics</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Cyborg</li><li>Says SUPER</li><li>Built Sunny</li><li>Loves cola</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"gyoro",
+"name":"Gyoro",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=gyoro",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Zombie","Affiliation:":"Thriller Bark","Sex:":"Male","Group:":"Trio"},
+"tabs":{
+"tab1":{"title":"Description","content":"Gyoro is one of the soldier zombies from the trio.<br><br>He serves Gecko Moria.<br><br>He has a unique one-eyed appearance.<br><br>He works alongside Nin and Bao.<br><br>He appears in Thriller Bark."},
+"tab2":{"title":"Abilities","content":"<ul><li>Undead Body</li><li>Durability</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Part of trio</li><li>Thriller Bark zombie</li><li>Serves Moria</li><li>One-eyed design</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"jewelry_bonney",
+"name":"Jewelry Bonney",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=jewelry_bonney",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Bonney Pirates","Sex:":"Female","Devil Fruit:":"Age-Age Fruit"},
+"tabs":{
+"tab1":{"title":"Description","content":"Bonney is a pirate captain with age powers.<br><br>She can change ages of people.<br><br>She is part of the Worst Generation.<br><br>She has a strong personality."},
+"tab2":{"title":"Abilities","content":"<ul><li>Age Manipulation</li><li>Speed</li><li>Agility</li><li>Combat Skills</li><li>Durability</li><li>Reflexes</li><li>Control</li><li>Endurance</li><li>Strategy</li><li>Adaptability</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Worst Generation</li><li>Controls age</li><li>Captain</li><li>Loves food</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"killer",
+"name":"Killer",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=killer",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Combatant","Crew:":"Kid Pirates","Sex:":"Male","Devil Fruit:":"None"},
+"tabs":{
+"tab1":{"title":"Description","content":"Killer is Kid’s right-hand man.<br><br>He is a skilled fighter.<br><br>He uses scythe-like weapons.<br><br>He is calm and deadly."},
+"tab2":{"title":"Abilities","content":"<ul><li>Blade Combat</li><li>Speed</li><li>Agility</li><li>Strength</li><li>Combat Skills</li><li>Endurance</li><li>Reflexes</li><li>Precision</li><li>Stealth</li><li>Attack Power</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Kid’s partner</li><li>Masked fighter</li><li>Uses blades</li><li>Calm personality</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"marshall_d_teach",
+"name":"Marshall D. Teach",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=marshall_d_teach",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"New World",
+"Role:":"Captain",
+"Crew:":"Blackbeard Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"Dark-Dark Fruit"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Blackbeard is a dangerous pirate.<br><br>He seeks power and chaos.<br><br>He controls darkness.<br><br>He is one of the Yonko."},
+"tab2":{"title":"Abilities","content":"<ul><li>Darkness Control</li><li>Gravity Pull</li><li>Strength</li><li>Durability</li><li>Strategy</li><li>Combat Skills</li><li>Endurance</li><li>Power Attacks</li><li>Control</li><li>Fearless Nature</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Yonko</li><li>Dangerous pirate</li><li>Seeks power</li><li>Main villain</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"monkey_d_luffy",
+"name":"Monkey D. Luffy",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=monkey_d_luffy",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Captain",
+"Crew:":"Straw Hat Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"Gum-Gum Fruit"
+},
+
+"tabs":{
+"tab1":{
+"title":"Description",
+"content":"Monkey D. Luffy is the captain of the Straw Hat Pirates who dreams of becoming the Pirate King.<br><br>He gained rubber powers after eating a Devil Fruit.<br><br>Luffy is fearless, cheerful, and values his friends above everything.<br><br>He travels the seas in search of the legendary treasure One Piece."
+},
+
+"tab2":{
+"title":"Abilities",
+"content":"<ul><li>Rubber Body</li><li>Gum-Gum Pistol</li><li>Gear Second</li><li>Gear Third</li><li>Gear Fourth</li><li>Super Strength</li><li>High Speed</li><li>Durability</li><li>Observation Haki</li><li>Armament Haki</li><li>Conqueror’s Haki</li><li>Combat Instinct</li><li>Endurance</li><li>Elastic Attacks</li><li>Battle Creativity</li></ul>"
+},
+
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Captain of Straw Hat Pirates</li><li>Wants to become Pirate King</li><li>Inspired by Shanks</li><li>Has a straw hat as his symbol</li><li>Loves meat</li></ul>"
+}
+},
+
+"gallery_count":6
+},
+
+{
+"id":"nami",
+"name":"Nami",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=nami",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Navigator",
+"Crew:":"Straw Hat Pirates",
+"Sex:":"Female",
+"Devil Fruit:":"None"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Nami is the navigator of the Straw Hat crew.<br><br>She is skilled in weather prediction.<br><br>She loves money.<br><br>She is very intelligent."},
+"tab2":{"title":"Abilities","content":"<ul><li>Weather Control</li><li>Clima-Tact</li><li>Navigation</li><li>Intelligence</li><li>Speed</li><li>Agility</li><li>Strategy</li><li>Lightning Attacks</li><li>Accuracy</li><li>Reflexes</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Loves money</li><li>Navigator</li><li>Smartest crew member</li><li>Controls weather</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"nico_robin",
+"name":"Nico Robin",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=nico_robin",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Archaeologist",
+"Crew:":"Straw Hat Pirates",
+"Sex:":"Female",
+"Devil Fruit:":"Flower-Flower Fruit"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Robin is the archaeologist of the crew.<br><br>She can grow body parts anywhere.<br><br>She seeks true history.<br><br>She is calm and intelligent."},
+"tab2":{"title":"Abilities","content":"<ul><li>Body Duplication</li><li>Giant Limbs</li><li>Clutch Attacks</li><li>Intelligence</li><li>Strategy</li><li>Speed</li><li>Agility</li><li>Combat Skills</li><li>Knowledge</li><li>Defense</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Archaeologist</li><li>Survivor of Ohara</li><li>Reads poneglyphs</li><li>Calm personality</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"nin",
+"name":"Nin",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=nin",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Zombie","Affiliation:":"Thriller Bark","Sex:":"Male","Group:":"Trio"},
+"tabs":{
+"tab1":{"title":"Description","content":"Nin is a member of the zombie trio.<br><br>He serves Gecko Moria.<br><br>He has a triangular head shape.<br><br>He works with Gyoro and Bao.<br><br>He appears in Thriller Bark."},
+"tab2":{"title":"Abilities","content":"<ul><li>Undead Body</li><li>Durability</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Zombie trio member</li><li>Thriller Bark</li><li>Serves Moria</li><li>Unique design</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"portgas_d_ace",
+"name":"Portgas D. Ace",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=portgas_d_ace",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Commander",
+"Crew:":"Whitebeard Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"Flame-Flame Fruit"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Ace is Luffy’s brother and a powerful pirate.<br><br>He serves under Whitebeard.<br><br>He controls fire using his Devil Fruit.<br><br>He is brave and loyal."},
+"tab2":{"title":"Abilities","content":"<ul><li>Fire Control</li><li>Flame Attacks</li><li>Speed</li><li>Strength</li><li>Durability</li><li>Combat Skills</li><li>Agility</li><li>Reflexes</li><li>Endurance</li><li>Power Attacks</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Luffy’s brother</li><li>Son of Roger</li><li>Fire powers</li><li>Loyal pirate</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"roronoa_zoro",
+"name":"Roronoa Zoro",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=roronoa_zoro",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Swordsman",
+"Crew:":"Straw Hat Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"None"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Zoro is a master swordsman and Luffy’s right-hand man.<br><br>He aims to become the greatest swordsman.<br><br>He uses three-sword style.<br><br>He is extremely loyal."},
+"tab2":{"title":"Abilities","content":"<ul><li>Three Sword Style</li><li>Super Strength</li><li>Endurance</li><li>Sword Mastery</li><li>Speed</li><li>Armament Haki</li><li>Observation Haki</li><li>Durability</li><li>Combat Skills</li><li>Focus</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Gets lost easily</li><li>Loyal to Luffy</li><li>Uses 3 swords</li><li>Dreams to be strongest swordsman</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"sabo",
+"name":"Sabo",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=sabo",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Chief of Staff","Crew:":"Revolutionary Army","Sex:":"Male","Devil Fruit:":"Flame-Flame Fruit"},
+"tabs":{
+"tab1":{"title":"Description","content":"Sabo is Luffy’s brother and revolutionary leader.<br><br>He inherited Ace’s fire powers.<br><br>He fights for freedom.<br><br>He is powerful and intelligent."},
+"tab2":{"title":"Abilities","content":"<ul><li>Fire Control</li><li>Dragon Claw</li><li>Strength</li><li>Speed</li><li>Armament Haki</li><li>Observation Haki</li><li>Combat Skills</li><li>Agility</li><li>Reflexes</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Luffy’s brother</li><li>Revolutionary leader</li><li>Inherited Ace’s fruit</li><li>Strong fighter</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"sanji",
+"name":"Sanji",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=sanji",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Cook",
+"Crew:":"Straw Hat Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"None"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Sanji is the cook of the Straw Hat Pirates.<br><br>He fights using powerful kicks.<br><br>He respects women deeply.<br><br>He dreams of finding All Blue."},
+"tab2":{"title":"Abilities","content":"<ul><li>Black Leg Style</li><li>Speed</li><li>Strength</li><li>Diable Jambe</li><li>Observation Haki</li><li>Armament Haki</li><li>Agility</li><li>Reflexes</li><li>Cooking Skills</li><li>Combat Skills</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Cook of crew</li><li>Loves women</li><li>Won’t hit females</li><li>Dream: All Blue</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"scratchmen_apoo",
+"name":"Scratchmen Apoo",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=scratchmen_apoo",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"On Air Pirates","Sex:":"Male","Devil Fruit:":"Sound-Sound Fruit"},
+"tabs":{
+"tab1":{"title":"Description","content":"Apoo is a music-based pirate.<br><br>He uses sound attacks.<br><br>He is unpredictable.<br><br>He is part of Worst Generation."},
+"tab2":{"title":"Abilities","content":"<ul><li>Sound Attacks</li><li>Music Combat</li><li>Speed</li><li>Agility</li><li>Reflexes</li><li>Combat Skills</li><li>Endurance</li><li>Control</li><li>Strategy</li><li>Energy Attacks</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Music fighter</li><li>Worst Generation</li><li>Sound powers</li><li>Unpredictable</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"shanks",
+"name":"Shanks",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=shanks",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"New World",
+"Role:":"Captain",
+"Crew:":"Red-Haired Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"None"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Shanks is one of the Four Emperors.<br><br>He inspired Luffy to become a pirate.<br><br>He is calm but extremely powerful.<br><br>He values balance in the world."},
+"tab2":{"title":"Abilities","content":"<ul><li>Conqueror Haki</li><li>Armament Haki</li><li>Observation Haki</li><li>Swordsmanship</li><li>Speed</li><li>Strength</li><li>Leadership</li><li>Combat Skills</li><li>Reflexes</li><li>Presence</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Yonko</li><li>Inspired Luffy</li><li>Lost arm</li><li>Strong haki user</li></ul>"}},
+"gallery_count":6
+},
+
+{
+"id":"silvers_rayleigh",
+"name":"Silvers Rayleigh",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=silvers_rayleigh",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Vice Captain","Crew:":"Roger Pirates","Sex:":"Male","Devil Fruit:":"None"},
+"tabs":{
+"tab1":{"title":"Description","content":"Rayleigh is the former vice captain of Roger Pirates.<br><br>He is extremely powerful.<br><br>He trained Luffy.<br><br>He is calm and wise."},
+"tab2":{"title":"Abilities","content":"<ul><li>Conqueror Haki</li><li>Armament Haki</li><li>Observation Haki</li><li>Swordsmanship</li><li>Speed</li><li>Strength</li><li>Combat Skills</li><li>Reflexes</li><li>Endurance</li><li>Mastery</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Roger’s partner</li><li>Luffy’s teacher</li><li>Legendary pirate</li><li>Master of haki</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"smoker",
+"name":"Smoker",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=smoker",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Marine",
+"Crew:":"Navy",
+"Sex:":"Male",
+"Devil Fruit:":"Smoke-Smoke Fruit"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Smoker is a Marine officer.<br><br>He hunts pirates.<br><br>He controls smoke.<br><br>He has strong justice beliefs."},
+"tab2":{"title":"Abilities","content":"<ul><li>Smoke Control</li><li>Flight</li><li>Speed</li><li>Strength</li><li>Armament Haki</li><li>Combat Skills</li><li>Durability</li><li>Reflexes</li><li>Capture Skills</li><li>Endurance</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Marine officer</li><li>Chases Luffy</li><li>Uses jitte</li><li>Justice driven</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"tony_tony_chopper",
+"name":"Tony Tony Chopper",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=tony_tony_chopper",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Doctor",
+"Crew:":"Straw Hat Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"Human-Human Fruit"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Chopper is the doctor of the crew.<br><br>He is a reindeer who ate a Devil Fruit.<br><br>He can transform into human forms.<br><br>He is kind and caring."},
+"tab2":{"title":"Abilities","content":"<ul><li>Transformations</li><li>Medical Skills</li><li>Strength</li><li>Speed</li><li>Monster Point</li><li>Endurance</li><li>Agility</li><li>Healing</li><li>Combat Skills</li><li>Defense</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Reindeer doctor</li><li>Very cute</li><li>Loyal friend</li><li>Hates compliments</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"trafalgar_law",
+"name":"Trafalgar Law",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=trafalgar_law",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Captain",
+"Crew:":"Heart Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"Op-Op Fruit"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Law is the captain of Heart Pirates.<br><br>He is a skilled doctor.<br><br>He is calm and strategic.<br><br>He is part of the Worst Generation."},
+"tab2":{"title":"Abilities","content":"<ul><li>Room Ability</li><li>Surgery Powers</li><li>Teleportation</li><li>Strategy</li><li>Sword Skills</li><li>Speed</li><li>Intelligence</li><li>Combat Skills</li><li>Precision</li><li>Control</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Doctor pirate</li><li>Heart Pirates captain</li><li>Uses Room</li><li>Calm personality</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"urouge",
+"name":"Urouge",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=urouge",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Fallen Monk Pirates","Sex:":"Male","Devil Fruit:":"None"},
+"tabs":{
+"tab1":{"title":"Description","content":"Urouge is a monk-like pirate.<br><br>He gains power from damage.<br><br>He is physically strong.<br><br>He is calm and confident."},
+"tab2":{"title":"Abilities","content":"<ul><li>Damage Conversion</li><li>Strength</li><li>Durability</li><li>Speed</li><li>Combat Skills</li><li>Endurance</li><li>Reflexes</li><li>Power Boost</li><li>Defense</li><li>Stamina</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Monk pirate</li><li>Strong body</li><li>Worst Generation</li><li>Calm personality</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"usopp",
+"name":"Usopp",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=usopp",
+"parent":"one_piece",
+
+"info":{
+"Sea:":"Grand Line",
+"Role:":"Sniper",
+"Crew:":"Straw Hat Pirates",
+"Sex:":"Male",
+"Devil Fruit:":"None"
+},
+
+"tabs":{
+"tab1":{"title":"Description","content":"Usopp is the sniper of the crew.<br><br>He is creative and resourceful.<br><br>He often lies but becomes brave in battle.<br><br>He dreams of being a great warrior."},
+"tab2":{"title":"Abilities","content":"<ul><li>Sniping</li><li>Accuracy</li><li>Trick Weapons</li><li>Strategy</li><li>Observation Haki</li><li>Speed</li><li>Agility</li><li>Creativity</li><li>Reflexes</li><li>Combat Skills</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Great liar</li><li>Sniper</li><li>Brave warrior dream</li><li>Inventor</li></ul>"}},
+"gallery_count":6
+},
+
+
+{
+"id":"x_drake",
+"name":"X Drake",
+"type":"entity",
+"url":"entity.html?universe=anime&path=one_piece&id=x_drake",
+"parent":"one_piece",
+"info":{"Sea:":"Grand Line","Role:":"Captain","Crew:":"Drake Pirates","Sex:":"Male","Devil Fruit:":"Dinosaur-Dinosaur Fruit"},
+"tabs":{
+"tab1":{"title":"Description","content":"Drake is a pirate and former Marine.<br><br>He can transform into a dinosaur.<br><br>He is part of the Worst Generation.<br><br>He is strong and strategic."},
+"tab2":{"title":"Abilities","content":"<ul><li>Dinosaur Transformation</li><li>Strength</li><li>Durability</li><li>Speed</li><li>Combat Skills</li><li>Endurance</li><li>Reflexes</li><li>Power Attacks</li><li>Defense</li><li>Strategy</li></ul>"},
+"tab3":{"title":"Facts","content":"<ul><li>Worst Generation</li><li>Former Marine</li><li>Dinosaur powers</li><li>Captain</li></ul>"}},
 "gallery_count":6
 }
 
