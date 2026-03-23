@@ -794,7 +794,7 @@
 "type":"entity",
 "url":"entity.html?universe=anime&path=one_piece&id=battaman",
 "parent":"one_piece",
-"info":{"Sea:":"New World","Role:":"Gifter","Affiliation:":"Beasts Pirates","Devil Fruit:":"SMILE"},
+"info":{"Sea:":"New World","Role:":"Gifter","Affiliation:":"Beasts Pirates","Sex:":"Male","Devil Fruit:":"SMILE"},
 "tabs":{
 "tab1":{"title":"Description","content":"Battaman is a Gifter of the Beasts Pirates.<br><br>He has grasshopper-like traits due to a SMILE fruit.<br><br>He wears a helmet with a T-shaped marking.<br><br>He fights using enhanced jumping and physical power."},
 "tab2":{"title":"Abilities","content":"<ul><li>Enhanced Jumping</li><li>Physical Strength</li><li>SMILE Transformation</li><li>Combat Skills</li><li>Durability</li></ul>"},
@@ -808,7 +808,7 @@
 "type":"entity",
 "url":"entity.html?universe=anime&path=one_piece&id=baxcon",
 "parent":"one_piece",
-"info":{"Sea:":"Dressrosa","Role:":"Scout","Affiliation":"Tontatta Kingdom","Race":"Dwarf"},
+"info":{"Sea:":"Dressrosa","Role:":"Scout","Affiliation:":"Tontatta Kingdom","Sex:":"Male","Race:":"Dwarf"},
 "tabs":{
 "tab1":{"title":"Description","content":"Baxcon is a dwarf from the Tontatta Kingdom.<br><br>He is part of the scouting unit.<br><br>He has a muscular build and strong physique.<br><br>He is known for bravery in Dressrosa."},
 "tab2":{"title":"Abilities","content":"<ul><li>Enhanced Strength</li><li>Speed</li><li>Stealth</li><li>Combat Skills</li><li>Endurance</li></ul>"},
