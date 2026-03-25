@@ -405,15 +405,6 @@
     "url": "category.html?universe=anime&path=gintama"
   },
   {
-    "name": "The God of High School",
-    "id": "god_of_high_school",
-    "type": "category",
-    "universe": "anime",
-    "path": "",
-    "parent": "anime",
-    "url": "category.html?universe=anime&path=god_of_high_school"
-  },
-  {
     "name": "Haikyuu!!",
     "id": "haikyuu",
     "type": "category",
@@ -466,15 +457,6 @@
     "path": "",
     "parent": "anime",
     "url": "category.html?universe=anime&path=jujutsu_kaisen"
-  },
-  {
-    "name": "The Legend of Hanuman",
-    "id": "legend_of_hanuman",
-    "type": "category",
-    "universe": "anime",
-    "path": "",
-    "parent": "anime",
-    "url": "category.html?universe=anime&path=legend_of_hanuman"
   },
   {
     "name": "Marvel Animated Universe",
@@ -1861,6 +1843,24 @@
     "path": "",
     "parent": "anime",
     "url": "category.html?universe=anime&path=steins_gate"
+  },
+  {
+    "name": "The God of High School",
+    "id": "the_god_of_high_school",
+    "type": "category",
+    "universe": "anime",
+    "path": "",
+    "parent": "anime",
+    "url": "category.html?universe=anime&path=the_god_of_high_school"
+  },
+  {
+    "name": "The Legend of Hanuman",
+    "id": "the_legend_of_hanuman",
+    "type": "category",
+    "universe": "anime",
+    "path": "",
+    "parent": "anime",
+    "url": "category.html?universe=anime&path=the_legend_of_hanuman"
   },
   {
     "name": "The Seven Deadly Sins",

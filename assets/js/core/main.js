@@ -7,7 +7,7 @@ window.getCDNImage = function(id, type="thumb", universe="", path=""){
   const base = "ultimate-multiverse";
 
   const HERO_TRANSFORM = "f_auto,q_auto,c_fit,w_600,h_600,b_transparent/";
-  const THUMB_TRANSFORM = "f_auto,q_auto,c_fit,w_300,h_300/";
+  const THUMB_TRANSFORM = "f_auto,q_auto,c_fit,w_600,h_600/";
   const GALLERY_TRANSFORM = "f_auto,q_auto/";
 
   /* ================= HOME ================= */
