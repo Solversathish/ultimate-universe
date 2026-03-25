@@ -4,6 +4,15 @@
   { "id": "assassination_classroom", "name": "Assassination Classroom", "type": "category", "universe": "anime", "path": "assassination_classroom", "url": "category.html?universe=anime&path=assassination_classroom", "parent": "anime" },
   { "id": "attack_on_titan", "name": "Attack on Titan", "type": "category", "universe": "anime", "path": "attack_on_titan", "url": "category.html?universe=anime&path=attack_on_titan", "parent": "anime" },
   { "id": "baki_hanma", "name": "Baki Hanma", "type": "category", "universe": "anime", "path": "baki_hanma", "url": "category.html?universe=anime&path=baki_hanma", "parent": "anime" },
+  {
+  "id": "beelzebub",
+  "name": "Beelzebub",
+  "type": "category",
+  "universe": "anime",
+  "path": "beelzebub",
+  "url": "category.html?universe=anime&path=beelzebub",
+  "parent": "anime"
+},
   { "id": "black_clover", "name": "Black Clover", "type": "category", "universe": "anime", "path": "black_clover", "url": "category.html?universe=anime&path=black_clover", "parent": "anime" },
   { "id": "bleach", "name": "Bleach", "type": "category", "universe": "anime", "path": "bleach", "url": "category.html?universe=anime&path=bleach", "parent": "anime" },
   { "id": "blue_lock", "name": "Blue Lock", "type": "category", "universe": "anime", "path": "blue_lock", "url": "category.html?universe=anime&path=blue_lock", "parent": "anime" },
@@ -49,5 +58,14 @@
   { "id": "tokyo_ghoul", "name": "Tokyo Ghoul", "type": "category", "universe": "anime", "path": "tokyo_ghoul", "url": "category.html?universe=anime&path=tokyo_ghoul", "parent": "anime" },
   { "id": "tokyo_revengers", "name": "Tokyo Revengers", "type": "category", "universe": "anime", "path": "tokyo_revengers", "url": "category.html?universe=anime&path=tokyo_revengers", "parent": "anime" },
   { "id": "tower_of_god", "name": "Tower of God", "type": "category", "universe": "anime", "path": "tower_of_god", "url": "category.html?universe=anime&path=tower_of_god", "parent": "anime" },
-  { "id": "vinland_saga", "name": "Vinland Saga", "type": "category", "universe": "anime", "path": "vinland_saga", "url": "category.html?universe=anime&path=vinland_saga", "parent": "anime" }
+  { "id": "vinland_saga", "name": "Vinland Saga", "type": "category", "universe": "anime", "path": "vinland_saga", "url": "category.html?universe=anime&path=vinland_saga", "parent": "anime" },
+  {
+  "id": "wind_breaker",
+  "name": "Wind Breaker",
+  "type": "category",
+  "universe": "anime",
+  "path": "wind_breaker",
+  "url": "category.html?universe=anime&path=wind_breaker",
+  "parent": "anime"
+}
 ]

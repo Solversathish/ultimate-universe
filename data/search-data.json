@@ -135,6 +135,15 @@
     "url": "category.html?universe=anime&path=baki_hanma"
   },
   {
+    "name": "Beelzebub",
+    "id": "beelzebub",
+    "type": "category",
+    "universe": "anime",
+    "path": "",
+    "parent": "anime",
+    "url": "category.html?universe=anime&path=beelzebub"
+  },
+  {
     "name": "Black Clover",
     "id": "black_clover",
     "type": "category",
@@ -1897,6 +1906,15 @@
     "path": "",
     "parent": "anime",
     "url": "category.html?universe=anime&path=vinland_saga"
+  },
+  {
+    "name": "Wind Breaker",
+    "id": "wind_breaker",
+    "type": "category",
+    "universe": "anime",
+    "path": "",
+    "parent": "anime",
+    "url": "category.html?universe=anime&path=wind_breaker"
   },
   {
     "name": "Cricket",
