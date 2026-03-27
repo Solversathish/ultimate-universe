@@ -52,8 +52,8 @@ card.className="card";
 card.innerHTML=`
 <div class="image-wrapper">
 <img src="${getCDNImage(item.id,"thumb")}" loading="lazy">
-</div>
 <div class="card-title">${item.name}</div>
+</div>
 `;
 
 card.addEventListener("click",()=>{
