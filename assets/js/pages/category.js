@@ -143,8 +143,8 @@ card.id = item.id;
 card.innerHTML = `
 <div class="image-wrapper">
 <img src="${getCDNImage(item.id, 'thumb', universe, path || '')}" loading="lazy">
-<div class="card-title">${item.name}</div>
 </div>
+<div class="card-title">${item.name}</div>
 `;
 
 card.addEventListener("click", () => {

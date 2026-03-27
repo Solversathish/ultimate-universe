@@ -457,63 +457,41 @@ gap: 20px;
 /* Phone */
 @media (max-width: 768px) {
   .grid-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* ================= CARD ================= */
-/* CARD */
 .card {
-  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 15px;
+  border: 2px solid #00ff88;
   overflow: hidden;
-  border: 1.5px solid #00ff88;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 12px #00ff88;
+  transform: translateY(-6px);
+  box-shadow: 0 0 15px #00ff88;
 }
 
-/* IMAGE WRAPPER */
 .image-wrapper {
-  position: relative;
   width: 100%;
-  aspect-ratio: 3 / 4;   /* 🔥 IMPORTANT (like Google cards) */
+  aspect-ratio: 1 / 1;
   overflow: hidden;
 }
 
-/* IMAGE */
 .image-wrapper img {
   width: 100%;
   height: 100%;
-  object-fit: fit;  
+  object-fit: cover;
 }
 
-/* TITLE INSIDE IMAGE */
 .card-title {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-
-  padding: 10px;
-
-  background: linear-gradient(
-    to top,
-    rgba(0,0,0,0.8),
-    rgba(0,0,0,0)
-  );
-
-  color: #fff;
-  font-weight: 600;
+  padding: 8px;
   text-align: center;
-  font-size: 16px;
-}
-
-.card-title {
-  text-shadow: 0 0 5px rgba(0,255,136,0.8);
+  font-weight: 600;
 }
 
 /* Hide images toggle */
