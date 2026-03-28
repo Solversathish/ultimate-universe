@@ -648,6 +648,78 @@
     "url": "category.html?universe=actress&path=turkish_actress"
   },
   {
+    "name": "AI Agents",
+    "id": "ai_agents",
+    "type": "category",
+    "universe": "ais",
+    "path": "",
+    "parent": "ais",
+    "url": "category.html?universe=ais&path=ai_agents"
+  },
+  {
+    "name": "AI Assistants",
+    "id": "ai_assistants",
+    "type": "category",
+    "universe": "ais",
+    "path": "",
+    "parent": "ais",
+    "url": "category.html?universe=ais&path=ai_assistants"
+  },
+  {
+    "name": "AI Chatbots",
+    "id": "ai_chatbots",
+    "type": "category",
+    "universe": "ais",
+    "path": "",
+    "parent": "ais",
+    "url": "category.html?universe=ais&path=ai_chatbots"
+  },
+  {
+    "name": "AI Coding Tools",
+    "id": "ai_coding_tools",
+    "type": "category",
+    "universe": "ais",
+    "path": "",
+    "parent": "ais",
+    "url": "category.html?universe=ais&path=ai_coding_tools"
+  },
+  {
+    "name": "AI Image Generators",
+    "id": "ai_image_generators",
+    "type": "category",
+    "universe": "ais",
+    "path": "",
+    "parent": "ais",
+    "url": "category.html?universe=ais&path=ai_image_generators"
+  },
+  {
+    "name": "AI Language Models",
+    "id": "ai_language_models",
+    "type": "category",
+    "universe": "ais",
+    "path": "",
+    "parent": "ais",
+    "url": "category.html?universe=ais&path=ai_language_models"
+  },
+  {
+    "name": "AI Music Generators",
+    "id": "ai_music_generators",
+    "type": "category",
+    "universe": "ais",
+    "path": "",
+    "parent": "ais",
+    "url": "category.html?universe=ais&path=ai_music_generators"
+  },
+  {
+    "name": "AI Video Generators",
+    "id": "ai_video_generators",
+    "type": "category",
+    "universe": "ais",
+    "path": "",
+    "parent": "ais",
+    "url": "category.html?universe=ais&path=ai_video_generators"
+  },
+  {
     "name": "Mammals",
     "id": "mammals",
     "type": "category",

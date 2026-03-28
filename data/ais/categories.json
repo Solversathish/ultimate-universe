@@ -1,0 +1,74 @@
+[
+{
+"id":"ai_agents",
+"name":"AI Agents",
+"type":"category",
+"universe":"ais",
+"path":"ai_agents",
+"url":"category.html?universe=ais&path=ai_agents",
+"parent":"ais"
+},
+{
+"id":"ai_assistants",
+"name":"AI Assistants",
+"type":"category",
+"universe":"ais",
+"path":"ai_assistants",
+"url":"category.html?universe=ais&path=ai_assistants",
+"parent":"ais"
+},
+{
+"id":"ai_chatbots",
+"name":"AI Chatbots",
+"type":"category",
+"universe":"ais",
+"path":"ai_chatbots",
+"url":"category.html?universe=ais&path=ai_chatbots",
+"parent":"ais"
+},
+{
+"id":"ai_coding_tools",
+"name":"AI Coding Tools",
+"type":"category",
+"universe":"ais",
+"path":"ai_coding_tools",
+"url":"category.html?universe=ais&path=ai_coding_tools",
+"parent":"ais"
+},
+{
+"id":"ai_image_generators",
+"name":"AI Image Generators",
+"type":"category",
+"universe":"ais",
+"path":"ai_image_generators",
+"url":"category.html?universe=ais&path=ai_image_generators",
+"parent":"ais"
+},
+{
+"id":"ai_language_models",
+"name":"AI Language Models",
+"type":"category",
+"universe":"ais",
+"path":"ai_language_models",
+"url":"category.html?universe=ais&path=ai_language_models",
+"parent":"ais"
+},
+{
+"id":"ai_music_generators",
+"name":"AI Music Generators",
+"type":"category",
+"universe":"ais",
+"path":"ai_music_generators",
+"url":"category.html?universe=ais&path=ai_music_generators",
+"parent":"ais"
+},
+{
+"id":"ai_video_generators",
+"name":"AI Video Generators",
+"type":"category",
+"universe":"ais",
+"path":"ai_video_generators",
+"url":"category.html?universe=ais&path=ai_video_generators",
+"parent":"ais"
+}
+]
