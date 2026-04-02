@@ -1,30 +1,32 @@
 [
 {
-"id":"ms_dhoni",
-"name":"MS Dhoni",
+"id":"ag_kripal_singh",
+"name":"AG Kripal Singh",
 "type":"entity",
-"url":"entity.html?universe=sports&path=cricket,cricket_india&id=ms_dhoni",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=ag_kripal_singh",
 "parent":"cricket_india",
 
 "info":{
-"country":"India",
-"role":"Wicketkeeper Batsman",
-"born":"7 July 1981",
-"debut":"2004"
+"country:":"India",
+"role:":"All-rounder",
+"born:":"16 September 1933",
+"debut:":"1955"
 },
 
 "tabs":{
 "tab1":{
-"title":"Description",
-"content":"MS Dhoni is one of the most successful captains in cricket history and led India to several major international titles."
+"title":"Biography",
+"content":"<ul><li>AG Kripal Singh was a former Indian cricketer known for his all-round abilities.</li><li>He was born in Madras (now Chennai) and played domestic cricket for Tamil Nadu.</li><li>Kripal Singh represented India during the 1950s and early 1960s.</li><li>He was a right-handed batsman and off-spin bowler.</li><li>He made his Test debut in 1955 against New Zealand.</li><li>Kripal was known for his steady batting and useful bowling contributions.</li><li>He played an important role in domestic cricket and was a consistent performer.</li><li>After retirement, he remained associated with cricket through coaching and mentoring.</li></ul>"
 },
+
 "tab2":{
 "title":"Achievements",
-"content":"He captained India to the ICC T20 World Cup 2007, ICC Cricket World Cup 2011 and ICC Champions Trophy 2013."
+"content":"<ul><li>Represented India in Test cricket during the 1950s.</li><li>Known for contributions as an all-rounder.</li><li>Performed consistently in domestic cricket.</li><li>Played key roles in Tamil Nadu cricket team.</li></ul>"
 },
+
 "tab3":{
 "title":"Facts",
-"content":"Dhoni is famous for his helicopter shot and calm leadership under pressure."
+"content":"<ul><li>Full name is A.G. Kripal Singh.</li><li>One of the early Indian all-rounders.</li><li>Played in an era dominated by spin bowling.</li><li>Respected figure in domestic cricket.</li></ul>"
 }
 },
 
@@ -32,31 +34,33 @@
 },
 
 {
-"id":"virat_kohli",
-"name":"Virat Kohli",
+"id":"ag_milkha_singh",
+"name":"AG Milkha Singh",
 "type":"entity",
-"url":"entity.html?universe=sports&path=cricket,cricket_india&id=virat_kohli",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=ag_milkha_singh",
 "parent":"cricket_india",
 
 "info":{
-"country":"India",
-"role":"Top Order Batsman",
-"born":"5 November 1988",
-"debut":"2008"
+"country:":"India",
+"role:":"Batsman",
+"born:":"28 December 1949",
+"debut:":"1976"
 },
 
 "tabs":{
 "tab1":{
-"title":"Description",
-"content":"Virat Kohli is considered one of the best modern batsmen in world cricket."
+"title":"Biography",
+"content":"<ul><li>AG Milkha Singh was a talented Indian batsman known for his aggressive style.</li><li>He was born in Madras (Chennai) and played domestic cricket for Tamil Nadu.</li><li>Milkha Singh made his international debut in the mid-1970s.</li><li>He was known for his attacking batting and fearless approach.</li><li>Although his international career was short, he left a strong impression.</li><li>He was highly successful in domestic cricket competitions.</li><li>His performances earned him recognition as a powerful striker of the ball.</li><li>He later contributed to cricket through coaching and development roles.</li></ul>"
 },
+
 "tab2":{
 "title":"Achievements",
-"content":"He has scored more than 25,000 international runs across all formats."
+"content":"<ul><li>Represented India in international cricket.</li><li>Known for aggressive batting style.</li><li>Strong performer in domestic tournaments.</li><li>Played key innings for Tamil Nadu.</li></ul>"
 },
+
 "tab3":{
 "title":"Facts",
-"content":"Kohli is known for chasing targets and maintaining one of the highest batting averages in ODI cricket."
+"content":"<ul><li>Full name is A.G. Milkha Singh.</li><li>Known for fearless batting approach.</li><li>Had a short but impactful international career.</li><li>Popular in domestic cricket circuits.</li></ul>"
 }
 },
 
@@ -64,31 +68,33 @@
 },
 
 {
-"id":"rohit_sharma",
-"name":"Rohit Sharma",
+"id":"aakash_chopra",
+"name":"Aakash Chopra",
 "type":"entity",
-"url":"entity.html?universe=sports&path=cricket,cricket_india&id=rohit_sharma",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=aakash_chopra",
 "parent":"cricket_india",
 
 "info":{
-"country":"India",
-"role":"Opening Batsman",
-"born":"30 April 1987",
-"debut":"2007"
+"country:":"India",
+"role:":"Batsman",
+"born:":"19 September 1977",
+"debut:":"2003"
 },
 
 "tabs":{
 "tab1":{
-"title":"Description",
-"content":"Rohit Sharma is one of the most elegant opening batsmen in modern cricket."
+"title":"Biography",
+"content":"<ul><li>Aakash Chopra is a former Indian cricketer and well-known cricket commentator.</li><li>He was born in Agra, Uttar Pradesh, and played domestic cricket for Delhi.</li><li>Chopra was a technically sound opening batsman.</li><li>He made his Test debut for India in 2003.</li><li>He was known for his defensive technique and patience at the crease.</li><li>Chopra played a key role in providing solid starts in Test matches.</li><li>After retiring from cricket, he became a popular commentator and analyst.</li><li>He is also active on digital platforms, sharing cricket insights.</li></ul>"
 },
+
 "tab2":{
 "title":"Achievements",
-"content":"He holds the record for the highest individual score in ODI cricket with 264 runs."
+"content":"<ul><li>Played Test cricket for India.</li><li>Successful domestic cricket career.</li><li>Renowned cricket commentator.</li><li>Known for technical batting skills.</li></ul>"
 },
+
 "tab3":{
 "title":"Facts",
-"content":"Rohit has scored multiple double centuries in One Day Internationals."
+"content":"<ul><li>Famous cricket analyst and YouTuber.</li><li>Strong defensive batsman.</li><li>Transitioned successfully into commentary.</li><li>Highly respected cricket expert.</li></ul>"
 }
 },
 
@@ -96,31 +102,33 @@
 },
 
 {
-"id":"jasprit_bumrah",
-"name":"Jasprit Bumrah",
+"id":"aashish_kapoor",
+"name":"Aashish Kapoor",
 "type":"entity",
-"url":"entity.html?universe=sports&path=cricket,cricket_india&id=jasprit_bumrah",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=aashish_kapoor",
 "parent":"cricket_india",
 
 "info":{
-"country":"India",
-"role":"Fast Bowler",
-"born":"6 December 1993",
-"debut":"2016"
+"country:":"India",
+"role:":"All-rounder",
+"born:":"27 September 1971",
+"debut:":"1994"
 },
 
 "tabs":{
 "tab1":{
-"title":"Description",
-"content":"Jasprit Bumrah is one of the most dangerous fast bowlers in world cricket."
+"title":"Biography",
+"content":"<ul><li>Aashish Kapoor is a former Indian cricketer known for his off-spin bowling.</li><li>He was born in Chennai and played domestic cricket for Tamil Nadu.</li><li>Kapoor was an all-rounder who contributed with both bat and ball.</li><li>He made his international debut in the 1990s.</li><li>He was particularly effective in domestic cricket tournaments.</li><li>Kapoor was known for his ability to control the game with spin bowling.</li><li>He also contributed useful runs in the lower order.</li><li>After retirement, he remained involved in cricket development.</li></ul>"
 },
+
 "tab2":{
 "title":"Achievements",
-"content":"He has taken match winning wickets for India in all formats including Test cricket."
+"content":"<ul><li>Represented India in international cricket.</li><li>Successful domestic all-rounder.</li><li>Known for off-spin bowling.</li><li>Played key roles in domestic competitions.</li></ul>"
 },
+
 "tab3":{
 "title":"Facts",
-"content":"Bumrah is known for his deadly yorkers and unusual bowling action."
+"content":"<ul><li>Specialized in off-spin bowling.</li><li>Useful lower-order batsman.</li><li>Played mainly in the 1990s era.</li><li>Respected domestic cricket player.</li></ul>"
 }
 },
 
@@ -128,31 +136,203 @@
 },
 
 {
-"id":"kl_rahul",
-"name":"KL Rahul",
+"id":"aavishkar_salvi",
+"name":"Aavishkar Salvi",
 "type":"entity",
-"url":"entity.html?universe=sports&path=cricket,cricket_india&id=kl_rahul",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=aavishkar_salvi",
 "parent":"cricket_india",
 
 "info":{
-"country":"India",
-"role":"Batsman / Wicketkeeper",
-"born":"18 April 1992",
-"debut":"2014"
+"country:":"India",
+"role:":"Bowler",
+"born:":"20 October 1981",
+"debut:":"2003"
 },
 
 "tabs":{
 "tab1":{
-"title":"Description",
-"content":"KL Rahul is a stylish batsman capable of playing in multiple batting positions."
+"title":"Biography",
+"content":"<ul><li>Aavishkar Salvi is a former Indian fast bowler known for his swing bowling.</li><li>He was born in Mumbai and played domestic cricket for Mumbai.</li><li>Salvi gained attention for his performances in domestic cricket.</li><li>He made his international debut in 2003.</li><li>He was known for his ability to swing the ball effectively.</li><li>Salvi had a short international career but was promising.</li><li>He played a significant role in domestic tournaments.</li><li>After retirement, he became involved in coaching and mentoring players.</li></ul>"
 },
+
 "tab2":{
 "title":"Achievements",
-"content":"He has scored centuries in all three formats of international cricket."
+"content":"<ul><li>Represented India in international cricket.</li><li>Successful domestic fast bowler.</li><li>Known for swing bowling ability.</li><li>Contributed to Mumbai cricket team.</li></ul>"
 },
+
 "tab3":{
 "title":"Facts",
-"content":"Rahul has also captained India in several international matches."
+"content":"<ul><li>Specialized in swing bowling.</li><li>Played for Mumbai in domestic cricket.</li><li>Short international career.</li><li>Transitioned into coaching roles.</li></ul>"
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"abbas_ali_baig",
+"name":"Abbas Ali Baig",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=abbas_ali_baig",
+"parent":"cricket_india",
+
+"info":{
+"country:":"India",
+"role:":"Batsman",
+"born:":"19 March 1939",
+"debut:":"1959"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Abbas Ali Baig was a stylish right-handed batsman who represented India during the late 1950s and 1960s.</li><li>He was born in Hyderabad and gained early recognition through domestic cricket performances.</li><li>Baig made his Test debut in 1959 against England and impressed with his technique.</li><li>He became popular for his elegant stroke play and calm batting style.</li><li>Baig played several important innings during overseas tours.</li><li>He was part of the Indian team during a transitional phase in cricket history.</li><li>His performances helped establish his reputation as a dependable middle-order batsman.</li><li>After retirement, he remained connected to cricket and contributed to the sport.</li></ul>"
+},
+
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Represented India in Test cricket during the 1950s and 1960s.</li><li>Known for stylish and technically sound batting.</li><li>Played key innings in overseas matches.</li><li>Important contributor to India's batting lineup.</li></ul>"
+},
+
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Born in Hyderabad, India.</li><li>Known for elegant batting technique.</li><li>Played during early development years of Indian cricket.</li><li>Respected figure in cricket history.</li></ul>"
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"abdul_basith",
+"name":"Abdul Basith",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=abdul_basith",
+"parent":"cricket_india",
+
+"info":{
+"country:":"India",
+"role:":"All-rounder",
+"born:":"13 January 1998",
+"debut:":"2023"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Abdul Basith is a young Indian cricketer known for his all-round abilities.</li><li>He has emerged through domestic cricket and age-group tournaments.</li><li>Basith is a right-handed batsman and part-time bowler.</li><li>He gained recognition for his consistent performances in domestic competitions.</li><li>He represents his state team in Indian domestic cricket.</li><li>Basith is considered a promising talent for the future of Indian cricket.</li><li>He continues to develop his skills and aims to secure a regular place in the national team.</li><li>His performances have attracted attention from selectors and fans alike.</li></ul>"
+},
+
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Strong performances in domestic cricket.</li><li>Recognized as an emerging all-rounder.</li><li>Selected in competitive domestic squads.</li><li>Consistent performer in age-level cricket.</li></ul>"
+},
+
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Young and upcoming cricketer.</li><li>All-rounder role.</li><li>Focused on domestic cricket growth.</li><li>Future prospect for Indian team.</li></ul>"
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"abdul_samad",
+"name":"Abdul Samad",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=abdul_samad",
+"parent":"cricket_india",
+
+"info":{
+"country:":"India",
+"role:":"All-rounder",
+"born:":"28 October 2001",
+"debut:":"2020"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Abdul Samad is a powerful Indian all-rounder known for his explosive batting.</li><li>He hails from Jammu and Kashmir and rose through domestic cricket ranks.</li><li>Samad gained popularity through his performances in the Indian Premier League.</li><li>He is known for his ability to hit big sixes and finish matches.</li><li>Samad is also a useful leg-spin bowler.</li><li>He has been recognized as one of the most promising young talents.</li><li>His aggressive style makes him a valuable player in T20 formats.</li><li>He continues to work on his consistency and all-round skills.</li></ul>"
+},
+
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Breakthrough performances in IPL.</li><li>Recognized as a power-hitter.</li><li>Emerging all-round talent.</li><li>Strong domestic cricket record.</li></ul>"
+},
+
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Known for hitting long sixes.</li><li>Plays as a finisher.</li><li>Also bowls leg-spin.</li><li>One of the youngest rising stars.</li></ul>"
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"abey_kuruvilla",
+"name":"Abey Kuruvilla",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=abey_kuruvilla",
+"parent":"cricket_india",
+
+"info":{
+"country:":"India",
+"role:":"Bowler",
+"born:":"18 September 1968",
+"debut:":"1997"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Abey Kuruvilla is a former Indian fast bowler known for his height and bounce.</li><li>He was born in Kerala but played domestic cricket for Mumbai.</li><li>Kuruvilla made his international debut in the late 1990s.</li><li>He was known for extracting bounce from pitches due to his height.</li><li>He played a few Test matches and ODIs for India.</li><li>Kuruvilla was a consistent performer in domestic cricket.</li><li>After retirement, he worked in cricket administration.</li><li>He later served as a national selector for India.</li></ul>"
+},
+
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Represented India in international cricket.</li><li>Successful domestic fast bowler.</li><li>Served as national selector.</li><li>Known for bounce and pace.</li></ul>"
+},
+
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Tall fast bowler.</li><li>Played for Mumbai domestically.</li><li>Worked as selector after retirement.</li><li>Known for disciplined bowling.</li></ul>"
+}
+},
+
+"gallery_count":5
+},
+
+{
+"id":"abhijeet_tomar",
+"name":"Abhijeet Tomar",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=abhijeet_tomar",
+"parent":"cricket_india",
+
+"info":{
+"country:":"India",
+"role:":"Batsman",
+"born:":"14 March 1995",
+"debut:":"2022"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Abhijeet Tomar is an Indian cricketer known for his performances in domestic cricket.</li><li>He hails from Rajasthan and represents the state team.</li><li>Tomar is a right-handed batsman with a solid technique.</li><li>He gained recognition through consistent domestic performances.</li><li>He has played important innings in tournaments like the Ranji Trophy.</li><li>Tomar is considered a promising batsman for the future.</li><li>He continues to improve his game and aim for higher levels.</li><li>His dedication and consistency make him a rising player.</li></ul>"
+},
+
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Strong domestic cricket performances.</li><li>Key player for Rajasthan team.</li><li>Consistent run-scorer.</li><li>Emerging batting talent.</li></ul>"
+},
+
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Represents Rajasthan.</li><li>Right-handed batsman.</li><li>Focused on domestic cricket success.</li><li>Upcoming talent.</li></ul>"
 }
 },
 

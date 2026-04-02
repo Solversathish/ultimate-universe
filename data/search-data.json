@@ -6219,49 +6219,94 @@
     "url": "category.html?universe=sports&path=cricket,cricket_india"
   },
   {
-    "name": "MS Dhoni",
-    "id": "ms_dhoni",
+    "name": "AG Kripal Singh",
+    "id": "ag_kripal_singh",
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
     "parent": "India",
-    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ms_dhoni"
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ag_kripal_singh"
   },
   {
-    "name": "Virat Kohli",
-    "id": "virat_kohli",
+    "name": "AG Milkha Singh",
+    "id": "ag_milkha_singh",
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
     "parent": "India",
-    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=virat_kohli"
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ag_milkha_singh"
   },
   {
-    "name": "Rohit Sharma",
-    "id": "rohit_sharma",
+    "name": "Aakash Chopra",
+    "id": "aakash_chopra",
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
     "parent": "India",
-    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=rohit_sharma"
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=aakash_chopra"
   },
   {
-    "name": "Jasprit Bumrah",
-    "id": "jasprit_bumrah",
+    "name": "Aashish Kapoor",
+    "id": "aashish_kapoor",
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
     "parent": "India",
-    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=jasprit_bumrah"
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=aashish_kapoor"
   },
   {
-    "name": "KL Rahul",
-    "id": "kl_rahul",
+    "name": "Aavishkar Salvi",
+    "id": "aavishkar_salvi",
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
     "parent": "India",
-    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=kl_rahul"
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=aavishkar_salvi"
+  },
+  {
+    "name": "Abbas Ali Baig",
+    "id": "abbas_ali_baig",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "India",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abbas_ali_baig"
+  },
+  {
+    "name": "Abdul Basith",
+    "id": "abdul_basith",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "India",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abdul_basith"
+  },
+  {
+    "name": "Abdul Samad",
+    "id": "abdul_samad",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "India",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abdul_samad"
+  },
+  {
+    "name": "Abey Kuruvilla",
+    "id": "abey_kuruvilla",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "India",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abey_kuruvilla"
+  },
+  {
+    "name": "Abhijeet Tomar",
+    "id": "abhijeet_tomar",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "India",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abhijeet_tomar"
   },
   {
     "name": "Australia",
