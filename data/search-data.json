@@ -6210,7 +6210,7 @@
     "url": "category.html?universe=sports&path=cricket"
   },
   {
-    "name": "India",
+    "name": "Indian Cricketer",
     "id": "cricket_india",
     "type": "category",
     "universe": "sports",
@@ -6224,7 +6224,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ag_kripal_singh"
   },
   {
@@ -6233,7 +6233,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ag_milkha_singh"
   },
   {
@@ -6242,7 +6242,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=aakash_chopra"
   },
   {
@@ -6251,7 +6251,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=aashish_kapoor"
   },
   {
@@ -6260,7 +6260,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=aavishkar_salvi"
   },
   {
@@ -6269,7 +6269,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abbas_ali_baig"
   },
   {
@@ -6278,7 +6278,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abdul_basith"
   },
   {
@@ -6287,7 +6287,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abdul_samad"
   },
   {
@@ -6296,7 +6296,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abey_kuruvilla"
   },
   {
@@ -6305,7 +6305,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abhijeet_tomar"
   },
   {
@@ -6314,7 +6314,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abhijit_kale"
   },
   {
@@ -6323,7 +6323,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abhimanyu_mithun"
   },
   {
@@ -6332,7 +6332,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abhinandan_singh"
   },
   {
@@ -6341,7 +6341,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abhinav_manohar"
   },
   {
@@ -6350,7 +6350,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abhinav_mukund"
   },
   {
@@ -6359,7 +6359,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abhishek_jhunjhunwala"
   },
   {
@@ -6368,7 +6368,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abhishek_nayar"
   },
   {
@@ -6377,7 +6377,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abhishek_raut"
   },
   {
@@ -6386,7 +6386,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abhishek_sharma"
   },
   {
@@ -6395,7 +6395,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=abrar_kazi"
   },
   {
@@ -6404,7 +6404,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=aditya_dole"
   },
   {
@@ -6413,7 +6413,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=aditya_tare"
   },
   {
@@ -6422,7 +6422,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ajay_jadeja"
   },
   {
@@ -6431,7 +6431,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ajay_ratra"
   },
   {
@@ -6440,7 +6440,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ajay_sharma"
   },
   {
@@ -6449,7 +6449,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ajit_agarkar"
   },
   {
@@ -6458,7 +6458,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ajit_chandila"
   },
   {
@@ -6467,7 +6467,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ajit_pai"
   },
   {
@@ -6476,7 +6476,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ajit_wadekar"
   },
   {
@@ -6485,11 +6485,101 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_india",
-    "parent": "India",
+    "parent": "Indian Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_india&id=akash_deep"
   },
   {
-    "name": "Australia",
+    "name": "Akhil Balachandra",
+    "id": "akhil_balachandra",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "Indian Cricketer",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=akhil_balachandra"
+  },
+  {
+    "name": "Aman Khan",
+    "id": "aman_khan",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "Indian Cricketer",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=aman_khan"
+  },
+  {
+    "name": "Amar Singh",
+    "id": "amar_singh",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "Indian Cricketer",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=amar_singh"
+  },
+  {
+    "name": "Amay Khurasiya",
+    "id": "amay_khurasiya",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "Indian Cricketer",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=amay_khurasiya"
+  },
+  {
+    "name": "Ambar Roy",
+    "id": "ambar_roy",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "Indian Cricketer",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=ambar_roy"
+  },
+  {
+    "name": "Amit Bhandari",
+    "id": "amit_bhandari",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "Indian Cricketer",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=amit_bhandari"
+  },
+  {
+    "name": "Amit Mishra",
+    "id": "amit_mishra",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "Indian Cricketer",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=amit_mishra"
+  },
+  {
+    "name": "Amit Paunikar",
+    "id": "amit_paunikar",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "Indian Cricketer",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=amit_paunikar"
+  },
+  {
+    "name": "Amit Singh",
+    "id": "amit_singh",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "Indian Cricketer",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=amit_singh"
+  },
+  {
+    "name": "Amit Uniyal",
+    "id": "amit_uniyal",
+    "type": "entity",
+    "universe": "sports",
+    "path": "cricket,cricket_india",
+    "parent": "Indian Cricketer",
+    "url": "entity.html?universe=sports&path=cricket,cricket_india&id=amit_uniyal"
+  },
+  {
+    "name": "Australia Cricketer",
     "id": "cricket_australia",
     "type": "category",
     "universe": "sports",
@@ -6503,7 +6593,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_australia",
-    "parent": "Australia",
+    "parent": "Australia Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_australia&id=ricky_ponting"
   },
   {
@@ -6512,7 +6602,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_australia",
-    "parent": "Australia",
+    "parent": "Australia Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_australia&id=steve_smith"
   },
   {
@@ -6521,7 +6611,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_australia",
-    "parent": "Australia",
+    "parent": "Australia Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_australia&id=david_warner"
   },
   {
@@ -6530,7 +6620,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_australia",
-    "parent": "Australia",
+    "parent": "Australia Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_australia&id=glenn_mcgrath"
   },
   {
@@ -6539,11 +6629,11 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_australia",
-    "parent": "Australia",
+    "parent": "Australia Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_australia&id=shane_warne"
   },
   {
-    "name": "England",
+    "name": "England Cricketer",
     "id": "cricket_england",
     "type": "category",
     "universe": "sports",
@@ -6557,7 +6647,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_england",
-    "parent": "England",
+    "parent": "England Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_england&id=joe_root"
   },
   {
@@ -6566,7 +6656,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_england",
-    "parent": "England",
+    "parent": "England Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_england&id=ben_stokes"
   },
   {
@@ -6575,7 +6665,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_england",
-    "parent": "England",
+    "parent": "England Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_england&id=james_anderson"
   },
   {
@@ -6584,7 +6674,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_england",
-    "parent": "England",
+    "parent": "England Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_england&id=jos_buttler"
   },
   {
@@ -6593,11 +6683,11 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_england",
-    "parent": "England",
+    "parent": "England Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_england&id=stuart_broad"
   },
   {
-    "name": "Pakistan",
+    "name": "Pakistan Cricketer",
     "id": "cricket_pakistan",
     "type": "category",
     "universe": "sports",
@@ -6611,7 +6701,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_pakistan",
-    "parent": "Pakistan",
+    "parent": "Pakistan Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_pakistan&id=babar_azam"
   },
   {
@@ -6620,7 +6710,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_pakistan",
-    "parent": "Pakistan",
+    "parent": "Pakistan Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_pakistan&id=shahid_afridi"
   },
   {
@@ -6629,7 +6719,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_pakistan",
-    "parent": "Pakistan",
+    "parent": "Pakistan Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_pakistan&id=wasim_akram"
   },
   {
@@ -6638,7 +6728,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_pakistan",
-    "parent": "Pakistan",
+    "parent": "Pakistan Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_pakistan&id=imran_khan"
   },
   {
@@ -6647,11 +6737,11 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_pakistan",
-    "parent": "Pakistan",
+    "parent": "Pakistan Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_pakistan&id=mohammad_rizwan"
   },
   {
-    "name": "South Africa",
+    "name": "South Africa Cricketer",
     "id": "cricket_south_africa",
     "type": "category",
     "universe": "sports",
@@ -6665,7 +6755,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_south_africa",
-    "parent": "South Africa",
+    "parent": "South Africa Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_south_africa&id=ab_de_villiers"
   },
   {
@@ -6674,7 +6764,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_south_africa",
-    "parent": "South Africa",
+    "parent": "South Africa Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_south_africa&id=jacques_kallis"
   },
   {
@@ -6683,7 +6773,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_south_africa",
-    "parent": "South Africa",
+    "parent": "South Africa Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_south_africa&id=dale_steyn"
   },
   {
@@ -6692,7 +6782,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_south_africa",
-    "parent": "South Africa",
+    "parent": "South Africa Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_south_africa&id=faf_du_plessis"
   },
   {
@@ -6701,7 +6791,7 @@
     "type": "entity",
     "universe": "sports",
     "path": "cricket,cricket_south_africa",
-    "parent": "South Africa",
+    "parent": "South Africa Cricketer",
     "url": "entity.html?universe=sports&path=cricket,cricket_south_africa&id=quinton_de_kock"
   },
   {

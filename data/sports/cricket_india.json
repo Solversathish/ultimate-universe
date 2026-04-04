@@ -972,5 +972,315 @@
 }
 },
 "gallery_count":5
+},
+
+{
+"id":"akhil_balachandra",
+"name":"Akhil Balachandra",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=akhil_balachandra",
+"parent":"cricket_india",
+
+"info":{
+"Country:":"India",
+"Role:":"Bowler",
+"Born:":"Unknown",
+"Debut:":"Unknown"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Akhil Balachandra is associated with Indian domestic cricket.</li><li>He has participated in state-level tournaments.</li><li>He is known for his bowling contributions.</li><li>He developed his career through local cricket circuits.</li><li>He represents his team in domestic competitions.</li><li>He continues to work on improving his performance.</li><li>His exposure has mainly been at domestic level.</li><li>He is part of emerging cricket talent.</li></ul>"
+},
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Participated in domestic cricket tournaments.</li><li>Recognized in regional cricket circuits.</li></ul>"
+},
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Primarily known within domestic cricket structure.</li><li>Still developing his professional career.</li></ul>"
+}
+},
+"gallery_count":5
+},
+
+{
+"id":"aman_khan",
+"name":"Aman Khan",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=aman_khan",
+"parent":"cricket_india",
+
+"info":{
+"Country:":"India",
+"Role:":"All-rounder",
+"Born:":"23 November 1996",
+"Debut:":"2022"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Aman Khan is an Indian all-rounder known for his power-hitting.</li><li>He represents Mumbai in domestic cricket.</li><li>He gained recognition through strong performances in T20 formats.</li><li>He has played in the Indian Premier League.</li><li>He contributes as a middle-order batsman and part-time bowler.</li><li>He is known for finishing matches.</li><li>He continues to improve his consistency.</li><li>He is considered a valuable T20 player.</li></ul>"
+},
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Played in IPL.</li><li>Strong performances in domestic T20 matches.</li><li>Recognized as a finisher.</li></ul>"
+},
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Known for hitting big sixes in pressure situations.</li><li>Gained attention through T20 cricket performances.</li></ul>"
+}
+},
+"gallery_count":5
+},
+
+{
+"id":"amar_singh",
+"name":"Amar Singh",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=amar_singh",
+"parent":"cricket_india",
+
+"info":{
+"Country:":"India",
+"Role:":"All-rounder",
+"Born:":"4 December 1910",
+"Debut:":"1932"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Amar Singh was one of India’s earliest fast-bowling all-rounders.</li><li>He represented India in the 1930s.</li><li>He played domestic cricket for Nawanagar.</li><li>He was known for his pace and aggressive bowling.</li><li>He was also a capable lower-order batsman.</li><li>He played an important role in early Indian cricket history.</li><li>He was respected for his fighting spirit.</li><li>He is considered a pioneer of Indian fast bowling.</li></ul>"
+},
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>One of India’s first genuine fast bowlers.</li><li>Strong performances in early Test matches.</li><li>Important figure in early Indian cricket.</li></ul>"
+},
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Considered one of India’s earliest pace-bowling all-rounders.</li><li>Played in India’s first-ever Test era.</li></ul>"
+}
+},
+"gallery_count":5
+},
+
+{
+"id":"amay_khurasiya",
+"name":"Amay Khurasiya",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=amay_khurasiya",
+"parent":"cricket_india",
+
+"info":{
+"Country:":"India",
+"Role:":"Batsman",
+"Born:":"18 May 1972",
+"Debut:":"1999"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Amay Khurasiya is a former Indian cricketer from Madhya Pradesh.</li><li>He was known for his stylish left-handed batting.</li><li>He made his ODI debut in 1999.</li><li>He gained popularity for his aggressive stroke play.</li><li>He performed well in domestic cricket.</li><li>He played for India during the late 1990s.</li><li>He later moved into coaching roles.</li><li>He contributed to cricket development.</li></ul>"
+},
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Represented India in ODI cricket.</li><li>Strong domestic performances.</li><li>Known for attacking batting.</li></ul>"
+},
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Scored a fifty on ODI debut.</li><li>Known for stylish left-handed stroke play.</li></ul>"
+}
+},
+"gallery_count":5
+},
+
+{
+"id":"ambar_roy",
+"name":"Ambar Roy",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=ambar_roy",
+"parent":"cricket_india",
+
+"info":{
+"Country:":"India",
+"Role:":"Batsman",
+"Born:":"15 January 1945",
+"Debut:":"1969"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Ambar Roy was an Indian cricketer known for his batting skills.</li><li>He played for India in the late 1960s.</li><li>He represented Bengal in domestic cricket.</li><li>He was a reliable top-order batsman.</li><li>He contributed to his team in domestic matches.</li><li>He had a brief international career.</li><li>He remained a strong domestic player.</li><li>He was respected in Bengal cricket circles.</li></ul>"
+},
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Represented India in Test cricket.</li><li>Key player for Bengal.</li><li>Strong domestic performances.</li></ul>"
+},
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Known for consistent domestic performances.</li><li>Played during a competitive era of Indian cricket.</li></ul>"
+}
+},
+"gallery_count":5
+},
+
+{
+"id":"amit_bhandari",
+"name":"Amit Bhandari",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=amit_bhandari",
+"parent":"cricket_india",
+
+"info":{
+"Country:":"India",
+"Role:":"Bowler",
+"Born:":"25 August 1976",
+"Debut:":"2000"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Amit Bhandari is a former Indian fast bowler from Delhi.</li><li>He made his international debut in 2000.</li><li>He was known for his swing bowling.</li><li>He played domestic cricket for Delhi.</li><li>He contributed in ODI matches for India.</li><li>He later moved into coaching roles.</li><li>He has worked with young cricketers.</li><li>He remained active in cricket development.</li></ul>"
+},
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Represented India in ODI cricket.</li><li>Strong domestic bowling performances.</li><li>Worked as a coach after retirement.</li></ul>"
+},
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Known for his ability to swing the ball both ways.</li><li>Later became a coach in domestic cricket.</li></ul>"
+}
+},
+"gallery_count":5
+},
+
+{
+"id":"amit_mishra",
+"name":"Amit Mishra",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=amit_mishra",
+"parent":"cricket_india",
+
+"info":{
+"Country:":"India",
+"Role:":"Bowler",
+"Born:":"24 November 1982",
+"Debut:":"2003"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Amit Mishra is a leg-spin bowler known for his variations.</li><li>He played for India across formats.</li><li>He gained recognition through domestic cricket.</li><li>He is known for his ability to take wickets in crucial moments.</li><li>He has had a long IPL career.</li><li>He has played key roles in limited-overs matches.</li><li>He is respected for his experience.</li><li>He remains one of India’s notable spinners.</li></ul>"
+},
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Multiple hat-tricks in IPL.</li><li>Represented India in all formats.</li><li>Strong wicket record in domestic and IPL.</li></ul>"
+},
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Holds multiple hat-tricks in IPL history.</li><li>Known for his clever variations rather than speed.</li></ul>"
+}
+},
+"gallery_count":5
+},
+
+{
+"id":"amit_paunikar",
+"name":"Amit Paunikar",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=amit_paunikar",
+"parent":"cricket_india",
+
+"info":{
+"Country:":"India",
+"Role:":"Batsman",
+"Born:":"22 April 1988",
+"Debut:":"2018"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Amit Paunikar is an Indian cricketer from Vidarbha.</li><li>He plays as a right-handed batsman.</li><li>He gained recognition in domestic cricket.</li><li>He has played important innings in Ranji Trophy.</li><li>He represents Vidarbha in domestic matches.</li><li>He is known for his solid technique.</li><li>He contributes consistently in domestic tournaments.</li><li>He continues to build his career.</li></ul>"
+},
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Key player for Vidarbha.</li><li>Strong domestic performances.</li><li>Consistent run-scorer.</li></ul>"
+},
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Part of Vidarbha’s strong domestic cricket setup.</li><li>Known for steady innings building.</li></ul>"
+}
+},
+"gallery_count":5
+},
+
+{
+"id":"amit_singh",
+"name":"Amit Singh",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=amit_singh",
+"parent":"cricket_india",
+
+"info":{
+"Country:":"India",
+"Role:":"Bowler",
+"Born:":"25 June 1981",
+"Debut:":"2009"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Amit Singh is an Indian fast bowler who played domestic cricket for Rajasthan.</li><li>He gained recognition through his pace bowling.</li><li>He played in IPL tournaments.</li><li>He contributed to Rajasthan’s bowling attack.</li><li>He was known for his aggressive bowling style.</li><li>He played in domestic competitions regularly.</li><li>He was a key player in his team.</li><li>He remained active in cricket.</li></ul>"
+},
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Played in IPL.</li><li>Strong domestic bowling performances.</li><li>Key Rajasthan player.</li></ul>"
+},
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Known for raw pace in domestic cricket.</li><li>Gained popularity through IPL performances.</li></ul>"
+}
+},
+"gallery_count":5
+},
+
+{
+"id":"amit_uniyal",
+"name":"Amit Uniyal",
+"type":"entity",
+"url":"entity.html?universe=sports&path=cricket,cricket_india&id=amit_uniyal",
+"parent":"cricket_india",
+
+"info":{
+"Country:":"India",
+"Role:":"Bowler",
+"Born:":"11 October 1983",
+"Debut:":"2009"
+},
+
+"tabs":{
+"tab1":{
+"title":"Biography",
+"content":"<ul><li>Amit Uniyal is an Indian cricketer known for his bowling.</li><li>He played domestic cricket for Uttar Pradesh.</li><li>He gained recognition through domestic tournaments.</li><li>He participated in IPL matches.</li><li>He contributed to his team’s bowling lineup.</li><li>He built his career through consistent performances.</li><li>He was known for discipline.</li><li>He remained a domestic-level cricketer.</li></ul>"
+},
+"tab2":{
+"title":"Achievements",
+"content":"<ul><li>Played in IPL.</li><li>Strong domestic bowling performances.</li><li>Represented Uttar Pradesh.</li></ul>"
+},
+"tab3":{
+"title":"Facts",
+"content":"<ul><li>Played for Kolkata Knight Riders in IPL.</li><li>Known for disciplined bowling spells.</li></ul>"
+}
+},
+"gallery_count":5
 }
 ]

@@ -1,7 +1,7 @@
 [
 {
 "id":"cricket_india",
-"name":"India",
+"name":"Indian Cricketer",
 "type":"category",
 "url":"category.html?universe=sports&path=cricket,cricket_india",
 "parent":"cricket"
@@ -9,7 +9,7 @@
 
 {
 "id":"cricket_australia",
-"name":"Australia",
+"name":"Australia Cricketer",
 "type":"category",
 "url":"category.html?universe=sports&path=cricket,cricket_australia",
 "parent":"cricket"
@@ -17,7 +17,7 @@
 
 {
 "id":"cricket_england",
-"name":"England",
+"name":"England Cricketer",
 "type":"category",
 "url":"category.html?universe=sports&path=cricket,cricket_england",
 "parent":"cricket"
@@ -25,7 +25,7 @@
 
 {
 "id":"cricket_pakistan",
-"name":"Pakistan",
+"name":"Pakistan Cricketer",
 "type":"category",
 "url":"category.html?universe=sports&path=cricket,cricket_pakistan",
 "parent":"cricket"
@@ -33,7 +33,7 @@
 
 {
 "id":"cricket_south_africa",
-"name":"South Africa",
+"name":"South Africa Cricketer",
 "type":"category",
 "url":"category.html?universe=sports&path=cricket,cricket_south_africa",
 "parent":"cricket"
